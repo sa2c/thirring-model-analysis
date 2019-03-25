@@ -47,7 +47,6 @@ def blockingMeanErr(data0,blockSize):
     leftovers = sampleSize%blockSize 
     nblocks = int(np.ceil(xblocks))
 
-#    print("block number: ",nblocks," lefovers:", leftovers, " xblocks:", xblocks)
 
     data = np.resize(data0, (nblocks,blockSize))
 
@@ -61,8 +60,6 @@ def blockingMeanErr(data0,blockSize):
     if (leftovers) != 0:
         blockedDataWeigths[nblocks-1] = leftovers
 
-#    print("Sigma of data: ",np.std(data))
-#    print("Mean of data: ",mean)
 
     standardError = np.sqrt(np.average((blockMeans - mean )**2, weights = blockedDataWeigths)\
             / xblocks)
@@ -102,10 +99,10 @@ def filelist_parser(filename):
 def cut_and_paste(analysis_settings):
     ''' 
     Takes as input dataframe containing the same information, indexed by 
-    Ls,beta,mass. Returns a dictionary of dataframes with thermalization removed,
+    Ls,beta,mass. Returns a dictionary of df_dict with thermalization removed,
     merged by Ls,beta,mass
     '''
-    dataframes = dict()
+    df_dict = dict()
     for idx in analysis_settings.index:
         Ls,beta,mass = idx
         therm_ntrajs = analysis_settings.thermalization[idx].drop_duplicates()[0]
@@ -117,57 +114,59 @@ def cut_and_paste(analysis_settings):
             df = df.tail(-int(thermalization_nmeas))
             dfs_to_concatenate.append(df)
 
-        dataframes[idx] = pd.concat(dfs_to_concatenate,axis='index')
+        df_dict[idx] = pd.concat(dfs_to_concatenate,axis='index').reset_index()
 
-    return dataframes 
+    return df_dict 
 
             
 def scan_for_blocking(df_dict,observable,analysis_settings):
     for k,v in df_dict.items():
+        plt.title("{}-{}".format(k,observable))
+        plt.plot(v[observable])
+        plt.show()
         n_meas = len(v[observable])
         bmeassize_range = range(1,n_meas // 5,2) 
         mean_errs = [ blockingMeanErr(v[observable],bsize) for bsize in bmeassize_range]
         y = [ a for a,b in mean_errs]
         ye = [ b for a,b in mean_errs]
 
-        plt.title(k)
+        plt.title("{}-{}".format(k,observable))
         meas_every = analysis_settings.measevery[k].drop_duplicates()[0]
         bsize_range = np.array(bmeassize_range) * meas_every
         plt.errorbar(bsize_range,y,ye)
         plt.show()
 
-def get_values(df_dict,observable,analysis_settings):
-    values = pd.DataFrame(index = analysis_settings.index)
-    values[observable] = np.zeros_like(values.index)
-    values[observable+'Err'] = np.zeros_like(values.index)
+def get_values_and_errors(df_dict,observable,analysis_settings):
+    values_and_errors = pd.DataFrame(index = analysis_settings.index)
+    values_and_errors[observable] = np.zeros_like(values_and_errors.index)
+    values_and_errors[observable+'Err'] = np.zeros_like(values_and_errors.index)
     
     bmeas_sizes = analysis_settings.blocksize/analysis_settings.measevery
 
     bmeas_sizes = bmeas_sizes.reset_index().drop_duplicates()
     bmeas_sizes = bmeas_sizes.set_index(['Ls','beta','mass'])  
 
-    print(bmeas_sizes)
 
     for k,v in df_dict.items():
-        print(k)
 
         mean,err = blockingMeanErr(v[observable],int(bmeas_sizes[0][k]))
 
-        values[observable][k] = mean
-        values[observable+'Err'][k] = err
+        values_and_errors.loc[k,observable]= mean
+        values_and_errors.loc[k,observable+'Err'] = err
 
-    return values
+    return values_and_errors.reset_index()
 
 
 
-def plot_observable(observable,Ls,data):
+def plot_observable(observable,Ls,values_and_errors):
     for mass in np.arange(0.01,0.06,0.01): 
-         condition = (data.Ls == 32) & (data.mass == mass)  
-         plt.errorbar(data.beta[condition],
-                 data[observable][condition],
-                 yerr= data[observable+'Err'][condition],
+         condition = (values_and_errors.Ls == Ls) & (values_and_errors.mass == mass)  
+         plt.errorbar(values_and_errors.beta[condition],
+                 values_and_errors[observable][condition],
+                 yerr= values_and_errors[observable+'Err'][condition],
                  label = 'm='+str(mass),
-                 linestyle='None') 
+                 linestyle='None',
+                 marker = 'o') 
 
     plt.legend()
     plt.show()
