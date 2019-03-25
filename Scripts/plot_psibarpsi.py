@@ -15,4 +15,6 @@ values_and_errors = lib.get_values_and_errors(df_dict,'psibarpsi',analysis_setti
 plt.title("Ls=32")
 lib.plot_observable('psibarpsi',32,values_and_errors)
 
+plt.show()
+
 

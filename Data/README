@@ -1,0 +1,2 @@
+Place here the data files that need to be sewed together.
+See scripts and makefiles, i.e. ../Scripts/lib.sh and ../Analysis/makefile_stitch

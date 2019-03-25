@@ -83,7 +83,6 @@ def filelist_parser(filename):
     Returns dataframe containing the same information, indexed by Ls,beta,mass.
     '''
     print(f"Reading {filename}")
-
     analysis_settings = pd.read_csv(filename,sep='\t',comment='#')
 
     run_params_list = [ parameters_from_dirname( path.basename(
@@ -109,6 +108,7 @@ def cut_and_paste(analysis_settings):
         meas_every = analysis_settings.measevery[idx].drop_duplicates()[0]
         dfs_to_concatenate = []
         for filename in analysis_settings.loc[idx,'filename']:
+            print(f"Reading {filename}")
             df = pd.read_csv(filename.strip())
             thermalization_nmeas = np.ceil(therm_ntrajs/meas_every)
             df = df.tail(-int(thermalization_nmeas))
@@ -137,7 +137,7 @@ def scan_for_blocking(df_dict,observable,analysis_settings):
         plt.show()
 
 def get_values_and_errors(df_dict,observable,analysis_settings):
-    values_and_errors = pd.DataFrame(index = analysis_settings.index)
+    values_and_errors = pd.DataFrame(index = analysis_settings.index.drop_duplicates())
     values_and_errors[observable] = np.zeros_like(values_and_errors.index)
     values_and_errors[observable+'Err'] = np.zeros_like(values_and_errors.index)
     
@@ -166,10 +166,9 @@ def plot_observable(observable,Ls,values_and_errors):
                  yerr= values_and_errors[observable+'Err'][condition],
                  label = 'm='+str(mass),
                  linestyle='None',
-                 marker = 'o') 
+                 marker = '+') 
 
     plt.legend()
-    plt.show()
 
 
 
