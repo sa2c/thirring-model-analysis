@@ -160,6 +160,7 @@ def scanExistingMakefile(fileName):
     f = open(fileName)
     text = f.read()
     newText = text.replace('\\\n','')
+    newText = text.replace('SHELL = bash\n\n','')
     while '\n\n\n' in newText:
         newText = newText.replace('\n\n\n','\n\n')
     groups = newText.split('\n\n');
@@ -168,6 +169,8 @@ def scanExistingMakefile(fileName):
         groups.remove('')
     
     for group in groups[1:]: # removing 'all' target, which is the first 
+        print(group)
+        print(group.replace('\\\n',''))
         outputsAndInputs, command = group.split('\n')
         command = command[1:]+'\n'
         outputs, inputs = outputsAndInputs.split("  : ") 
