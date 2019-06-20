@@ -6,6 +6,8 @@ import numpy as np
 from matplotlib import pyplot as plt
 import re
 
+numeric_types = [np.int,np.int64,np.float,np.float64 ] 
+
 
 def mean_square(series,blocksize):
     '''
@@ -102,12 +104,18 @@ def cut_and_paste(analysis_settings):
     merged by Ls,beta,mass
     '''
     df_dict = dict()
+
     for idx in analysis_settings.index:
         Ls,beta,mass = idx
-        therm_ntrajs = analysis_settings.thermalization[idx].drop_duplicates()[0]
-        meas_every = analysis_settings.measevery[idx].drop_duplicates()[0]
+
+        therm_ntrajs_data = analysis_settings.thermalization[idx]
+        therm_ntrajs = therm_ntrajs_data if type(therm_ntrajs_data) in numeric_types else therm_ntrajs_data.drop_duplicates()[0]
+        meas_every_data = analysis_settings.measevery[idx]
+        meas_every = meas_every_data if type(meas_every_data) in numeric_types else meas_every_data.drop_duplicates()[0]
+
         dfs_to_concatenate = []
-        for filename in analysis_settings.loc[idx,'filename']:
+        filename_data = analysis_settings.loc[idx,'filename']
+        for filename in [filename_data] if type(filename_data) is str else filename_data:
             print(f"Reading {filename}")
             df = pd.read_csv(filename.strip())
             thermalization_nmeas = np.ceil(therm_ntrajs/meas_every)
@@ -131,7 +139,8 @@ def scan_for_blocking(df_dict,observable,analysis_settings):
         ye = [ b for a,b in mean_errs]
 
         plt.title("{}-{}".format(k,observable))
-        meas_every = analysis_settings.measevery[k].drop_duplicates()[0]
+        meas_every_data = analysis_settings.measevery[k]
+        meas_every = meas_every_data if type(meas_every_data) in numeric_types else meas_every_data.drop_duplicates()[0]
         bsize_range = np.array(bmeassize_range) * meas_every
         plt.errorbar(bsize_range,y,ye)
         plt.show()

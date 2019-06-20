@@ -83,7 +83,7 @@ elif Ls == 40:
     a0 = np.array([3.30445818,0.25055222,1.06456595,32.29585502,4.64339238])
 elif Ls==48:
     a0 = np.array([3.11646997,0.25647005,1.0538188,11.59937539,3.94485828])
-print("Fitting...")
+print("Fitting (this may take a while)...")
 output = leastsq(func = residuals,x0 = a0,args = (
     values_and_errors.beta,
     values_and_errors.psibarpsi,

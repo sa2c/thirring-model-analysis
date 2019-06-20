@@ -107,42 +107,36 @@ def scanLogFile(logFile):
 def compileMakeFile(filename):
     makefile = open(filename,'w')
 
+    def write_long_line(things):
+        lineLength = 0
+        for thing in things:
+            if lineLength+len(thing) > 90:
+                makefile.write('\\\n')
+                lineLength = 0
+            makefile.write(' '+thing)
+            lineLength +=len(thing)
+
     makefile.write('SHELL = bash\n\n')
     makefile.write('all: ')
-    lineLength = 0
     keys = list(makeTargets.keys())
     keys.sort()
-    for key in keys:
-        lineLength +=len(key)
-        if lineLength > 120:
-            makefile.write('\\\n')
-            lineLength = 0
-        makefile.write(' '+key)
+
+    write_long_line(keys)
+
     makefile.write('\n\n')
 
     if grouping:
         keys = list(groupMakeNodes.keys())
         keys.sort()
         for key in keys:
-            lineLength = 0
             outputFiles = list(groupMakeNodes[key][0])
             outputFiles.sort()
-            for outputFile in outputFiles:
-                lineLength +=len(outputFile)
-                if lineLength > 120:
-                    makefile.write('\\\n')
-                    lineLength = 0
-                makefile.write(outputFile + ' ')
+            write_long_line(outputFiles)
             makefile.write(' : ')
 
             inputFiles = list(groupMakeNodes[key][1])
             inputFiles.sort()
-            for inputFile in inputFiles:
-                lineLength +=len(inputFile)
-                if lineLength > 120:
-                    makefile.write('\\\n')
-                    lineLength = 0
-                makefile.write(inputFile + ' ')
+            write_long_line(inputFiles)
             makefile.write('\n\t'+groupMakeNodes[key][2]+'\n')
 
     else:
@@ -159,23 +153,34 @@ def compileMakeFile(filename):
 def scanExistingMakefile(fileName):
     f = open(fileName)
     text = f.read()
-    newText = text.replace('\\\n','')
-    newText = text.replace('SHELL = bash\n\n','')
+    newText = text.replace('\\\n','').replace('SHELL = bash\n\n','')
     while '\n\n\n' in newText:
         newText = newText.replace('\n\n\n','\n\n')
     groups = newText.split('\n\n');
     
     while '' in groups:
         groups.remove('')
-    
+
+    def split_inputs(input_string):
+        shell_commands = re.findall('\$\(shell[^(]*\)', input_string)
+
+        for shell_command in shell_commands:
+            input_string = input_string.replace(shell_command,'')
+
+        return input_string.split() + shell_commands
+
     for group in groups[1:]: # removing 'all' target, which is the first 
-        print(group)
-        print(group.replace('\\\n',''))
-        outputsAndInputs, command = group.split('\n')
+        try : 
+            outputsAndInputs, command = group.split('\n')
+        except ValueError as e:
+            print("An Error occurred.")
+            print(e);
+            print(group)
+            raise e;
         command = command[1:]+'\n'
         outputs, inputs = outputsAndInputs.split("  : ") 
         outputs = outputs.split(' ')
-        inputs = inputs.split(' ')
+        inputs = split_inputs(inputs)
         if inputs[-1] == '':
             inputs = inputs[:-1]
 
