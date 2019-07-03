@@ -157,11 +157,14 @@ def get_values_and_errors(df_dict,observable,analysis_settings):
 
 
     for k,v in df_dict.items():
-
-        mean,err = blockingMeanErr(v[observable],int(bmeas_sizes[0][k]))
-
-        values_and_errors.loc[k,observable]= mean
-        values_and_errors.loc[k,observable+'Err'] = err
+        try:
+            mean,err = blockingMeanErr(v[observable],int(bmeas_sizes[0][k]))
+            values_and_errors.loc[k,observable]= mean
+            values_and_errors.loc[k,observable+'Err'] = err
+        except TypeError:
+            with open('errors.txt','a') as f:
+                f.write(f'Error: {k} {bmeas_sizes[0][k]} \n') 
+                print('Error, fix analysis settings file (check errors.txt)')
 
     return values_and_errors.reset_index()
 
