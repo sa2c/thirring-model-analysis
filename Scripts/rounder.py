@@ -26,7 +26,7 @@ def rounder(value,error):
 
 
     formatstring = '{0:1.'+str(maxexp-texp10err)+'f}({1})'
-    string = formatstring.format(tval,terr)
+    string = formatstring.format(tval,int(terr) if terr == int(terr) else terr )
     exp10 = maxexp
     return string,exp10
 
