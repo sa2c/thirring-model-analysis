@@ -10,6 +10,7 @@ matplotlib = "*"
 scipy = "*"
 ipython = "*"
 pytest = "*"
+yapf = "*"
 
 [dev-packages]
 
