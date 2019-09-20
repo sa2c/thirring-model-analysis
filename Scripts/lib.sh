@@ -1,6 +1,5 @@
 
 
-export DIR_STEM=all_dirs
 
 
 cycle(){
@@ -10,7 +9,7 @@ cycle(){
   shift
   for Ls in 32 40 48
   do
-    for beta in $(LANG=en_us seq 0.32 0.02 0.42)
+    for beta in $(LANG=en_us seq 0.30 0.02 0.60)
     do
       for m in $(LANG=en_us seq 0.01 0.01 0.05)
       do
@@ -62,17 +61,29 @@ stitch_together(){
 
 
 stitch_together_output_dir(){
-  DIRBASENAME=$1
-  echo ../Analysis/$DIR_STEM/$DIRBASENAME
+  DIR=$1
+  DIRBASENAME=$(basename $DIR)
 
+  if [[ $DIR == *"thirring_runs"* ]]
+  then
+    DIR_STEM=all_dirs
+  elif [[ $DIR == *'16'* ]] 
+  then
+    DIR_STEM=all_dirs16
+  else 
+    exit 
+  fi
+  echo ../Analysis/$DIR_STEM/$DIRBASENAME
 }
 
 stitch_together_wrapper(){
   DIR=$1
   TAG=$2
-  DIRBASENAME=$(basename $DIR)
-  OUTPUT_DIR=$(stitch_together_output_dir $DIRBASENAME)
-  stitch_together $DIR $OUTPUT_DIR $TAG
+  if [ -d "$DIR" ] 
+  then
+     OUTPUT_DIR=$(stitch_together_output_dir $DIR)
+     stitch_together $DIR $OUTPUT_DIR $TAG
+  fi
 }
 
 
@@ -83,4 +94,11 @@ stitch_together_all(){
 
 }
 
-export -f cycle stitch_together stitch_together_wrapper stitch_together_output_dir
+stitch_together_16(){
+
+  cycle ../Data/16/all_dirs stitch_together_wrapper 1 
+
+}
+
+
+export -f cycle stitch_together stitch_together_wrapper stitch_together_16
