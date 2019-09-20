@@ -1,377 +1,25 @@
 SHELL = bash
 
-all:  ./cond_m01_Ls32 ./cond_m01_Ls40 ./cond_m01_Ls48 ./cond_m02_Ls32 ./cond_m02_Ls40 ./cond_m02_Ls48\
- ./cond_m03_Ls32 ./cond_m03_Ls40 ./cond_m03_Ls48 ./cond_m04_Ls32 ./cond_m04_Ls40 ./cond_m04_Ls48\
- ./cond_m05_Ls32 ./cond_m05_Ls40 ./cond_m05_Ls48 ./fitLs32.png ./fitLs40.png ./fitLs48.png
+all:  ./cond_m01_Ls32_L12 ./cond_m01_Ls32_L16 ./cond_m01_Ls40_L12 ./cond_m01_Ls40_L16\
+ ./cond_m01_Ls48_L12 ./cond_m01_Ls48_L16 ./cond_m02_Ls32_L12 ./cond_m02_Ls32_L16\
+ ./cond_m02_Ls40_L12 ./cond_m02_Ls40_L16 ./cond_m02_Ls48_L12 ./cond_m02_Ls48_L16\
+ ./cond_m03_Ls32_L12 ./cond_m03_Ls32_L16 ./cond_m03_Ls40_L12 ./cond_m03_Ls40_L16\
+ ./cond_m03_Ls48_L12 ./cond_m03_Ls48_L16 ./cond_m04_Ls32_L12 ./cond_m04_Ls32_L16\
+ ./cond_m04_Ls40_L12 ./cond_m04_Ls40_L16 ./cond_m04_Ls48_L12 ./cond_m04_Ls48_L16\
+ ./cond_m05_Ls32_L12 ./cond_m05_Ls32_L16 ./cond_m05_Ls40_L12 ./cond_m05_Ls40_L16\
+ ./cond_m05_Ls48_L12 ./cond_m05_Ls48_L16 ./fitLs32L12.png ./fitLs32L16.png ./fitLs40L12.png\
+ ./fitLs40L16.png ./fitLs48L12.png ./fitLs48L16.png
 
- ./cond_m01_Ls40 ./cond_m02_Ls40 ./cond_m03_Ls40 ./cond_m04_Ls40 ./cond_m05_Ls40 ./fitLs40.png :  ./all_dirs/Ls32.beta0.32.m0.01/fort.200.total.1.csv\
- ./all_dirs/Ls32.beta0.32.m0.01/fort.200.total.2.csv\
- ./all_dirs/Ls32.beta0.32.m0.02/fort.200.total.1.csv\
- ./all_dirs/Ls32.beta0.32.m0.02/fort.200.total.2.csv\
- ./all_dirs/Ls32.beta0.32.m0.03/fort.200.total.1.csv\
- ./all_dirs/Ls32.beta0.32.m0.03/fort.200.total.2.csv\
- ./all_dirs/Ls32.beta0.32.m0.04/fort.200.total.1.csv\
- ./all_dirs/Ls32.beta0.32.m0.04/fort.200.total.2.csv\
- ./all_dirs/Ls32.beta0.32.m0.05/fort.200.total.1.csv\
- ./all_dirs/Ls32.beta0.32.m0.05/fort.200.total.2.csv\
- ./all_dirs/Ls32.beta0.34.m0.01/fort.200.total.1.csv\
- ./all_dirs/Ls32.beta0.34.m0.01/fort.200.total.2.csv\
- ./all_dirs/Ls32.beta0.34.m0.02/fort.200.total.1.csv\
- ./all_dirs/Ls32.beta0.34.m0.02/fort.200.total.2.csv\
- ./all_dirs/Ls32.beta0.34.m0.03/fort.200.total.1.csv\
- ./all_dirs/Ls32.beta0.34.m0.03/fort.200.total.2.csv\
- ./all_dirs/Ls32.beta0.34.m0.04/fort.200.total.1.csv\
- ./all_dirs/Ls32.beta0.34.m0.04/fort.200.total.2.csv\
- ./all_dirs/Ls32.beta0.34.m0.05/fort.200.total.1.csv\
- ./all_dirs/Ls32.beta0.34.m0.05/fort.200.total.2.csv\
- ./all_dirs/Ls32.beta0.36.m0.01/fort.200.total.1.csv\
- ./all_dirs/Ls32.beta0.36.m0.01/fort.200.total.2.csv\
- ./all_dirs/Ls32.beta0.36.m0.02/fort.200.total.1.csv\
- ./all_dirs/Ls32.beta0.36.m0.02/fort.200.total.2.csv\
- ./all_dirs/Ls32.beta0.36.m0.03/fort.200.total.1.csv\
- ./all_dirs/Ls32.beta0.36.m0.03/fort.200.total.2.csv\
- ./all_dirs/Ls32.beta0.36.m0.04/fort.200.total.1.csv\
- ./all_dirs/Ls32.beta0.36.m0.04/fort.200.total.2.csv\
- ./all_dirs/Ls32.beta0.36.m0.05/fort.200.total.1.csv\
- ./all_dirs/Ls32.beta0.36.m0.05/fort.200.total.2.csv\
- ./all_dirs/Ls32.beta0.38.m0.01/fort.200.total.1.csv\
- ./all_dirs/Ls32.beta0.38.m0.01/fort.200.total.2.csv\
- ./all_dirs/Ls32.beta0.38.m0.02/fort.200.total.1.csv\
- ./all_dirs/Ls32.beta0.38.m0.02/fort.200.total.2.csv\
- ./all_dirs/Ls32.beta0.38.m0.03/fort.200.total.1.csv\
- ./all_dirs/Ls32.beta0.38.m0.03/fort.200.total.2.csv\
- ./all_dirs/Ls32.beta0.38.m0.04/fort.200.total.1.csv\
- ./all_dirs/Ls32.beta0.38.m0.04/fort.200.total.2.csv\
- ./all_dirs/Ls32.beta0.38.m0.05/fort.200.total.1.csv\
- ./all_dirs/Ls32.beta0.38.m0.05/fort.200.total.2.csv\
- ./all_dirs/Ls32.beta0.40.m0.01/fort.200.total.1.csv\
- ./all_dirs/Ls32.beta0.40.m0.01/fort.200.total.2.csv\
- ./all_dirs/Ls32.beta0.40.m0.02/fort.200.total.1.csv\
- ./all_dirs/Ls32.beta0.40.m0.02/fort.200.total.2.csv\
- ./all_dirs/Ls32.beta0.40.m0.03/fort.200.total.1.csv\
- ./all_dirs/Ls32.beta0.40.m0.03/fort.200.total.2.csv\
- ./all_dirs/Ls32.beta0.40.m0.04/fort.200.total.1.csv\
- ./all_dirs/Ls32.beta0.40.m0.04/fort.200.total.2.csv\
- ./all_dirs/Ls32.beta0.40.m0.05/fort.200.total.1.csv\
- ./all_dirs/Ls32.beta0.40.m0.05/fort.200.total.2.csv\
- ./all_dirs/Ls32.beta0.42.m0.01/fort.200.total.1.csv\
- ./all_dirs/Ls32.beta0.42.m0.01/fort.200.total.2.csv\
- ./all_dirs/Ls32.beta0.42.m0.02/fort.200.total.1.csv\
- ./all_dirs/Ls32.beta0.42.m0.02/fort.200.total.2.csv\
- ./all_dirs/Ls32.beta0.42.m0.03/fort.200.total.1.csv\
- ./all_dirs/Ls32.beta0.42.m0.03/fort.200.total.2.csv\
- ./all_dirs/Ls32.beta0.42.m0.04/fort.200.total.1.csv\
- ./all_dirs/Ls32.beta0.42.m0.04/fort.200.total.2.csv\
- ./all_dirs/Ls32.beta0.42.m0.05/fort.200.total.1.csv\
- ./all_dirs/Ls32.beta0.42.m0.05/fort.200.total.2.csv\
- ./all_dirs/Ls40.beta0.32.m0.01/fort.200.total.1.csv\
- ./all_dirs/Ls40.beta0.32.m0.01/fort.200.total.2.csv\
- ./all_dirs/Ls40.beta0.32.m0.02/fort.200.total.1.csv\
- ./all_dirs/Ls40.beta0.32.m0.02/fort.200.total.2.csv\
- ./all_dirs/Ls40.beta0.32.m0.03/fort.200.total.1.csv\
- ./all_dirs/Ls40.beta0.32.m0.03/fort.200.total.2.csv\
- ./all_dirs/Ls40.beta0.32.m0.04/fort.200.total.1.csv\
- ./all_dirs/Ls40.beta0.32.m0.04/fort.200.total.2.csv\
- ./all_dirs/Ls40.beta0.32.m0.05/fort.200.total.1.csv\
- ./all_dirs/Ls40.beta0.32.m0.05/fort.200.total.2.csv\
- ./all_dirs/Ls40.beta0.34.m0.01/fort.200.total.1.csv\
- ./all_dirs/Ls40.beta0.34.m0.01/fort.200.total.2.csv\
- ./all_dirs/Ls40.beta0.34.m0.02/fort.200.total.1.csv\
- ./all_dirs/Ls40.beta0.34.m0.02/fort.200.total.2.csv\
- ./all_dirs/Ls40.beta0.34.m0.03/fort.200.total.1.csv\
- ./all_dirs/Ls40.beta0.34.m0.03/fort.200.total.2.csv\
- ./all_dirs/Ls40.beta0.34.m0.04/fort.200.total.1.csv\
- ./all_dirs/Ls40.beta0.34.m0.04/fort.200.total.2.csv\
- ./all_dirs/Ls40.beta0.34.m0.05/fort.200.total.1.csv\
- ./all_dirs/Ls40.beta0.34.m0.05/fort.200.total.2.csv\
- ./all_dirs/Ls40.beta0.36.m0.01/fort.200.total.1.csv\
- ./all_dirs/Ls40.beta0.36.m0.01/fort.200.total.2.csv\
- ./all_dirs/Ls40.beta0.36.m0.02/fort.200.total.1.csv\
- ./all_dirs/Ls40.beta0.36.m0.02/fort.200.total.2.csv\
- ./all_dirs/Ls40.beta0.36.m0.03/fort.200.total.1.csv\
- ./all_dirs/Ls40.beta0.36.m0.03/fort.200.total.2.csv\
- ./all_dirs/Ls40.beta0.36.m0.04/fort.200.total.1.csv\
- ./all_dirs/Ls40.beta0.36.m0.04/fort.200.total.2.csv\
- ./all_dirs/Ls40.beta0.36.m0.05/fort.200.total.1.csv\
- ./all_dirs/Ls40.beta0.36.m0.05/fort.200.total.2.csv\
- ./all_dirs/Ls40.beta0.38.m0.01/fort.200.total.1.csv\
- ./all_dirs/Ls40.beta0.38.m0.01/fort.200.total.2.csv\
- ./all_dirs/Ls40.beta0.38.m0.02/fort.200.total.1.csv\
- ./all_dirs/Ls40.beta0.38.m0.02/fort.200.total.2.csv\
- ./all_dirs/Ls40.beta0.38.m0.03/fort.200.total.1.csv\
- ./all_dirs/Ls40.beta0.38.m0.03/fort.200.total.2.csv\
- ./all_dirs/Ls40.beta0.38.m0.04/fort.200.total.1.csv\
- ./all_dirs/Ls40.beta0.38.m0.04/fort.200.total.2.csv\
- ./all_dirs/Ls40.beta0.38.m0.05/fort.200.total.1.csv\
- ./all_dirs/Ls40.beta0.38.m0.05/fort.200.total.2.csv\
- ./all_dirs/Ls40.beta0.40.m0.01/fort.200.total.1.csv\
- ./all_dirs/Ls40.beta0.40.m0.01/fort.200.total.2.csv\
- ./all_dirs/Ls40.beta0.40.m0.02/fort.200.total.1.csv\
- ./all_dirs/Ls40.beta0.40.m0.02/fort.200.total.2.csv\
- ./all_dirs/Ls40.beta0.40.m0.03/fort.200.total.1.csv\
- ./all_dirs/Ls40.beta0.40.m0.03/fort.200.total.2.csv\
- ./all_dirs/Ls40.beta0.40.m0.04/fort.200.total.1.csv\
- ./all_dirs/Ls40.beta0.40.m0.04/fort.200.total.2.csv\
- ./all_dirs/Ls40.beta0.40.m0.05/fort.200.total.1.csv\
- ./all_dirs/Ls40.beta0.40.m0.05/fort.200.total.2.csv\
- ./all_dirs/Ls40.beta0.42.m0.01/fort.200.total.1.csv\
- ./all_dirs/Ls40.beta0.42.m0.01/fort.200.total.2.csv\
- ./all_dirs/Ls40.beta0.42.m0.02/fort.200.total.1.csv\
- ./all_dirs/Ls40.beta0.42.m0.02/fort.200.total.2.csv\
- ./all_dirs/Ls40.beta0.42.m0.03/fort.200.total.1.csv\
- ./all_dirs/Ls40.beta0.42.m0.03/fort.200.total.2.csv\
- ./all_dirs/Ls40.beta0.42.m0.04/fort.200.total.1.csv\
- ./all_dirs/Ls40.beta0.42.m0.04/fort.200.total.2.csv\
- ./all_dirs/Ls40.beta0.42.m0.05/fort.200.total.1.csv\
- ./all_dirs/Ls40.beta0.42.m0.05/fort.200.total.2.csv\
- ./all_dirs/Ls48.beta0.32.m0.01/fort.200.total.1.csv\
- ./all_dirs/Ls48.beta0.32.m0.01/fort.200.total.2.csv\
- ./all_dirs/Ls48.beta0.32.m0.02/fort.200.total.1.csv\
- ./all_dirs/Ls48.beta0.32.m0.02/fort.200.total.2.csv\
- ./all_dirs/Ls48.beta0.32.m0.03/fort.200.total.1.csv\
- ./all_dirs/Ls48.beta0.32.m0.03/fort.200.total.2.csv\
- ./all_dirs/Ls48.beta0.32.m0.04/fort.200.total.1.csv\
- ./all_dirs/Ls48.beta0.32.m0.04/fort.200.total.2.csv\
- ./all_dirs/Ls48.beta0.32.m0.05/fort.200.total.1.csv\
- ./all_dirs/Ls48.beta0.32.m0.05/fort.200.total.2.csv\
- ./all_dirs/Ls48.beta0.34.m0.01/fort.200.total.1.csv\
- ./all_dirs/Ls48.beta0.34.m0.01/fort.200.total.2.csv\
- ./all_dirs/Ls48.beta0.34.m0.02/fort.200.total.1.csv\
- ./all_dirs/Ls48.beta0.34.m0.02/fort.200.total.2.csv\
- ./all_dirs/Ls48.beta0.34.m0.03/fort.200.total.1.csv\
- ./all_dirs/Ls48.beta0.34.m0.03/fort.200.total.2.csv\
- ./all_dirs/Ls48.beta0.34.m0.04/fort.200.total.1.csv\
- ./all_dirs/Ls48.beta0.34.m0.04/fort.200.total.2.csv\
- ./all_dirs/Ls48.beta0.34.m0.05/fort.200.total.1.csv\
- ./all_dirs/Ls48.beta0.34.m0.05/fort.200.total.2.csv\
- ./all_dirs/Ls48.beta0.36.m0.01/fort.200.total.1.csv\
- ./all_dirs/Ls48.beta0.36.m0.01/fort.200.total.2.csv\
- ./all_dirs/Ls48.beta0.36.m0.02/fort.200.total.1.csv\
- ./all_dirs/Ls48.beta0.36.m0.02/fort.200.total.2.csv\
- ./all_dirs/Ls48.beta0.36.m0.03/fort.200.total.1.csv\
- ./all_dirs/Ls48.beta0.36.m0.03/fort.200.total.2.csv\
- ./all_dirs/Ls48.beta0.36.m0.04/fort.200.total.1.csv\
- ./all_dirs/Ls48.beta0.36.m0.04/fort.200.total.2.csv\
- ./all_dirs/Ls48.beta0.36.m0.05/fort.200.total.1.csv\
- ./all_dirs/Ls48.beta0.36.m0.05/fort.200.total.2.csv\
- ./all_dirs/Ls48.beta0.38.m0.01/fort.200.total.1.csv\
- ./all_dirs/Ls48.beta0.38.m0.01/fort.200.total.2.csv\
- ./all_dirs/Ls48.beta0.38.m0.02/fort.200.total.1.csv\
- ./all_dirs/Ls48.beta0.38.m0.02/fort.200.total.2.csv\
- ./all_dirs/Ls48.beta0.38.m0.03/fort.200.total.1.csv\
- ./all_dirs/Ls48.beta0.38.m0.03/fort.200.total.2.csv\
- ./all_dirs/Ls48.beta0.38.m0.04/fort.200.total.1.csv\
- ./all_dirs/Ls48.beta0.38.m0.04/fort.200.total.2.csv\
- ./all_dirs/Ls48.beta0.38.m0.05/fort.200.total.1.csv\
- ./all_dirs/Ls48.beta0.38.m0.05/fort.200.total.2.csv\
- ./all_dirs/Ls48.beta0.40.m0.01/fort.200.total.1.csv\
- ./all_dirs/Ls48.beta0.40.m0.01/fort.200.total.2.csv\
- ./all_dirs/Ls48.beta0.40.m0.02/fort.200.total.1.csv\
- ./all_dirs/Ls48.beta0.40.m0.02/fort.200.total.2.csv\
- ./all_dirs/Ls48.beta0.40.m0.03/fort.200.total.1.csv\
- ./all_dirs/Ls48.beta0.40.m0.03/fort.200.total.2.csv\
- ./all_dirs/Ls48.beta0.40.m0.04/fort.200.total.1.csv\
- ./all_dirs/Ls48.beta0.40.m0.04/fort.200.total.2.csv\
- ./all_dirs/Ls48.beta0.40.m0.05/fort.200.total.1.csv\
- ./all_dirs/Ls48.beta0.40.m0.05/fort.200.total.2.csv\
- ./all_dirs/Ls48.beta0.42.m0.01/fort.200.total.1.csv\
- ./all_dirs/Ls48.beta0.42.m0.01/fort.200.total.2.csv\
- ./all_dirs/Ls48.beta0.42.m0.02/fort.200.total.1.csv\
- ./all_dirs/Ls48.beta0.42.m0.02/fort.200.total.2.csv\
- ./all_dirs/Ls48.beta0.42.m0.03/fort.200.total.1.csv\
- ./all_dirs/Ls48.beta0.42.m0.03/fort.200.total.2.csv\
- ./all_dirs/Ls48.beta0.42.m0.04/fort.200.total.1.csv\
- ./all_dirs/Ls48.beta0.42.m0.04/fort.200.total.2.csv\
- ./all_dirs/Ls48.beta0.42.m0.05/fort.200.total.1.csv\
- ./all_dirs/Ls48.beta0.42.m0.05/fort.200.total.2.csv ./fort.200.analysis.set
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/eos_fit.py fort.200.analysis.set 40 --savefig
-
- ./cond_m01_Ls32 ./cond_m02_Ls32 ./cond_m03_Ls32 ./cond_m04_Ls32 ./cond_m05_Ls32 ./fitLs32.png :  ./all_dirs/Ls32.beta0.32.m0.01/fort.200.total.1.csv\
- ./all_dirs/Ls32.beta0.32.m0.01/fort.200.total.2.csv\
- ./all_dirs/Ls32.beta0.32.m0.02/fort.200.total.1.csv\
- ./all_dirs/Ls32.beta0.32.m0.02/fort.200.total.2.csv\
- ./all_dirs/Ls32.beta0.32.m0.03/fort.200.total.1.csv\
- ./all_dirs/Ls32.beta0.32.m0.03/fort.200.total.2.csv\
- ./all_dirs/Ls32.beta0.32.m0.04/fort.200.total.1.csv\
- ./all_dirs/Ls32.beta0.32.m0.04/fort.200.total.2.csv\
- ./all_dirs/Ls32.beta0.32.m0.05/fort.200.total.1.csv\
- ./all_dirs/Ls32.beta0.32.m0.05/fort.200.total.2.csv\
- ./all_dirs/Ls32.beta0.34.m0.01/fort.200.total.1.csv\
- ./all_dirs/Ls32.beta0.34.m0.01/fort.200.total.2.csv\
- ./all_dirs/Ls32.beta0.34.m0.02/fort.200.total.1.csv\
- ./all_dirs/Ls32.beta0.34.m0.02/fort.200.total.2.csv\
- ./all_dirs/Ls32.beta0.34.m0.03/fort.200.total.1.csv\
- ./all_dirs/Ls32.beta0.34.m0.03/fort.200.total.2.csv\
- ./all_dirs/Ls32.beta0.34.m0.04/fort.200.total.1.csv\
- ./all_dirs/Ls32.beta0.34.m0.04/fort.200.total.2.csv\
- ./all_dirs/Ls32.beta0.34.m0.05/fort.200.total.1.csv\
- ./all_dirs/Ls32.beta0.34.m0.05/fort.200.total.2.csv\
- ./all_dirs/Ls32.beta0.36.m0.01/fort.200.total.1.csv\
- ./all_dirs/Ls32.beta0.36.m0.01/fort.200.total.2.csv\
- ./all_dirs/Ls32.beta0.36.m0.02/fort.200.total.1.csv\
- ./all_dirs/Ls32.beta0.36.m0.02/fort.200.total.2.csv\
- ./all_dirs/Ls32.beta0.36.m0.03/fort.200.total.1.csv\
- ./all_dirs/Ls32.beta0.36.m0.03/fort.200.total.2.csv\
- ./all_dirs/Ls32.beta0.36.m0.04/fort.200.total.1.csv\
- ./all_dirs/Ls32.beta0.36.m0.04/fort.200.total.2.csv\
- ./all_dirs/Ls32.beta0.36.m0.05/fort.200.total.1.csv\
- ./all_dirs/Ls32.beta0.36.m0.05/fort.200.total.2.csv\
- ./all_dirs/Ls32.beta0.38.m0.01/fort.200.total.1.csv\
- ./all_dirs/Ls32.beta0.38.m0.01/fort.200.total.2.csv\
- ./all_dirs/Ls32.beta0.38.m0.02/fort.200.total.1.csv\
- ./all_dirs/Ls32.beta0.38.m0.02/fort.200.total.2.csv\
- ./all_dirs/Ls32.beta0.38.m0.03/fort.200.total.1.csv\
- ./all_dirs/Ls32.beta0.38.m0.03/fort.200.total.2.csv\
- ./all_dirs/Ls32.beta0.38.m0.04/fort.200.total.1.csv\
- ./all_dirs/Ls32.beta0.38.m0.04/fort.200.total.2.csv\
- ./all_dirs/Ls32.beta0.38.m0.05/fort.200.total.1.csv\
- ./all_dirs/Ls32.beta0.38.m0.05/fort.200.total.2.csv\
- ./all_dirs/Ls32.beta0.40.m0.01/fort.200.total.1.csv\
- ./all_dirs/Ls32.beta0.40.m0.01/fort.200.total.2.csv\
- ./all_dirs/Ls32.beta0.40.m0.02/fort.200.total.1.csv\
- ./all_dirs/Ls32.beta0.40.m0.02/fort.200.total.2.csv\
- ./all_dirs/Ls32.beta0.40.m0.03/fort.200.total.1.csv\
- ./all_dirs/Ls32.beta0.40.m0.03/fort.200.total.2.csv\
- ./all_dirs/Ls32.beta0.40.m0.04/fort.200.total.1.csv\
- ./all_dirs/Ls32.beta0.40.m0.04/fort.200.total.2.csv\
- ./all_dirs/Ls32.beta0.40.m0.05/fort.200.total.1.csv\
- ./all_dirs/Ls32.beta0.40.m0.05/fort.200.total.2.csv\
- ./all_dirs/Ls32.beta0.42.m0.01/fort.200.total.1.csv\
- ./all_dirs/Ls32.beta0.42.m0.01/fort.200.total.2.csv\
- ./all_dirs/Ls32.beta0.42.m0.02/fort.200.total.1.csv\
- ./all_dirs/Ls32.beta0.42.m0.02/fort.200.total.2.csv\
- ./all_dirs/Ls32.beta0.42.m0.03/fort.200.total.1.csv\
- ./all_dirs/Ls32.beta0.42.m0.03/fort.200.total.2.csv\
- ./all_dirs/Ls32.beta0.42.m0.04/fort.200.total.1.csv\
- ./all_dirs/Ls32.beta0.42.m0.04/fort.200.total.2.csv\
- ./all_dirs/Ls32.beta0.42.m0.05/fort.200.total.1.csv\
- ./all_dirs/Ls32.beta0.42.m0.05/fort.200.total.2.csv\
- ./all_dirs/Ls40.beta0.32.m0.01/fort.200.total.1.csv\
- ./all_dirs/Ls40.beta0.32.m0.01/fort.200.total.2.csv\
- ./all_dirs/Ls40.beta0.32.m0.02/fort.200.total.1.csv\
- ./all_dirs/Ls40.beta0.32.m0.02/fort.200.total.2.csv\
- ./all_dirs/Ls40.beta0.32.m0.03/fort.200.total.1.csv\
- ./all_dirs/Ls40.beta0.32.m0.03/fort.200.total.2.csv\
- ./all_dirs/Ls40.beta0.32.m0.04/fort.200.total.1.csv\
- ./all_dirs/Ls40.beta0.32.m0.04/fort.200.total.2.csv\
- ./all_dirs/Ls40.beta0.32.m0.05/fort.200.total.1.csv\
- ./all_dirs/Ls40.beta0.32.m0.05/fort.200.total.2.csv\
- ./all_dirs/Ls40.beta0.34.m0.01/fort.200.total.1.csv\
- ./all_dirs/Ls40.beta0.34.m0.01/fort.200.total.2.csv\
- ./all_dirs/Ls40.beta0.34.m0.02/fort.200.total.1.csv\
- ./all_dirs/Ls40.beta0.34.m0.02/fort.200.total.2.csv\
- ./all_dirs/Ls40.beta0.34.m0.03/fort.200.total.1.csv\
- ./all_dirs/Ls40.beta0.34.m0.03/fort.200.total.2.csv\
- ./all_dirs/Ls40.beta0.34.m0.04/fort.200.total.1.csv\
- ./all_dirs/Ls40.beta0.34.m0.04/fort.200.total.2.csv\
- ./all_dirs/Ls40.beta0.34.m0.05/fort.200.total.1.csv\
- ./all_dirs/Ls40.beta0.34.m0.05/fort.200.total.2.csv\
- ./all_dirs/Ls40.beta0.36.m0.01/fort.200.total.1.csv\
- ./all_dirs/Ls40.beta0.36.m0.01/fort.200.total.2.csv\
- ./all_dirs/Ls40.beta0.36.m0.02/fort.200.total.1.csv\
- ./all_dirs/Ls40.beta0.36.m0.02/fort.200.total.2.csv\
- ./all_dirs/Ls40.beta0.36.m0.03/fort.200.total.1.csv\
- ./all_dirs/Ls40.beta0.36.m0.03/fort.200.total.2.csv\
- ./all_dirs/Ls40.beta0.36.m0.04/fort.200.total.1.csv\
- ./all_dirs/Ls40.beta0.36.m0.04/fort.200.total.2.csv\
- ./all_dirs/Ls40.beta0.36.m0.05/fort.200.total.1.csv\
- ./all_dirs/Ls40.beta0.36.m0.05/fort.200.total.2.csv\
- ./all_dirs/Ls40.beta0.38.m0.01/fort.200.total.1.csv\
- ./all_dirs/Ls40.beta0.38.m0.01/fort.200.total.2.csv\
- ./all_dirs/Ls40.beta0.38.m0.02/fort.200.total.1.csv\
- ./all_dirs/Ls40.beta0.38.m0.02/fort.200.total.2.csv\
- ./all_dirs/Ls40.beta0.38.m0.03/fort.200.total.1.csv\
- ./all_dirs/Ls40.beta0.38.m0.03/fort.200.total.2.csv\
- ./all_dirs/Ls40.beta0.38.m0.04/fort.200.total.1.csv\
- ./all_dirs/Ls40.beta0.38.m0.04/fort.200.total.2.csv\
- ./all_dirs/Ls40.beta0.38.m0.05/fort.200.total.1.csv\
- ./all_dirs/Ls40.beta0.38.m0.05/fort.200.total.2.csv\
- ./all_dirs/Ls40.beta0.40.m0.01/fort.200.total.1.csv\
- ./all_dirs/Ls40.beta0.40.m0.01/fort.200.total.2.csv\
- ./all_dirs/Ls40.beta0.40.m0.02/fort.200.total.1.csv\
- ./all_dirs/Ls40.beta0.40.m0.02/fort.200.total.2.csv\
- ./all_dirs/Ls40.beta0.40.m0.03/fort.200.total.1.csv\
- ./all_dirs/Ls40.beta0.40.m0.03/fort.200.total.2.csv\
- ./all_dirs/Ls40.beta0.40.m0.04/fort.200.total.1.csv\
- ./all_dirs/Ls40.beta0.40.m0.04/fort.200.total.2.csv\
- ./all_dirs/Ls40.beta0.40.m0.05/fort.200.total.1.csv\
- ./all_dirs/Ls40.beta0.40.m0.05/fort.200.total.2.csv\
- ./all_dirs/Ls40.beta0.42.m0.01/fort.200.total.1.csv\
- ./all_dirs/Ls40.beta0.42.m0.01/fort.200.total.2.csv\
- ./all_dirs/Ls40.beta0.42.m0.02/fort.200.total.1.csv\
- ./all_dirs/Ls40.beta0.42.m0.02/fort.200.total.2.csv\
- ./all_dirs/Ls40.beta0.42.m0.03/fort.200.total.1.csv\
- ./all_dirs/Ls40.beta0.42.m0.03/fort.200.total.2.csv\
- ./all_dirs/Ls40.beta0.42.m0.04/fort.200.total.1.csv\
- ./all_dirs/Ls40.beta0.42.m0.04/fort.200.total.2.csv\
- ./all_dirs/Ls40.beta0.42.m0.05/fort.200.total.1.csv\
- ./all_dirs/Ls40.beta0.42.m0.05/fort.200.total.2.csv\
- ./all_dirs/Ls48.beta0.32.m0.01/fort.200.total.1.csv\
- ./all_dirs/Ls48.beta0.32.m0.01/fort.200.total.2.csv\
- ./all_dirs/Ls48.beta0.32.m0.02/fort.200.total.1.csv\
- ./all_dirs/Ls48.beta0.32.m0.02/fort.200.total.2.csv\
- ./all_dirs/Ls48.beta0.32.m0.03/fort.200.total.1.csv\
- ./all_dirs/Ls48.beta0.32.m0.03/fort.200.total.2.csv\
- ./all_dirs/Ls48.beta0.32.m0.04/fort.200.total.1.csv\
- ./all_dirs/Ls48.beta0.32.m0.04/fort.200.total.2.csv\
- ./all_dirs/Ls48.beta0.32.m0.05/fort.200.total.1.csv\
- ./all_dirs/Ls48.beta0.32.m0.05/fort.200.total.2.csv\
- ./all_dirs/Ls48.beta0.34.m0.01/fort.200.total.1.csv\
- ./all_dirs/Ls48.beta0.34.m0.01/fort.200.total.2.csv\
- ./all_dirs/Ls48.beta0.34.m0.02/fort.200.total.1.csv\
- ./all_dirs/Ls48.beta0.34.m0.02/fort.200.total.2.csv\
- ./all_dirs/Ls48.beta0.34.m0.03/fort.200.total.1.csv\
- ./all_dirs/Ls48.beta0.34.m0.03/fort.200.total.2.csv\
- ./all_dirs/Ls48.beta0.34.m0.04/fort.200.total.1.csv\
- ./all_dirs/Ls48.beta0.34.m0.04/fort.200.total.2.csv\
- ./all_dirs/Ls48.beta0.34.m0.05/fort.200.total.1.csv\
- ./all_dirs/Ls48.beta0.34.m0.05/fort.200.total.2.csv\
- ./all_dirs/Ls48.beta0.36.m0.01/fort.200.total.1.csv\
- ./all_dirs/Ls48.beta0.36.m0.01/fort.200.total.2.csv\
- ./all_dirs/Ls48.beta0.36.m0.02/fort.200.total.1.csv\
- ./all_dirs/Ls48.beta0.36.m0.02/fort.200.total.2.csv\
- ./all_dirs/Ls48.beta0.36.m0.03/fort.200.total.1.csv\
- ./all_dirs/Ls48.beta0.36.m0.03/fort.200.total.2.csv\
- ./all_dirs/Ls48.beta0.36.m0.04/fort.200.total.1.csv\
- ./all_dirs/Ls48.beta0.36.m0.04/fort.200.total.2.csv\
- ./all_dirs/Ls48.beta0.36.m0.05/fort.200.total.1.csv\
- ./all_dirs/Ls48.beta0.36.m0.05/fort.200.total.2.csv\
- ./all_dirs/Ls48.beta0.38.m0.01/fort.200.total.1.csv\
- ./all_dirs/Ls48.beta0.38.m0.01/fort.200.total.2.csv\
- ./all_dirs/Ls48.beta0.38.m0.02/fort.200.total.1.csv\
- ./all_dirs/Ls48.beta0.38.m0.02/fort.200.total.2.csv\
- ./all_dirs/Ls48.beta0.38.m0.03/fort.200.total.1.csv\
- ./all_dirs/Ls48.beta0.38.m0.03/fort.200.total.2.csv\
- ./all_dirs/Ls48.beta0.38.m0.04/fort.200.total.1.csv\
- ./all_dirs/Ls48.beta0.38.m0.04/fort.200.total.2.csv\
- ./all_dirs/Ls48.beta0.38.m0.05/fort.200.total.1.csv\
- ./all_dirs/Ls48.beta0.38.m0.05/fort.200.total.2.csv\
- ./all_dirs/Ls48.beta0.40.m0.01/fort.200.total.1.csv\
- ./all_dirs/Ls48.beta0.40.m0.01/fort.200.total.2.csv\
- ./all_dirs/Ls48.beta0.40.m0.02/fort.200.total.1.csv\
- ./all_dirs/Ls48.beta0.40.m0.02/fort.200.total.2.csv\
- ./all_dirs/Ls48.beta0.40.m0.03/fort.200.total.1.csv\
- ./all_dirs/Ls48.beta0.40.m0.03/fort.200.total.2.csv\
- ./all_dirs/Ls48.beta0.40.m0.04/fort.200.total.1.csv\
- ./all_dirs/Ls48.beta0.40.m0.04/fort.200.total.2.csv\
- ./all_dirs/Ls48.beta0.40.m0.05/fort.200.total.1.csv\
- ./all_dirs/Ls48.beta0.40.m0.05/fort.200.total.2.csv\
- ./all_dirs/Ls48.beta0.42.m0.01/fort.200.total.1.csv\
- ./all_dirs/Ls48.beta0.42.m0.01/fort.200.total.2.csv\
- ./all_dirs/Ls48.beta0.42.m0.02/fort.200.total.1.csv\
- ./all_dirs/Ls48.beta0.42.m0.02/fort.200.total.2.csv\
- ./all_dirs/Ls48.beta0.42.m0.03/fort.200.total.1.csv\
- ./all_dirs/Ls48.beta0.42.m0.03/fort.200.total.2.csv\
- ./all_dirs/Ls48.beta0.42.m0.04/fort.200.total.1.csv\
- ./all_dirs/Ls48.beta0.42.m0.04/fort.200.total.2.csv\
- ./all_dirs/Ls48.beta0.42.m0.05/fort.200.total.1.csv\
- ./all_dirs/Ls48.beta0.42.m0.05/fort.200.total.2.csv ./fort.200.analysis.set
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/eos_fit.py fort.200.analysis.set 32 --savefig
-
- ./cond_m01_Ls48 ./cond_m02_Ls48 ./cond_m03_Ls48 ./cond_m04_Ls48 ./cond_m05_Ls48 ./fitLs48.png :  ./all_dirs/Ls32.beta0.30.m0.01/fort.200.total.2.csv\
+ ./cond_m01_Ls48_L12 ./cond_m02_Ls48_L12 ./cond_m03_Ls48_L12 ./cond_m04_Ls48_L12\
+ ./cond_m05_Ls48_L12 ./fitLs48L12.png :  ./all_dirs/Ls32.beta0.30.m0.01/fort.200.total.1.csv\
+ ./all_dirs/Ls32.beta0.30.m0.01/fort.200.total.2.csv\
+ ./all_dirs/Ls32.beta0.30.m0.02/fort.200.total.1.csv\
  ./all_dirs/Ls32.beta0.30.m0.02/fort.200.total.2.csv\
+ ./all_dirs/Ls32.beta0.30.m0.03/fort.200.total.1.csv\
  ./all_dirs/Ls32.beta0.30.m0.03/fort.200.total.2.csv\
+ ./all_dirs/Ls32.beta0.30.m0.04/fort.200.total.1.csv\
  ./all_dirs/Ls32.beta0.30.m0.04/fort.200.total.2.csv\
+ ./all_dirs/Ls32.beta0.30.m0.05/fort.200.total.1.csv\
  ./all_dirs/Ls32.beta0.30.m0.05/fort.200.total.2.csv\
  ./all_dirs/Ls32.beta0.32.m0.01/fort.200.total.1.csv\
  ./all_dirs/Ls32.beta0.32.m0.01/fort.200.total.2.csv\
@@ -433,26 +81,45 @@ all:  ./cond_m01_Ls32 ./cond_m01_Ls40 ./cond_m01_Ls48 ./cond_m02_Ls32 ./cond_m02
  ./all_dirs/Ls32.beta0.42.m0.04/fort.200.total.2.csv\
  ./all_dirs/Ls32.beta0.42.m0.05/fort.200.total.1.csv\
  ./all_dirs/Ls32.beta0.42.m0.05/fort.200.total.2.csv\
+ ./all_dirs/Ls32.beta0.44.m0.01/fort.200.total.1.csv\
  ./all_dirs/Ls32.beta0.44.m0.01/fort.200.total.2.csv\
+ ./all_dirs/Ls32.beta0.44.m0.02/fort.200.total.1.csv\
  ./all_dirs/Ls32.beta0.44.m0.02/fort.200.total.2.csv\
+ ./all_dirs/Ls32.beta0.44.m0.03/fort.200.total.1.csv\
  ./all_dirs/Ls32.beta0.44.m0.03/fort.200.total.2.csv\
+ ./all_dirs/Ls32.beta0.44.m0.04/fort.200.total.1.csv\
  ./all_dirs/Ls32.beta0.44.m0.04/fort.200.total.2.csv\
+ ./all_dirs/Ls32.beta0.44.m0.05/fort.200.total.1.csv\
  ./all_dirs/Ls32.beta0.44.m0.05/fort.200.total.2.csv\
+ ./all_dirs/Ls32.beta0.46.m0.01/fort.200.total.1.csv\
  ./all_dirs/Ls32.beta0.46.m0.01/fort.200.total.2.csv\
+ ./all_dirs/Ls32.beta0.46.m0.02/fort.200.total.1.csv\
  ./all_dirs/Ls32.beta0.46.m0.02/fort.200.total.2.csv\
+ ./all_dirs/Ls32.beta0.46.m0.03/fort.200.total.1.csv\
  ./all_dirs/Ls32.beta0.46.m0.03/fort.200.total.2.csv\
+ ./all_dirs/Ls32.beta0.46.m0.04/fort.200.total.1.csv\
  ./all_dirs/Ls32.beta0.46.m0.04/fort.200.total.2.csv\
+ ./all_dirs/Ls32.beta0.46.m0.05/fort.200.total.1.csv\
  ./all_dirs/Ls32.beta0.46.m0.05/fort.200.total.2.csv\
+ ./all_dirs/Ls32.beta0.55.m0.01/fort.200.total.1.csv\
  ./all_dirs/Ls32.beta0.55.m0.01/fort.200.total.2.csv\
+ ./all_dirs/Ls32.beta0.55.m0.02/fort.200.total.1.csv\
  ./all_dirs/Ls32.beta0.55.m0.02/fort.200.total.2.csv\
+ ./all_dirs/Ls32.beta0.55.m0.03/fort.200.total.1.csv\
  ./all_dirs/Ls32.beta0.55.m0.03/fort.200.total.2.csv\
+ ./all_dirs/Ls32.beta0.55.m0.04/fort.200.total.1.csv\
  ./all_dirs/Ls32.beta0.55.m0.04/fort.200.total.2.csv\
+ ./all_dirs/Ls32.beta0.55.m0.05/fort.200.total.1.csv\
  ./all_dirs/Ls32.beta0.55.m0.05/fort.200.total.2.csv\
+ ./all_dirs/Ls40.beta0.30.m0.01/fort.200.total.1.csv\
  ./all_dirs/Ls40.beta0.30.m0.01/fort.200.total.2.csv\
  ./all_dirs/Ls40.beta0.30.m0.02/fort.200.total.1.csv\
  ./all_dirs/Ls40.beta0.30.m0.02/fort.200.total.2.csv\
+ ./all_dirs/Ls40.beta0.30.m0.03/fort.200.total.1.csv\
  ./all_dirs/Ls40.beta0.30.m0.03/fort.200.total.2.csv\
+ ./all_dirs/Ls40.beta0.30.m0.04/fort.200.total.1.csv\
  ./all_dirs/Ls40.beta0.30.m0.04/fort.200.total.2.csv\
+ ./all_dirs/Ls40.beta0.30.m0.05/fort.200.total.1.csv\
  ./all_dirs/Ls40.beta0.30.m0.05/fort.200.total.2.csv\
  ./all_dirs/Ls40.beta0.32.m0.01/fort.200.total.1.csv\
  ./all_dirs/Ls40.beta0.32.m0.01/fort.200.total.2.csv\
@@ -514,28 +181,45 @@ all:  ./cond_m01_Ls32 ./cond_m01_Ls40 ./cond_m01_Ls48 ./cond_m02_Ls32 ./cond_m02
  ./all_dirs/Ls40.beta0.42.m0.04/fort.200.total.2.csv\
  ./all_dirs/Ls40.beta0.42.m0.05/fort.200.total.1.csv\
  ./all_dirs/Ls40.beta0.42.m0.05/fort.200.total.2.csv\
+ ./all_dirs/Ls40.beta0.44.m0.01/fort.200.total.1.csv\
  ./all_dirs/Ls40.beta0.44.m0.01/fort.200.total.2.csv\
+ ./all_dirs/Ls40.beta0.44.m0.02/fort.200.total.1.csv\
  ./all_dirs/Ls40.beta0.44.m0.02/fort.200.total.2.csv\
+ ./all_dirs/Ls40.beta0.44.m0.03/fort.200.total.1.csv\
  ./all_dirs/Ls40.beta0.44.m0.03/fort.200.total.2.csv\
+ ./all_dirs/Ls40.beta0.44.m0.04/fort.200.total.1.csv\
  ./all_dirs/Ls40.beta0.44.m0.04/fort.200.total.2.csv\
+ ./all_dirs/Ls40.beta0.44.m0.05/fort.200.total.1.csv\
  ./all_dirs/Ls40.beta0.44.m0.05/fort.200.total.2.csv\
  ./all_dirs/Ls40.beta0.46.m0.01/fort.200.total.1.csv\
  ./all_dirs/Ls40.beta0.46.m0.01/fort.200.total.2.csv\
  ./all_dirs/Ls40.beta0.46.m0.02/fort.200.total.1.csv\
  ./all_dirs/Ls40.beta0.46.m0.02/fort.200.total.2.csv\
+ ./all_dirs/Ls40.beta0.46.m0.03/fort.200.total.1.csv\
  ./all_dirs/Ls40.beta0.46.m0.03/fort.200.total.2.csv\
  ./all_dirs/Ls40.beta0.46.m0.04/fort.200.total.1.csv\
  ./all_dirs/Ls40.beta0.46.m0.04/fort.200.total.2.csv\
+ ./all_dirs/Ls40.beta0.46.m0.05/fort.200.total.1.csv\
  ./all_dirs/Ls40.beta0.46.m0.05/fort.200.total.2.csv\
+ ./all_dirs/Ls40.beta0.55.m0.01/fort.200.total.1.csv\
  ./all_dirs/Ls40.beta0.55.m0.01/fort.200.total.2.csv\
+ ./all_dirs/Ls40.beta0.55.m0.02/fort.200.total.1.csv\
  ./all_dirs/Ls40.beta0.55.m0.02/fort.200.total.2.csv\
+ ./all_dirs/Ls40.beta0.55.m0.03/fort.200.total.1.csv\
  ./all_dirs/Ls40.beta0.55.m0.03/fort.200.total.2.csv\
+ ./all_dirs/Ls40.beta0.55.m0.04/fort.200.total.1.csv\
  ./all_dirs/Ls40.beta0.55.m0.04/fort.200.total.2.csv\
+ ./all_dirs/Ls40.beta0.55.m0.05/fort.200.total.1.csv\
  ./all_dirs/Ls40.beta0.55.m0.05/fort.200.total.2.csv\
+ ./all_dirs/Ls48.beta0.30.m0.01/fort.200.total.1.csv\
  ./all_dirs/Ls48.beta0.30.m0.01/fort.200.total.2.csv\
+ ./all_dirs/Ls48.beta0.30.m0.02/fort.200.total.1.csv\
  ./all_dirs/Ls48.beta0.30.m0.02/fort.200.total.2.csv\
+ ./all_dirs/Ls48.beta0.30.m0.03/fort.200.total.1.csv\
  ./all_dirs/Ls48.beta0.30.m0.03/fort.200.total.2.csv\
+ ./all_dirs/Ls48.beta0.30.m0.04/fort.200.total.1.csv\
  ./all_dirs/Ls48.beta0.30.m0.04/fort.200.total.2.csv\
+ ./all_dirs/Ls48.beta0.30.m0.05/fort.200.total.1.csv\
  ./all_dirs/Ls48.beta0.30.m0.05/fort.200.total.2.csv\
  ./all_dirs/Ls48.beta0.32.m0.01/fort.200.total.1.csv\
  ./all_dirs/Ls48.beta0.32.m0.01/fort.200.total.2.csv\
@@ -597,6 +281,7 @@ all:  ./cond_m01_Ls32 ./cond_m01_Ls40 ./cond_m01_Ls48 ./cond_m02_Ls32 ./cond_m02
  ./all_dirs/Ls48.beta0.42.m0.04/fort.200.total.2.csv\
  ./all_dirs/Ls48.beta0.42.m0.05/fort.200.total.1.csv\
  ./all_dirs/Ls48.beta0.42.m0.05/fort.200.total.2.csv\
+ ./all_dirs/Ls48.beta0.44.m0.01/fort.200.total.1.csv\
  ./all_dirs/Ls48.beta0.44.m0.01/fort.200.total.2.csv\
  ./all_dirs/Ls48.beta0.44.m0.02/fort.200.total.1.csv\
  ./all_dirs/Ls48.beta0.44.m0.02/fort.200.total.2.csv\
@@ -604,18 +289,867 @@ all:  ./cond_m01_Ls32 ./cond_m01_Ls40 ./cond_m01_Ls48 ./cond_m02_Ls32 ./cond_m02
  ./all_dirs/Ls48.beta0.44.m0.03/fort.200.total.2.csv\
  ./all_dirs/Ls48.beta0.44.m0.04/fort.200.total.1.csv\
  ./all_dirs/Ls48.beta0.44.m0.04/fort.200.total.2.csv\
+ ./all_dirs/Ls48.beta0.44.m0.05/fort.200.total.1.csv\
  ./all_dirs/Ls48.beta0.44.m0.05/fort.200.total.2.csv\
  ./all_dirs/Ls48.beta0.46.m0.01/fort.200.total.1.csv\
  ./all_dirs/Ls48.beta0.46.m0.01/fort.200.total.2.csv\
+ ./all_dirs/Ls48.beta0.46.m0.02/fort.200.total.1.csv\
  ./all_dirs/Ls48.beta0.46.m0.02/fort.200.total.2.csv\
  ./all_dirs/Ls48.beta0.46.m0.03/fort.200.total.1.csv\
  ./all_dirs/Ls48.beta0.46.m0.03/fort.200.total.2.csv\
+ ./all_dirs/Ls48.beta0.46.m0.04/fort.200.total.1.csv\
  ./all_dirs/Ls48.beta0.46.m0.04/fort.200.total.2.csv\
+ ./all_dirs/Ls48.beta0.46.m0.05/fort.200.total.1.csv\
  ./all_dirs/Ls48.beta0.46.m0.05/fort.200.total.2.csv\
+ ./all_dirs/Ls48.beta0.55.m0.01/fort.200.total.1.csv\
  ./all_dirs/Ls48.beta0.55.m0.01/fort.200.total.2.csv\
+ ./all_dirs/Ls48.beta0.55.m0.02/fort.200.total.1.csv\
  ./all_dirs/Ls48.beta0.55.m0.02/fort.200.total.2.csv\
+ ./all_dirs/Ls48.beta0.55.m0.03/fort.200.total.1.csv\
  ./all_dirs/Ls48.beta0.55.m0.03/fort.200.total.2.csv\
+ ./all_dirs/Ls48.beta0.55.m0.04/fort.200.total.1.csv\
  ./all_dirs/Ls48.beta0.55.m0.04/fort.200.total.2.csv\
+ ./all_dirs/Ls48.beta0.55.m0.05/fort.200.total.1.csv\
  ./all_dirs/Ls48.beta0.55.m0.05/fort.200.total.2.csv ./fort.200.analysis.set
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/eos_fit.py fort.200.analysis.set 48 --savefig
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/eos_fit_v2.py fort.200.analysis.set 48 12 --savefig
+
+ ./cond_m01_Ls32_L12 ./cond_m02_Ls32_L12 ./cond_m03_Ls32_L12 ./cond_m04_Ls32_L12\
+ ./cond_m05_Ls32_L12 ./fitLs32L12.png :  ./all_dirs/Ls32.beta0.30.m0.01/fort.200.total.1.csv\
+ ./all_dirs/Ls32.beta0.30.m0.01/fort.200.total.2.csv\
+ ./all_dirs/Ls32.beta0.30.m0.02/fort.200.total.1.csv\
+ ./all_dirs/Ls32.beta0.30.m0.02/fort.200.total.2.csv\
+ ./all_dirs/Ls32.beta0.30.m0.03/fort.200.total.1.csv\
+ ./all_dirs/Ls32.beta0.30.m0.03/fort.200.total.2.csv\
+ ./all_dirs/Ls32.beta0.30.m0.04/fort.200.total.1.csv\
+ ./all_dirs/Ls32.beta0.30.m0.04/fort.200.total.2.csv\
+ ./all_dirs/Ls32.beta0.30.m0.05/fort.200.total.1.csv\
+ ./all_dirs/Ls32.beta0.30.m0.05/fort.200.total.2.csv\
+ ./all_dirs/Ls32.beta0.32.m0.01/fort.200.total.1.csv\
+ ./all_dirs/Ls32.beta0.32.m0.01/fort.200.total.2.csv\
+ ./all_dirs/Ls32.beta0.32.m0.02/fort.200.total.1.csv\
+ ./all_dirs/Ls32.beta0.32.m0.02/fort.200.total.2.csv\
+ ./all_dirs/Ls32.beta0.32.m0.03/fort.200.total.1.csv\
+ ./all_dirs/Ls32.beta0.32.m0.03/fort.200.total.2.csv\
+ ./all_dirs/Ls32.beta0.32.m0.04/fort.200.total.1.csv\
+ ./all_dirs/Ls32.beta0.32.m0.04/fort.200.total.2.csv\
+ ./all_dirs/Ls32.beta0.32.m0.05/fort.200.total.1.csv\
+ ./all_dirs/Ls32.beta0.32.m0.05/fort.200.total.2.csv\
+ ./all_dirs/Ls32.beta0.34.m0.01/fort.200.total.1.csv\
+ ./all_dirs/Ls32.beta0.34.m0.01/fort.200.total.2.csv\
+ ./all_dirs/Ls32.beta0.34.m0.02/fort.200.total.1.csv\
+ ./all_dirs/Ls32.beta0.34.m0.02/fort.200.total.2.csv\
+ ./all_dirs/Ls32.beta0.34.m0.03/fort.200.total.1.csv\
+ ./all_dirs/Ls32.beta0.34.m0.03/fort.200.total.2.csv\
+ ./all_dirs/Ls32.beta0.34.m0.04/fort.200.total.1.csv\
+ ./all_dirs/Ls32.beta0.34.m0.04/fort.200.total.2.csv\
+ ./all_dirs/Ls32.beta0.34.m0.05/fort.200.total.1.csv\
+ ./all_dirs/Ls32.beta0.34.m0.05/fort.200.total.2.csv\
+ ./all_dirs/Ls32.beta0.36.m0.01/fort.200.total.1.csv\
+ ./all_dirs/Ls32.beta0.36.m0.01/fort.200.total.2.csv\
+ ./all_dirs/Ls32.beta0.36.m0.02/fort.200.total.1.csv\
+ ./all_dirs/Ls32.beta0.36.m0.02/fort.200.total.2.csv\
+ ./all_dirs/Ls32.beta0.36.m0.03/fort.200.total.1.csv\
+ ./all_dirs/Ls32.beta0.36.m0.03/fort.200.total.2.csv\
+ ./all_dirs/Ls32.beta0.36.m0.04/fort.200.total.1.csv\
+ ./all_dirs/Ls32.beta0.36.m0.04/fort.200.total.2.csv\
+ ./all_dirs/Ls32.beta0.36.m0.05/fort.200.total.1.csv\
+ ./all_dirs/Ls32.beta0.36.m0.05/fort.200.total.2.csv\
+ ./all_dirs/Ls32.beta0.38.m0.01/fort.200.total.1.csv\
+ ./all_dirs/Ls32.beta0.38.m0.01/fort.200.total.2.csv\
+ ./all_dirs/Ls32.beta0.38.m0.02/fort.200.total.1.csv\
+ ./all_dirs/Ls32.beta0.38.m0.02/fort.200.total.2.csv\
+ ./all_dirs/Ls32.beta0.38.m0.03/fort.200.total.1.csv\
+ ./all_dirs/Ls32.beta0.38.m0.03/fort.200.total.2.csv\
+ ./all_dirs/Ls32.beta0.38.m0.04/fort.200.total.1.csv\
+ ./all_dirs/Ls32.beta0.38.m0.04/fort.200.total.2.csv\
+ ./all_dirs/Ls32.beta0.38.m0.05/fort.200.total.1.csv\
+ ./all_dirs/Ls32.beta0.38.m0.05/fort.200.total.2.csv\
+ ./all_dirs/Ls32.beta0.40.m0.01/fort.200.total.1.csv\
+ ./all_dirs/Ls32.beta0.40.m0.01/fort.200.total.2.csv\
+ ./all_dirs/Ls32.beta0.40.m0.02/fort.200.total.1.csv\
+ ./all_dirs/Ls32.beta0.40.m0.02/fort.200.total.2.csv\
+ ./all_dirs/Ls32.beta0.40.m0.03/fort.200.total.1.csv\
+ ./all_dirs/Ls32.beta0.40.m0.03/fort.200.total.2.csv\
+ ./all_dirs/Ls32.beta0.40.m0.04/fort.200.total.1.csv\
+ ./all_dirs/Ls32.beta0.40.m0.04/fort.200.total.2.csv\
+ ./all_dirs/Ls32.beta0.40.m0.05/fort.200.total.1.csv\
+ ./all_dirs/Ls32.beta0.40.m0.05/fort.200.total.2.csv\
+ ./all_dirs/Ls32.beta0.42.m0.01/fort.200.total.1.csv\
+ ./all_dirs/Ls32.beta0.42.m0.01/fort.200.total.2.csv\
+ ./all_dirs/Ls32.beta0.42.m0.02/fort.200.total.1.csv\
+ ./all_dirs/Ls32.beta0.42.m0.02/fort.200.total.2.csv\
+ ./all_dirs/Ls32.beta0.42.m0.03/fort.200.total.1.csv\
+ ./all_dirs/Ls32.beta0.42.m0.03/fort.200.total.2.csv\
+ ./all_dirs/Ls32.beta0.42.m0.04/fort.200.total.1.csv\
+ ./all_dirs/Ls32.beta0.42.m0.04/fort.200.total.2.csv\
+ ./all_dirs/Ls32.beta0.42.m0.05/fort.200.total.1.csv\
+ ./all_dirs/Ls32.beta0.42.m0.05/fort.200.total.2.csv\
+ ./all_dirs/Ls32.beta0.44.m0.01/fort.200.total.1.csv\
+ ./all_dirs/Ls32.beta0.44.m0.01/fort.200.total.2.csv\
+ ./all_dirs/Ls32.beta0.44.m0.02/fort.200.total.1.csv\
+ ./all_dirs/Ls32.beta0.44.m0.02/fort.200.total.2.csv\
+ ./all_dirs/Ls32.beta0.44.m0.03/fort.200.total.1.csv\
+ ./all_dirs/Ls32.beta0.44.m0.03/fort.200.total.2.csv\
+ ./all_dirs/Ls32.beta0.44.m0.04/fort.200.total.1.csv\
+ ./all_dirs/Ls32.beta0.44.m0.04/fort.200.total.2.csv\
+ ./all_dirs/Ls32.beta0.44.m0.05/fort.200.total.1.csv\
+ ./all_dirs/Ls32.beta0.44.m0.05/fort.200.total.2.csv\
+ ./all_dirs/Ls32.beta0.46.m0.01/fort.200.total.1.csv\
+ ./all_dirs/Ls32.beta0.46.m0.01/fort.200.total.2.csv\
+ ./all_dirs/Ls32.beta0.46.m0.02/fort.200.total.1.csv\
+ ./all_dirs/Ls32.beta0.46.m0.02/fort.200.total.2.csv\
+ ./all_dirs/Ls32.beta0.46.m0.03/fort.200.total.1.csv\
+ ./all_dirs/Ls32.beta0.46.m0.03/fort.200.total.2.csv\
+ ./all_dirs/Ls32.beta0.46.m0.04/fort.200.total.1.csv\
+ ./all_dirs/Ls32.beta0.46.m0.04/fort.200.total.2.csv\
+ ./all_dirs/Ls32.beta0.46.m0.05/fort.200.total.1.csv\
+ ./all_dirs/Ls32.beta0.46.m0.05/fort.200.total.2.csv\
+ ./all_dirs/Ls32.beta0.55.m0.01/fort.200.total.1.csv\
+ ./all_dirs/Ls32.beta0.55.m0.01/fort.200.total.2.csv\
+ ./all_dirs/Ls32.beta0.55.m0.02/fort.200.total.1.csv\
+ ./all_dirs/Ls32.beta0.55.m0.02/fort.200.total.2.csv\
+ ./all_dirs/Ls32.beta0.55.m0.03/fort.200.total.1.csv\
+ ./all_dirs/Ls32.beta0.55.m0.03/fort.200.total.2.csv\
+ ./all_dirs/Ls32.beta0.55.m0.04/fort.200.total.1.csv\
+ ./all_dirs/Ls32.beta0.55.m0.04/fort.200.total.2.csv\
+ ./all_dirs/Ls32.beta0.55.m0.05/fort.200.total.1.csv\
+ ./all_dirs/Ls32.beta0.55.m0.05/fort.200.total.2.csv\
+ ./all_dirs/Ls40.beta0.30.m0.01/fort.200.total.1.csv\
+ ./all_dirs/Ls40.beta0.30.m0.01/fort.200.total.2.csv\
+ ./all_dirs/Ls40.beta0.30.m0.02/fort.200.total.1.csv\
+ ./all_dirs/Ls40.beta0.30.m0.02/fort.200.total.2.csv\
+ ./all_dirs/Ls40.beta0.30.m0.03/fort.200.total.1.csv\
+ ./all_dirs/Ls40.beta0.30.m0.03/fort.200.total.2.csv\
+ ./all_dirs/Ls40.beta0.30.m0.04/fort.200.total.1.csv\
+ ./all_dirs/Ls40.beta0.30.m0.04/fort.200.total.2.csv\
+ ./all_dirs/Ls40.beta0.30.m0.05/fort.200.total.1.csv\
+ ./all_dirs/Ls40.beta0.30.m0.05/fort.200.total.2.csv\
+ ./all_dirs/Ls40.beta0.32.m0.01/fort.200.total.1.csv\
+ ./all_dirs/Ls40.beta0.32.m0.01/fort.200.total.2.csv\
+ ./all_dirs/Ls40.beta0.32.m0.02/fort.200.total.1.csv\
+ ./all_dirs/Ls40.beta0.32.m0.02/fort.200.total.2.csv\
+ ./all_dirs/Ls40.beta0.32.m0.03/fort.200.total.1.csv\
+ ./all_dirs/Ls40.beta0.32.m0.03/fort.200.total.2.csv\
+ ./all_dirs/Ls40.beta0.32.m0.04/fort.200.total.1.csv\
+ ./all_dirs/Ls40.beta0.32.m0.04/fort.200.total.2.csv\
+ ./all_dirs/Ls40.beta0.32.m0.05/fort.200.total.1.csv\
+ ./all_dirs/Ls40.beta0.32.m0.05/fort.200.total.2.csv\
+ ./all_dirs/Ls40.beta0.34.m0.01/fort.200.total.1.csv\
+ ./all_dirs/Ls40.beta0.34.m0.01/fort.200.total.2.csv\
+ ./all_dirs/Ls40.beta0.34.m0.02/fort.200.total.1.csv\
+ ./all_dirs/Ls40.beta0.34.m0.02/fort.200.total.2.csv\
+ ./all_dirs/Ls40.beta0.34.m0.03/fort.200.total.1.csv\
+ ./all_dirs/Ls40.beta0.34.m0.03/fort.200.total.2.csv\
+ ./all_dirs/Ls40.beta0.34.m0.04/fort.200.total.1.csv\
+ ./all_dirs/Ls40.beta0.34.m0.04/fort.200.total.2.csv\
+ ./all_dirs/Ls40.beta0.34.m0.05/fort.200.total.1.csv\
+ ./all_dirs/Ls40.beta0.34.m0.05/fort.200.total.2.csv\
+ ./all_dirs/Ls40.beta0.36.m0.01/fort.200.total.1.csv\
+ ./all_dirs/Ls40.beta0.36.m0.01/fort.200.total.2.csv\
+ ./all_dirs/Ls40.beta0.36.m0.02/fort.200.total.1.csv\
+ ./all_dirs/Ls40.beta0.36.m0.02/fort.200.total.2.csv\
+ ./all_dirs/Ls40.beta0.36.m0.03/fort.200.total.1.csv\
+ ./all_dirs/Ls40.beta0.36.m0.03/fort.200.total.2.csv\
+ ./all_dirs/Ls40.beta0.36.m0.04/fort.200.total.1.csv\
+ ./all_dirs/Ls40.beta0.36.m0.04/fort.200.total.2.csv\
+ ./all_dirs/Ls40.beta0.36.m0.05/fort.200.total.1.csv\
+ ./all_dirs/Ls40.beta0.36.m0.05/fort.200.total.2.csv\
+ ./all_dirs/Ls40.beta0.38.m0.01/fort.200.total.1.csv\
+ ./all_dirs/Ls40.beta0.38.m0.01/fort.200.total.2.csv\
+ ./all_dirs/Ls40.beta0.38.m0.02/fort.200.total.1.csv\
+ ./all_dirs/Ls40.beta0.38.m0.02/fort.200.total.2.csv\
+ ./all_dirs/Ls40.beta0.38.m0.03/fort.200.total.1.csv\
+ ./all_dirs/Ls40.beta0.38.m0.03/fort.200.total.2.csv\
+ ./all_dirs/Ls40.beta0.38.m0.04/fort.200.total.1.csv\
+ ./all_dirs/Ls40.beta0.38.m0.04/fort.200.total.2.csv\
+ ./all_dirs/Ls40.beta0.38.m0.05/fort.200.total.1.csv\
+ ./all_dirs/Ls40.beta0.38.m0.05/fort.200.total.2.csv\
+ ./all_dirs/Ls40.beta0.40.m0.01/fort.200.total.1.csv\
+ ./all_dirs/Ls40.beta0.40.m0.01/fort.200.total.2.csv\
+ ./all_dirs/Ls40.beta0.40.m0.02/fort.200.total.1.csv\
+ ./all_dirs/Ls40.beta0.40.m0.02/fort.200.total.2.csv\
+ ./all_dirs/Ls40.beta0.40.m0.03/fort.200.total.1.csv\
+ ./all_dirs/Ls40.beta0.40.m0.03/fort.200.total.2.csv\
+ ./all_dirs/Ls40.beta0.40.m0.04/fort.200.total.1.csv\
+ ./all_dirs/Ls40.beta0.40.m0.04/fort.200.total.2.csv\
+ ./all_dirs/Ls40.beta0.40.m0.05/fort.200.total.1.csv\
+ ./all_dirs/Ls40.beta0.40.m0.05/fort.200.total.2.csv\
+ ./all_dirs/Ls40.beta0.42.m0.01/fort.200.total.1.csv\
+ ./all_dirs/Ls40.beta0.42.m0.01/fort.200.total.2.csv\
+ ./all_dirs/Ls40.beta0.42.m0.02/fort.200.total.1.csv\
+ ./all_dirs/Ls40.beta0.42.m0.02/fort.200.total.2.csv\
+ ./all_dirs/Ls40.beta0.42.m0.03/fort.200.total.1.csv\
+ ./all_dirs/Ls40.beta0.42.m0.03/fort.200.total.2.csv\
+ ./all_dirs/Ls40.beta0.42.m0.04/fort.200.total.1.csv\
+ ./all_dirs/Ls40.beta0.42.m0.04/fort.200.total.2.csv\
+ ./all_dirs/Ls40.beta0.42.m0.05/fort.200.total.1.csv\
+ ./all_dirs/Ls40.beta0.42.m0.05/fort.200.total.2.csv\
+ ./all_dirs/Ls40.beta0.44.m0.01/fort.200.total.1.csv\
+ ./all_dirs/Ls40.beta0.44.m0.01/fort.200.total.2.csv\
+ ./all_dirs/Ls40.beta0.44.m0.02/fort.200.total.1.csv\
+ ./all_dirs/Ls40.beta0.44.m0.02/fort.200.total.2.csv\
+ ./all_dirs/Ls40.beta0.44.m0.03/fort.200.total.1.csv\
+ ./all_dirs/Ls40.beta0.44.m0.03/fort.200.total.2.csv\
+ ./all_dirs/Ls40.beta0.44.m0.04/fort.200.total.1.csv\
+ ./all_dirs/Ls40.beta0.44.m0.04/fort.200.total.2.csv\
+ ./all_dirs/Ls40.beta0.44.m0.05/fort.200.total.1.csv\
+ ./all_dirs/Ls40.beta0.44.m0.05/fort.200.total.2.csv\
+ ./all_dirs/Ls40.beta0.46.m0.01/fort.200.total.1.csv\
+ ./all_dirs/Ls40.beta0.46.m0.01/fort.200.total.2.csv\
+ ./all_dirs/Ls40.beta0.46.m0.02/fort.200.total.1.csv\
+ ./all_dirs/Ls40.beta0.46.m0.02/fort.200.total.2.csv\
+ ./all_dirs/Ls40.beta0.46.m0.03/fort.200.total.1.csv\
+ ./all_dirs/Ls40.beta0.46.m0.03/fort.200.total.2.csv\
+ ./all_dirs/Ls40.beta0.46.m0.04/fort.200.total.1.csv\
+ ./all_dirs/Ls40.beta0.46.m0.04/fort.200.total.2.csv\
+ ./all_dirs/Ls40.beta0.46.m0.05/fort.200.total.1.csv\
+ ./all_dirs/Ls40.beta0.46.m0.05/fort.200.total.2.csv\
+ ./all_dirs/Ls40.beta0.55.m0.01/fort.200.total.1.csv\
+ ./all_dirs/Ls40.beta0.55.m0.01/fort.200.total.2.csv\
+ ./all_dirs/Ls40.beta0.55.m0.02/fort.200.total.1.csv\
+ ./all_dirs/Ls40.beta0.55.m0.02/fort.200.total.2.csv\
+ ./all_dirs/Ls40.beta0.55.m0.03/fort.200.total.1.csv\
+ ./all_dirs/Ls40.beta0.55.m0.03/fort.200.total.2.csv\
+ ./all_dirs/Ls40.beta0.55.m0.04/fort.200.total.1.csv\
+ ./all_dirs/Ls40.beta0.55.m0.04/fort.200.total.2.csv\
+ ./all_dirs/Ls40.beta0.55.m0.05/fort.200.total.1.csv\
+ ./all_dirs/Ls40.beta0.55.m0.05/fort.200.total.2.csv\
+ ./all_dirs/Ls48.beta0.30.m0.01/fort.200.total.1.csv\
+ ./all_dirs/Ls48.beta0.30.m0.01/fort.200.total.2.csv\
+ ./all_dirs/Ls48.beta0.30.m0.02/fort.200.total.1.csv\
+ ./all_dirs/Ls48.beta0.30.m0.02/fort.200.total.2.csv\
+ ./all_dirs/Ls48.beta0.30.m0.03/fort.200.total.1.csv\
+ ./all_dirs/Ls48.beta0.30.m0.03/fort.200.total.2.csv\
+ ./all_dirs/Ls48.beta0.30.m0.04/fort.200.total.1.csv\
+ ./all_dirs/Ls48.beta0.30.m0.04/fort.200.total.2.csv\
+ ./all_dirs/Ls48.beta0.30.m0.05/fort.200.total.1.csv\
+ ./all_dirs/Ls48.beta0.30.m0.05/fort.200.total.2.csv\
+ ./all_dirs/Ls48.beta0.32.m0.01/fort.200.total.1.csv\
+ ./all_dirs/Ls48.beta0.32.m0.01/fort.200.total.2.csv\
+ ./all_dirs/Ls48.beta0.32.m0.02/fort.200.total.1.csv\
+ ./all_dirs/Ls48.beta0.32.m0.02/fort.200.total.2.csv\
+ ./all_dirs/Ls48.beta0.32.m0.03/fort.200.total.1.csv\
+ ./all_dirs/Ls48.beta0.32.m0.03/fort.200.total.2.csv\
+ ./all_dirs/Ls48.beta0.32.m0.04/fort.200.total.1.csv\
+ ./all_dirs/Ls48.beta0.32.m0.04/fort.200.total.2.csv\
+ ./all_dirs/Ls48.beta0.32.m0.05/fort.200.total.1.csv\
+ ./all_dirs/Ls48.beta0.32.m0.05/fort.200.total.2.csv\
+ ./all_dirs/Ls48.beta0.34.m0.01/fort.200.total.1.csv\
+ ./all_dirs/Ls48.beta0.34.m0.01/fort.200.total.2.csv\
+ ./all_dirs/Ls48.beta0.34.m0.02/fort.200.total.1.csv\
+ ./all_dirs/Ls48.beta0.34.m0.02/fort.200.total.2.csv\
+ ./all_dirs/Ls48.beta0.34.m0.03/fort.200.total.1.csv\
+ ./all_dirs/Ls48.beta0.34.m0.03/fort.200.total.2.csv\
+ ./all_dirs/Ls48.beta0.34.m0.04/fort.200.total.1.csv\
+ ./all_dirs/Ls48.beta0.34.m0.04/fort.200.total.2.csv\
+ ./all_dirs/Ls48.beta0.34.m0.05/fort.200.total.1.csv\
+ ./all_dirs/Ls48.beta0.34.m0.05/fort.200.total.2.csv\
+ ./all_dirs/Ls48.beta0.36.m0.01/fort.200.total.1.csv\
+ ./all_dirs/Ls48.beta0.36.m0.01/fort.200.total.2.csv\
+ ./all_dirs/Ls48.beta0.36.m0.02/fort.200.total.1.csv\
+ ./all_dirs/Ls48.beta0.36.m0.02/fort.200.total.2.csv\
+ ./all_dirs/Ls48.beta0.36.m0.03/fort.200.total.1.csv\
+ ./all_dirs/Ls48.beta0.36.m0.03/fort.200.total.2.csv\
+ ./all_dirs/Ls48.beta0.36.m0.04/fort.200.total.1.csv\
+ ./all_dirs/Ls48.beta0.36.m0.04/fort.200.total.2.csv\
+ ./all_dirs/Ls48.beta0.36.m0.05/fort.200.total.1.csv\
+ ./all_dirs/Ls48.beta0.36.m0.05/fort.200.total.2.csv\
+ ./all_dirs/Ls48.beta0.38.m0.01/fort.200.total.1.csv\
+ ./all_dirs/Ls48.beta0.38.m0.01/fort.200.total.2.csv\
+ ./all_dirs/Ls48.beta0.38.m0.02/fort.200.total.1.csv\
+ ./all_dirs/Ls48.beta0.38.m0.02/fort.200.total.2.csv\
+ ./all_dirs/Ls48.beta0.38.m0.03/fort.200.total.1.csv\
+ ./all_dirs/Ls48.beta0.38.m0.03/fort.200.total.2.csv\
+ ./all_dirs/Ls48.beta0.38.m0.04/fort.200.total.1.csv\
+ ./all_dirs/Ls48.beta0.38.m0.04/fort.200.total.2.csv\
+ ./all_dirs/Ls48.beta0.38.m0.05/fort.200.total.1.csv\
+ ./all_dirs/Ls48.beta0.38.m0.05/fort.200.total.2.csv\
+ ./all_dirs/Ls48.beta0.40.m0.01/fort.200.total.1.csv\
+ ./all_dirs/Ls48.beta0.40.m0.01/fort.200.total.2.csv\
+ ./all_dirs/Ls48.beta0.40.m0.02/fort.200.total.1.csv\
+ ./all_dirs/Ls48.beta0.40.m0.02/fort.200.total.2.csv\
+ ./all_dirs/Ls48.beta0.40.m0.03/fort.200.total.1.csv\
+ ./all_dirs/Ls48.beta0.40.m0.03/fort.200.total.2.csv\
+ ./all_dirs/Ls48.beta0.40.m0.04/fort.200.total.1.csv\
+ ./all_dirs/Ls48.beta0.40.m0.04/fort.200.total.2.csv\
+ ./all_dirs/Ls48.beta0.40.m0.05/fort.200.total.1.csv\
+ ./all_dirs/Ls48.beta0.40.m0.05/fort.200.total.2.csv\
+ ./all_dirs/Ls48.beta0.42.m0.01/fort.200.total.1.csv\
+ ./all_dirs/Ls48.beta0.42.m0.01/fort.200.total.2.csv\
+ ./all_dirs/Ls48.beta0.42.m0.02/fort.200.total.1.csv\
+ ./all_dirs/Ls48.beta0.42.m0.02/fort.200.total.2.csv\
+ ./all_dirs/Ls48.beta0.42.m0.03/fort.200.total.1.csv\
+ ./all_dirs/Ls48.beta0.42.m0.03/fort.200.total.2.csv\
+ ./all_dirs/Ls48.beta0.42.m0.04/fort.200.total.1.csv\
+ ./all_dirs/Ls48.beta0.42.m0.04/fort.200.total.2.csv\
+ ./all_dirs/Ls48.beta0.42.m0.05/fort.200.total.1.csv\
+ ./all_dirs/Ls48.beta0.42.m0.05/fort.200.total.2.csv\
+ ./all_dirs/Ls48.beta0.44.m0.01/fort.200.total.1.csv\
+ ./all_dirs/Ls48.beta0.44.m0.01/fort.200.total.2.csv\
+ ./all_dirs/Ls48.beta0.44.m0.02/fort.200.total.1.csv\
+ ./all_dirs/Ls48.beta0.44.m0.02/fort.200.total.2.csv\
+ ./all_dirs/Ls48.beta0.44.m0.03/fort.200.total.1.csv\
+ ./all_dirs/Ls48.beta0.44.m0.03/fort.200.total.2.csv\
+ ./all_dirs/Ls48.beta0.44.m0.04/fort.200.total.1.csv\
+ ./all_dirs/Ls48.beta0.44.m0.04/fort.200.total.2.csv\
+ ./all_dirs/Ls48.beta0.44.m0.05/fort.200.total.1.csv\
+ ./all_dirs/Ls48.beta0.44.m0.05/fort.200.total.2.csv\
+ ./all_dirs/Ls48.beta0.46.m0.01/fort.200.total.1.csv\
+ ./all_dirs/Ls48.beta0.46.m0.01/fort.200.total.2.csv\
+ ./all_dirs/Ls48.beta0.46.m0.02/fort.200.total.1.csv\
+ ./all_dirs/Ls48.beta0.46.m0.02/fort.200.total.2.csv\
+ ./all_dirs/Ls48.beta0.46.m0.03/fort.200.total.1.csv\
+ ./all_dirs/Ls48.beta0.46.m0.03/fort.200.total.2.csv\
+ ./all_dirs/Ls48.beta0.46.m0.04/fort.200.total.1.csv\
+ ./all_dirs/Ls48.beta0.46.m0.04/fort.200.total.2.csv\
+ ./all_dirs/Ls48.beta0.46.m0.05/fort.200.total.1.csv\
+ ./all_dirs/Ls48.beta0.46.m0.05/fort.200.total.2.csv\
+ ./all_dirs/Ls48.beta0.55.m0.01/fort.200.total.1.csv\
+ ./all_dirs/Ls48.beta0.55.m0.01/fort.200.total.2.csv\
+ ./all_dirs/Ls48.beta0.55.m0.02/fort.200.total.1.csv\
+ ./all_dirs/Ls48.beta0.55.m0.02/fort.200.total.2.csv\
+ ./all_dirs/Ls48.beta0.55.m0.03/fort.200.total.1.csv\
+ ./all_dirs/Ls48.beta0.55.m0.03/fort.200.total.2.csv\
+ ./all_dirs/Ls48.beta0.55.m0.04/fort.200.total.1.csv\
+ ./all_dirs/Ls48.beta0.55.m0.04/fort.200.total.2.csv\
+ ./all_dirs/Ls48.beta0.55.m0.05/fort.200.total.1.csv\
+ ./all_dirs/Ls48.beta0.55.m0.05/fort.200.total.2.csv ./fort.200.analysis.set
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/eos_fit_v2.py fort.200.analysis.set 32 12 --savefig
+
+ ./cond_m01_Ls40_L16 ./cond_m02_Ls40_L16 ./cond_m03_Ls40_L16 ./cond_m04_Ls40_L16\
+ ./cond_m05_Ls40_L16 ./fitLs40L16.png :  ./all_dirs16/Ls32.beta0.30.m0.01/fort.200.total.1.csv\
+ ./all_dirs16/Ls32.beta0.30.m0.02/fort.200.total.1.csv\
+ ./all_dirs16/Ls32.beta0.30.m0.03/fort.200.total.1.csv\
+ ./all_dirs16/Ls32.beta0.30.m0.04/fort.200.total.1.csv\
+ ./all_dirs16/Ls32.beta0.30.m0.05/fort.200.total.1.csv\
+ ./all_dirs16/Ls32.beta0.32.m0.01/fort.200.total.1.csv\
+ ./all_dirs16/Ls32.beta0.32.m0.02/fort.200.total.1.csv\
+ ./all_dirs16/Ls32.beta0.32.m0.03/fort.200.total.1.csv\
+ ./all_dirs16/Ls32.beta0.32.m0.04/fort.200.total.1.csv\
+ ./all_dirs16/Ls32.beta0.32.m0.05/fort.200.total.1.csv\
+ ./all_dirs16/Ls32.beta0.34.m0.01/fort.200.total.1.csv\
+ ./all_dirs16/Ls32.beta0.34.m0.02/fort.200.total.1.csv\
+ ./all_dirs16/Ls32.beta0.34.m0.03/fort.200.total.1.csv\
+ ./all_dirs16/Ls32.beta0.34.m0.04/fort.200.total.1.csv\
+ ./all_dirs16/Ls32.beta0.34.m0.05/fort.200.total.1.csv\
+ ./all_dirs16/Ls32.beta0.36.m0.01/fort.200.total.1.csv\
+ ./all_dirs16/Ls32.beta0.36.m0.02/fort.200.total.1.csv\
+ ./all_dirs16/Ls32.beta0.36.m0.03/fort.200.total.1.csv\
+ ./all_dirs16/Ls32.beta0.36.m0.04/fort.200.total.1.csv\
+ ./all_dirs16/Ls32.beta0.36.m0.05/fort.200.total.1.csv\
+ ./all_dirs16/Ls32.beta0.38.m0.01/fort.200.total.1.csv\
+ ./all_dirs16/Ls32.beta0.38.m0.02/fort.200.total.1.csv\
+ ./all_dirs16/Ls32.beta0.38.m0.03/fort.200.total.1.csv\
+ ./all_dirs16/Ls32.beta0.38.m0.04/fort.200.total.1.csv\
+ ./all_dirs16/Ls32.beta0.38.m0.05/fort.200.total.1.csv\
+ ./all_dirs16/Ls40.beta0.30.m0.01/fort.200.total.1.csv\
+ ./all_dirs16/Ls40.beta0.30.m0.02/fort.200.total.1.csv\
+ ./all_dirs16/Ls40.beta0.30.m0.03/fort.200.total.1.csv\
+ ./all_dirs16/Ls40.beta0.30.m0.04/fort.200.total.1.csv\
+ ./all_dirs16/Ls40.beta0.30.m0.05/fort.200.total.1.csv\
+ ./all_dirs16/Ls40.beta0.32.m0.01/fort.200.total.1.csv\
+ ./all_dirs16/Ls40.beta0.32.m0.02/fort.200.total.1.csv\
+ ./all_dirs16/Ls40.beta0.32.m0.03/fort.200.total.1.csv\
+ ./all_dirs16/Ls40.beta0.32.m0.04/fort.200.total.1.csv\
+ ./all_dirs16/Ls40.beta0.32.m0.05/fort.200.total.1.csv\
+ ./all_dirs16/Ls40.beta0.34.m0.01/fort.200.total.1.csv\
+ ./all_dirs16/Ls40.beta0.34.m0.02/fort.200.total.1.csv\
+ ./all_dirs16/Ls40.beta0.34.m0.03/fort.200.total.1.csv\
+ ./all_dirs16/Ls40.beta0.34.m0.04/fort.200.total.1.csv\
+ ./all_dirs16/Ls40.beta0.34.m0.05/fort.200.total.1.csv\
+ ./all_dirs16/Ls40.beta0.36.m0.01/fort.200.total.1.csv\
+ ./all_dirs16/Ls40.beta0.36.m0.02/fort.200.total.1.csv\
+ ./all_dirs16/Ls40.beta0.36.m0.03/fort.200.total.1.csv\
+ ./all_dirs16/Ls40.beta0.36.m0.04/fort.200.total.1.csv\
+ ./all_dirs16/Ls40.beta0.36.m0.05/fort.200.total.1.csv\
+ ./all_dirs16/Ls40.beta0.38.m0.01/fort.200.total.1.csv\
+ ./all_dirs16/Ls40.beta0.38.m0.02/fort.200.total.1.csv\
+ ./all_dirs16/Ls40.beta0.38.m0.03/fort.200.total.1.csv\
+ ./all_dirs16/Ls40.beta0.38.m0.04/fort.200.total.1.csv\
+ ./all_dirs16/Ls40.beta0.38.m0.05/fort.200.total.1.csv\
+ ./all_dirs16/Ls48.beta0.30.m0.01/fort.200.total.1.csv\
+ ./all_dirs16/Ls48.beta0.30.m0.02/fort.200.total.1.csv\
+ ./all_dirs16/Ls48.beta0.30.m0.03/fort.200.total.1.csv\
+ ./all_dirs16/Ls48.beta0.30.m0.04/fort.200.total.1.csv\
+ ./all_dirs16/Ls48.beta0.30.m0.05/fort.200.total.1.csv\
+ ./all_dirs16/Ls48.beta0.32.m0.01/fort.200.total.1.csv\
+ ./all_dirs16/Ls48.beta0.32.m0.02/fort.200.total.1.csv\
+ ./all_dirs16/Ls48.beta0.32.m0.03/fort.200.total.1.csv\
+ ./all_dirs16/Ls48.beta0.32.m0.04/fort.200.total.1.csv\
+ ./all_dirs16/Ls48.beta0.32.m0.05/fort.200.total.1.csv\
+ ./all_dirs16/Ls48.beta0.34.m0.01/fort.200.total.1.csv\
+ ./all_dirs16/Ls48.beta0.34.m0.02/fort.200.total.1.csv\
+ ./all_dirs16/Ls48.beta0.34.m0.03/fort.200.total.1.csv\
+ ./all_dirs16/Ls48.beta0.34.m0.04/fort.200.total.1.csv\
+ ./all_dirs16/Ls48.beta0.34.m0.05/fort.200.total.1.csv\
+ ./all_dirs16/Ls48.beta0.36.m0.01/fort.200.total.1.csv\
+ ./all_dirs16/Ls48.beta0.36.m0.02/fort.200.total.1.csv\
+ ./all_dirs16/Ls48.beta0.36.m0.03/fort.200.total.1.csv\
+ ./all_dirs16/Ls48.beta0.36.m0.04/fort.200.total.1.csv\
+ ./all_dirs16/Ls48.beta0.36.m0.05/fort.200.total.1.csv\
+ ./all_dirs16/Ls48.beta0.38.m0.01/fort.200.total.1.csv\
+ ./all_dirs16/Ls48.beta0.38.m0.02/fort.200.total.1.csv\
+ ./all_dirs16/Ls48.beta0.38.m0.03/fort.200.total.1.csv\
+ ./all_dirs16/Ls48.beta0.38.m0.04/fort.200.total.1.csv\
+ ./all_dirs16/Ls48.beta0.38.m0.05/fort.200.total.1.csv ./fort.200.analysis16.set
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/eos_fit_v2.py fort.200.analysis16.set 40 16 --savefig
+
+ ./cond_m01_Ls32_L16 ./cond_m02_Ls32_L16 ./cond_m03_Ls32_L16 ./cond_m04_Ls32_L16\
+ ./cond_m05_Ls32_L16 ./fitLs32L16.png :  ./all_dirs16/Ls32.beta0.30.m0.01/fort.200.total.1.csv\
+ ./all_dirs16/Ls32.beta0.30.m0.02/fort.200.total.1.csv\
+ ./all_dirs16/Ls32.beta0.30.m0.03/fort.200.total.1.csv\
+ ./all_dirs16/Ls32.beta0.30.m0.04/fort.200.total.1.csv\
+ ./all_dirs16/Ls32.beta0.30.m0.05/fort.200.total.1.csv\
+ ./all_dirs16/Ls32.beta0.32.m0.01/fort.200.total.1.csv\
+ ./all_dirs16/Ls32.beta0.32.m0.02/fort.200.total.1.csv\
+ ./all_dirs16/Ls32.beta0.32.m0.03/fort.200.total.1.csv\
+ ./all_dirs16/Ls32.beta0.32.m0.04/fort.200.total.1.csv\
+ ./all_dirs16/Ls32.beta0.32.m0.05/fort.200.total.1.csv\
+ ./all_dirs16/Ls32.beta0.34.m0.01/fort.200.total.1.csv\
+ ./all_dirs16/Ls32.beta0.34.m0.02/fort.200.total.1.csv\
+ ./all_dirs16/Ls32.beta0.34.m0.03/fort.200.total.1.csv\
+ ./all_dirs16/Ls32.beta0.34.m0.04/fort.200.total.1.csv\
+ ./all_dirs16/Ls32.beta0.34.m0.05/fort.200.total.1.csv\
+ ./all_dirs16/Ls32.beta0.36.m0.01/fort.200.total.1.csv\
+ ./all_dirs16/Ls32.beta0.36.m0.02/fort.200.total.1.csv\
+ ./all_dirs16/Ls32.beta0.36.m0.03/fort.200.total.1.csv\
+ ./all_dirs16/Ls32.beta0.36.m0.04/fort.200.total.1.csv\
+ ./all_dirs16/Ls32.beta0.36.m0.05/fort.200.total.1.csv\
+ ./all_dirs16/Ls32.beta0.38.m0.01/fort.200.total.1.csv\
+ ./all_dirs16/Ls32.beta0.38.m0.02/fort.200.total.1.csv\
+ ./all_dirs16/Ls32.beta0.38.m0.03/fort.200.total.1.csv\
+ ./all_dirs16/Ls32.beta0.38.m0.04/fort.200.total.1.csv\
+ ./all_dirs16/Ls32.beta0.38.m0.05/fort.200.total.1.csv\
+ ./all_dirs16/Ls40.beta0.30.m0.01/fort.200.total.1.csv\
+ ./all_dirs16/Ls40.beta0.30.m0.02/fort.200.total.1.csv\
+ ./all_dirs16/Ls40.beta0.30.m0.03/fort.200.total.1.csv\
+ ./all_dirs16/Ls40.beta0.30.m0.04/fort.200.total.1.csv\
+ ./all_dirs16/Ls40.beta0.30.m0.05/fort.200.total.1.csv\
+ ./all_dirs16/Ls40.beta0.32.m0.01/fort.200.total.1.csv\
+ ./all_dirs16/Ls40.beta0.32.m0.02/fort.200.total.1.csv\
+ ./all_dirs16/Ls40.beta0.32.m0.03/fort.200.total.1.csv\
+ ./all_dirs16/Ls40.beta0.32.m0.04/fort.200.total.1.csv\
+ ./all_dirs16/Ls40.beta0.32.m0.05/fort.200.total.1.csv\
+ ./all_dirs16/Ls40.beta0.34.m0.01/fort.200.total.1.csv\
+ ./all_dirs16/Ls40.beta0.34.m0.02/fort.200.total.1.csv\
+ ./all_dirs16/Ls40.beta0.34.m0.03/fort.200.total.1.csv\
+ ./all_dirs16/Ls40.beta0.34.m0.04/fort.200.total.1.csv\
+ ./all_dirs16/Ls40.beta0.34.m0.05/fort.200.total.1.csv\
+ ./all_dirs16/Ls40.beta0.36.m0.01/fort.200.total.1.csv\
+ ./all_dirs16/Ls40.beta0.36.m0.02/fort.200.total.1.csv\
+ ./all_dirs16/Ls40.beta0.36.m0.03/fort.200.total.1.csv\
+ ./all_dirs16/Ls40.beta0.36.m0.04/fort.200.total.1.csv\
+ ./all_dirs16/Ls40.beta0.36.m0.05/fort.200.total.1.csv\
+ ./all_dirs16/Ls40.beta0.38.m0.01/fort.200.total.1.csv\
+ ./all_dirs16/Ls40.beta0.38.m0.02/fort.200.total.1.csv\
+ ./all_dirs16/Ls40.beta0.38.m0.03/fort.200.total.1.csv\
+ ./all_dirs16/Ls40.beta0.38.m0.04/fort.200.total.1.csv\
+ ./all_dirs16/Ls40.beta0.38.m0.05/fort.200.total.1.csv\
+ ./all_dirs16/Ls48.beta0.30.m0.01/fort.200.total.1.csv\
+ ./all_dirs16/Ls48.beta0.30.m0.02/fort.200.total.1.csv\
+ ./all_dirs16/Ls48.beta0.30.m0.03/fort.200.total.1.csv\
+ ./all_dirs16/Ls48.beta0.30.m0.04/fort.200.total.1.csv\
+ ./all_dirs16/Ls48.beta0.30.m0.05/fort.200.total.1.csv\
+ ./all_dirs16/Ls48.beta0.32.m0.01/fort.200.total.1.csv\
+ ./all_dirs16/Ls48.beta0.32.m0.02/fort.200.total.1.csv\
+ ./all_dirs16/Ls48.beta0.32.m0.03/fort.200.total.1.csv\
+ ./all_dirs16/Ls48.beta0.32.m0.04/fort.200.total.1.csv\
+ ./all_dirs16/Ls48.beta0.32.m0.05/fort.200.total.1.csv\
+ ./all_dirs16/Ls48.beta0.34.m0.01/fort.200.total.1.csv\
+ ./all_dirs16/Ls48.beta0.34.m0.02/fort.200.total.1.csv\
+ ./all_dirs16/Ls48.beta0.34.m0.03/fort.200.total.1.csv\
+ ./all_dirs16/Ls48.beta0.34.m0.04/fort.200.total.1.csv\
+ ./all_dirs16/Ls48.beta0.34.m0.05/fort.200.total.1.csv\
+ ./all_dirs16/Ls48.beta0.36.m0.01/fort.200.total.1.csv\
+ ./all_dirs16/Ls48.beta0.36.m0.02/fort.200.total.1.csv\
+ ./all_dirs16/Ls48.beta0.36.m0.03/fort.200.total.1.csv\
+ ./all_dirs16/Ls48.beta0.36.m0.04/fort.200.total.1.csv\
+ ./all_dirs16/Ls48.beta0.36.m0.05/fort.200.total.1.csv\
+ ./all_dirs16/Ls48.beta0.38.m0.01/fort.200.total.1.csv\
+ ./all_dirs16/Ls48.beta0.38.m0.02/fort.200.total.1.csv\
+ ./all_dirs16/Ls48.beta0.38.m0.03/fort.200.total.1.csv\
+ ./all_dirs16/Ls48.beta0.38.m0.04/fort.200.total.1.csv\
+ ./all_dirs16/Ls48.beta0.38.m0.05/fort.200.total.1.csv ./fort.200.analysis16.set
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/eos_fit_v2.py fort.200.analysis16.set 32 16 --savefig
+
+ ./cond_m01_Ls48_L16 ./cond_m02_Ls48_L16 ./cond_m03_Ls48_L16 ./cond_m04_Ls48_L16\
+ ./cond_m05_Ls48_L16 ./fitLs48L16.png :  ./all_dirs16/Ls32.beta0.30.m0.01/fort.200.total.1.csv\
+ ./all_dirs16/Ls32.beta0.30.m0.02/fort.200.total.1.csv\
+ ./all_dirs16/Ls32.beta0.30.m0.03/fort.200.total.1.csv\
+ ./all_dirs16/Ls32.beta0.30.m0.04/fort.200.total.1.csv\
+ ./all_dirs16/Ls32.beta0.30.m0.05/fort.200.total.1.csv\
+ ./all_dirs16/Ls32.beta0.32.m0.01/fort.200.total.1.csv\
+ ./all_dirs16/Ls32.beta0.32.m0.02/fort.200.total.1.csv\
+ ./all_dirs16/Ls32.beta0.32.m0.03/fort.200.total.1.csv\
+ ./all_dirs16/Ls32.beta0.32.m0.04/fort.200.total.1.csv\
+ ./all_dirs16/Ls32.beta0.32.m0.05/fort.200.total.1.csv\
+ ./all_dirs16/Ls32.beta0.34.m0.01/fort.200.total.1.csv\
+ ./all_dirs16/Ls32.beta0.34.m0.02/fort.200.total.1.csv\
+ ./all_dirs16/Ls32.beta0.34.m0.03/fort.200.total.1.csv\
+ ./all_dirs16/Ls32.beta0.34.m0.04/fort.200.total.1.csv\
+ ./all_dirs16/Ls32.beta0.34.m0.05/fort.200.total.1.csv\
+ ./all_dirs16/Ls32.beta0.36.m0.01/fort.200.total.1.csv\
+ ./all_dirs16/Ls32.beta0.36.m0.02/fort.200.total.1.csv\
+ ./all_dirs16/Ls32.beta0.36.m0.03/fort.200.total.1.csv\
+ ./all_dirs16/Ls32.beta0.36.m0.04/fort.200.total.1.csv\
+ ./all_dirs16/Ls32.beta0.36.m0.05/fort.200.total.1.csv\
+ ./all_dirs16/Ls32.beta0.38.m0.01/fort.200.total.1.csv\
+ ./all_dirs16/Ls32.beta0.38.m0.02/fort.200.total.1.csv\
+ ./all_dirs16/Ls32.beta0.38.m0.03/fort.200.total.1.csv\
+ ./all_dirs16/Ls32.beta0.38.m0.04/fort.200.total.1.csv\
+ ./all_dirs16/Ls32.beta0.38.m0.05/fort.200.total.1.csv\
+ ./all_dirs16/Ls40.beta0.30.m0.01/fort.200.total.1.csv\
+ ./all_dirs16/Ls40.beta0.30.m0.02/fort.200.total.1.csv\
+ ./all_dirs16/Ls40.beta0.30.m0.03/fort.200.total.1.csv\
+ ./all_dirs16/Ls40.beta0.30.m0.04/fort.200.total.1.csv\
+ ./all_dirs16/Ls40.beta0.30.m0.05/fort.200.total.1.csv\
+ ./all_dirs16/Ls40.beta0.32.m0.01/fort.200.total.1.csv\
+ ./all_dirs16/Ls40.beta0.32.m0.02/fort.200.total.1.csv\
+ ./all_dirs16/Ls40.beta0.32.m0.03/fort.200.total.1.csv\
+ ./all_dirs16/Ls40.beta0.32.m0.04/fort.200.total.1.csv\
+ ./all_dirs16/Ls40.beta0.32.m0.05/fort.200.total.1.csv\
+ ./all_dirs16/Ls40.beta0.34.m0.01/fort.200.total.1.csv\
+ ./all_dirs16/Ls40.beta0.34.m0.02/fort.200.total.1.csv\
+ ./all_dirs16/Ls40.beta0.34.m0.03/fort.200.total.1.csv\
+ ./all_dirs16/Ls40.beta0.34.m0.04/fort.200.total.1.csv\
+ ./all_dirs16/Ls40.beta0.34.m0.05/fort.200.total.1.csv\
+ ./all_dirs16/Ls40.beta0.36.m0.01/fort.200.total.1.csv\
+ ./all_dirs16/Ls40.beta0.36.m0.02/fort.200.total.1.csv\
+ ./all_dirs16/Ls40.beta0.36.m0.03/fort.200.total.1.csv\
+ ./all_dirs16/Ls40.beta0.36.m0.04/fort.200.total.1.csv\
+ ./all_dirs16/Ls40.beta0.36.m0.05/fort.200.total.1.csv\
+ ./all_dirs16/Ls40.beta0.38.m0.01/fort.200.total.1.csv\
+ ./all_dirs16/Ls40.beta0.38.m0.02/fort.200.total.1.csv\
+ ./all_dirs16/Ls40.beta0.38.m0.03/fort.200.total.1.csv\
+ ./all_dirs16/Ls40.beta0.38.m0.04/fort.200.total.1.csv\
+ ./all_dirs16/Ls40.beta0.38.m0.05/fort.200.total.1.csv\
+ ./all_dirs16/Ls48.beta0.30.m0.01/fort.200.total.1.csv\
+ ./all_dirs16/Ls48.beta0.30.m0.02/fort.200.total.1.csv\
+ ./all_dirs16/Ls48.beta0.30.m0.03/fort.200.total.1.csv\
+ ./all_dirs16/Ls48.beta0.30.m0.04/fort.200.total.1.csv\
+ ./all_dirs16/Ls48.beta0.30.m0.05/fort.200.total.1.csv\
+ ./all_dirs16/Ls48.beta0.32.m0.01/fort.200.total.1.csv\
+ ./all_dirs16/Ls48.beta0.32.m0.02/fort.200.total.1.csv\
+ ./all_dirs16/Ls48.beta0.32.m0.03/fort.200.total.1.csv\
+ ./all_dirs16/Ls48.beta0.32.m0.04/fort.200.total.1.csv\
+ ./all_dirs16/Ls48.beta0.32.m0.05/fort.200.total.1.csv\
+ ./all_dirs16/Ls48.beta0.34.m0.01/fort.200.total.1.csv\
+ ./all_dirs16/Ls48.beta0.34.m0.02/fort.200.total.1.csv\
+ ./all_dirs16/Ls48.beta0.34.m0.03/fort.200.total.1.csv\
+ ./all_dirs16/Ls48.beta0.34.m0.04/fort.200.total.1.csv\
+ ./all_dirs16/Ls48.beta0.34.m0.05/fort.200.total.1.csv\
+ ./all_dirs16/Ls48.beta0.36.m0.01/fort.200.total.1.csv\
+ ./all_dirs16/Ls48.beta0.36.m0.02/fort.200.total.1.csv\
+ ./all_dirs16/Ls48.beta0.36.m0.03/fort.200.total.1.csv\
+ ./all_dirs16/Ls48.beta0.36.m0.04/fort.200.total.1.csv\
+ ./all_dirs16/Ls48.beta0.36.m0.05/fort.200.total.1.csv\
+ ./all_dirs16/Ls48.beta0.38.m0.01/fort.200.total.1.csv\
+ ./all_dirs16/Ls48.beta0.38.m0.02/fort.200.total.1.csv\
+ ./all_dirs16/Ls48.beta0.38.m0.03/fort.200.total.1.csv\
+ ./all_dirs16/Ls48.beta0.38.m0.04/fort.200.total.1.csv\
+ ./all_dirs16/Ls48.beta0.38.m0.05/fort.200.total.1.csv ./fort.200.analysis16.set
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/eos_fit_v2.py fort.200.analysis16.set 48 16 --savefig
+
+ ./cond_m01_Ls40_L12 ./cond_m02_Ls40_L12 ./cond_m03_Ls40_L12 ./cond_m04_Ls40_L12\
+ ./cond_m05_Ls40_L12 ./fitLs40L12.png :  ./all_dirs/Ls32.beta0.30.m0.01/fort.200.total.1.csv\
+ ./all_dirs/Ls32.beta0.30.m0.01/fort.200.total.2.csv\
+ ./all_dirs/Ls32.beta0.30.m0.02/fort.200.total.1.csv\
+ ./all_dirs/Ls32.beta0.30.m0.02/fort.200.total.2.csv\
+ ./all_dirs/Ls32.beta0.30.m0.03/fort.200.total.1.csv\
+ ./all_dirs/Ls32.beta0.30.m0.03/fort.200.total.2.csv\
+ ./all_dirs/Ls32.beta0.30.m0.04/fort.200.total.1.csv\
+ ./all_dirs/Ls32.beta0.30.m0.04/fort.200.total.2.csv\
+ ./all_dirs/Ls32.beta0.30.m0.05/fort.200.total.1.csv\
+ ./all_dirs/Ls32.beta0.30.m0.05/fort.200.total.2.csv\
+ ./all_dirs/Ls32.beta0.32.m0.01/fort.200.total.1.csv\
+ ./all_dirs/Ls32.beta0.32.m0.01/fort.200.total.2.csv\
+ ./all_dirs/Ls32.beta0.32.m0.02/fort.200.total.1.csv\
+ ./all_dirs/Ls32.beta0.32.m0.02/fort.200.total.2.csv\
+ ./all_dirs/Ls32.beta0.32.m0.03/fort.200.total.1.csv\
+ ./all_dirs/Ls32.beta0.32.m0.03/fort.200.total.2.csv\
+ ./all_dirs/Ls32.beta0.32.m0.04/fort.200.total.1.csv\
+ ./all_dirs/Ls32.beta0.32.m0.04/fort.200.total.2.csv\
+ ./all_dirs/Ls32.beta0.32.m0.05/fort.200.total.1.csv\
+ ./all_dirs/Ls32.beta0.32.m0.05/fort.200.total.2.csv\
+ ./all_dirs/Ls32.beta0.34.m0.01/fort.200.total.1.csv\
+ ./all_dirs/Ls32.beta0.34.m0.01/fort.200.total.2.csv\
+ ./all_dirs/Ls32.beta0.34.m0.02/fort.200.total.1.csv\
+ ./all_dirs/Ls32.beta0.34.m0.02/fort.200.total.2.csv\
+ ./all_dirs/Ls32.beta0.34.m0.03/fort.200.total.1.csv\
+ ./all_dirs/Ls32.beta0.34.m0.03/fort.200.total.2.csv\
+ ./all_dirs/Ls32.beta0.34.m0.04/fort.200.total.1.csv\
+ ./all_dirs/Ls32.beta0.34.m0.04/fort.200.total.2.csv\
+ ./all_dirs/Ls32.beta0.34.m0.05/fort.200.total.1.csv\
+ ./all_dirs/Ls32.beta0.34.m0.05/fort.200.total.2.csv\
+ ./all_dirs/Ls32.beta0.36.m0.01/fort.200.total.1.csv\
+ ./all_dirs/Ls32.beta0.36.m0.01/fort.200.total.2.csv\
+ ./all_dirs/Ls32.beta0.36.m0.02/fort.200.total.1.csv\
+ ./all_dirs/Ls32.beta0.36.m0.02/fort.200.total.2.csv\
+ ./all_dirs/Ls32.beta0.36.m0.03/fort.200.total.1.csv\
+ ./all_dirs/Ls32.beta0.36.m0.03/fort.200.total.2.csv\
+ ./all_dirs/Ls32.beta0.36.m0.04/fort.200.total.1.csv\
+ ./all_dirs/Ls32.beta0.36.m0.04/fort.200.total.2.csv\
+ ./all_dirs/Ls32.beta0.36.m0.05/fort.200.total.1.csv\
+ ./all_dirs/Ls32.beta0.36.m0.05/fort.200.total.2.csv\
+ ./all_dirs/Ls32.beta0.38.m0.01/fort.200.total.1.csv\
+ ./all_dirs/Ls32.beta0.38.m0.01/fort.200.total.2.csv\
+ ./all_dirs/Ls32.beta0.38.m0.02/fort.200.total.1.csv\
+ ./all_dirs/Ls32.beta0.38.m0.02/fort.200.total.2.csv\
+ ./all_dirs/Ls32.beta0.38.m0.03/fort.200.total.1.csv\
+ ./all_dirs/Ls32.beta0.38.m0.03/fort.200.total.2.csv\
+ ./all_dirs/Ls32.beta0.38.m0.04/fort.200.total.1.csv\
+ ./all_dirs/Ls32.beta0.38.m0.04/fort.200.total.2.csv\
+ ./all_dirs/Ls32.beta0.38.m0.05/fort.200.total.1.csv\
+ ./all_dirs/Ls32.beta0.38.m0.05/fort.200.total.2.csv\
+ ./all_dirs/Ls32.beta0.40.m0.01/fort.200.total.1.csv\
+ ./all_dirs/Ls32.beta0.40.m0.01/fort.200.total.2.csv\
+ ./all_dirs/Ls32.beta0.40.m0.02/fort.200.total.1.csv\
+ ./all_dirs/Ls32.beta0.40.m0.02/fort.200.total.2.csv\
+ ./all_dirs/Ls32.beta0.40.m0.03/fort.200.total.1.csv\
+ ./all_dirs/Ls32.beta0.40.m0.03/fort.200.total.2.csv\
+ ./all_dirs/Ls32.beta0.40.m0.04/fort.200.total.1.csv\
+ ./all_dirs/Ls32.beta0.40.m0.04/fort.200.total.2.csv\
+ ./all_dirs/Ls32.beta0.40.m0.05/fort.200.total.1.csv\
+ ./all_dirs/Ls32.beta0.40.m0.05/fort.200.total.2.csv\
+ ./all_dirs/Ls32.beta0.42.m0.01/fort.200.total.1.csv\
+ ./all_dirs/Ls32.beta0.42.m0.01/fort.200.total.2.csv\
+ ./all_dirs/Ls32.beta0.42.m0.02/fort.200.total.1.csv\
+ ./all_dirs/Ls32.beta0.42.m0.02/fort.200.total.2.csv\
+ ./all_dirs/Ls32.beta0.42.m0.03/fort.200.total.1.csv\
+ ./all_dirs/Ls32.beta0.42.m0.03/fort.200.total.2.csv\
+ ./all_dirs/Ls32.beta0.42.m0.04/fort.200.total.1.csv\
+ ./all_dirs/Ls32.beta0.42.m0.04/fort.200.total.2.csv\
+ ./all_dirs/Ls32.beta0.42.m0.05/fort.200.total.1.csv\
+ ./all_dirs/Ls32.beta0.42.m0.05/fort.200.total.2.csv\
+ ./all_dirs/Ls32.beta0.44.m0.01/fort.200.total.1.csv\
+ ./all_dirs/Ls32.beta0.44.m0.01/fort.200.total.2.csv\
+ ./all_dirs/Ls32.beta0.44.m0.02/fort.200.total.1.csv\
+ ./all_dirs/Ls32.beta0.44.m0.02/fort.200.total.2.csv\
+ ./all_dirs/Ls32.beta0.44.m0.03/fort.200.total.1.csv\
+ ./all_dirs/Ls32.beta0.44.m0.03/fort.200.total.2.csv\
+ ./all_dirs/Ls32.beta0.44.m0.04/fort.200.total.1.csv\
+ ./all_dirs/Ls32.beta0.44.m0.04/fort.200.total.2.csv\
+ ./all_dirs/Ls32.beta0.44.m0.05/fort.200.total.1.csv\
+ ./all_dirs/Ls32.beta0.44.m0.05/fort.200.total.2.csv\
+ ./all_dirs/Ls32.beta0.46.m0.01/fort.200.total.1.csv\
+ ./all_dirs/Ls32.beta0.46.m0.01/fort.200.total.2.csv\
+ ./all_dirs/Ls32.beta0.46.m0.02/fort.200.total.1.csv\
+ ./all_dirs/Ls32.beta0.46.m0.02/fort.200.total.2.csv\
+ ./all_dirs/Ls32.beta0.46.m0.03/fort.200.total.1.csv\
+ ./all_dirs/Ls32.beta0.46.m0.03/fort.200.total.2.csv\
+ ./all_dirs/Ls32.beta0.46.m0.04/fort.200.total.1.csv\
+ ./all_dirs/Ls32.beta0.46.m0.04/fort.200.total.2.csv\
+ ./all_dirs/Ls32.beta0.46.m0.05/fort.200.total.1.csv\
+ ./all_dirs/Ls32.beta0.46.m0.05/fort.200.total.2.csv\
+ ./all_dirs/Ls32.beta0.55.m0.01/fort.200.total.1.csv\
+ ./all_dirs/Ls32.beta0.55.m0.01/fort.200.total.2.csv\
+ ./all_dirs/Ls32.beta0.55.m0.02/fort.200.total.1.csv\
+ ./all_dirs/Ls32.beta0.55.m0.02/fort.200.total.2.csv\
+ ./all_dirs/Ls32.beta0.55.m0.03/fort.200.total.1.csv\
+ ./all_dirs/Ls32.beta0.55.m0.03/fort.200.total.2.csv\
+ ./all_dirs/Ls32.beta0.55.m0.04/fort.200.total.1.csv\
+ ./all_dirs/Ls32.beta0.55.m0.04/fort.200.total.2.csv\
+ ./all_dirs/Ls32.beta0.55.m0.05/fort.200.total.1.csv\
+ ./all_dirs/Ls32.beta0.55.m0.05/fort.200.total.2.csv\
+ ./all_dirs/Ls40.beta0.30.m0.01/fort.200.total.1.csv\
+ ./all_dirs/Ls40.beta0.30.m0.01/fort.200.total.2.csv\
+ ./all_dirs/Ls40.beta0.30.m0.02/fort.200.total.1.csv\
+ ./all_dirs/Ls40.beta0.30.m0.02/fort.200.total.2.csv\
+ ./all_dirs/Ls40.beta0.30.m0.03/fort.200.total.1.csv\
+ ./all_dirs/Ls40.beta0.30.m0.03/fort.200.total.2.csv\
+ ./all_dirs/Ls40.beta0.30.m0.04/fort.200.total.1.csv\
+ ./all_dirs/Ls40.beta0.30.m0.04/fort.200.total.2.csv\
+ ./all_dirs/Ls40.beta0.30.m0.05/fort.200.total.1.csv\
+ ./all_dirs/Ls40.beta0.30.m0.05/fort.200.total.2.csv\
+ ./all_dirs/Ls40.beta0.32.m0.01/fort.200.total.1.csv\
+ ./all_dirs/Ls40.beta0.32.m0.01/fort.200.total.2.csv\
+ ./all_dirs/Ls40.beta0.32.m0.02/fort.200.total.1.csv\
+ ./all_dirs/Ls40.beta0.32.m0.02/fort.200.total.2.csv\
+ ./all_dirs/Ls40.beta0.32.m0.03/fort.200.total.1.csv\
+ ./all_dirs/Ls40.beta0.32.m0.03/fort.200.total.2.csv\
+ ./all_dirs/Ls40.beta0.32.m0.04/fort.200.total.1.csv\
+ ./all_dirs/Ls40.beta0.32.m0.04/fort.200.total.2.csv\
+ ./all_dirs/Ls40.beta0.32.m0.05/fort.200.total.1.csv\
+ ./all_dirs/Ls40.beta0.32.m0.05/fort.200.total.2.csv\
+ ./all_dirs/Ls40.beta0.34.m0.01/fort.200.total.1.csv\
+ ./all_dirs/Ls40.beta0.34.m0.01/fort.200.total.2.csv\
+ ./all_dirs/Ls40.beta0.34.m0.02/fort.200.total.1.csv\
+ ./all_dirs/Ls40.beta0.34.m0.02/fort.200.total.2.csv\
+ ./all_dirs/Ls40.beta0.34.m0.03/fort.200.total.1.csv\
+ ./all_dirs/Ls40.beta0.34.m0.03/fort.200.total.2.csv\
+ ./all_dirs/Ls40.beta0.34.m0.04/fort.200.total.1.csv\
+ ./all_dirs/Ls40.beta0.34.m0.04/fort.200.total.2.csv\
+ ./all_dirs/Ls40.beta0.34.m0.05/fort.200.total.1.csv\
+ ./all_dirs/Ls40.beta0.34.m0.05/fort.200.total.2.csv\
+ ./all_dirs/Ls40.beta0.36.m0.01/fort.200.total.1.csv\
+ ./all_dirs/Ls40.beta0.36.m0.01/fort.200.total.2.csv\
+ ./all_dirs/Ls40.beta0.36.m0.02/fort.200.total.1.csv\
+ ./all_dirs/Ls40.beta0.36.m0.02/fort.200.total.2.csv\
+ ./all_dirs/Ls40.beta0.36.m0.03/fort.200.total.1.csv\
+ ./all_dirs/Ls40.beta0.36.m0.03/fort.200.total.2.csv\
+ ./all_dirs/Ls40.beta0.36.m0.04/fort.200.total.1.csv\
+ ./all_dirs/Ls40.beta0.36.m0.04/fort.200.total.2.csv\
+ ./all_dirs/Ls40.beta0.36.m0.05/fort.200.total.1.csv\
+ ./all_dirs/Ls40.beta0.36.m0.05/fort.200.total.2.csv\
+ ./all_dirs/Ls40.beta0.38.m0.01/fort.200.total.1.csv\
+ ./all_dirs/Ls40.beta0.38.m0.01/fort.200.total.2.csv\
+ ./all_dirs/Ls40.beta0.38.m0.02/fort.200.total.1.csv\
+ ./all_dirs/Ls40.beta0.38.m0.02/fort.200.total.2.csv\
+ ./all_dirs/Ls40.beta0.38.m0.03/fort.200.total.1.csv\
+ ./all_dirs/Ls40.beta0.38.m0.03/fort.200.total.2.csv\
+ ./all_dirs/Ls40.beta0.38.m0.04/fort.200.total.1.csv\
+ ./all_dirs/Ls40.beta0.38.m0.04/fort.200.total.2.csv\
+ ./all_dirs/Ls40.beta0.38.m0.05/fort.200.total.1.csv\
+ ./all_dirs/Ls40.beta0.38.m0.05/fort.200.total.2.csv\
+ ./all_dirs/Ls40.beta0.40.m0.01/fort.200.total.1.csv\
+ ./all_dirs/Ls40.beta0.40.m0.01/fort.200.total.2.csv\
+ ./all_dirs/Ls40.beta0.40.m0.02/fort.200.total.1.csv\
+ ./all_dirs/Ls40.beta0.40.m0.02/fort.200.total.2.csv\
+ ./all_dirs/Ls40.beta0.40.m0.03/fort.200.total.1.csv\
+ ./all_dirs/Ls40.beta0.40.m0.03/fort.200.total.2.csv\
+ ./all_dirs/Ls40.beta0.40.m0.04/fort.200.total.1.csv\
+ ./all_dirs/Ls40.beta0.40.m0.04/fort.200.total.2.csv\
+ ./all_dirs/Ls40.beta0.40.m0.05/fort.200.total.1.csv\
+ ./all_dirs/Ls40.beta0.40.m0.05/fort.200.total.2.csv\
+ ./all_dirs/Ls40.beta0.42.m0.01/fort.200.total.1.csv\
+ ./all_dirs/Ls40.beta0.42.m0.01/fort.200.total.2.csv\
+ ./all_dirs/Ls40.beta0.42.m0.02/fort.200.total.1.csv\
+ ./all_dirs/Ls40.beta0.42.m0.02/fort.200.total.2.csv\
+ ./all_dirs/Ls40.beta0.42.m0.03/fort.200.total.1.csv\
+ ./all_dirs/Ls40.beta0.42.m0.03/fort.200.total.2.csv\
+ ./all_dirs/Ls40.beta0.42.m0.04/fort.200.total.1.csv\
+ ./all_dirs/Ls40.beta0.42.m0.04/fort.200.total.2.csv\
+ ./all_dirs/Ls40.beta0.42.m0.05/fort.200.total.1.csv\
+ ./all_dirs/Ls40.beta0.42.m0.05/fort.200.total.2.csv\
+ ./all_dirs/Ls40.beta0.44.m0.01/fort.200.total.1.csv\
+ ./all_dirs/Ls40.beta0.44.m0.01/fort.200.total.2.csv\
+ ./all_dirs/Ls40.beta0.44.m0.02/fort.200.total.1.csv\
+ ./all_dirs/Ls40.beta0.44.m0.02/fort.200.total.2.csv\
+ ./all_dirs/Ls40.beta0.44.m0.03/fort.200.total.1.csv\
+ ./all_dirs/Ls40.beta0.44.m0.03/fort.200.total.2.csv\
+ ./all_dirs/Ls40.beta0.44.m0.04/fort.200.total.1.csv\
+ ./all_dirs/Ls40.beta0.44.m0.04/fort.200.total.2.csv\
+ ./all_dirs/Ls40.beta0.44.m0.05/fort.200.total.1.csv\
+ ./all_dirs/Ls40.beta0.44.m0.05/fort.200.total.2.csv\
+ ./all_dirs/Ls40.beta0.46.m0.01/fort.200.total.1.csv\
+ ./all_dirs/Ls40.beta0.46.m0.01/fort.200.total.2.csv\
+ ./all_dirs/Ls40.beta0.46.m0.02/fort.200.total.1.csv\
+ ./all_dirs/Ls40.beta0.46.m0.02/fort.200.total.2.csv\
+ ./all_dirs/Ls40.beta0.46.m0.03/fort.200.total.1.csv\
+ ./all_dirs/Ls40.beta0.46.m0.03/fort.200.total.2.csv\
+ ./all_dirs/Ls40.beta0.46.m0.04/fort.200.total.1.csv\
+ ./all_dirs/Ls40.beta0.46.m0.04/fort.200.total.2.csv\
+ ./all_dirs/Ls40.beta0.46.m0.05/fort.200.total.1.csv\
+ ./all_dirs/Ls40.beta0.46.m0.05/fort.200.total.2.csv\
+ ./all_dirs/Ls40.beta0.55.m0.01/fort.200.total.1.csv\
+ ./all_dirs/Ls40.beta0.55.m0.01/fort.200.total.2.csv\
+ ./all_dirs/Ls40.beta0.55.m0.02/fort.200.total.1.csv\
+ ./all_dirs/Ls40.beta0.55.m0.02/fort.200.total.2.csv\
+ ./all_dirs/Ls40.beta0.55.m0.03/fort.200.total.1.csv\
+ ./all_dirs/Ls40.beta0.55.m0.03/fort.200.total.2.csv\
+ ./all_dirs/Ls40.beta0.55.m0.04/fort.200.total.1.csv\
+ ./all_dirs/Ls40.beta0.55.m0.04/fort.200.total.2.csv\
+ ./all_dirs/Ls40.beta0.55.m0.05/fort.200.total.1.csv\
+ ./all_dirs/Ls40.beta0.55.m0.05/fort.200.total.2.csv\
+ ./all_dirs/Ls48.beta0.30.m0.01/fort.200.total.1.csv\
+ ./all_dirs/Ls48.beta0.30.m0.01/fort.200.total.2.csv\
+ ./all_dirs/Ls48.beta0.30.m0.02/fort.200.total.1.csv\
+ ./all_dirs/Ls48.beta0.30.m0.02/fort.200.total.2.csv\
+ ./all_dirs/Ls48.beta0.30.m0.03/fort.200.total.1.csv\
+ ./all_dirs/Ls48.beta0.30.m0.03/fort.200.total.2.csv\
+ ./all_dirs/Ls48.beta0.30.m0.04/fort.200.total.1.csv\
+ ./all_dirs/Ls48.beta0.30.m0.04/fort.200.total.2.csv\
+ ./all_dirs/Ls48.beta0.30.m0.05/fort.200.total.1.csv\
+ ./all_dirs/Ls48.beta0.30.m0.05/fort.200.total.2.csv\
+ ./all_dirs/Ls48.beta0.32.m0.01/fort.200.total.1.csv\
+ ./all_dirs/Ls48.beta0.32.m0.01/fort.200.total.2.csv\
+ ./all_dirs/Ls48.beta0.32.m0.02/fort.200.total.1.csv\
+ ./all_dirs/Ls48.beta0.32.m0.02/fort.200.total.2.csv\
+ ./all_dirs/Ls48.beta0.32.m0.03/fort.200.total.1.csv\
+ ./all_dirs/Ls48.beta0.32.m0.03/fort.200.total.2.csv\
+ ./all_dirs/Ls48.beta0.32.m0.04/fort.200.total.1.csv\
+ ./all_dirs/Ls48.beta0.32.m0.04/fort.200.total.2.csv\
+ ./all_dirs/Ls48.beta0.32.m0.05/fort.200.total.1.csv\
+ ./all_dirs/Ls48.beta0.32.m0.05/fort.200.total.2.csv\
+ ./all_dirs/Ls48.beta0.34.m0.01/fort.200.total.1.csv\
+ ./all_dirs/Ls48.beta0.34.m0.01/fort.200.total.2.csv\
+ ./all_dirs/Ls48.beta0.34.m0.02/fort.200.total.1.csv\
+ ./all_dirs/Ls48.beta0.34.m0.02/fort.200.total.2.csv\
+ ./all_dirs/Ls48.beta0.34.m0.03/fort.200.total.1.csv\
+ ./all_dirs/Ls48.beta0.34.m0.03/fort.200.total.2.csv\
+ ./all_dirs/Ls48.beta0.34.m0.04/fort.200.total.1.csv\
+ ./all_dirs/Ls48.beta0.34.m0.04/fort.200.total.2.csv\
+ ./all_dirs/Ls48.beta0.34.m0.05/fort.200.total.1.csv\
+ ./all_dirs/Ls48.beta0.34.m0.05/fort.200.total.2.csv\
+ ./all_dirs/Ls48.beta0.36.m0.01/fort.200.total.1.csv\
+ ./all_dirs/Ls48.beta0.36.m0.01/fort.200.total.2.csv\
+ ./all_dirs/Ls48.beta0.36.m0.02/fort.200.total.1.csv\
+ ./all_dirs/Ls48.beta0.36.m0.02/fort.200.total.2.csv\
+ ./all_dirs/Ls48.beta0.36.m0.03/fort.200.total.1.csv\
+ ./all_dirs/Ls48.beta0.36.m0.03/fort.200.total.2.csv\
+ ./all_dirs/Ls48.beta0.36.m0.04/fort.200.total.1.csv\
+ ./all_dirs/Ls48.beta0.36.m0.04/fort.200.total.2.csv\
+ ./all_dirs/Ls48.beta0.36.m0.05/fort.200.total.1.csv\
+ ./all_dirs/Ls48.beta0.36.m0.05/fort.200.total.2.csv\
+ ./all_dirs/Ls48.beta0.38.m0.01/fort.200.total.1.csv\
+ ./all_dirs/Ls48.beta0.38.m0.01/fort.200.total.2.csv\
+ ./all_dirs/Ls48.beta0.38.m0.02/fort.200.total.1.csv\
+ ./all_dirs/Ls48.beta0.38.m0.02/fort.200.total.2.csv\
+ ./all_dirs/Ls48.beta0.38.m0.03/fort.200.total.1.csv\
+ ./all_dirs/Ls48.beta0.38.m0.03/fort.200.total.2.csv\
+ ./all_dirs/Ls48.beta0.38.m0.04/fort.200.total.1.csv\
+ ./all_dirs/Ls48.beta0.38.m0.04/fort.200.total.2.csv\
+ ./all_dirs/Ls48.beta0.38.m0.05/fort.200.total.1.csv\
+ ./all_dirs/Ls48.beta0.38.m0.05/fort.200.total.2.csv\
+ ./all_dirs/Ls48.beta0.40.m0.01/fort.200.total.1.csv\
+ ./all_dirs/Ls48.beta0.40.m0.01/fort.200.total.2.csv\
+ ./all_dirs/Ls48.beta0.40.m0.02/fort.200.total.1.csv\
+ ./all_dirs/Ls48.beta0.40.m0.02/fort.200.total.2.csv\
+ ./all_dirs/Ls48.beta0.40.m0.03/fort.200.total.1.csv\
+ ./all_dirs/Ls48.beta0.40.m0.03/fort.200.total.2.csv\
+ ./all_dirs/Ls48.beta0.40.m0.04/fort.200.total.1.csv\
+ ./all_dirs/Ls48.beta0.40.m0.04/fort.200.total.2.csv\
+ ./all_dirs/Ls48.beta0.40.m0.05/fort.200.total.1.csv\
+ ./all_dirs/Ls48.beta0.40.m0.05/fort.200.total.2.csv\
+ ./all_dirs/Ls48.beta0.42.m0.01/fort.200.total.1.csv\
+ ./all_dirs/Ls48.beta0.42.m0.01/fort.200.total.2.csv\
+ ./all_dirs/Ls48.beta0.42.m0.02/fort.200.total.1.csv\
+ ./all_dirs/Ls48.beta0.42.m0.02/fort.200.total.2.csv\
+ ./all_dirs/Ls48.beta0.42.m0.03/fort.200.total.1.csv\
+ ./all_dirs/Ls48.beta0.42.m0.03/fort.200.total.2.csv\
+ ./all_dirs/Ls48.beta0.42.m0.04/fort.200.total.1.csv\
+ ./all_dirs/Ls48.beta0.42.m0.04/fort.200.total.2.csv\
+ ./all_dirs/Ls48.beta0.42.m0.05/fort.200.total.1.csv\
+ ./all_dirs/Ls48.beta0.42.m0.05/fort.200.total.2.csv\
+ ./all_dirs/Ls48.beta0.44.m0.01/fort.200.total.1.csv\
+ ./all_dirs/Ls48.beta0.44.m0.01/fort.200.total.2.csv\
+ ./all_dirs/Ls48.beta0.44.m0.02/fort.200.total.1.csv\
+ ./all_dirs/Ls48.beta0.44.m0.02/fort.200.total.2.csv\
+ ./all_dirs/Ls48.beta0.44.m0.03/fort.200.total.1.csv\
+ ./all_dirs/Ls48.beta0.44.m0.03/fort.200.total.2.csv\
+ ./all_dirs/Ls48.beta0.44.m0.04/fort.200.total.1.csv\
+ ./all_dirs/Ls48.beta0.44.m0.04/fort.200.total.2.csv\
+ ./all_dirs/Ls48.beta0.44.m0.05/fort.200.total.1.csv\
+ ./all_dirs/Ls48.beta0.44.m0.05/fort.200.total.2.csv\
+ ./all_dirs/Ls48.beta0.46.m0.01/fort.200.total.1.csv\
+ ./all_dirs/Ls48.beta0.46.m0.01/fort.200.total.2.csv\
+ ./all_dirs/Ls48.beta0.46.m0.02/fort.200.total.1.csv\
+ ./all_dirs/Ls48.beta0.46.m0.02/fort.200.total.2.csv\
+ ./all_dirs/Ls48.beta0.46.m0.03/fort.200.total.1.csv\
+ ./all_dirs/Ls48.beta0.46.m0.03/fort.200.total.2.csv\
+ ./all_dirs/Ls48.beta0.46.m0.04/fort.200.total.1.csv\
+ ./all_dirs/Ls48.beta0.46.m0.04/fort.200.total.2.csv\
+ ./all_dirs/Ls48.beta0.46.m0.05/fort.200.total.1.csv\
+ ./all_dirs/Ls48.beta0.46.m0.05/fort.200.total.2.csv\
+ ./all_dirs/Ls48.beta0.55.m0.01/fort.200.total.1.csv\
+ ./all_dirs/Ls48.beta0.55.m0.01/fort.200.total.2.csv\
+ ./all_dirs/Ls48.beta0.55.m0.02/fort.200.total.1.csv\
+ ./all_dirs/Ls48.beta0.55.m0.02/fort.200.total.2.csv\
+ ./all_dirs/Ls48.beta0.55.m0.03/fort.200.total.1.csv\
+ ./all_dirs/Ls48.beta0.55.m0.03/fort.200.total.2.csv\
+ ./all_dirs/Ls48.beta0.55.m0.04/fort.200.total.1.csv\
+ ./all_dirs/Ls48.beta0.55.m0.04/fort.200.total.2.csv\
+ ./all_dirs/Ls48.beta0.55.m0.05/fort.200.total.1.csv\
+ ./all_dirs/Ls48.beta0.55.m0.05/fort.200.total.2.csv ./fort.200.analysis.set
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/eos_fit_v2.py fort.200.analysis.set 40 12 --savefig
 
