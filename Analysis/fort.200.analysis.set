@@ -1,301 +1,376 @@
-filename	thermalization	blocksize	measevery
-all_dirs/Ls32.beta0.30.m0.01/fort.200.total.1.csv	100	30	5
-all_dirs/Ls32.beta0.30.m0.01/fort.200.total.2.csv	100	30	5
-all_dirs/Ls32.beta0.30.m0.02/fort.200.total.1.csv	100	45	5
-all_dirs/Ls32.beta0.30.m0.02/fort.200.total.2.csv	100	45	5
-all_dirs/Ls32.beta0.30.m0.03/fort.200.total.1.csv	120	55	5
-all_dirs/Ls32.beta0.30.m0.03/fort.200.total.2.csv	120	55	5
-all_dirs/Ls32.beta0.30.m0.04/fort.200.total.1.csv	100	45	5
-all_dirs/Ls32.beta0.30.m0.04/fort.200.total.2.csv	100	45	5
-all_dirs/Ls32.beta0.30.m0.05/fort.200.total.1.csv	100	45	5
-all_dirs/Ls32.beta0.30.m0.05/fort.200.total.2.csv	100	45	5
-all_dirs/Ls32.beta0.32.m0.01/fort.200.total.1.csv	150	150	5
-all_dirs/Ls32.beta0.32.m0.01/fort.200.total.2.csv	150	150	5
-all_dirs/Ls32.beta0.32.m0.02/fort.200.total.1.csv	150	100	5
-all_dirs/Ls32.beta0.32.m0.02/fort.200.total.2.csv	150	100	5
-all_dirs/Ls32.beta0.32.m0.03/fort.200.total.1.csv	150	50	5
-all_dirs/Ls32.beta0.32.m0.03/fort.200.total.2.csv	150	50	5
-all_dirs/Ls32.beta0.32.m0.04/fort.200.total.1.csv	150	50	5
-all_dirs/Ls32.beta0.32.m0.04/fort.200.total.2.csv	150	50	5
-all_dirs/Ls32.beta0.32.m0.05/fort.200.total.1.csv	150	50	5
-all_dirs/Ls32.beta0.32.m0.05/fort.200.total.2.csv	150	50	5
-all_dirs/Ls32.beta0.34.m0.01/fort.200.total.1.csv	150	100	5
-all_dirs/Ls32.beta0.34.m0.01/fort.200.total.2.csv	150	100	5
-all_dirs/Ls32.beta0.34.m0.02/fort.200.total.1.csv	150	75	5
-all_dirs/Ls32.beta0.34.m0.02/fort.200.total.2.csv	150	75	5
-all_dirs/Ls32.beta0.34.m0.03/fort.200.total.1.csv	150	75	5
-all_dirs/Ls32.beta0.34.m0.03/fort.200.total.2.csv	150	75	5
-all_dirs/Ls32.beta0.34.m0.04/fort.200.total.1.csv	150	75	5
-all_dirs/Ls32.beta0.34.m0.04/fort.200.total.2.csv	150	75	5
-all_dirs/Ls32.beta0.34.m0.05/fort.200.total.1.csv	150	150	5
-all_dirs/Ls32.beta0.34.m0.05/fort.200.total.2.csv	150	150	5
-all_dirs/Ls32.beta0.36.m0.01/fort.200.total.1.csv	150	100	5
-all_dirs/Ls32.beta0.36.m0.01/fort.200.total.2.csv	150	100	5
-all_dirs/Ls32.beta0.36.m0.02/fort.200.total.1.csv	150	100	5
-all_dirs/Ls32.beta0.36.m0.02/fort.200.total.2.csv	150	100	5
-all_dirs/Ls32.beta0.36.m0.03/fort.200.total.1.csv	150	100	5
-all_dirs/Ls32.beta0.36.m0.03/fort.200.total.2.csv	150	100	5
-all_dirs/Ls32.beta0.36.m0.04/fort.200.total.1.csv	150	100	5
-all_dirs/Ls32.beta0.36.m0.04/fort.200.total.2.csv	150	100	5
-all_dirs/Ls32.beta0.36.m0.05/fort.200.total.1.csv	150	100	5
-all_dirs/Ls32.beta0.36.m0.05/fort.200.total.2.csv	150	100	5
-all_dirs/Ls32.beta0.38.m0.01/fort.200.total.1.csv	150	100	5
-all_dirs/Ls32.beta0.38.m0.01/fort.200.total.2.csv	150	100	5
-all_dirs/Ls32.beta0.38.m0.02/fort.200.total.1.csv	150	100	5
-all_dirs/Ls32.beta0.38.m0.02/fort.200.total.2.csv	150	100	5
-all_dirs/Ls32.beta0.38.m0.03/fort.200.total.1.csv	150	100	5
-all_dirs/Ls32.beta0.38.m0.03/fort.200.total.2.csv	150	100	5
-all_dirs/Ls32.beta0.38.m0.04/fort.200.total.1.csv	150	100	5
-all_dirs/Ls32.beta0.38.m0.04/fort.200.total.2.csv	150	100	5
-all_dirs/Ls32.beta0.38.m0.05/fort.200.total.1.csv	150	100	5
-all_dirs/Ls32.beta0.38.m0.05/fort.200.total.2.csv	150	100	5
-all_dirs/Ls32.beta0.40.m0.01/fort.200.total.1.csv	150	100	5
-all_dirs/Ls32.beta0.40.m0.01/fort.200.total.2.csv	150	100	5
-all_dirs/Ls32.beta0.40.m0.02/fort.200.total.1.csv	150	100	5
-all_dirs/Ls32.beta0.40.m0.02/fort.200.total.2.csv	150	100	5
-all_dirs/Ls32.beta0.40.m0.03/fort.200.total.1.csv	150	100	5
-all_dirs/Ls32.beta0.40.m0.03/fort.200.total.2.csv	150	100	5
-all_dirs/Ls32.beta0.40.m0.04/fort.200.total.1.csv	150	100	5
-all_dirs/Ls32.beta0.40.m0.04/fort.200.total.2.csv	150	100	5
-all_dirs/Ls32.beta0.40.m0.05/fort.200.total.1.csv	150	100	5
-all_dirs/Ls32.beta0.40.m0.05/fort.200.total.2.csv	150	100	5
-all_dirs/Ls32.beta0.42.m0.01/fort.200.total.1.csv	150	100	5
-all_dirs/Ls32.beta0.42.m0.01/fort.200.total.2.csv	150	100	5
-all_dirs/Ls32.beta0.42.m0.02/fort.200.total.1.csv	150	100	5
-all_dirs/Ls32.beta0.42.m0.02/fort.200.total.2.csv	150	100	5
-all_dirs/Ls32.beta0.42.m0.03/fort.200.total.1.csv	150	100	5
-all_dirs/Ls32.beta0.42.m0.03/fort.200.total.2.csv	150	100	5
-all_dirs/Ls32.beta0.42.m0.04/fort.200.total.1.csv	150	100	5
-all_dirs/Ls32.beta0.42.m0.04/fort.200.total.2.csv	150	100	5
-all_dirs/Ls32.beta0.42.m0.05/fort.200.total.1.csv	150	100	5
-all_dirs/Ls32.beta0.42.m0.05/fort.200.total.2.csv	150	100	5
-all_dirs/Ls32.beta0.44.m0.01/fort.200.total.1.csv	100	35	5
-all_dirs/Ls32.beta0.44.m0.01/fort.200.total.2.csv	100	35	5
-all_dirs/Ls32.beta0.44.m0.02/fort.200.total.1.csv	120	35	5
-all_dirs/Ls32.beta0.44.m0.02/fort.200.total.2.csv	120	35	5
-all_dirs/Ls32.beta0.44.m0.03/fort.200.total.1.csv	120	45	5
-all_dirs/Ls32.beta0.44.m0.03/fort.200.total.2.csv	120	45	5
-all_dirs/Ls32.beta0.44.m0.04/fort.200.total.1.csv	100	45	5
-all_dirs/Ls32.beta0.44.m0.04/fort.200.total.2.csv	100	45	5
-all_dirs/Ls32.beta0.44.m0.05/fort.200.total.1.csv	100	45	5
-all_dirs/Ls32.beta0.44.m0.05/fort.200.total.2.csv	100	45	5
-all_dirs/Ls32.beta0.46.m0.01/fort.200.total.1.csv	100	30	5
-all_dirs/Ls32.beta0.46.m0.01/fort.200.total.2.csv	100	30	5
-all_dirs/Ls32.beta0.46.m0.02/fort.200.total.1.csv	100	35	5
-all_dirs/Ls32.beta0.46.m0.02/fort.200.total.2.csv	100	35	5
-all_dirs/Ls32.beta0.46.m0.03/fort.200.total.1.csv	100	35	5
-all_dirs/Ls32.beta0.46.m0.03/fort.200.total.2.csv	100	35	5
-all_dirs/Ls32.beta0.46.m0.04/fort.200.total.1.csv	100	35	5
-all_dirs/Ls32.beta0.46.m0.04/fort.200.total.2.csv	100	35	5
-all_dirs/Ls32.beta0.46.m0.05/fort.200.total.1.csv	100	30	5
-all_dirs/Ls32.beta0.46.m0.05/fort.200.total.2.csv	100	30	5
-all_dirs/Ls32.beta0.55.m0.01/fort.200.total.1.csv	100	35	5
-all_dirs/Ls32.beta0.55.m0.01/fort.200.total.2.csv	100	35	5
-all_dirs/Ls32.beta0.55.m0.02/fort.200.total.1.csv	150	45	5
-all_dirs/Ls32.beta0.55.m0.02/fort.200.total.2.csv	150	45	5
-all_dirs/Ls32.beta0.55.m0.03/fort.200.total.1.csv	100	45	5
-all_dirs/Ls32.beta0.55.m0.03/fort.200.total.2.csv	100	45	5
-all_dirs/Ls32.beta0.55.m0.04/fort.200.total.1.csv	100	55	5
-all_dirs/Ls32.beta0.55.m0.04/fort.200.total.2.csv	100	55	5
-all_dirs/Ls32.beta0.55.m0.05/fort.200.total.1.csv	100	35	5
-all_dirs/Ls32.beta0.55.m0.05/fort.200.total.2.csv	100	35	5
-all_dirs/Ls40.beta0.30.m0.01/fort.200.total.1.csv	10	10	5
-all_dirs/Ls40.beta0.30.m0.01/fort.200.total.2.csv	10	10	5
-all_dirs/Ls40.beta0.30.m0.02/fort.200.total.1.csv	100	10	5
-all_dirs/Ls40.beta0.30.m0.02/fort.200.total.2.csv	100	10	5
-all_dirs/Ls40.beta0.30.m0.03/fort.200.total.1.csv	100	25	5
-all_dirs/Ls40.beta0.30.m0.03/fort.200.total.2.csv	100	25	5
-all_dirs/Ls40.beta0.30.m0.04/fort.200.total.1.csv	100	35	5
-all_dirs/Ls40.beta0.30.m0.04/fort.200.total.2.csv	100	35	5
-all_dirs/Ls40.beta0.30.m0.05/fort.200.total.1.csv	100	25	5
-all_dirs/Ls40.beta0.30.m0.05/fort.200.total.2.csv	100	25	5
-all_dirs/Ls40.beta0.32.m0.01/fort.200.total.1.csv	150	100	5
-all_dirs/Ls40.beta0.32.m0.01/fort.200.total.2.csv	150	100	5
-all_dirs/Ls40.beta0.32.m0.02/fort.200.total.1.csv	150	100	5
-all_dirs/Ls40.beta0.32.m0.02/fort.200.total.2.csv	150	100	5
-all_dirs/Ls40.beta0.32.m0.03/fort.200.total.1.csv	150	100	5
-all_dirs/Ls40.beta0.32.m0.03/fort.200.total.2.csv	150	100	5
-all_dirs/Ls40.beta0.32.m0.04/fort.200.total.1.csv	150	100	5
-all_dirs/Ls40.beta0.32.m0.04/fort.200.total.2.csv	150	100	5
-all_dirs/Ls40.beta0.32.m0.05/fort.200.total.1.csv	150	100	5
-all_dirs/Ls40.beta0.32.m0.05/fort.200.total.2.csv	150	100	5
-all_dirs/Ls40.beta0.34.m0.01/fort.200.total.1.csv	150	100	5
-all_dirs/Ls40.beta0.34.m0.01/fort.200.total.2.csv	150	100	5
-all_dirs/Ls40.beta0.34.m0.02/fort.200.total.1.csv	150	100	5
-all_dirs/Ls40.beta0.34.m0.02/fort.200.total.2.csv	150	100	5
-all_dirs/Ls40.beta0.34.m0.03/fort.200.total.1.csv	150	100	5
-all_dirs/Ls40.beta0.34.m0.03/fort.200.total.2.csv	150	100	5
-all_dirs/Ls40.beta0.34.m0.04/fort.200.total.1.csv	150	100	5
-all_dirs/Ls40.beta0.34.m0.04/fort.200.total.2.csv	150	100	5
-all_dirs/Ls40.beta0.34.m0.05/fort.200.total.1.csv	150	100	5
-all_dirs/Ls40.beta0.34.m0.05/fort.200.total.2.csv	150	100	5
-all_dirs/Ls40.beta0.36.m0.01/fort.200.total.1.csv	150	100	5
-all_dirs/Ls40.beta0.36.m0.01/fort.200.total.2.csv	150	100	5
-all_dirs/Ls40.beta0.36.m0.02/fort.200.total.1.csv	150	100	5
-all_dirs/Ls40.beta0.36.m0.02/fort.200.total.2.csv	150	100	5
-all_dirs/Ls40.beta0.36.m0.03/fort.200.total.1.csv	150	100	5
-all_dirs/Ls40.beta0.36.m0.03/fort.200.total.2.csv	150	100	5
-all_dirs/Ls40.beta0.36.m0.04/fort.200.total.1.csv	150	100	5
-all_dirs/Ls40.beta0.36.m0.04/fort.200.total.2.csv	150	100	5
-all_dirs/Ls40.beta0.36.m0.05/fort.200.total.1.csv	150	100	5
-all_dirs/Ls40.beta0.36.m0.05/fort.200.total.2.csv	150	100	5
-all_dirs/Ls40.beta0.38.m0.01/fort.200.total.1.csv	150	50	5
-all_dirs/Ls40.beta0.38.m0.01/fort.200.total.2.csv	150	50	5
-all_dirs/Ls40.beta0.38.m0.02/fort.200.total.1.csv	150	50	5
-all_dirs/Ls40.beta0.38.m0.02/fort.200.total.2.csv	150	50	5
-all_dirs/Ls40.beta0.38.m0.03/fort.200.total.1.csv	150	50	5
-all_dirs/Ls40.beta0.38.m0.03/fort.200.total.2.csv	150	50	5
-all_dirs/Ls40.beta0.38.m0.04/fort.200.total.1.csv	150	100	5
-all_dirs/Ls40.beta0.38.m0.04/fort.200.total.2.csv	150	100	5
-all_dirs/Ls40.beta0.38.m0.05/fort.200.total.1.csv	150	100	5
-all_dirs/Ls40.beta0.38.m0.05/fort.200.total.2.csv	150	100	5
-all_dirs/Ls40.beta0.40.m0.01/fort.200.total.1.csv	150	50	5
-all_dirs/Ls40.beta0.40.m0.01/fort.200.total.2.csv	150	50	5
-all_dirs/Ls40.beta0.40.m0.02/fort.200.total.1.csv	150	50	5
-all_dirs/Ls40.beta0.40.m0.02/fort.200.total.2.csv	150	50	5
-all_dirs/Ls40.beta0.40.m0.03/fort.200.total.1.csv	150	100	5
-all_dirs/Ls40.beta0.40.m0.03/fort.200.total.2.csv	150	100	5
-all_dirs/Ls40.beta0.40.m0.04/fort.200.total.1.csv	150	100	5
-all_dirs/Ls40.beta0.40.m0.04/fort.200.total.2.csv	150	100	5
-all_dirs/Ls40.beta0.40.m0.05/fort.200.total.1.csv	150	50	5
-all_dirs/Ls40.beta0.40.m0.05/fort.200.total.2.csv	150	50	5
-all_dirs/Ls40.beta0.42.m0.01/fort.200.total.1.csv	150	100	5
-all_dirs/Ls40.beta0.42.m0.01/fort.200.total.2.csv	150	100	5
-all_dirs/Ls40.beta0.42.m0.02/fort.200.total.1.csv	150	100	5
-all_dirs/Ls40.beta0.42.m0.02/fort.200.total.2.csv	150	100	5
-all_dirs/Ls40.beta0.42.m0.03/fort.200.total.1.csv	150	50	5
-all_dirs/Ls40.beta0.42.m0.03/fort.200.total.2.csv	150	50	5
-all_dirs/Ls40.beta0.42.m0.04/fort.200.total.1.csv	150	50	5
-all_dirs/Ls40.beta0.42.m0.04/fort.200.total.2.csv	150	50	5
-all_dirs/Ls40.beta0.42.m0.05/fort.200.total.1.csv	150	50	5
-all_dirs/Ls40.beta0.42.m0.05/fort.200.total.2.csv	150	50	5
-all_dirs/Ls40.beta0.44.m0.01/fort.200.total.1.csv	100	35	5
-all_dirs/Ls40.beta0.44.m0.01/fort.200.total.2.csv	100	35	5
-all_dirs/Ls40.beta0.44.m0.02/fort.200.total.1.csv	100	25	5
-all_dirs/Ls40.beta0.44.m0.02/fort.200.total.2.csv	100	25	5
-all_dirs/Ls40.beta0.44.m0.03/fort.200.total.1.csv	100	25	5
-all_dirs/Ls40.beta0.44.m0.03/fort.200.total.2.csv	100	25	5
-all_dirs/Ls40.beta0.44.m0.04/fort.200.total.1.csv	100	35	5
-all_dirs/Ls40.beta0.44.m0.04/fort.200.total.2.csv	100	35	5
-all_dirs/Ls40.beta0.44.m0.05/fort.200.total.1.csv	100	35	5
-all_dirs/Ls40.beta0.44.m0.05/fort.200.total.2.csv	100	35	5
-all_dirs/Ls40.beta0.46.m0.01/fort.200.total.1.csv	100	35	5
-all_dirs/Ls40.beta0.46.m0.01/fort.200.total.2.csv	100	35	5
-all_dirs/Ls40.beta0.46.m0.02/fort.200.total.1.csv	100	35	5
-all_dirs/Ls40.beta0.46.m0.02/fort.200.total.2.csv	100	35	5
-all_dirs/Ls40.beta0.46.m0.03/fort.200.total.1.csv	100	45	5
-all_dirs/Ls40.beta0.46.m0.03/fort.200.total.2.csv	100	45	5
-all_dirs/Ls40.beta0.46.m0.04/fort.200.total.1.csv	100	35	5
-all_dirs/Ls40.beta0.46.m0.04/fort.200.total.2.csv	100	35	5
-all_dirs/Ls40.beta0.46.m0.05/fort.200.total.1.csv	100	45	5
-all_dirs/Ls40.beta0.46.m0.05/fort.200.total.2.csv	100	45	5
-all_dirs/Ls40.beta0.55.m0.01/fort.200.total.1.csv	120	35	5
-all_dirs/Ls40.beta0.55.m0.01/fort.200.total.2.csv	120	35	5
-all_dirs/Ls40.beta0.55.m0.02/fort.200.total.1.csv	100	35	5
-all_dirs/Ls40.beta0.55.m0.02/fort.200.total.2.csv	100	35	5
-all_dirs/Ls40.beta0.55.m0.03/fort.200.total.1.csv	100	25	5
-all_dirs/Ls40.beta0.55.m0.03/fort.200.total.2.csv	100	25	5
-all_dirs/Ls40.beta0.55.m0.04/fort.200.total.1.csv	100	35	5
-all_dirs/Ls40.beta0.55.m0.04/fort.200.total.2.csv	100	35	5
-all_dirs/Ls40.beta0.55.m0.05/fort.200.total.1.csv	100	45	5
-all_dirs/Ls40.beta0.55.m0.05/fort.200.total.2.csv	100	45	5
-all_dirs/Ls48.beta0.30.m0.01/fort.200.total.1.csv	100	10	5
-all_dirs/Ls48.beta0.30.m0.01/fort.200.total.2.csv	100	10	5
-all_dirs/Ls48.beta0.30.m0.02/fort.200.total.1.csv	100	10	5
-all_dirs/Ls48.beta0.30.m0.02/fort.200.total.2.csv	100	10	5
-all_dirs/Ls48.beta0.30.m0.03/fort.200.total.1.csv	100	10	5
-all_dirs/Ls48.beta0.30.m0.03/fort.200.total.2.csv	100	10	5
-all_dirs/Ls48.beta0.30.m0.04/fort.200.total.1.csv	100	10	5
-all_dirs/Ls48.beta0.30.m0.04/fort.200.total.2.csv	100	10	5
-all_dirs/Ls48.beta0.30.m0.05/fort.200.total.1.csv	100	10	5
-all_dirs/Ls48.beta0.30.m0.05/fort.200.total.2.csv	100	10	5
-all_dirs/Ls48.beta0.32.m0.01/fort.200.total.1.csv	150	75	5
-all_dirs/Ls48.beta0.32.m0.01/fort.200.total.2.csv	150	75	5
-all_dirs/Ls48.beta0.32.m0.02/fort.200.total.1.csv	150	75	5
-all_dirs/Ls48.beta0.32.m0.02/fort.200.total.2.csv	150	75	5
-all_dirs/Ls48.beta0.32.m0.03/fort.200.total.1.csv	150	50	5
-all_dirs/Ls48.beta0.32.m0.03/fort.200.total.2.csv	150	50	5
-all_dirs/Ls48.beta0.32.m0.04/fort.200.total.1.csv	150	50	5
-all_dirs/Ls48.beta0.32.m0.04/fort.200.total.2.csv	150	50	5
-all_dirs/Ls48.beta0.32.m0.05/fort.200.total.1.csv	150	50	5
-all_dirs/Ls48.beta0.32.m0.05/fort.200.total.2.csv	150	50	5
-all_dirs/Ls48.beta0.34.m0.01/fort.200.total.1.csv	100	100	5
-all_dirs/Ls48.beta0.34.m0.01/fort.200.total.2.csv	100	100	5
-all_dirs/Ls48.beta0.34.m0.02/fort.200.total.1.csv	100	75	5
-all_dirs/Ls48.beta0.34.m0.02/fort.200.total.2.csv	100	75	5
-all_dirs/Ls48.beta0.34.m0.03/fort.200.total.1.csv	100	50	5
-all_dirs/Ls48.beta0.34.m0.03/fort.200.total.2.csv	100	50	5
-all_dirs/Ls48.beta0.34.m0.04/fort.200.total.1.csv	100	50	5
-all_dirs/Ls48.beta0.34.m0.04/fort.200.total.2.csv	100	50	5
-all_dirs/Ls48.beta0.34.m0.05/fort.200.total.1.csv	100	50	5
-all_dirs/Ls48.beta0.34.m0.05/fort.200.total.2.csv	100	50	5
-all_dirs/Ls48.beta0.36.m0.01/fort.200.total.1.csv	100	50	5
-all_dirs/Ls48.beta0.36.m0.01/fort.200.total.2.csv	100	50	5
-all_dirs/Ls48.beta0.36.m0.02/fort.200.total.1.csv	100	100	5
-all_dirs/Ls48.beta0.36.m0.02/fort.200.total.2.csv	100	100	5
-all_dirs/Ls48.beta0.36.m0.03/fort.200.total.1.csv	100	100	5
-all_dirs/Ls48.beta0.36.m0.03/fort.200.total.2.csv	100	100	5
-all_dirs/Ls48.beta0.36.m0.04/fort.200.total.1.csv	100	100	5
-all_dirs/Ls48.beta0.36.m0.04/fort.200.total.2.csv	100	100	5
-all_dirs/Ls48.beta0.36.m0.05/fort.200.total.1.csv	100	50	5
-all_dirs/Ls48.beta0.36.m0.05/fort.200.total.2.csv	100	50	5
-all_dirs/Ls48.beta0.38.m0.01/fort.200.total.1.csv	100	50	5
-all_dirs/Ls48.beta0.38.m0.01/fort.200.total.2.csv	100	50	5
-all_dirs/Ls48.beta0.38.m0.02/fort.200.total.1.csv	100	50	5
-all_dirs/Ls48.beta0.38.m0.02/fort.200.total.2.csv	100	50	5
-all_dirs/Ls48.beta0.38.m0.03/fort.200.total.1.csv	100	50	5
-all_dirs/Ls48.beta0.38.m0.03/fort.200.total.2.csv	100	50	5
-all_dirs/Ls48.beta0.38.m0.04/fort.200.total.1.csv	100	50	5
-all_dirs/Ls48.beta0.38.m0.04/fort.200.total.2.csv	100	50	5
-all_dirs/Ls48.beta0.38.m0.05/fort.200.total.1.csv	100	50	5
-all_dirs/Ls48.beta0.38.m0.05/fort.200.total.2.csv	100	50	5
-all_dirs/Ls48.beta0.40.m0.01/fort.200.total.1.csv	100	50	5
-all_dirs/Ls48.beta0.40.m0.01/fort.200.total.2.csv	100	50	5
-all_dirs/Ls48.beta0.40.m0.02/fort.200.total.1.csv	100	50	5
-all_dirs/Ls48.beta0.40.m0.02/fort.200.total.2.csv	100	50	5
-all_dirs/Ls48.beta0.40.m0.03/fort.200.total.1.csv	100	50	5
-all_dirs/Ls48.beta0.40.m0.03/fort.200.total.2.csv	100	50	5
-all_dirs/Ls48.beta0.40.m0.04/fort.200.total.1.csv	100	50	5
-all_dirs/Ls48.beta0.40.m0.04/fort.200.total.2.csv	100	50	5
-all_dirs/Ls48.beta0.40.m0.05/fort.200.total.1.csv	100	50	5
-all_dirs/Ls48.beta0.40.m0.05/fort.200.total.2.csv	100	50	5
-all_dirs/Ls48.beta0.42.m0.01/fort.200.total.1.csv	100	50	5
-all_dirs/Ls48.beta0.42.m0.01/fort.200.total.2.csv	100	50	5
-all_dirs/Ls48.beta0.42.m0.02/fort.200.total.1.csv	100	50	5
-all_dirs/Ls48.beta0.42.m0.02/fort.200.total.2.csv	100	50	5
-all_dirs/Ls48.beta0.42.m0.03/fort.200.total.1.csv	100	50	5
-all_dirs/Ls48.beta0.42.m0.03/fort.200.total.2.csv	100	50	5
-all_dirs/Ls48.beta0.42.m0.04/fort.200.total.1.csv	100	50	5
-all_dirs/Ls48.beta0.42.m0.04/fort.200.total.2.csv	100	50	5
-all_dirs/Ls48.beta0.42.m0.05/fort.200.total.1.csv	100	50	5
-all_dirs/Ls48.beta0.42.m0.05/fort.200.total.2.csv	100	50	5
-all_dirs/Ls48.beta0.44.m0.01/fort.200.total.1.csv	100	25	5
-all_dirs/Ls48.beta0.44.m0.01/fort.200.total.2.csv	100	25	5
-all_dirs/Ls48.beta0.44.m0.02/fort.200.total.1.csv	100	25	5
-all_dirs/Ls48.beta0.44.m0.02/fort.200.total.2.csv	100	25	5
-all_dirs/Ls48.beta0.44.m0.03/fort.200.total.1.csv	100	25	5
-all_dirs/Ls48.beta0.44.m0.03/fort.200.total.2.csv	100	25	5
-all_dirs/Ls48.beta0.44.m0.04/fort.200.total.1.csv	100	25	5
-all_dirs/Ls48.beta0.44.m0.04/fort.200.total.2.csv	100	25	5
-all_dirs/Ls48.beta0.44.m0.05/fort.200.total.1.csv	100	25	5
-all_dirs/Ls48.beta0.44.m0.05/fort.200.total.2.csv	100	25	5
-all_dirs/Ls48.beta0.46.m0.01/fort.200.total.1.csv	100	25	5
-all_dirs/Ls48.beta0.46.m0.01/fort.200.total.2.csv	100	25	5
-all_dirs/Ls48.beta0.46.m0.02/fort.200.total.1.csv	100	25	5
-all_dirs/Ls48.beta0.46.m0.02/fort.200.total.2.csv	100	25	5
-all_dirs/Ls48.beta0.46.m0.03/fort.200.total.1.csv	100	25	5
-all_dirs/Ls48.beta0.46.m0.03/fort.200.total.2.csv	100	25	5
-all_dirs/Ls48.beta0.46.m0.04/fort.200.total.1.csv	100	10	5
-all_dirs/Ls48.beta0.46.m0.04/fort.200.total.2.csv	100	10	5
-all_dirs/Ls48.beta0.46.m0.05/fort.200.total.1.csv	100	35	5
-all_dirs/Ls48.beta0.46.m0.05/fort.200.total.2.csv	100	35	5
-all_dirs/Ls48.beta0.55.m0.01/fort.200.total.1.csv	100	25	5
-all_dirs/Ls48.beta0.55.m0.01/fort.200.total.2.csv	100	25	5
-all_dirs/Ls48.beta0.55.m0.02/fort.200.total.1.csv	100	45	5
-all_dirs/Ls48.beta0.55.m0.02/fort.200.total.2.csv	100	45	5
-all_dirs/Ls48.beta0.55.m0.03/fort.200.total.1.csv	100	35	5
-all_dirs/Ls48.beta0.55.m0.03/fort.200.total.2.csv	100	35	5
-all_dirs/Ls48.beta0.55.m0.04/fort.200.total.1.csv	100	45	5
-all_dirs/Ls48.beta0.55.m0.04/fort.200.total.2.csv	100	45	5
-all_dirs/Ls48.beta0.55.m0.05/fort.200.total.1.csv	100	45	5
-all_dirs/Ls48.beta0.55.m0.05/fort.200.total.2.csv	100	45	5
+L	filename	thermalization	blocksize	measevery
+12	all_dirs/Ls32.beta0.30.m0.01/fort.200.total.1.csv	100	30	5
+12	all_dirs/Ls32.beta0.30.m0.01/fort.200.total.2.csv	100	30	5
+12	all_dirs/Ls32.beta0.30.m0.02/fort.200.total.1.csv	100	45	5
+12	all_dirs/Ls32.beta0.30.m0.02/fort.200.total.2.csv	100	45	5
+12	all_dirs/Ls32.beta0.30.m0.03/fort.200.total.1.csv	120	55	5
+12	all_dirs/Ls32.beta0.30.m0.03/fort.200.total.2.csv	120	55	5
+12	all_dirs/Ls32.beta0.30.m0.04/fort.200.total.1.csv	100	45	5
+12	all_dirs/Ls32.beta0.30.m0.04/fort.200.total.2.csv	100	45	5
+12	all_dirs/Ls32.beta0.30.m0.05/fort.200.total.1.csv	100	45	5
+12	all_dirs/Ls32.beta0.30.m0.05/fort.200.total.2.csv	100	45	5
+12	all_dirs/Ls32.beta0.32.m0.01/fort.200.total.1.csv	150	150	5
+12	all_dirs/Ls32.beta0.32.m0.01/fort.200.total.2.csv	150	150	5
+12	all_dirs/Ls32.beta0.32.m0.02/fort.200.total.1.csv	150	100	5
+12	all_dirs/Ls32.beta0.32.m0.02/fort.200.total.2.csv	150	100	5
+12	all_dirs/Ls32.beta0.32.m0.03/fort.200.total.1.csv	150	50	5
+12	all_dirs/Ls32.beta0.32.m0.03/fort.200.total.2.csv	150	50	5
+12	all_dirs/Ls32.beta0.32.m0.04/fort.200.total.1.csv	150	50	5
+12	all_dirs/Ls32.beta0.32.m0.04/fort.200.total.2.csv	150	50	5
+12	all_dirs/Ls32.beta0.32.m0.05/fort.200.total.1.csv	150	50	5
+12	all_dirs/Ls32.beta0.32.m0.05/fort.200.total.2.csv	150	50	5
+12	all_dirs/Ls32.beta0.34.m0.01/fort.200.total.1.csv	150	100	5
+12	all_dirs/Ls32.beta0.34.m0.01/fort.200.total.2.csv	150	100	5
+12	all_dirs/Ls32.beta0.34.m0.02/fort.200.total.1.csv	150	75	5
+12	all_dirs/Ls32.beta0.34.m0.02/fort.200.total.2.csv	150	75	5
+12	all_dirs/Ls32.beta0.34.m0.03/fort.200.total.1.csv	150	75	5
+12	all_dirs/Ls32.beta0.34.m0.03/fort.200.total.2.csv	150	75	5
+12	all_dirs/Ls32.beta0.34.m0.04/fort.200.total.1.csv	150	75	5
+12	all_dirs/Ls32.beta0.34.m0.04/fort.200.total.2.csv	150	75	5
+12	all_dirs/Ls32.beta0.34.m0.05/fort.200.total.1.csv	150	150	5
+12	all_dirs/Ls32.beta0.34.m0.05/fort.200.total.2.csv	150	150	5
+12	all_dirs/Ls32.beta0.36.m0.01/fort.200.total.1.csv	150	100	5
+12	all_dirs/Ls32.beta0.36.m0.01/fort.200.total.2.csv	150	100	5
+12	all_dirs/Ls32.beta0.36.m0.02/fort.200.total.1.csv	150	100	5
+12	all_dirs/Ls32.beta0.36.m0.02/fort.200.total.2.csv	150	100	5
+12	all_dirs/Ls32.beta0.36.m0.03/fort.200.total.1.csv	150	100	5
+12	all_dirs/Ls32.beta0.36.m0.03/fort.200.total.2.csv	150	100	5
+12	all_dirs/Ls32.beta0.36.m0.04/fort.200.total.1.csv	150	100	5
+12	all_dirs/Ls32.beta0.36.m0.04/fort.200.total.2.csv	150	100	5
+12	all_dirs/Ls32.beta0.36.m0.05/fort.200.total.1.csv	150	100	5
+12	all_dirs/Ls32.beta0.36.m0.05/fort.200.total.2.csv	150	100	5
+12	all_dirs/Ls32.beta0.38.m0.01/fort.200.total.1.csv	150	100	5
+12	all_dirs/Ls32.beta0.38.m0.01/fort.200.total.2.csv	150	100	5
+12	all_dirs/Ls32.beta0.38.m0.02/fort.200.total.1.csv	150	100	5
+12	all_dirs/Ls32.beta0.38.m0.02/fort.200.total.2.csv	150	100	5
+12	all_dirs/Ls32.beta0.38.m0.03/fort.200.total.1.csv	150	100	5
+12	all_dirs/Ls32.beta0.38.m0.03/fort.200.total.2.csv	150	100	5
+12	all_dirs/Ls32.beta0.38.m0.04/fort.200.total.1.csv	150	100	5
+12	all_dirs/Ls32.beta0.38.m0.04/fort.200.total.2.csv	150	100	5
+12	all_dirs/Ls32.beta0.38.m0.05/fort.200.total.1.csv	150	100	5
+12	all_dirs/Ls32.beta0.38.m0.05/fort.200.total.2.csv	150	100	5
+12	all_dirs/Ls32.beta0.40.m0.01/fort.200.total.1.csv	150	100	5
+12	all_dirs/Ls32.beta0.40.m0.01/fort.200.total.2.csv	150	100	5
+12	all_dirs/Ls32.beta0.40.m0.02/fort.200.total.1.csv	150	100	5
+12	all_dirs/Ls32.beta0.40.m0.02/fort.200.total.2.csv	150	100	5
+12	all_dirs/Ls32.beta0.40.m0.03/fort.200.total.1.csv	150	100	5
+12	all_dirs/Ls32.beta0.40.m0.03/fort.200.total.2.csv	150	100	5
+12	all_dirs/Ls32.beta0.40.m0.04/fort.200.total.1.csv	150	100	5
+12	all_dirs/Ls32.beta0.40.m0.04/fort.200.total.2.csv	150	100	5
+12	all_dirs/Ls32.beta0.40.m0.05/fort.200.total.1.csv	150	100	5
+12	all_dirs/Ls32.beta0.40.m0.05/fort.200.total.2.csv	150	100	5
+12	all_dirs/Ls32.beta0.42.m0.01/fort.200.total.1.csv	150	100	5
+12	all_dirs/Ls32.beta0.42.m0.01/fort.200.total.2.csv	150	100	5
+12	all_dirs/Ls32.beta0.42.m0.02/fort.200.total.1.csv	150	100	5
+12	all_dirs/Ls32.beta0.42.m0.02/fort.200.total.2.csv	150	100	5
+12	all_dirs/Ls32.beta0.42.m0.03/fort.200.total.1.csv	150	100	5
+12	all_dirs/Ls32.beta0.42.m0.03/fort.200.total.2.csv	150	100	5
+12	all_dirs/Ls32.beta0.42.m0.04/fort.200.total.1.csv	150	100	5
+12	all_dirs/Ls32.beta0.42.m0.04/fort.200.total.2.csv	150	100	5
+12	all_dirs/Ls32.beta0.42.m0.05/fort.200.total.1.csv	150	100	5
+12	all_dirs/Ls32.beta0.42.m0.05/fort.200.total.2.csv	150	100	5
+12	all_dirs/Ls32.beta0.44.m0.01/fort.200.total.1.csv	100	35	5
+12	all_dirs/Ls32.beta0.44.m0.01/fort.200.total.2.csv	100	35	5
+12	all_dirs/Ls32.beta0.44.m0.02/fort.200.total.1.csv	120	35	5
+12	all_dirs/Ls32.beta0.44.m0.02/fort.200.total.2.csv	120	35	5
+12	all_dirs/Ls32.beta0.44.m0.03/fort.200.total.1.csv	120	45	5
+12	all_dirs/Ls32.beta0.44.m0.03/fort.200.total.2.csv	120	45	5
+12	all_dirs/Ls32.beta0.44.m0.04/fort.200.total.1.csv	100	45	5
+12	all_dirs/Ls32.beta0.44.m0.04/fort.200.total.2.csv	100	45	5
+12	all_dirs/Ls32.beta0.44.m0.05/fort.200.total.1.csv	100	45	5
+12	all_dirs/Ls32.beta0.44.m0.05/fort.200.total.2.csv	100	45	5
+12	all_dirs/Ls32.beta0.46.m0.01/fort.200.total.1.csv	100	30	5
+12	all_dirs/Ls32.beta0.46.m0.01/fort.200.total.2.csv	100	30	5
+12	all_dirs/Ls32.beta0.46.m0.02/fort.200.total.1.csv	100	35	5
+12	all_dirs/Ls32.beta0.46.m0.02/fort.200.total.2.csv	100	35	5
+12	all_dirs/Ls32.beta0.46.m0.03/fort.200.total.1.csv	100	35	5
+12	all_dirs/Ls32.beta0.46.m0.03/fort.200.total.2.csv	100	35	5
+12	all_dirs/Ls32.beta0.46.m0.04/fort.200.total.1.csv	100	35	5
+12	all_dirs/Ls32.beta0.46.m0.04/fort.200.total.2.csv	100	35	5
+12	all_dirs/Ls32.beta0.46.m0.05/fort.200.total.1.csv	100	30	5
+12	all_dirs/Ls32.beta0.46.m0.05/fort.200.total.2.csv	100	30	5
+12	all_dirs/Ls32.beta0.55.m0.01/fort.200.total.1.csv	100	35	5
+12	all_dirs/Ls32.beta0.55.m0.01/fort.200.total.2.csv	100	35	5
+12	all_dirs/Ls32.beta0.55.m0.02/fort.200.total.1.csv	150	45	5
+12	all_dirs/Ls32.beta0.55.m0.02/fort.200.total.2.csv	150	45	5
+12	all_dirs/Ls32.beta0.55.m0.03/fort.200.total.1.csv	100	45	5
+12	all_dirs/Ls32.beta0.55.m0.03/fort.200.total.2.csv	100	45	5
+12	all_dirs/Ls32.beta0.55.m0.04/fort.200.total.1.csv	100	55	5
+12	all_dirs/Ls32.beta0.55.m0.04/fort.200.total.2.csv	100	55	5
+12	all_dirs/Ls32.beta0.55.m0.05/fort.200.total.1.csv	100	35	5
+12	all_dirs/Ls32.beta0.55.m0.05/fort.200.total.2.csv	100	35	5
+12	all_dirs/Ls40.beta0.30.m0.01/fort.200.total.1.csv	10	10	5
+12	all_dirs/Ls40.beta0.30.m0.01/fort.200.total.2.csv	10	10	5
+12	all_dirs/Ls40.beta0.30.m0.02/fort.200.total.1.csv	100	10	5
+12	all_dirs/Ls40.beta0.30.m0.02/fort.200.total.2.csv	100	10	5
+12	all_dirs/Ls40.beta0.30.m0.03/fort.200.total.1.csv	100	25	5
+12	all_dirs/Ls40.beta0.30.m0.03/fort.200.total.2.csv	100	25	5
+12	all_dirs/Ls40.beta0.30.m0.04/fort.200.total.1.csv	100	35	5
+12	all_dirs/Ls40.beta0.30.m0.04/fort.200.total.2.csv	100	35	5
+12	all_dirs/Ls40.beta0.30.m0.05/fort.200.total.1.csv	100	25	5
+12	all_dirs/Ls40.beta0.30.m0.05/fort.200.total.2.csv	100	25	5
+12	all_dirs/Ls40.beta0.32.m0.01/fort.200.total.1.csv	150	100	5
+12	all_dirs/Ls40.beta0.32.m0.01/fort.200.total.2.csv	150	100	5
+12	all_dirs/Ls40.beta0.32.m0.02/fort.200.total.1.csv	150	100	5
+12	all_dirs/Ls40.beta0.32.m0.02/fort.200.total.2.csv	150	100	5
+12	all_dirs/Ls40.beta0.32.m0.03/fort.200.total.1.csv	150	100	5
+12	all_dirs/Ls40.beta0.32.m0.03/fort.200.total.2.csv	150	100	5
+12	all_dirs/Ls40.beta0.32.m0.04/fort.200.total.1.csv	150	100	5
+12	all_dirs/Ls40.beta0.32.m0.04/fort.200.total.2.csv	150	100	5
+12	all_dirs/Ls40.beta0.32.m0.05/fort.200.total.1.csv	150	100	5
+12	all_dirs/Ls40.beta0.32.m0.05/fort.200.total.2.csv	150	100	5
+12	all_dirs/Ls40.beta0.34.m0.01/fort.200.total.1.csv	150	100	5
+12	all_dirs/Ls40.beta0.34.m0.01/fort.200.total.2.csv	150	100	5
+12	all_dirs/Ls40.beta0.34.m0.02/fort.200.total.1.csv	150	100	5
+12	all_dirs/Ls40.beta0.34.m0.02/fort.200.total.2.csv	150	100	5
+12	all_dirs/Ls40.beta0.34.m0.03/fort.200.total.1.csv	150	100	5
+12	all_dirs/Ls40.beta0.34.m0.03/fort.200.total.2.csv	150	100	5
+12	all_dirs/Ls40.beta0.34.m0.04/fort.200.total.1.csv	150	100	5
+12	all_dirs/Ls40.beta0.34.m0.04/fort.200.total.2.csv	150	100	5
+12	all_dirs/Ls40.beta0.34.m0.05/fort.200.total.1.csv	150	100	5
+12	all_dirs/Ls40.beta0.34.m0.05/fort.200.total.2.csv	150	100	5
+12	all_dirs/Ls40.beta0.36.m0.01/fort.200.total.1.csv	150	100	5
+12	all_dirs/Ls40.beta0.36.m0.01/fort.200.total.2.csv	150	100	5
+12	all_dirs/Ls40.beta0.36.m0.02/fort.200.total.1.csv	150	100	5
+12	all_dirs/Ls40.beta0.36.m0.02/fort.200.total.2.csv	150	100	5
+12	all_dirs/Ls40.beta0.36.m0.03/fort.200.total.1.csv	150	100	5
+12	all_dirs/Ls40.beta0.36.m0.03/fort.200.total.2.csv	150	100	5
+12	all_dirs/Ls40.beta0.36.m0.04/fort.200.total.1.csv	150	100	5
+12	all_dirs/Ls40.beta0.36.m0.04/fort.200.total.2.csv	150	100	5
+12	all_dirs/Ls40.beta0.36.m0.05/fort.200.total.1.csv	150	100	5
+12	all_dirs/Ls40.beta0.36.m0.05/fort.200.total.2.csv	150	100	5
+12	all_dirs/Ls40.beta0.38.m0.01/fort.200.total.1.csv	150	50	5
+12	all_dirs/Ls40.beta0.38.m0.01/fort.200.total.2.csv	150	50	5
+12	all_dirs/Ls40.beta0.38.m0.02/fort.200.total.1.csv	150	50	5
+12	all_dirs/Ls40.beta0.38.m0.02/fort.200.total.2.csv	150	50	5
+12	all_dirs/Ls40.beta0.38.m0.03/fort.200.total.1.csv	150	50	5
+12	all_dirs/Ls40.beta0.38.m0.03/fort.200.total.2.csv	150	50	5
+12	all_dirs/Ls40.beta0.38.m0.04/fort.200.total.1.csv	150	100	5
+12	all_dirs/Ls40.beta0.38.m0.04/fort.200.total.2.csv	150	100	5
+12	all_dirs/Ls40.beta0.38.m0.05/fort.200.total.1.csv	150	100	5
+12	all_dirs/Ls40.beta0.38.m0.05/fort.200.total.2.csv	150	100	5
+12	all_dirs/Ls40.beta0.40.m0.01/fort.200.total.1.csv	150	50	5
+12	all_dirs/Ls40.beta0.40.m0.01/fort.200.total.2.csv	150	50	5
+12	all_dirs/Ls40.beta0.40.m0.02/fort.200.total.1.csv	150	50	5
+12	all_dirs/Ls40.beta0.40.m0.02/fort.200.total.2.csv	150	50	5
+12	all_dirs/Ls40.beta0.40.m0.03/fort.200.total.1.csv	150	100	5
+12	all_dirs/Ls40.beta0.40.m0.03/fort.200.total.2.csv	150	100	5
+12	all_dirs/Ls40.beta0.40.m0.04/fort.200.total.1.csv	150	100	5
+12	all_dirs/Ls40.beta0.40.m0.04/fort.200.total.2.csv	150	100	5
+12	all_dirs/Ls40.beta0.40.m0.05/fort.200.total.1.csv	150	50	5
+12	all_dirs/Ls40.beta0.40.m0.05/fort.200.total.2.csv	150	50	5
+12	all_dirs/Ls40.beta0.42.m0.01/fort.200.total.1.csv	150	100	5
+12	all_dirs/Ls40.beta0.42.m0.01/fort.200.total.2.csv	150	100	5
+12	all_dirs/Ls40.beta0.42.m0.02/fort.200.total.1.csv	150	100	5
+12	all_dirs/Ls40.beta0.42.m0.02/fort.200.total.2.csv	150	100	5
+12	all_dirs/Ls40.beta0.42.m0.03/fort.200.total.1.csv	150	50	5
+12	all_dirs/Ls40.beta0.42.m0.03/fort.200.total.2.csv	150	50	5
+12	all_dirs/Ls40.beta0.42.m0.04/fort.200.total.1.csv	150	50	5
+12	all_dirs/Ls40.beta0.42.m0.04/fort.200.total.2.csv	150	50	5
+12	all_dirs/Ls40.beta0.42.m0.05/fort.200.total.1.csv	150	50	5
+12	all_dirs/Ls40.beta0.42.m0.05/fort.200.total.2.csv	150	50	5
+12	all_dirs/Ls40.beta0.44.m0.01/fort.200.total.1.csv	100	35	5
+12	all_dirs/Ls40.beta0.44.m0.01/fort.200.total.2.csv	100	35	5
+12	all_dirs/Ls40.beta0.44.m0.02/fort.200.total.1.csv	100	25	5
+12	all_dirs/Ls40.beta0.44.m0.02/fort.200.total.2.csv	100	25	5
+12	all_dirs/Ls40.beta0.44.m0.03/fort.200.total.1.csv	100	25	5
+12	all_dirs/Ls40.beta0.44.m0.03/fort.200.total.2.csv	100	25	5
+12	all_dirs/Ls40.beta0.44.m0.04/fort.200.total.1.csv	100	35	5
+12	all_dirs/Ls40.beta0.44.m0.04/fort.200.total.2.csv	100	35	5
+12	all_dirs/Ls40.beta0.44.m0.05/fort.200.total.1.csv	100	35	5
+12	all_dirs/Ls40.beta0.44.m0.05/fort.200.total.2.csv	100	35	5
+12	all_dirs/Ls40.beta0.46.m0.01/fort.200.total.1.csv	100	35	5
+12	all_dirs/Ls40.beta0.46.m0.01/fort.200.total.2.csv	100	35	5
+12	all_dirs/Ls40.beta0.46.m0.02/fort.200.total.1.csv	100	35	5
+12	all_dirs/Ls40.beta0.46.m0.02/fort.200.total.2.csv	100	35	5
+12	all_dirs/Ls40.beta0.46.m0.03/fort.200.total.1.csv	100	45	5
+12	all_dirs/Ls40.beta0.46.m0.03/fort.200.total.2.csv	100	45	5
+12	all_dirs/Ls40.beta0.46.m0.04/fort.200.total.1.csv	100	35	5
+12	all_dirs/Ls40.beta0.46.m0.04/fort.200.total.2.csv	100	35	5
+12	all_dirs/Ls40.beta0.46.m0.05/fort.200.total.1.csv	100	45	5
+12	all_dirs/Ls40.beta0.46.m0.05/fort.200.total.2.csv	100	45	5
+12	all_dirs/Ls40.beta0.55.m0.01/fort.200.total.1.csv	120	35	5
+12	all_dirs/Ls40.beta0.55.m0.01/fort.200.total.2.csv	120	35	5
+12	all_dirs/Ls40.beta0.55.m0.02/fort.200.total.1.csv	100	35	5
+12	all_dirs/Ls40.beta0.55.m0.02/fort.200.total.2.csv	100	35	5
+12	all_dirs/Ls40.beta0.55.m0.03/fort.200.total.1.csv	100	25	5
+12	all_dirs/Ls40.beta0.55.m0.03/fort.200.total.2.csv	100	25	5
+12	all_dirs/Ls40.beta0.55.m0.04/fort.200.total.1.csv	100	35	5
+12	all_dirs/Ls40.beta0.55.m0.04/fort.200.total.2.csv	100	35	5
+12	all_dirs/Ls40.beta0.55.m0.05/fort.200.total.1.csv	100	45	5
+12	all_dirs/Ls40.beta0.55.m0.05/fort.200.total.2.csv	100	45	5
+12	all_dirs/Ls48.beta0.30.m0.01/fort.200.total.1.csv	100	10	5
+12	all_dirs/Ls48.beta0.30.m0.01/fort.200.total.2.csv	100	10	5
+12	all_dirs/Ls48.beta0.30.m0.02/fort.200.total.1.csv	100	10	5
+12	all_dirs/Ls48.beta0.30.m0.02/fort.200.total.2.csv	100	10	5
+12	all_dirs/Ls48.beta0.30.m0.03/fort.200.total.1.csv	100	10	5
+12	all_dirs/Ls48.beta0.30.m0.03/fort.200.total.2.csv	100	10	5
+12	all_dirs/Ls48.beta0.30.m0.04/fort.200.total.1.csv	100	10	5
+12	all_dirs/Ls48.beta0.30.m0.04/fort.200.total.2.csv	100	10	5
+12	all_dirs/Ls48.beta0.30.m0.05/fort.200.total.1.csv	100	10	5
+12	all_dirs/Ls48.beta0.30.m0.05/fort.200.total.2.csv	100	10	5
+12	all_dirs/Ls48.beta0.32.m0.01/fort.200.total.1.csv	150	75	5
+12	all_dirs/Ls48.beta0.32.m0.01/fort.200.total.2.csv	150	75	5
+12	all_dirs/Ls48.beta0.32.m0.02/fort.200.total.1.csv	150	75	5
+12	all_dirs/Ls48.beta0.32.m0.02/fort.200.total.2.csv	150	75	5
+12	all_dirs/Ls48.beta0.32.m0.03/fort.200.total.1.csv	150	50	5
+12	all_dirs/Ls48.beta0.32.m0.03/fort.200.total.2.csv	150	50	5
+12	all_dirs/Ls48.beta0.32.m0.04/fort.200.total.1.csv	150	50	5
+12	all_dirs/Ls48.beta0.32.m0.04/fort.200.total.2.csv	150	50	5
+12	all_dirs/Ls48.beta0.32.m0.05/fort.200.total.1.csv	150	50	5
+12	all_dirs/Ls48.beta0.32.m0.05/fort.200.total.2.csv	150	50	5
+12	all_dirs/Ls48.beta0.34.m0.01/fort.200.total.1.csv	100	100	5
+12	all_dirs/Ls48.beta0.34.m0.01/fort.200.total.2.csv	100	100	5
+12	all_dirs/Ls48.beta0.34.m0.02/fort.200.total.1.csv	100	75	5
+12	all_dirs/Ls48.beta0.34.m0.02/fort.200.total.2.csv	100	75	5
+12	all_dirs/Ls48.beta0.34.m0.03/fort.200.total.1.csv	100	50	5
+12	all_dirs/Ls48.beta0.34.m0.03/fort.200.total.2.csv	100	50	5
+12	all_dirs/Ls48.beta0.34.m0.04/fort.200.total.1.csv	100	50	5
+12	all_dirs/Ls48.beta0.34.m0.04/fort.200.total.2.csv	100	50	5
+12	all_dirs/Ls48.beta0.34.m0.05/fort.200.total.1.csv	100	50	5
+12	all_dirs/Ls48.beta0.34.m0.05/fort.200.total.2.csv	100	50	5
+12	all_dirs/Ls48.beta0.36.m0.01/fort.200.total.1.csv	100	50	5
+12	all_dirs/Ls48.beta0.36.m0.01/fort.200.total.2.csv	100	50	5
+12	all_dirs/Ls48.beta0.36.m0.02/fort.200.total.1.csv	100	100	5
+12	all_dirs/Ls48.beta0.36.m0.02/fort.200.total.2.csv	100	100	5
+12	all_dirs/Ls48.beta0.36.m0.03/fort.200.total.1.csv	100	100	5
+12	all_dirs/Ls48.beta0.36.m0.03/fort.200.total.2.csv	100	100	5
+12	all_dirs/Ls48.beta0.36.m0.04/fort.200.total.1.csv	100	100	5
+12	all_dirs/Ls48.beta0.36.m0.04/fort.200.total.2.csv	100	100	5
+12	all_dirs/Ls48.beta0.36.m0.05/fort.200.total.1.csv	100	50	5
+12	all_dirs/Ls48.beta0.36.m0.05/fort.200.total.2.csv	100	50	5
+12	all_dirs/Ls48.beta0.38.m0.01/fort.200.total.1.csv	100	50	5
+12	all_dirs/Ls48.beta0.38.m0.01/fort.200.total.2.csv	100	50	5
+12	all_dirs/Ls48.beta0.38.m0.02/fort.200.total.1.csv	100	50	5
+12	all_dirs/Ls48.beta0.38.m0.02/fort.200.total.2.csv	100	50	5
+12	all_dirs/Ls48.beta0.38.m0.03/fort.200.total.1.csv	100	50	5
+12	all_dirs/Ls48.beta0.38.m0.03/fort.200.total.2.csv	100	50	5
+12	all_dirs/Ls48.beta0.38.m0.04/fort.200.total.1.csv	100	50	5
+12	all_dirs/Ls48.beta0.38.m0.04/fort.200.total.2.csv	100	50	5
+12	all_dirs/Ls48.beta0.38.m0.05/fort.200.total.1.csv	100	50	5
+12	all_dirs/Ls48.beta0.38.m0.05/fort.200.total.2.csv	100	50	5
+12	all_dirs/Ls48.beta0.40.m0.01/fort.200.total.1.csv	100	50	5
+12	all_dirs/Ls48.beta0.40.m0.01/fort.200.total.2.csv	100	50	5
+12	all_dirs/Ls48.beta0.40.m0.02/fort.200.total.1.csv	100	50	5
+12	all_dirs/Ls48.beta0.40.m0.02/fort.200.total.2.csv	100	50	5
+12	all_dirs/Ls48.beta0.40.m0.03/fort.200.total.1.csv	100	50	5
+12	all_dirs/Ls48.beta0.40.m0.03/fort.200.total.2.csv	100	50	5
+12	all_dirs/Ls48.beta0.40.m0.04/fort.200.total.1.csv	100	50	5
+12	all_dirs/Ls48.beta0.40.m0.04/fort.200.total.2.csv	100	50	5
+12	all_dirs/Ls48.beta0.40.m0.05/fort.200.total.1.csv	100	50	5
+12	all_dirs/Ls48.beta0.40.m0.05/fort.200.total.2.csv	100	50	5
+12	all_dirs/Ls48.beta0.42.m0.01/fort.200.total.1.csv	100	50	5
+12	all_dirs/Ls48.beta0.42.m0.01/fort.200.total.2.csv	100	50	5
+12	all_dirs/Ls48.beta0.42.m0.02/fort.200.total.1.csv	100	50	5
+12	all_dirs/Ls48.beta0.42.m0.02/fort.200.total.2.csv	100	50	5
+12	all_dirs/Ls48.beta0.42.m0.03/fort.200.total.1.csv	100	50	5
+12	all_dirs/Ls48.beta0.42.m0.03/fort.200.total.2.csv	100	50	5
+12	all_dirs/Ls48.beta0.42.m0.04/fort.200.total.1.csv	100	50	5
+12	all_dirs/Ls48.beta0.42.m0.04/fort.200.total.2.csv	100	50	5
+12	all_dirs/Ls48.beta0.42.m0.05/fort.200.total.1.csv	100	50	5
+12	all_dirs/Ls48.beta0.42.m0.05/fort.200.total.2.csv	100	50	5
+12	all_dirs/Ls48.beta0.44.m0.01/fort.200.total.1.csv	100	25	5
+12	all_dirs/Ls48.beta0.44.m0.01/fort.200.total.2.csv	100	25	5
+12	all_dirs/Ls48.beta0.44.m0.02/fort.200.total.1.csv	100	25	5
+12	all_dirs/Ls48.beta0.44.m0.02/fort.200.total.2.csv	100	25	5
+12	all_dirs/Ls48.beta0.44.m0.03/fort.200.total.1.csv	100	25	5
+12	all_dirs/Ls48.beta0.44.m0.03/fort.200.total.2.csv	100	25	5
+12	all_dirs/Ls48.beta0.44.m0.04/fort.200.total.1.csv	100	25	5
+12	all_dirs/Ls48.beta0.44.m0.04/fort.200.total.2.csv	100	25	5
+12	all_dirs/Ls48.beta0.44.m0.05/fort.200.total.1.csv	100	25	5
+12	all_dirs/Ls48.beta0.44.m0.05/fort.200.total.2.csv	100	25	5
+12	all_dirs/Ls48.beta0.46.m0.01/fort.200.total.1.csv	100	25	5
+12	all_dirs/Ls48.beta0.46.m0.01/fort.200.total.2.csv	100	25	5
+12	all_dirs/Ls48.beta0.46.m0.02/fort.200.total.1.csv	100	25	5
+12	all_dirs/Ls48.beta0.46.m0.02/fort.200.total.2.csv	100	25	5
+12	all_dirs/Ls48.beta0.46.m0.03/fort.200.total.1.csv	100	25	5
+12	all_dirs/Ls48.beta0.46.m0.03/fort.200.total.2.csv	100	25	5
+12	all_dirs/Ls48.beta0.46.m0.04/fort.200.total.1.csv	100	10	5
+12	all_dirs/Ls48.beta0.46.m0.04/fort.200.total.2.csv	100	10	5
+12	all_dirs/Ls48.beta0.46.m0.05/fort.200.total.1.csv	100	35	5
+12	all_dirs/Ls48.beta0.46.m0.05/fort.200.total.2.csv	100	35	5
+12	all_dirs/Ls48.beta0.55.m0.01/fort.200.total.1.csv	100	25	5
+12	all_dirs/Ls48.beta0.55.m0.01/fort.200.total.2.csv	100	25	5
+12	all_dirs/Ls48.beta0.55.m0.02/fort.200.total.1.csv	100	45	5
+12	all_dirs/Ls48.beta0.55.m0.02/fort.200.total.2.csv	100	45	5
+12	all_dirs/Ls48.beta0.55.m0.03/fort.200.total.1.csv	100	35	5
+12	all_dirs/Ls48.beta0.55.m0.03/fort.200.total.2.csv	100	35	5
+12	all_dirs/Ls48.beta0.55.m0.04/fort.200.total.1.csv	100	45	5
+12	all_dirs/Ls48.beta0.55.m0.04/fort.200.total.2.csv	100	45	5
+12	all_dirs/Ls48.beta0.55.m0.05/fort.200.total.1.csv	100	45	5
+12	all_dirs/Ls48.beta0.55.m0.05/fort.200.total.2.csv	100	45	5
+16	all_dirs16/Ls32.beta0.30.m0.01/fort.200.total.1.csv	100	100	5
+16	all_dirs16/Ls32.beta0.30.m0.02/fort.200.total.1.csv	100	100	5
+16	all_dirs16/Ls32.beta0.30.m0.03/fort.200.total.1.csv	100	100	5
+16	all_dirs16/Ls32.beta0.30.m0.04/fort.200.total.1.csv	100	100	5
+16	all_dirs16/Ls32.beta0.30.m0.05/fort.200.total.1.csv	100	100	5
+16	all_dirs16/Ls32.beta0.32.m0.01/fort.200.total.1.csv	100	100	5
+16	all_dirs16/Ls32.beta0.32.m0.02/fort.200.total.1.csv	100	100	5
+16	all_dirs16/Ls32.beta0.32.m0.03/fort.200.total.1.csv	100	100	5
+16	all_dirs16/Ls32.beta0.32.m0.04/fort.200.total.1.csv	100	100	5
+16	all_dirs16/Ls32.beta0.32.m0.05/fort.200.total.1.csv	100	100	5
+16	all_dirs16/Ls32.beta0.34.m0.01/fort.200.total.1.csv	100	100	5
+16	all_dirs16/Ls32.beta0.34.m0.02/fort.200.total.1.csv	100	100	5
+16	all_dirs16/Ls32.beta0.34.m0.03/fort.200.total.1.csv	100	100	5
+16	all_dirs16/Ls32.beta0.34.m0.04/fort.200.total.1.csv	100	100	5
+16	all_dirs16/Ls32.beta0.34.m0.05/fort.200.total.1.csv	100	100	5
+16	all_dirs16/Ls32.beta0.36.m0.01/fort.200.total.1.csv	100	100	5
+16	all_dirs16/Ls32.beta0.36.m0.02/fort.200.total.1.csv	100	100	5
+16	all_dirs16/Ls32.beta0.36.m0.03/fort.200.total.1.csv	100	100	5
+16	all_dirs16/Ls32.beta0.36.m0.04/fort.200.total.1.csv	100	100	5
+16	all_dirs16/Ls32.beta0.36.m0.05/fort.200.total.1.csv	100	100	5
+16	all_dirs16/Ls32.beta0.38.m0.01/fort.200.total.1.csv	100	100	5
+16	all_dirs16/Ls32.beta0.38.m0.02/fort.200.total.1.csv	100	100	5
+16	all_dirs16/Ls32.beta0.38.m0.03/fort.200.total.1.csv	100	100	5
+16	all_dirs16/Ls32.beta0.38.m0.04/fort.200.total.1.csv	100	100	5
+16	all_dirs16/Ls32.beta0.38.m0.05/fort.200.total.1.csv	100	100	5
+16	all_dirs16/Ls40.beta0.30.m0.01/fort.200.total.1.csv	100	100	5
+16	all_dirs16/Ls40.beta0.30.m0.02/fort.200.total.1.csv	100	100	5
+16	all_dirs16/Ls40.beta0.30.m0.03/fort.200.total.1.csv	100	100	5
+16	all_dirs16/Ls40.beta0.30.m0.04/fort.200.total.1.csv	100	100	5
+16	all_dirs16/Ls40.beta0.30.m0.05/fort.200.total.1.csv	100	100	5
+16	all_dirs16/Ls40.beta0.32.m0.01/fort.200.total.1.csv	100	100	5
+16	all_dirs16/Ls40.beta0.32.m0.02/fort.200.total.1.csv	100	100	5
+16	all_dirs16/Ls40.beta0.32.m0.03/fort.200.total.1.csv	100	100	5
+16	all_dirs16/Ls40.beta0.32.m0.04/fort.200.total.1.csv	100	100	5
+16	all_dirs16/Ls40.beta0.32.m0.05/fort.200.total.1.csv	100	100	5
+16	all_dirs16/Ls40.beta0.34.m0.01/fort.200.total.1.csv	100	100	5
+16	all_dirs16/Ls40.beta0.34.m0.02/fort.200.total.1.csv	100	100	5
+16	all_dirs16/Ls40.beta0.34.m0.03/fort.200.total.1.csv	100	100	5
+16	all_dirs16/Ls40.beta0.34.m0.04/fort.200.total.1.csv	100	100	5
+16	all_dirs16/Ls40.beta0.34.m0.05/fort.200.total.1.csv	100	100	5
+16	all_dirs16/Ls40.beta0.36.m0.01/fort.200.total.1.csv	100	100	5
+16	all_dirs16/Ls40.beta0.36.m0.02/fort.200.total.1.csv	100	100	5
+16	all_dirs16/Ls40.beta0.36.m0.03/fort.200.total.1.csv	100	100	5
+16	all_dirs16/Ls40.beta0.36.m0.04/fort.200.total.1.csv	100	100	5
+16	all_dirs16/Ls40.beta0.36.m0.05/fort.200.total.1.csv	100	100	5
+16	all_dirs16/Ls40.beta0.38.m0.01/fort.200.total.1.csv	100	100	5
+16	all_dirs16/Ls40.beta0.38.m0.02/fort.200.total.1.csv	100	100	5
+16	all_dirs16/Ls40.beta0.38.m0.03/fort.200.total.1.csv	100	100	5
+16	all_dirs16/Ls40.beta0.38.m0.04/fort.200.total.1.csv	100	100	5
+16	all_dirs16/Ls40.beta0.38.m0.05/fort.200.total.1.csv	100	100	5
+16	all_dirs16/Ls48.beta0.30.m0.01/fort.200.total.1.csv	100	100	5
+16	all_dirs16/Ls48.beta0.30.m0.02/fort.200.total.1.csv	100	100	5
+16	all_dirs16/Ls48.beta0.30.m0.03/fort.200.total.1.csv	100	100	5
+16	all_dirs16/Ls48.beta0.30.m0.04/fort.200.total.1.csv	100	100	5
+16	all_dirs16/Ls48.beta0.30.m0.05/fort.200.total.1.csv	100	100	5
+16	all_dirs16/Ls48.beta0.32.m0.01/fort.200.total.1.csv	100	100	5
+16	all_dirs16/Ls48.beta0.32.m0.02/fort.200.total.1.csv	100	100	5
+16	all_dirs16/Ls48.beta0.32.m0.03/fort.200.total.1.csv	100	100	5
+16	all_dirs16/Ls48.beta0.32.m0.04/fort.200.total.1.csv	100	100	5
+16	all_dirs16/Ls48.beta0.32.m0.05/fort.200.total.1.csv	100	100	5
+16	all_dirs16/Ls48.beta0.34.m0.01/fort.200.total.1.csv	100	100	5
+16	all_dirs16/Ls48.beta0.34.m0.02/fort.200.total.1.csv	100	100	5
+16	all_dirs16/Ls48.beta0.34.m0.03/fort.200.total.1.csv	100	100	5
+16	all_dirs16/Ls48.beta0.34.m0.04/fort.200.total.1.csv	100	100	5
+16	all_dirs16/Ls48.beta0.34.m0.05/fort.200.total.1.csv	100	100	5
+16	all_dirs16/Ls48.beta0.36.m0.01/fort.200.total.1.csv	100	100	5
+16	all_dirs16/Ls48.beta0.36.m0.02/fort.200.total.1.csv	100	100	5
+16	all_dirs16/Ls48.beta0.36.m0.03/fort.200.total.1.csv	100	100	5
+16	all_dirs16/Ls48.beta0.36.m0.04/fort.200.total.1.csv	100	100	5
+16	all_dirs16/Ls48.beta0.36.m0.05/fort.200.total.1.csv	100	100	5
+16	all_dirs16/Ls48.beta0.38.m0.01/fort.200.total.1.csv	100	100	5
+16	all_dirs16/Ls48.beta0.38.m0.02/fort.200.total.1.csv	100	100	5
+16	all_dirs16/Ls48.beta0.38.m0.03/fort.200.total.1.csv	100	100	5
+16	all_dirs16/Ls48.beta0.38.m0.04/fort.200.total.1.csv	100	100	5
+16	all_dirs16/Ls48.beta0.38.m0.05/fort.200.total.1.csv	100	100	5
