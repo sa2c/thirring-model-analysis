@@ -1,20 +1,19 @@
 SHELL = bash
 
-all:  ./cond_m01_Ls32_L12 ./cond_m01_Ls32_L16 ./cond_m01_Ls40_L12 ./cond_m01_Ls40_L16\
- ./cond_m01_Ls48_L12 ./cond_m01_Ls48_L16 ./cond_m01_LsINF_L12 ./cond_m01_LsINF_L16\
- ./cond_m02_Ls32_L12 ./cond_m02_Ls32_L16 ./cond_m02_Ls40_L12 ./cond_m02_Ls40_L16\
- ./cond_m02_Ls48_L12 ./cond_m02_Ls48_L16 ./cond_m02_LsINF_L12 ./cond_m02_LsINF_L16\
- ./cond_m03_Ls32_L12 ./cond_m03_Ls32_L16 ./cond_m03_Ls40_L12 ./cond_m03_Ls40_L16\
- ./cond_m03_Ls48_L12 ./cond_m03_Ls48_L16 ./cond_m03_LsINF_L12 ./cond_m03_LsINF_L16\
- ./cond_m04_Ls32_L12 ./cond_m04_Ls32_L16 ./cond_m04_Ls40_L12 ./cond_m04_Ls40_L16\
+all:  ./cond_m01_Ls32_L12 ./cond_m01_Ls32_L16 ./cond_m01_Ls40_L12 ./cond_m01_Ls48_L12\
+ ./cond_m01_Ls48_L16 ./cond_m01_LsINF_L12 ./cond_m01_LsINF_L16 ./cond_m02_Ls32_L12\
+ ./cond_m02_Ls32_L16 ./cond_m02_Ls40_L12 ./cond_m02_Ls48_L12 ./cond_m02_Ls48_L16\
+ ./cond_m02_LsINF_L12 ./cond_m02_LsINF_L16 ./cond_m03_Ls32_L12 ./cond_m03_Ls32_L16\
+ ./cond_m03_Ls40_L12 ./cond_m03_Ls48_L12 ./cond_m03_Ls48_L16 ./cond_m03_LsINF_L12\
+ ./cond_m03_LsINF_L16 ./cond_m04_Ls32_L12 ./cond_m04_Ls32_L16 ./cond_m04_Ls40_L12\
  ./cond_m04_Ls48_L12 ./cond_m04_Ls48_L16 ./cond_m04_LsINF_L12 ./cond_m04_LsINF_L16\
- ./cond_m05_Ls32_L12 ./cond_m05_Ls32_L16 ./cond_m05_Ls40_L12 ./cond_m05_Ls40_L16\
- ./cond_m05_Ls48_L12 ./cond_m05_Ls48_L16 ./cond_m05_LsINF_L12 ./cond_m05_LsINF_L16\
- ./fitLs32L12.png ./fitLs32L16.png ./fitLs40L12.png ./fitLs40L16.png ./fitLs48L12.png\
- ./fitLs48L16.png ./fitLsinfL12.png ./fitLsinfL16.png ./pbpextrL12_m0.01.png\
- ./pbpextrL12_m0.02.png ./pbpextrL12_m0.03.png ./pbpextrL12_m0.04.png ./pbpextrL12_m0.05.png\
- ./pbpextrL16_m0.01.png ./pbpextrL16_m0.02.png ./pbpextrL16_m0.03.png ./pbpextrL16_m0.04.png\
- ./pbpextrL16_m0.05.png ./psibarpsi.csv ./psibarpsi.pretty.csv ./psibarpsi_extrapolated.csv\
+ ./cond_m05_Ls32_L12 ./cond_m05_Ls32_L16 ./cond_m05_Ls40_L12 ./cond_m05_Ls48_L12\
+ ./cond_m05_Ls48_L16 ./cond_m05_LsINF_L12 ./cond_m05_LsINF_L16 ./fitLs32L12.png\
+ ./fitLs32L16.png ./fitLs40L12.png ./fitLs48L12.png ./fitLs48L16.png ./fitLsinfL12.png\
+ ./fitLsinfL16.png ./ntraj_all.table ./pbpextrL12_m0.01.png ./pbpextrL12_m0.02.png\
+ ./pbpextrL12_m0.03.png ./pbpextrL12_m0.04.png ./pbpextrL12_m0.05.png ./pbpextrL16_m0.01.png\
+ ./pbpextrL16_m0.02.png ./pbpextrL16_m0.03.png ./pbpextrL16_m0.04.png ./pbpextrL16_m0.05.png\
+ ./psibarpsi.csv ./psibarpsi.pretty.csv ./psibarpsi_extrapolated.csv\
  ./psibarpsi_extrapolated_pretty.csv
 
  ./cond_m01_LsINF_L16 ./cond_m02_LsINF_L16 ./cond_m03_LsINF_L16 ./cond_m04_LsINF_L16\
@@ -45,17 +44,13 @@ all:  ./cond_m01_Ls32_L12 ./cond_m01_Ls32_L16 ./cond_m01_Ls40_L12 ./cond_m01_Ls4
  ./cond_m05_Ls48_L12 ./fitLs48L12.png :  ./psibarpsi.csv
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/eos_fit_v2.py 48 12 --savefig
 
- ./cond_m01_Ls40_L16 ./cond_m02_Ls40_L16 ./cond_m03_Ls40_L16 ./cond_m04_Ls40_L16\
- ./cond_m05_Ls40_L16 ./fitLs40L16.png :  ./psibarpsi.csv
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/eos_fit_v2.py 40 16 --savefig
-
  ./pbpextrL12_m0.01.png ./pbpextrL12_m0.02.png ./pbpextrL12_m0.03.png ./pbpextrL12_m0.04.png\
  ./pbpextrL12_m0.05.png ./pbpextrL16_m0.01.png ./pbpextrL16_m0.02.png ./pbpextrL16_m0.03.png\
  ./pbpextrL16_m0.04.png ./pbpextrL16_m0.05.png ./psibarpsi_extrapolated.csv\
  ./psibarpsi_extrapolated_pretty.csv :  ./psibarpsi.csv
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/extrapolate_to_linf.py
 
- ./psibarpsi.csv ./psibarpsi.pretty.csv :  ./all_dirs/Ls32.beta0.30.m0.01/fort.200.total.1.csv\
+ ./ntraj_all.table ./psibarpsi.csv ./psibarpsi.pretty.csv :  ./all_dirs/Ls32.beta0.30.m0.01/fort.200.total.1.csv\
  ./all_dirs/Ls32.beta0.30.m0.01/fort.200.total.2.csv\
  ./all_dirs/Ls32.beta0.30.m0.02/fort.200.total.1.csv\
  ./all_dirs/Ls32.beta0.30.m0.02/fort.200.total.2.csv\

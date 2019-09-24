@@ -8,12 +8,11 @@ import re
 
 numeric_types = [np.int, np.int64, np.float, np.float64]
 
-
-
 pbp_values_and_error_filename = 'psibarpsi.csv'
 pbp_values_and_error_pretty_filename = 'psibarpsi.pretty.csv'
 pbp_inf_filename = 'psibarpsi_extrapolated.csv'
 pbp_inf_filename_pretty = 'psibarpsi_extrapolated_pretty.csv'
+
 
 def mean_square(series, blocksize):
     '''
@@ -136,8 +135,8 @@ def cut_and_paste(analysis_settings):
             df = df.tail(-int(thermalization_nmeas))
             dfs_to_concatenate.append(df)
 
-        df_dict[idx] = pd.concat(
-            dfs_to_concatenate, axis='index').reset_index()
+        df_dict[idx] = pd.concat(dfs_to_concatenate,
+                                 axis='index').reset_index()
 
     return df_dict
 
@@ -175,7 +174,7 @@ def get_values_and_errors(df_dict, observable, analysis_settings):
     bmeas_sizes = analysis_settings.blocksize / analysis_settings.measevery
 
     bmeas_sizes = bmeas_sizes.reset_index().drop_duplicates()
-    bmeas_sizes = bmeas_sizes.set_index(['L','Ls', 'beta', 'mass'])
+    bmeas_sizes = bmeas_sizes.set_index(['L', 'Ls', 'beta', 'mass'])
 
     for k, v in df_dict.items():
         try:
@@ -193,12 +192,12 @@ def get_values_and_errors(df_dict, observable, analysis_settings):
 def plot_observable(observable, values_and_error_selected):
     for mass in np.arange(0.01, 0.06, 0.01):
         condition = (values_and_error_selected.mass == mass)
-        plt.errorbar(
-            values_and_error_selected.beta[condition],
-            values_and_error_selected[observable][condition],
-            yerr=values_and_error_selected[observable + 'Err'][condition],
-            label='m=' + str(mass),
-            linestyle='None',
-            marker='+')
+        plt.errorbar(values_and_error_selected.beta[condition],
+                     values_and_error_selected[observable][condition],
+                     yerr=values_and_error_selected[observable +
+                                                    'Err'][condition],
+                     label='m=' + str(mass),
+                     linestyle='None',
+                     marker='+')
 
     plt.legend()

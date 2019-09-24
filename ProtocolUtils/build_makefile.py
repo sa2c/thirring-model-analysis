@@ -178,8 +178,13 @@ def scanExistingMakefile(fileName):
             print(group)
             raise e;
         command = command[1:]+'\n'
-        outputs, inputs = outputsAndInputs.split("  : ") 
-        outputs = outputs.split(' ')
+        try:
+            outputs, inputs = outputsAndInputs.split(" : ") 
+        except Exception as e:
+            print("ERROR")
+            print(outputsAndInputs)
+            raise e
+        outputs = [s for s in outputs.split(' ') if s not in ['',' '] ]
         inputs = split_inputs(inputs)
         if inputs[-1] == '':
             inputs = inputs[:-1]
