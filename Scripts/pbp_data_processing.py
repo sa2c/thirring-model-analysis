@@ -25,8 +25,8 @@ df_dict = lib.cut_and_paste(analysis_settings)
 ntraj_all = [(L, Ls, beta, mass, len(df))
              for (L, Ls, beta, mass), df in df_dict.items()]
 ntraj_all = pd.DataFrame(
-    data=ntraj_all, columns=['L', 'Ls', 'beta', 'mass', 'ntraj'])
-ntraj_all_pretty_filename = 'ntraj_all.table'
+    data=ntraj_all, columns=['L', 'Ls', 'beta', 'mass', 'tot_meas'])
+ntraj_all_pretty_filename = 'tot_meas.table'
 print(f'Writing {ntraj_all_pretty_filename}')
 with open(ntraj_all_pretty_filename, 'w') as f:
     f.write(

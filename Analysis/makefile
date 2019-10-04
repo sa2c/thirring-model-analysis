@@ -10,11 +10,11 @@ all:  ./cond_m01_Ls32_L12 ./cond_m01_Ls32_L16 ./cond_m01_Ls40_L12 ./cond_m01_Ls4
  ./cond_m05_Ls32_L12 ./cond_m05_Ls32_L16 ./cond_m05_Ls40_L12 ./cond_m05_Ls48_L12\
  ./cond_m05_Ls48_L16 ./cond_m05_LsINF_L12 ./cond_m05_LsINF_L16 ./fitLs32L12.png\
  ./fitLs32L16.png ./fitLs40L12.png ./fitLs48L12.png ./fitLs48L16.png ./fitLsinfL12.png\
- ./fitLsinfL16.png ./ntraj_all.table ./pbpextrL12_m0.01.png ./pbpextrL12_m0.02.png\
- ./pbpextrL12_m0.03.png ./pbpextrL12_m0.04.png ./pbpextrL12_m0.05.png ./pbpextrL16_m0.01.png\
- ./pbpextrL16_m0.02.png ./pbpextrL16_m0.03.png ./pbpextrL16_m0.04.png ./pbpextrL16_m0.05.png\
- ./psibarpsi.csv ./psibarpsi.pretty.csv ./psibarpsi_extrapolated.csv\
- ./psibarpsi_extrapolated_pretty.csv
+ ./fitLsinfL16.png ./pbpextrL12_m0.01.png ./pbpextrL12_m0.02.png ./pbpextrL12_m0.03.png\
+ ./pbpextrL12_m0.04.png ./pbpextrL12_m0.05.png ./pbpextrL16_m0.01.png ./pbpextrL16_m0.02.png\
+ ./pbpextrL16_m0.03.png ./pbpextrL16_m0.04.png ./pbpextrL16_m0.05.png ./psibarpsi.csv\
+ ./psibarpsi.pretty.csv ./psibarpsi_extrapolated.csv ./psibarpsi_extrapolated_pretty.csv\
+ ./tot_meas.table
 
  ./cond_m01_LsINF_L16 ./cond_m02_LsINF_L16 ./cond_m03_LsINF_L16 ./cond_m04_LsINF_L16\
  ./cond_m05_LsINF_L16 ./fitLsinfL16.png :  ./psibarpsi_extrapolated.csv
@@ -50,7 +50,7 @@ all:  ./cond_m01_Ls32_L12 ./cond_m01_Ls32_L16 ./cond_m01_Ls40_L12 ./cond_m01_Ls4
  ./psibarpsi_extrapolated_pretty.csv :  ./psibarpsi.csv
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/extrapolate_to_linf.py
 
- ./ntraj_all.table ./psibarpsi.csv ./psibarpsi.pretty.csv :  ./all_dirs/Ls32.beta0.30.m0.01/fort.200.total.1.csv\
+ ./psibarpsi.csv ./psibarpsi.pretty.csv ./tot_meas.table :  ./all_dirs/Ls32.beta0.30.m0.01/fort.200.total.1.csv\
  ./all_dirs/Ls32.beta0.30.m0.01/fort.200.total.2.csv\
  ./all_dirs/Ls32.beta0.30.m0.02/fort.200.total.1.csv\
  ./all_dirs/Ls32.beta0.30.m0.02/fort.200.total.2.csv\
