@@ -6,21 +6,21 @@ from sys import argv
 import lib
 from tabulate import tabulate
 
+def expexpression(A,alpha,constant,x):
+    return A*np.exp(-alpha * x ) + constant
 
-def fit_exp(df):
+def residuals(par, x, y, ye):
+    A, alpha, constant = par
+    ytheo = expexpression(A,alpha,constant,x)
+    return (y - ytheo) / ye
 
-    if (len(df) < 3):
-        return None
+
+def fit_exp_single(df):
 
     df = df.sort_values(by='Ls')
     x = df['Ls']
     y = df['psibarpsi']
     ye = df['psibarpsiErr']
-
-    def residuals(par, x, y, ye):
-        A, alphasqrt, constant = par
-        ytheo = A*np.exp(-alphasqrt**2 * x ) + constant
-        return (y - ytheo) / ye
 
     yl = list(y)
     xl = list(x)
@@ -28,27 +28,36 @@ def fit_exp(df):
     constant = yl[-1]
     last_pbp = constant
     last_pbp_e = list(ye)[-1]
-    alpha = -np.log((yl[-3] - yl[-1]) / (yl[-2] - yl[-1])) / (xl[-3] - xl[-2])
+    alpha = 0.1
 
-    if np.isnan(alpha) or alpha < 0:
-        alpha = 0.0
+    A = (yl[0] - constant)*np.exp(alpha*xl[0])
 
-    if np.isnan(xstart):
-        xstart = xl[-3]
+    #alpha = -np.log((yl[-3] - yl[-1]) / (yl[-2] - yl[-1])) / (xl[-3] - xl[-2])
+    #if np.isnan(alpha) or alpha < 0:
+    #    alpha = 0.0
+
 
     res = leastsq(func=residuals,
-                  x0=np.array([xstart, np.sqrt(alpha), constant]),
+                  x0=np.array([A, alpha, constant]),
                   args=(x, y, ye),
                   full_output=1)
 
-    xstart = res[0][0]
-    alpha = res[0][1]**2
+    A = res[0][0]
+    alpha = res[0][1]
     constant = res[0][2]
 
+    return A, alpha,constant
+
+
+def fit_exp(df):
+
     # bootstrap
-    xstarts = list()
+    As = list()
     alphas = list()
     constants = list()
+
+
+    A, alpha,constant = fit_exp_single(df)
 
     nboot = 10
     print('Boostrapping...')
@@ -59,27 +68,27 @@ def fit_exp(df):
             continue
 
         res = leastsq(func=residuals,
-                      x0=np.array([xstart, np.sqrt(alpha), constant]),
+                      x0=np.array([A, alpha, constant]),
                       args=(x, yresampled, ye),
                       full_output=1)
 
-        xstarts.append(res[0][0])
-        alphas.append(res[0][1]**2)
+        As.append(res[0][0])
+        alphas.append(res[0][1])
         constants.append(res[0][2])
 
     constant_e = np.std(np.array(constants))
-    xstart_e = np.std(np.array(xstarts))
+    A_e = np.std(np.array(As))
     alpha_e = np.std(np.array(alphas))
     data = np.array([[
-        last_pbp, last_pbp_e, constant, constant_e, alpha, alpha_e, xstart,
-        xstart_e
+        last_pbp, last_pbp_e, constant, constant_e, alpha, alpha_e,
+        A,A_e
     ]])
 
     return pd.DataFrame(data=data,
                         columns=[
                             'last_pbp', 'last_pbp_e', 'psibarpsi_inf',
-                            'psibarpsi_infErr', 'alpha', 'alpha_e', 'xstart',
-                            'xstart_e'
+                            'psibarpsi_infErr', 'alpha', 'alpha_e', 'A',
+                            'A_e'
                         ])
 
 
@@ -112,49 +121,14 @@ def plot_fit_exp(df_multi):
         if (len(df) < 3):
             return None
 
-        df = df.sort_values(by='Ls')
-        x = df['Ls']
-        y = df['psibarpsi']
-        ye = df['psibarpsiErr']
-
-        def residuals(par, x, y, ye):
-            xstart, alphasqrt, constant = par
-            ytheo = A*np.exp(-alphasqrt**2 *x) + constant
-            return (y - ytheo) / ye
-
-        yl = list(y)
-        xl = list(x)
-
-        constant = yl[-1]
-        last_pbp = constant
-        last_pbp_e = list(ye)[-1]
-
-        alpha = 0.1
-        if np.isnan(alpha) or alpha < 0:
-            alpha = 0.0
-
-        xstart = 20
-
-        if np.isnan(xstart):
-            xstart = xl[-3]
-
-        
-
-        #res = leastsq(func=residuals,
-        #              x0=np.array([xstart, np.sqrt(alpha), constant]),
-        #              args=(x, y, ye),
-        #              full_output=1)
-
-        #xstart = res[0][0]
-        #alpha = res[0][1]**2
-        #constant = res[0][2]
+        A, alpha,constant = fit_exp_single(df)
 
         print(beta, alpha, constant, xstart) #res[0])
 
         plt.errorbar(x, y, yerr=ye, linestyle='None')
         xplot = np.arange(min(x), max(x), (max(x) - min(x)) / 100)
         plt.plot(xplot,
-                 np.exp(-alpha * (xplot - xstart)) + constant,
+                 expexpression(A,alpha,constant,xplot),
                  label=f'{beta}')
 
     df_multi.groupby(by=['beta']).apply(plot_fit_exp_single)
