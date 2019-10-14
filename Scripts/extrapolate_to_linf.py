@@ -36,7 +36,6 @@ def fit_exp_single(df):
     #if np.isnan(alpha) or alpha < 0:
     #    alpha = 0.0
 
-
     res = leastsq(func=residuals,
                   x0=np.array([A, alpha, constant]),
                   args=(x, y, ye),
@@ -56,11 +55,26 @@ def fit_exp(df):
     alphas = list()
     constants = list()
 
+    df = df.sort_values(by='Ls')
+    x = df['Ls']
+    y = df['psibarpsi']
+    ye = df['psibarpsiErr']
+
+    yl = list(y)
+    xl = list(x)
+
+    constant = yl[-1]
+    last_pbp = constant
+    last_pbp_e = list(ye)[-1]
 
     A, alpha,constant = fit_exp_single(df)
 
     nboot = 10
-    print('Boostrapping...')
+    L = df.L.drop_duplicates().values[0]
+    beta = df.L.drop_duplicates().values[0]
+    mass = df.mass.drop_duplicates().values[0]
+
+    print(f'Boostrapping - L:{L} beat:{beta} mass:{mass} ...', flush=True)
     for _ in range(nboot):
         yresampled = np.random.normal(y, ye)
 
@@ -84,16 +98,21 @@ def fit_exp(df):
         A,A_e
     ]])
 
-    return pd.DataFrame(data=data,
+    res = pd.DataFrame(data=data,
                         columns=[
                             'last_pbp', 'last_pbp_e', 'psibarpsi_inf',
                             'psibarpsi_infErr', 'alpha', 'alpha_e', 'A',
                             'A_e'
                         ])
 
+    print(res)
+
+    return res
+
 
 print(f'Reading {lib.pbp_values_and_error_filename}')
 values_and_errors = pd.read_csv(lib.pbp_values_and_error_filename, sep='\t')
+
 
 extrapolation = values_and_errors.groupby(
     by=['L', 'beta', 'mass']).apply(fit_exp)
@@ -121,15 +140,28 @@ def plot_fit_exp(df_multi):
         if (len(df) < 3):
             return None
 
+        df = df.sort_values(by='Ls')
+        x = df['Ls']
+        y = df['psibarpsi']
+        ye = df['psibarpsiErr']
+    
+        yl = list(y)
+        xl = list(x)
+    
+        constant = yl[-1]
+        last_pbp = constant
+        last_pbp_e = list(ye)[-1]
+
         A, alpha,constant = fit_exp_single(df)
 
-        print(beta, alpha, constant, xstart) #res[0])
+        print(beta, A, alpha, constant) #res[0])
 
         plt.errorbar(x, y, yerr=ye, linestyle='None')
         xplot = np.arange(min(x), max(x), (max(x) - min(x)) / 100)
-        plt.plot(xplot,
+        p = plt.plot(xplot,
                  expexpression(A,alpha,constant,xplot),
                  label=f'{beta}')
+        #plt.plot(xplot,np.ones_like(xplot)*constant,color = p[0].get_color(),linestyle = '--')
 
     df_multi.groupby(by=['beta']).apply(plot_fit_exp_single)
     plt.legend()
@@ -143,7 +175,7 @@ values_and_errors.groupby(by=['L', 'mass']).apply(plot_fit_exp)
 
 output_filename = lib.pbp_inf_filename
 print(f"Writing {output_filename}")
-extrapolation.to_csv(path_or_buf=output_filename, sep='\t')
+#extrapolation.to_csv(path_or_buf=output_filename, sep='\t')
 
 output_filename_pretty = lib.pbp_inf_filename_pretty
 print(f"Writing {output_filename_pretty}")
