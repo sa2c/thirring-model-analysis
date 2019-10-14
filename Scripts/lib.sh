@@ -1,4 +1,4 @@
-
+#!/bin/bash
 
 
 
@@ -48,7 +48,7 @@ stitch_together(){
     fi
     touch $TOTAL_FILE 
     echo $HEADERCSV > $TOTAL_FILE_CSV
-    echo 'Reading $(shell find '$DIR' -name '"'"'fort.*'"'"')'
+    echo 'Reading $(shell find '$DIR' -name '$file')'
     for dir in $(ls -d $DIR/save*/[0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9] | sort -n)
     do
       PREFIX=$(basename $dir)
@@ -101,4 +101,4 @@ stitch_together_16(){
 }
 
 
-export -f cycle stitch_together stitch_together_wrapper stitch_together_16
+export -f cycle stitch_together stitch_together_wrapper stitch_together_output_dir stitch_together_16
