@@ -88,7 +88,7 @@ def filelist_parser(filename):
     Returns dataframe containing the same information, indexed by L,Ls,beta,mass.
     '''
     print(f"Reading {filename}")
-    analysis_settings = pd.read_csv(filename, sep='\t', comment='#')
+    analysis_settings = pd.read_table(filename, sep=r'\s+', comment='#',header=0)
 
     run_params_list = [{
         'L':
@@ -130,7 +130,7 @@ def cut_and_paste(analysis_settings):
         for filename in [filename_data
                          ] if type(filename_data) is str else filename_data:
             print(f"Reading {filename}")
-            df = pd.read_csv(filename.strip())
+            df = pd.read_table(filename.strip(),sep=r'\s+',header=0)
             thermalization_nmeas = np.ceil(therm_ntrajs / meas_every)
             df = df.tail(-int(thermalization_nmeas))
             dfs_to_concatenate.append(df)

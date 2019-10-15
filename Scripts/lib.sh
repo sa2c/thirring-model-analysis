@@ -33,28 +33,23 @@ stitch_together(){
   do 
     TOTAL_FILE=$OUTPUT_DIR/$file.total.$TAG
     echo Writing $TOTAL_FILE
-    TOTAL_FILE_CSV=$OUTPUT_DIR/$file.total.$TAG.csv
-    echo Writing $TOTAL_FILE_CSV
     if [ "$file" == fort.11 ]
     then 
-      HEADERCSV="Timestamp,isweep,gaction,paction"
+      HEADER="Timestamp isweep gaction paction"
     elif [ "$file" == fort.200 ]
     then
-      HEADERCSV="Timestamp,psibarpsi,susclsing"
+      HEADER="Timestamp psibarpsi susclsing"
     fi
     if [ -f "$TOTAL_FILE" ]
     then
       rm $TOTAL_FILE 
     fi
-    touch $TOTAL_FILE 
-    echo $HEADERCSV > $TOTAL_FILE_CSV
+    echo $HEADER > $TOTAL_FILE
     echo 'Reading $(shell find '$DIR' -name '$file')'
     for dir in $(ls -d $DIR/save*/[0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9] | sort -n)
     do
       PREFIX=$(basename $dir)
       awk '{print '$PREFIX',$0}' $dir/$file >> $TOTAL_FILE
-      awk '{OFS=",";printf("%s%s",'$PREFIX',OFS);for(i=1;i<=NF;i++)printf("%s%s",$i,i==NF?"\n":OFS)}' $dir/$file >> $TOTAL_FILE_CSV
-
     done
   done
 }

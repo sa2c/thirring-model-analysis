@@ -26,7 +26,7 @@ args = parser.parse_args()
 L = args.L
 
 print(f'Reading {lib.pbp_inf_filename}')
-values_and_errors  = pd.read_csv(lib.pbp_inf_filename, sep='\t')
+values_and_errors  = pd.read_table(lib.pbp_inf_filename, sep=r'\s+',header=0)
 
 # for each and L
 for mass in set(values_and_errors.mass):

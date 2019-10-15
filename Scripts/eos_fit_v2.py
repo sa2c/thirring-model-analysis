@@ -29,8 +29,8 @@ Ls = args.Ls
 L = args.L
 
 print(f'Reading {lib.pbp_values_and_error_filename}')
-values_and_errors  = pd.read_csv(lib.pbp_values_and_error_filename,
-        sep='\t')
+values_and_errors  = pd.read_table(lib.pbp_values_and_error_filename,
+        sep=r'\s+',header=0)
 
 # Saving pbp and pbp_err in different files for each mass
 # for each Ls and L

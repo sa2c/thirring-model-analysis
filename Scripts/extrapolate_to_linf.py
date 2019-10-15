@@ -111,7 +111,7 @@ def fit_exp(df):
 
 
 print(f'Reading {lib.pbp_values_and_error_filename}')
-values_and_errors = pd.read_csv(lib.pbp_values_and_error_filename, sep='\t')
+values_and_errors = pd.read_table(lib.pbp_values_and_error_filename, sep=r'\s+',header=0)
 
 
 extrapolation = values_and_errors.groupby(
@@ -129,6 +129,7 @@ def plot_fit_exp(df_multi):
     pfes_first_called = False  # workaround for calling apply with a side effectful f
 
     def plot_fit_exp_single(df):
+        # TODO: Check if this is still necessary.
         # workaround for calling apply with a side effectful f
         #nonlocal pfes_first_called
         #if not pfes_first_called:
