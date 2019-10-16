@@ -8,6 +8,7 @@ from tabulate import tabulate
 import argparse as ap
 import os
 import glob
+import extrapolation_library as el
 
 
 def expexpression(A, alpha, constant, x):
@@ -55,10 +56,7 @@ def fit_exp_single(df):
 
 def fit_exp(df):
 
-    output_columns = [
-        'last_pbp', 'last_pbp_e', 'constant', 'constant_e', 'alpha', 'alpha_e',
-        'A', 'A_e'
-    ]
+    output_columns = el.output_columns
 
     if (len(df) < 4):
         return pd.DataFrame(data=None, columns=output_columns)
@@ -106,7 +104,7 @@ def fit_exp(df):
     A_e = np.std(np.array(As))
     alpha_e = np.std(np.array(alphas))
     data = np.array(
-        [[last_pbp, last_pbp_e, constant, constant_e, alpha, alpha_e, A, A_e]])
+        [[last_pbp, last_pbp_e, constant, constant_e, alpha, alpha_e, A, A_e, beta, L , mass]])
 
     res = pd.DataFrame(data=data, columns=output_columns)
 
@@ -161,9 +159,14 @@ print(values_and_errors)
 
 extrapolation = fit_exp(values_and_errors)
 os.makedirs(lib.pbp_inf_dir, exist_ok=True)
-output_filename = os.path.join(
-    lib.pbp_inf_dir,
-    f'{args.analysis_settings_filename}_{args.L}_{args.beta}_{args.mass}')
+
+output_filename = el.fit_output_filename_format( args.analysis_settings_filename,args.L,args.beta,args.mass)
+
+assert len(extrapolation) is not 0 or len(values_and_errors) < 4
+
+if len(extrapolation) is 0:
+    exit()
+
 print(f"Writing {output_filename}")
 extrapolation.to_csv(path_or_buf=output_filename, sep='\t')
 
