@@ -1,5 +1,7 @@
 Place here the data files that need to be sewed together.
 See scripts and makefiles, i.e. ../Scripts/lib.sh and ../Analysis/makefile_stitch
 
-
-16: data from L=16.
+thirring_runs[12] : L=12 runs from sunbird (michele)
+16: data from L=16, dirac (michele)
+simon/dirac:  L=16 
+simon/sunbird: L=12
