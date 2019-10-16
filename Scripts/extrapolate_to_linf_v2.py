@@ -55,15 +55,13 @@ def fit_exp_single(df):
 
 def fit_exp(df):
 
-    print("Fitting df:")
-    print(df.sort_values(by='Ls'))
-    if(len(df)<4):
-        return pd.DataFrame(data=None,
-                       columns=[
-                           'last_pbp', 'last_pbp_e', 'psibarpsi_inf',
-                           'psibarpsi_infErr', 'alpha', 'alpha_e', 'A', 'A_e'
-                       ])
+    output_columns = [
+        'last_pbp', 'last_pbp_e', 'constant', 'constant_e', 'alpha', 'alpha_e',
+        'A', 'A_e'
+    ]
 
+    if (len(df) < 4):
+        return pd.DataFrame(data=None, columns=output_columns)
 
     # bootstrap
     As = list()
@@ -110,25 +108,18 @@ def fit_exp(df):
     data = np.array(
         [[last_pbp, last_pbp_e, constant, constant_e, alpha, alpha_e, A, A_e]])
 
-    res = pd.DataFrame(data=data,
-                       columns=[
-                           'last_pbp', 'last_pbp_e', 'psibarpsi_inf',
-                           'psibarpsi_infErr', 'alpha', 'alpha_e', 'A', 'A_e'
-                       ])
-
-    print("Results:")
-    print(res)
+    res = pd.DataFrame(data=data, columns=output_columns)
 
     return res
 
 
-def aggregate_psibarpsi_dataframes(L, mass, analysis_settings_filename):
+def aggregate_psibarpsi_dataframes(L, mass, beta, analysis_settings_filename):
     """
     See single_analysis_file_splitter, the $filename variable.
     """
     glob_expression = os.path.join(
         lib.pbpdir, lib.pbp_values_and_error_filename +
-        f"L{L}Ls??.beta?.*.m{mass}.{analysis_settings_filename}")
+        f"L{L}Ls??.beta{beta}.m{mass}.{analysis_settings_filename}")
     filenames = glob.glob(glob_expression)
 
     if len(filenames) is 0:
@@ -154,84 +145,27 @@ parser.add_argument(
     "and the block sizes. Used to find the names of the condensate files")
 
 parser.add_argument('mass', type=str, help='The chosen value of the mass')
+parser.add_argument('beta', type=str, help='The chosen value of beta')
 parser.add_argument('L', type=str, help='The chosen value of L')
 
 args = parser.parse_args()
 
 values_and_errors = aggregate_psibarpsi_dataframes(
-    args.L, args.mass, args.analysis_settings_filename)
+    L=args.L,
+    mass=args.mass,
+    beta=args.beta,
+    analysis_settings_filename=args.analysis_settings_filename)
 
 print("All values considered:")
-print(values_and_errors.sort_values(by=['L','beta','mass','Ls']))
+print(values_and_errors)
 
-extrapolation = values_and_errors.groupby(by=['L','beta','mass']).apply(fit_exp)
-os.makedirs(lib.pbp_inf_dir,exist_ok=True)
+extrapolation = fit_exp(values_and_errors)
+os.makedirs(lib.pbp_inf_dir, exist_ok=True)
 output_filename = os.path.join(
     lib.pbp_inf_dir,
-    f'{args.analysis_settings_filename}_{args.L}_{args.mass}')
+    f'{args.analysis_settings_filename}_{args.L}_{args.beta}_{args.mass}')
 print(f"Writing {output_filename}")
 extrapolation.to_csv(path_or_buf=output_filename, sep='\t')
 
 print("Extrapolation:")
 print(extrapolation)
-
-print("Plotting")
-
-def plot_fit_exp(df_multi):
-    from matplotlib import pyplot as plt
-    plt.figure()
-    plt.xlim([20, 56])
-
-    L = df_multi.L.drop_duplicates().values[0]
-    m = df_multi.mass.drop_duplicates().values[0]
-
-    pfes_first_called = False  # workaround for calling apply with a side effectful f
-
-    def plot_fit_exp_single(df):
-        # TODO: Check if this is still necessary.
-        # workaround for calling apply with a side effectful f
-        #nonlocal pfes_first_called
-        #if not pfes_first_called:
-        #    pfes_first_called = True
-        #    return None
-
-        beta = df.beta.drop_duplicates().values[0]
-
-        if (len(df) < 3):
-            return None
-
-        df = df.sort_values(by='Ls')
-        x = df['Ls']
-        y = df['psibarpsi']
-        ye = df['psibarpsiErr']
-
-        yl = list(y)
-        xl = list(x)
-
-        constant = yl[-1]
-        last_pbp = constant
-        last_pbp_e = list(ye)[-1]
-
-        A, alpha, constant = fit_exp_single(df)
-
-        print(beta, A, alpha, constant)  #res[0])
-
-        plt.errorbar(x, y, yerr=ye, linestyle='None')
-        xplot = np.arange(min(x), max(x), (max(x) - min(x)) / 100)
-        p = plt.plot(xplot,
-                     expexpression(A, alpha, constant, xplot),
-                     label=f'{beta}')
-        #plt.plot(xplot,np.ones_like(xplot)*constant,color = p[0].get_color(),linestyle = '--')
-
-    df_multi.groupby(by=['beta']).apply(plot_fit_exp_single)
-    plt.legend()
-    
-    output_filename = os.path.join( lib.pbp_inf_dir, f'pbpextrL{L}_m{m}.png')
-    print(f'Writing {output_filename}')
-    plt.savefig(output_filename)
-
-
-values_and_errors.groupby(by=['L', 'mass']).apply(plot_fit_exp)
-
-
-

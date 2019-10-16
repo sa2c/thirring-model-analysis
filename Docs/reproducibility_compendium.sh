@@ -33,13 +33,17 @@ do
     done 
 done 
 
-# doing extrapolation to Ls-> inf
+#doing extrapolation to Ls-> inf
+# THIS MUST BE CHANGED: 
+# 1. extrapolate everything separately, save values into file
+# 2. read extrapolated parameters and make plots (grouping by (L,mass) which 
+#    means many betas per plot.
 for L in 12 16 
  do 
-     grep -E '^'$L fort.200.analysis.set |  sed -r 's/.*Ls([0-9]{2}).beta(0.[0-9]*).m(0.[0-9]*).*/\3/' | sort -u | (
- while read m 
+     grep -E '^'$L fort.200.analysis.set |  sed -r 's/.*Ls([0-9]{2}).beta(0.[0-9]*).m(0.[0-9]*).*/\2 \3/' | sort -u | (
+ while read beta m 
  do 
-    ../ProtocolUtils/log ../Scripts/extrapolate_to_linf_v2.py fort.200.analysis.set $m  $L
+    ../ProtocolUtils/log ../Scripts/extrapolate_to_linf_v2.py fort.200.analysis.set $m $beta $L
  done )
 done 
 
