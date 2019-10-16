@@ -28,6 +28,7 @@ values_and_errors = lib.get_values_and_errors(df_dict, 'psibarpsi',
 
 basename = os.path.basename(args.analysis_settings_filename)
 
+print(f"Creating lib.pbpdir, {lib.pbpdir}") 
 os.makedirs(lib.pbpdir,exist_ok=True)
 
 values_and_error_filename = os.path.join(lib.pbpdir,lib.pbp_values_and_error_filename+basename)
