@@ -8,11 +8,13 @@ import re
 
 numeric_types = [np.int, np.int64, np.float, np.float64]
 
-pbp_values_and_error_filename = 'psibarpsi.csv'
-pbp_values_and_error_pretty_filename = 'psibarpsi.pretty.csv'
-pbp_inf_filename = 'psibarpsi_extrapolated.csv'
-pbp_inf_filename_pretty = 'psibarpsi_extrapolated_pretty.csv'
+pbp_values_and_error_filename = 'psibarpsi'
+pbp_values_and_error_pretty_filename = 'psibarpsi.pretty'
+pbp_inf_dir = 'psibarpsi_extrapolated'
+pbp_inf_filename_pretty = 'psibarpsi_extrapolated_pretty'
 
+pbpdir = 'psibarpsi'
+eos_fit_dir = 'eos_fit'
 
 def mean_square(series, blocksize):
     '''
@@ -102,7 +104,9 @@ def filelist_parser(filename):
             run_params[parname] for run_params in run_params_list
         ]
 
+    print(analysis_settings.set_index(parnames))
     return analysis_settings.set_index(parnames)
+
 
 
 def cut_and_paste(analysis_settings):
@@ -113,7 +117,7 @@ def cut_and_paste(analysis_settings):
     '''
     df_dict = dict()
 
-    for idx in analysis_settings.index:
+    for idx in set(analysis_settings.index):
         L, Ls, beta, mass = idx
 
         therm_ntrajs_data = analysis_settings.thermalization[idx]
@@ -126,17 +130,23 @@ def cut_and_paste(analysis_settings):
         ) in numeric_types else meas_every_data.drop_duplicates()[0]
 
         dfs_to_concatenate = []
+        print("Concatenating dfs...")
         filename_data = analysis_settings.loc[idx, 'filename']
         for filename in [filename_data
                          ] if type(filename_data) is str else filename_data:
             print(f"Reading {filename}")
             df = pd.read_table(filename.strip(),sep=r'\s+',header=0)
             thermalization_nmeas = np.ceil(therm_ntrajs / meas_every)
+            print(f"Nmeas before cut: {len(df)}")
             df = df.tail(-int(thermalization_nmeas))
+            print(f"Nmeas to append: {len(df)}")
+
             dfs_to_concatenate.append(df)
 
         df_dict[idx] = pd.concat(dfs_to_concatenate,
                                  axis='index').reset_index()
+
+        print(f"Total nmeas: {len(df_dict[idx])}")
 
     return df_dict
 

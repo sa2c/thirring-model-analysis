@@ -1,10 +1,15 @@
 digraph G{
+  simons_data [ label = "Data from Simon" ];
+  micheles_data [ label = "Data from Michele" ];
   cond_files [label = "condensate files"];
   analysis_settings [ label = "fort.200.analysis*.set" ] ;
   cond_val_err [ label = "condensate val+-err"];
   extrapolated_values [ label = "condensate extrapolated to Ls=+inf"];
   fixed_ls_fit_results [ label = "Fit results at fixed Ls"];
-  extrapolated_ls_fit_results [ labels = "Fit results for extrapolated data"];
+  extrapolated_ls_fit_results [ label = "Fit results for extrapolated data"];
+  
+  simons_data -> cond_files [label = "aggregation for Simon" ] ;
+  micheles_data -> cond_files [label = "aggregation for Michele" ] ;
   cond_files -> cond_val_err;
   analysis_settings -> cond_val_err;
   cond_val_err -> extrapolated_values;

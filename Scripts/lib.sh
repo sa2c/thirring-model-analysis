@@ -68,7 +68,7 @@ stitch_together_output_dir(){
   else 
     exit 
   fi
-  echo ../Analysis/$DIR_STEM/$DIRBASENAME
+  echo $DIR_STEM/$DIRBASENAME
 }
 
 stitch_together_wrapper(){

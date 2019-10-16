@@ -4,9 +4,12 @@
 
 for machine in dirac sunbird
 do
-    for dir in  ../Data/simon/$machine/b_0.*/Ls_*/m_0.0?
-    do 
-        ../ProtocolUtils/log ../Scripts/single_dir_simon.sh $dir $machine
+    for filetype in fort.100 fort.11 fort.200
+    do
+        for dir in  ../Data/simon/$machine/b_0.*/Ls_*/m_0.0?
+        do 
+            ../ProtocolUtils/log ../Scripts/single_dir_simon.sh $dir $machine $filetype
+        done 
     done 
 done
 
