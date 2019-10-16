@@ -16,6 +16,7 @@ pbp_inf_filename_pretty = 'psibarpsi_extrapolated_pretty'
 pbpdir = 'psibarpsi'
 eos_fit_dir = 'eos_fit'
 
+
 def mean_square(series, blocksize):
     '''
     Takes a 1D array and a blocksize as input and returns an unbiased 
@@ -90,7 +91,10 @@ def filelist_parser(filename):
     Returns dataframe containing the same information, indexed by L,Ls,beta,mass.
     '''
     print(f"Reading {filename}")
-    analysis_settings = pd.read_table(filename, sep=r'\s+', comment='#',header=0)
+    analysis_settings = pd.read_table(filename,
+                                      sep=r'\s+',
+                                      comment='#',
+                                      header=0)
 
     run_params_list = [{
         'L':
@@ -107,6 +111,42 @@ def filelist_parser(filename):
     print(analysis_settings.set_index(parnames))
     return analysis_settings.set_index(parnames)
 
+def read_all_files(analysis_settings):
+    ''' 
+    Takes as input dataframe containing the same information, indexed by 
+    L,Ls,beta,mass. Returns a dictionary of df_dict with thermalization removed,
+    merged by L,Ls,beta,mass
+    '''
+    df_dict = dict()
+
+    for idx in set(analysis_settings.index):
+        L, Ls, beta, mass = idx
+
+        dfs = []
+        print("Concatenating dfs...")
+        filename_data = analysis_settings.loc[[idx], 'filename']
+        therm_ntrajs_data = analysis_settings.loc[[idx], 'thermalization']
+        meas_every_data = analysis_settings.loc[[idx], 'measevery']
+
+        assert len(meas_every_data.drop_duplicates()) == 1
+
+        for filename, therm_ntrajs, meas_every in zip(filename_data,
+                                                      therm_ntrajs_data,
+                                                      meas_every_data):
+            print(f"Reading {filename}")
+            df = pd.read_table(filename.strip(), sep=r'\s+', header=0)
+            thermalization_nmeas = np.ceil(therm_ntrajs / meas_every)
+            print(f"Nmeas before cut: {len(df)}")
+            df_sane = df.tail(-int(thermalization_nmeas))
+            df_therm = df.head(int(thermalization_nmeas))
+            print(f"Nmeas to append: {len(df_sane)}")
+            df = {'therm' :  df_therm, 'sane' : df_sane }
+
+            dfs.append(df)
+
+        df_dict[idx] = dfs
+
+    return df_dict
 
 
 def cut_and_paste(analysis_settings):
@@ -120,22 +160,19 @@ def cut_and_paste(analysis_settings):
     for idx in set(analysis_settings.index):
         L, Ls, beta, mass = idx
 
-        therm_ntrajs_data = analysis_settings.thermalization[idx]
-        therm_ntrajs = therm_ntrajs_data if type(
-            therm_ntrajs_data
-        ) in numeric_types else therm_ntrajs_data.drop_duplicates()[0]
-        meas_every_data = analysis_settings.measevery[idx]
-        meas_every = meas_every_data if type(
-            meas_every_data
-        ) in numeric_types else meas_every_data.drop_duplicates()[0]
-
         dfs_to_concatenate = []
         print("Concatenating dfs...")
-        filename_data = analysis_settings.loc[idx, 'filename']
-        for filename in [filename_data
-                         ] if type(filename_data) is str else filename_data:
+        filename_data = analysis_settings.loc[[idx], 'filename']
+        therm_ntrajs_data = analysis_settings.loc[[idx], 'thermalization']
+        meas_every_data = analysis_settings.loc[[idx], 'measevery']
+
+        assert len(meas_every_data.drop_duplicates()) == 1
+
+        for filename, therm_ntrajs, meas_every in zip(filename_data,
+                                                      therm_ntrajs_data,
+                                                      meas_every_data):
             print(f"Reading {filename}")
-            df = pd.read_table(filename.strip(),sep=r'\s+',header=0)
+            df = pd.read_table(filename.strip(), sep=r'\s+', header=0)
             thermalization_nmeas = np.ceil(therm_ntrajs / meas_every)
             print(f"Nmeas before cut: {len(df)}")
             df = df.tail(-int(thermalization_nmeas))
@@ -151,11 +188,23 @@ def cut_and_paste(analysis_settings):
     return df_dict
 
 
-def scan_for_blocking(df_dict, observable, analysis_settings):
-    for k, v in df_dict.items():
-        plt.title("{}-{}".format(k, observable))
-        plt.plot(v[observable])
+def scan_for_blocking(df_dict,df_dict_cut, observable, analysis_settings):
+    for k in sorted(df_dict.keys()):
+        vs_both  = df_dict[k]
+        count = 1
+        for v_both in vs_both:
+            v = v_both['sane']
+            therm = v_both['therm']
+
+            plt.title("{}-{}".format(k, observable))
+            x = np.arange(len(therm[observable]))
+            plt.plot(x,therm[observable], label = str(count)+'_therm')
+            x = np.arange(len(v[observable])) + len(therm[observable])
+            plt.plot(x, v[observable], label = str(count))
+            count += 1
+
         plt.show()
+        v = df_dict_cut[k]
         n_meas = len(v[observable])
         bmeassize_range = range(1, n_meas // 5, 2)
         mean_errs = [
