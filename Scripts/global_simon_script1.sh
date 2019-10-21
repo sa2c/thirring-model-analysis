@@ -8,7 +8,7 @@ do
     do
         for dir in  ../Data/simon/$machine/b_0.*/Ls_*/m_0.0?
         do 
-            ../ProtocolUtils/log ../Scripts/single_dir_simon.sh $dir $machine $filetype
+            ../ProtocolUtils/log ../Scripts/single_dir_simon1.sh $dir $machine $filetype
         done 
     done 
 done

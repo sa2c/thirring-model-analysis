@@ -4919,994 +4919,994 @@ all:  ./all_dirs/Ls32.beta0.30.m0.01/fort.11.total.1\
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_analysis_file_splitter.sh fort.200.analysis.set 16 Ls32.beta0.42.m0.02
 
  ./simon/sunbird/Ls24.beta0.50.m0.02/fort.200 :  $(shell find ../Data/simon/sunbird/b_0.5/Ls_24/m_0.02 -name 'condensate_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/sunbird/b_0.5/Ls_24/m_0.02 sunbird fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/sunbird/b_0.5/Ls_24/m_0.02 sunbird fort.200
 
  ./simon/dirac/Ls32.beta0.42.m0.04/fort.100 :  $(shell find ../Data/simon/dirac/b_0.42/Ls_32/m_0.04 -name 'conds_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.42/Ls_32/m_0.04 dirac fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.42/Ls_32/m_0.04 dirac fort.100
 
  ./simon/dirac/Ls40.beta0.50.m0.03/fort.11 :  $(shell find ../Data/simon/dirac/b_0.5/Ls_40/m_0.03 -name 'bose_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.5/Ls_40/m_0.03 dirac fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.5/Ls_40/m_0.03 dirac fort.11
 
  ./simon/sunbird/Ls24.beta0.44.m0.01/fort.11 :  $(shell find ../Data/simon/sunbird/b_0.44/Ls_24/m_0.01 -name 'bose_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/sunbird/b_0.44/Ls_24/m_0.01 sunbird fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/sunbird/b_0.44/Ls_24/m_0.01 sunbird fort.11
 
  ./simon/dirac/Ls32.beta0.52.m0.03/fort.100 :  $(shell find ../Data/simon/dirac/b_0.52/Ls_32/m_0.03 -name 'conds_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.52/Ls_32/m_0.03 dirac fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.52/Ls_32/m_0.03 dirac fort.100
 
  ./simon/sunbird/Ls24.beta0.40.m0.05/fort.100 :  $(shell find ../Data/simon/sunbird/b_0.4/Ls_24/m_0.05 -name 'conds_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/sunbird/b_0.4/Ls_24/m_0.05 sunbird fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/sunbird/b_0.4/Ls_24/m_0.05 sunbird fort.100
 
  ./simon/dirac/Ls40.beta0.42.m0.01/fort.100 :  $(shell find ../Data/simon/dirac/b_0.42/Ls_40/m_0.01 -name 'conds_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.42/Ls_40/m_0.01 dirac fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.42/Ls_40/m_0.01 dirac fort.100
 
  ./simon/dirac/Ls32.beta0.40.m0.03/fort.100 :  $(shell find ../Data/simon/dirac/b_0.4/Ls_32/m_0.03 -name 'conds_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.4/Ls_32/m_0.03 dirac fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.4/Ls_32/m_0.03 dirac fort.100
 
  ./simon/sunbird/Ls24.beta0.50.m0.01/fort.100 :  $(shell find ../Data/simon/sunbird/b_0.5/Ls_24/m_0.01 -name 'conds_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/sunbird/b_0.5/Ls_24/m_0.01 sunbird fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/sunbird/b_0.5/Ls_24/m_0.01 sunbird fort.100
 
  ./simon/dirac/Ls40.beta0.42.m0.03/fort.11 :  $(shell find ../Data/simon/dirac/b_0.42/Ls_40/m_0.03 -name 'bose_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.42/Ls_40/m_0.03 dirac fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.42/Ls_40/m_0.03 dirac fort.11
 
  ./simon/sunbird/Ls24.beta0.30.m0.01/fort.100 :  $(shell find ../Data/simon/sunbird/b_0.3/Ls_24/m_0.01 -name 'conds_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/sunbird/b_0.3/Ls_24/m_0.01 sunbird fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/sunbird/b_0.3/Ls_24/m_0.01 sunbird fort.100
 
  ./simon/dirac/Ls40.beta0.42.m0.04/fort.100 :  $(shell find ../Data/simon/dirac/b_0.42/Ls_40/m_0.04 -name 'conds_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.42/Ls_40/m_0.04 dirac fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.42/Ls_40/m_0.04 dirac fort.100
 
  ./simon/dirac/Ls40.beta0.48.m0.03/fort.100 :  $(shell find ../Data/simon/dirac/b_0.48/Ls_40/m_0.03 -name 'conds_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.48/Ls_40/m_0.03 dirac fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.48/Ls_40/m_0.03 dirac fort.100
 
  ./simon/sunbird/Ls24.beta0.36.m0.01/fort.11 :  $(shell find ../Data/simon/sunbird/b_0.36/Ls_24/m_0.01 -name 'bose_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/sunbird/b_0.36/Ls_24/m_0.01 sunbird fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/sunbird/b_0.36/Ls_24/m_0.01 sunbird fort.11
 
  ./simon/dirac/Ls40.beta0.44.m0.05/fort.100 :  $(shell find ../Data/simon/dirac/b_0.44/Ls_40/m_0.05 -name 'conds_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.44/Ls_40/m_0.05 dirac fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.44/Ls_40/m_0.05 dirac fort.100
 
  ./simon/dirac/Ls40.beta0.40.m0.01/fort.100 :  $(shell find ../Data/simon/dirac/b_0.4/Ls_40/m_0.01 -name 'conds_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.4/Ls_40/m_0.01 dirac fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.4/Ls_40/m_0.01 dirac fort.100
 
  ./simon/dirac/Ls32.beta0.46.m0.01/fort.200 :  $(shell find ../Data/simon/dirac/b_0.46/Ls_32/m_0.01 -name 'condensate_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.46/Ls_32/m_0.01 dirac fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.46/Ls_32/m_0.01 dirac fort.200
 
  ./simon/dirac/Ls32.beta0.46.m0.05/fort.100 :  $(shell find ../Data/simon/dirac/b_0.46/Ls_32/m_0.05 -name 'conds_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.46/Ls_32/m_0.05 dirac fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.46/Ls_32/m_0.05 dirac fort.100
 
  ./simon/sunbird/Ls24.beta0.36.m0.04/fort.200 :  $(shell find ../Data/simon/sunbird/b_0.36/Ls_24/m_0.04 -name 'condensate_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/sunbird/b_0.36/Ls_24/m_0.04 sunbird fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/sunbird/b_0.36/Ls_24/m_0.04 sunbird fort.200
 
  ./simon/dirac/Ls40.beta0.42.m0.03/fort.100 :  $(shell find ../Data/simon/dirac/b_0.42/Ls_40/m_0.03 -name 'conds_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.42/Ls_40/m_0.03 dirac fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.42/Ls_40/m_0.03 dirac fort.100
 
  ./simon/sunbird/Ls24.beta0.44.m0.01/fort.200 :  $(shell find ../Data/simon/sunbird/b_0.44/Ls_24/m_0.01 -name 'condensate_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/sunbird/b_0.44/Ls_24/m_0.01 sunbird fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/sunbird/b_0.44/Ls_24/m_0.01 sunbird fort.200
 
  ./simon/sunbird/Ls24.beta0.42.m0.02/fort.11 :  $(shell find ../Data/simon/sunbird/b_0.42/Ls_24/m_0.02 -name 'bose_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/sunbird/b_0.42/Ls_24/m_0.02 sunbird fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/sunbird/b_0.42/Ls_24/m_0.02 sunbird fort.11
 
  ./simon/dirac/Ls32.beta0.42.m0.02/fort.200 :  $(shell find ../Data/simon/dirac/b_0.42/Ls_32/m_0.02 -name 'condensate_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.42/Ls_32/m_0.02 dirac fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.42/Ls_32/m_0.02 dirac fort.200
 
  ./simon/sunbird/Ls24.beta0.52.m0.03/fort.200 :  $(shell find ../Data/simon/sunbird/b_0.52/Ls_24/m_0.03 -name 'condensate_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/sunbird/b_0.52/Ls_24/m_0.03 sunbird fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/sunbird/b_0.52/Ls_24/m_0.03 sunbird fort.200
 
  ./simon/sunbird/Ls24.beta0.30.m0.01/fort.11 :  $(shell find ../Data/simon/sunbird/b_0.3/Ls_24/m_0.01 -name 'bose_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/sunbird/b_0.3/Ls_24/m_0.01 sunbird fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/sunbird/b_0.3/Ls_24/m_0.01 sunbird fort.11
 
  ./simon/sunbird/Ls24.beta0.36.m0.02/fort.100 :  $(shell find ../Data/simon/sunbird/b_0.36/Ls_24/m_0.02 -name 'conds_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/sunbird/b_0.36/Ls_24/m_0.02 sunbird fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/sunbird/b_0.36/Ls_24/m_0.02 sunbird fort.100
 
  ./simon/dirac/Ls32.beta0.42.m0.05/fort.200 :  $(shell find ../Data/simon/dirac/b_0.42/Ls_32/m_0.05 -name 'condensate_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.42/Ls_32/m_0.05 dirac fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.42/Ls_32/m_0.05 dirac fort.200
 
  ./simon/dirac/Ls32.beta0.48.m0.02/fort.100 :  $(shell find ../Data/simon/dirac/b_0.48/Ls_32/m_0.02 -name 'conds_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.48/Ls_32/m_0.02 dirac fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.48/Ls_32/m_0.02 dirac fort.100
 
  ./simon/sunbird/Ls24.beta0.40.m0.01/fort.11 :  $(shell find ../Data/simon/sunbird/b_0.4/Ls_24/m_0.01 -name 'bose_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/sunbird/b_0.4/Ls_24/m_0.01 sunbird fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/sunbird/b_0.4/Ls_24/m_0.01 sunbird fort.11
 
  ./simon/sunbird/Ls24.beta0.46.m0.02/fort.200 :  $(shell find ../Data/simon/sunbird/b_0.46/Ls_24/m_0.02 -name 'condensate_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/sunbird/b_0.46/Ls_24/m_0.02 sunbird fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/sunbird/b_0.46/Ls_24/m_0.02 sunbird fort.200
 
  ./simon/sunbird/Ls24.beta0.32.m0.01/fort.11 :  $(shell find ../Data/simon/sunbird/b_0.32/Ls_24/m_0.01 -name 'bose_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/sunbird/b_0.32/Ls_24/m_0.01 sunbird fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/sunbird/b_0.32/Ls_24/m_0.01 sunbird fort.11
 
  ./simon/dirac/Ls32.beta0.40.m0.04/fort.100 :  $(shell find ../Data/simon/dirac/b_0.4/Ls_32/m_0.04 -name 'conds_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.4/Ls_32/m_0.04 dirac fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.4/Ls_32/m_0.04 dirac fort.100
 
  ./simon/dirac/Ls40.beta0.48.m0.04/fort.200 :  $(shell find ../Data/simon/dirac/b_0.48/Ls_40/m_0.04 -name 'condensate_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.48/Ls_40/m_0.04 dirac fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.48/Ls_40/m_0.04 dirac fort.200
 
  ./simon/sunbird/Ls24.beta0.34.m0.03/fort.11 :  $(shell find ../Data/simon/sunbird/b_0.34/Ls_24/m_0.03 -name 'bose_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/sunbird/b_0.34/Ls_24/m_0.03 sunbird fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/sunbird/b_0.34/Ls_24/m_0.03 sunbird fort.11
 
  ./simon/sunbird/Ls24.beta0.30.m0.03/fort.200 :  $(shell find ../Data/simon/sunbird/b_0.3/Ls_24/m_0.03 -name 'condensate_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/sunbird/b_0.3/Ls_24/m_0.03 sunbird fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/sunbird/b_0.3/Ls_24/m_0.03 sunbird fort.200
 
  ./simon/dirac/Ls40.beta0.52.m0.01/fort.200 :  $(shell find ../Data/simon/dirac/b_0.52/Ls_40/m_0.01 -name 'condensate_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.52/Ls_40/m_0.01 dirac fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.52/Ls_40/m_0.01 dirac fort.200
 
  ./simon/dirac/Ls40.beta0.50.m0.03/fort.200 :  $(shell find ../Data/simon/dirac/b_0.5/Ls_40/m_0.03 -name 'condensate_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.5/Ls_40/m_0.03 dirac fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.5/Ls_40/m_0.03 dirac fort.200
 
  ./simon/dirac/Ls32.beta0.42.m0.03/fort.100 :  $(shell find ../Data/simon/dirac/b_0.42/Ls_32/m_0.03 -name 'conds_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.42/Ls_32/m_0.03 dirac fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.42/Ls_32/m_0.03 dirac fort.100
 
  ./simon/sunbird/Ls24.beta0.42.m0.02/fort.200 :  $(shell find ../Data/simon/sunbird/b_0.42/Ls_24/m_0.02 -name 'condensate_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/sunbird/b_0.42/Ls_24/m_0.02 sunbird fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/sunbird/b_0.42/Ls_24/m_0.02 sunbird fort.200
 
  ./simon/dirac/Ls32.beta0.50.m0.03/fort.200 :  $(shell find ../Data/simon/dirac/b_0.5/Ls_32/m_0.03 -name 'condensate_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.5/Ls_32/m_0.03 dirac fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.5/Ls_32/m_0.03 dirac fort.200
 
  ./simon/dirac/Ls32.beta0.48.m0.04/fort.100 :  $(shell find ../Data/simon/dirac/b_0.48/Ls_32/m_0.04 -name 'conds_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.48/Ls_32/m_0.04 dirac fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.48/Ls_32/m_0.04 dirac fort.100
 
  ./simon/dirac/Ls32.beta0.42.m0.05/fort.11 :  $(shell find ../Data/simon/dirac/b_0.42/Ls_32/m_0.05 -name 'bose_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.42/Ls_32/m_0.05 dirac fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.42/Ls_32/m_0.05 dirac fort.11
 
  ./simon/dirac/Ls40.beta0.48.m0.03/fort.200 :  $(shell find ../Data/simon/dirac/b_0.48/Ls_40/m_0.03 -name 'condensate_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.48/Ls_40/m_0.03 dirac fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.48/Ls_40/m_0.03 dirac fort.200
 
  ./simon/sunbird/Ls24.beta0.40.m0.05/fort.11 :  $(shell find ../Data/simon/sunbird/b_0.4/Ls_24/m_0.05 -name 'bose_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/sunbird/b_0.4/Ls_24/m_0.05 sunbird fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/sunbird/b_0.4/Ls_24/m_0.05 sunbird fort.11
 
  ./simon/dirac/Ls40.beta0.50.m0.05/fort.100 :  $(shell find ../Data/simon/dirac/b_0.5/Ls_40/m_0.05 -name 'conds_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.5/Ls_40/m_0.05 dirac fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.5/Ls_40/m_0.05 dirac fort.100
 
  ./simon/sunbird/Ls24.beta0.34.m0.01/fort.100 :  $(shell find ../Data/simon/sunbird/b_0.34/Ls_24/m_0.01 -name 'conds_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/sunbird/b_0.34/Ls_24/m_0.01 sunbird fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/sunbird/b_0.34/Ls_24/m_0.01 sunbird fort.100
 
  ./simon/dirac/Ls48.beta0.52.m0.05/fort.11 :  $(shell find ../Data/simon/dirac/b_0.52/Ls_48/m_0.05 -name 'bose_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.52/Ls_48/m_0.05 dirac fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.52/Ls_48/m_0.05 dirac fort.11
 
  ./simon/sunbird/Ls24.beta0.44.m0.02/fort.100 :  $(shell find ../Data/simon/sunbird/b_0.44/Ls_24/m_0.02 -name 'conds_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/sunbird/b_0.44/Ls_24/m_0.02 sunbird fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/sunbird/b_0.44/Ls_24/m_0.02 sunbird fort.100
 
  ./simon/sunbird/Ls24.beta0.34.m0.03/fort.200 :  $(shell find ../Data/simon/sunbird/b_0.34/Ls_24/m_0.03 -name 'condensate_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/sunbird/b_0.34/Ls_24/m_0.03 sunbird fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/sunbird/b_0.34/Ls_24/m_0.03 sunbird fort.200
 
  ./simon/dirac/Ls32.beta0.40.m0.01/fort.200 :  $(shell find ../Data/simon/dirac/b_0.4/Ls_32/m_0.01 -name 'condensate_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.4/Ls_32/m_0.01 dirac fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.4/Ls_32/m_0.01 dirac fort.200
 
  ./simon/sunbird/Ls24.beta0.34.m0.02/fort.100 :  $(shell find ../Data/simon/sunbird/b_0.34/Ls_24/m_0.02 -name 'conds_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/sunbird/b_0.34/Ls_24/m_0.02 sunbird fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/sunbird/b_0.34/Ls_24/m_0.02 sunbird fort.100
 
  ./simon/dirac/Ls40.beta0.44.m0.04/fort.11 :  $(shell find ../Data/simon/dirac/b_0.44/Ls_40/m_0.04 -name 'bose_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.44/Ls_40/m_0.04 dirac fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.44/Ls_40/m_0.04 dirac fort.11
 
  ./simon/dirac/Ls32.beta0.48.m0.02/fort.11 :  $(shell find ../Data/simon/dirac/b_0.48/Ls_32/m_0.02 -name 'bose_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.48/Ls_32/m_0.02 dirac fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.48/Ls_32/m_0.02 dirac fort.11
 
  ./simon/dirac/Ls40.beta0.46.m0.01/fort.200 :  $(shell find ../Data/simon/dirac/b_0.46/Ls_40/m_0.01 -name 'condensate_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.46/Ls_40/m_0.01 dirac fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.46/Ls_40/m_0.01 dirac fort.200
 
  ./simon/dirac/Ls32.beta0.40.m0.03/fort.11 :  $(shell find ../Data/simon/dirac/b_0.4/Ls_32/m_0.03 -name 'bose_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.4/Ls_32/m_0.03 dirac fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.4/Ls_32/m_0.03 dirac fort.11
 
  ./simon/dirac/Ls40.beta0.52.m0.05/fort.100 :  $(shell find ../Data/simon/dirac/b_0.52/Ls_40/m_0.05 -name 'conds_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.52/Ls_40/m_0.05 dirac fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.52/Ls_40/m_0.05 dirac fort.100
 
  ./simon/sunbird/Ls24.beta0.30.m0.03/fort.11 :  $(shell find ../Data/simon/sunbird/b_0.3/Ls_24/m_0.03 -name 'bose_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/sunbird/b_0.3/Ls_24/m_0.03 sunbird fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/sunbird/b_0.3/Ls_24/m_0.03 sunbird fort.11
 
  ./simon/dirac/Ls40.beta0.48.m0.05/fort.100 :  $(shell find ../Data/simon/dirac/b_0.48/Ls_40/m_0.05 -name 'conds_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.48/Ls_40/m_0.05 dirac fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.48/Ls_40/m_0.05 dirac fort.100
 
  ./simon/dirac/Ls40.beta0.46.m0.03/fort.100 :  $(shell find ../Data/simon/dirac/b_0.46/Ls_40/m_0.03 -name 'conds_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.46/Ls_40/m_0.03 dirac fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.46/Ls_40/m_0.03 dirac fort.100
 
  ./simon/dirac/Ls40.beta0.48.m0.04/fort.11 :  $(shell find ../Data/simon/dirac/b_0.48/Ls_40/m_0.04 -name 'bose_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.48/Ls_40/m_0.04 dirac fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.48/Ls_40/m_0.04 dirac fort.11
 
  ./simon/dirac/Ls40.beta0.46.m0.04/fort.200 :  $(shell find ../Data/simon/dirac/b_0.46/Ls_40/m_0.04 -name 'condensate_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.46/Ls_40/m_0.04 dirac fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.46/Ls_40/m_0.04 dirac fort.200
 
  ./simon/dirac/Ls40.beta0.52.m0.02/fort.11 :  $(shell find ../Data/simon/dirac/b_0.52/Ls_40/m_0.02 -name 'bose_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.52/Ls_40/m_0.02 dirac fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.52/Ls_40/m_0.02 dirac fort.11
 
  ./simon/dirac/Ls32.beta0.50.m0.03/fort.11 :  $(shell find ../Data/simon/dirac/b_0.5/Ls_32/m_0.03 -name 'bose_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.5/Ls_32/m_0.03 dirac fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.5/Ls_32/m_0.03 dirac fort.11
 
  ./simon/sunbird/Ls24.beta0.30.m0.04/fort.200 :  $(shell find ../Data/simon/sunbird/b_0.3/Ls_24/m_0.04 -name 'condensate_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/sunbird/b_0.3/Ls_24/m_0.04 sunbird fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/sunbird/b_0.3/Ls_24/m_0.04 sunbird fort.200
 
  ./simon/sunbird/Ls24.beta0.38.m0.03/fort.11 :  $(shell find ../Data/simon/sunbird/b_0.38/Ls_24/m_0.03 -name 'bose_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/sunbird/b_0.38/Ls_24/m_0.03 sunbird fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/sunbird/b_0.38/Ls_24/m_0.03 sunbird fort.11
 
  ./simon/sunbird/Ls24.beta0.46.m0.02/fort.100 :  $(shell find ../Data/simon/sunbird/b_0.46/Ls_24/m_0.02 -name 'conds_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/sunbird/b_0.46/Ls_24/m_0.02 sunbird fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/sunbird/b_0.46/Ls_24/m_0.02 sunbird fort.100
 
  ./simon/dirac/Ls40.beta0.46.m0.03/fort.11 :  $(shell find ../Data/simon/dirac/b_0.46/Ls_40/m_0.03 -name 'bose_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.46/Ls_40/m_0.03 dirac fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.46/Ls_40/m_0.03 dirac fort.11
 
  ./simon/sunbird/Ls24.beta0.38.m0.01/fort.200 :  $(shell find ../Data/simon/sunbird/b_0.38/Ls_24/m_0.01 -name 'condensate_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/sunbird/b_0.38/Ls_24/m_0.01 sunbird fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/sunbird/b_0.38/Ls_24/m_0.01 sunbird fort.200
 
  ./simon/sunbird/Ls24.beta0.52.m0.01/fort.100 :  $(shell find ../Data/simon/sunbird/b_0.52/Ls_24/m_0.01 -name 'conds_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/sunbird/b_0.52/Ls_24/m_0.01 sunbird fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/sunbird/b_0.52/Ls_24/m_0.01 sunbird fort.100
 
  ./simon/sunbird/Ls24.beta0.34.m0.05/fort.200 :  $(shell find ../Data/simon/sunbird/b_0.34/Ls_24/m_0.05 -name 'condensate_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/sunbird/b_0.34/Ls_24/m_0.05 sunbird fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/sunbird/b_0.34/Ls_24/m_0.05 sunbird fort.200
 
  ./simon/dirac/Ls40.beta0.44.m0.04/fort.200 :  $(shell find ../Data/simon/dirac/b_0.44/Ls_40/m_0.04 -name 'condensate_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.44/Ls_40/m_0.04 dirac fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.44/Ls_40/m_0.04 dirac fort.200
 
  ./simon/dirac/Ls32.beta0.46.m0.03/fort.11 :  $(shell find ../Data/simon/dirac/b_0.46/Ls_32/m_0.03 -name 'bose_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.46/Ls_32/m_0.03 dirac fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.46/Ls_32/m_0.03 dirac fort.11
 
  ./simon/dirac/Ls32.beta0.42.m0.04/fort.11 :  $(shell find ../Data/simon/dirac/b_0.42/Ls_32/m_0.04 -name 'bose_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.42/Ls_32/m_0.04 dirac fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.42/Ls_32/m_0.04 dirac fort.11
 
  ./simon/sunbird/Ls24.beta0.40.m0.02/fort.200 :  $(shell find ../Data/simon/sunbird/b_0.4/Ls_24/m_0.02 -name 'condensate_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/sunbird/b_0.4/Ls_24/m_0.02 sunbird fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/sunbird/b_0.4/Ls_24/m_0.02 sunbird fort.200
 
  ./simon/dirac/Ls40.beta0.46.m0.03/fort.200 :  $(shell find ../Data/simon/dirac/b_0.46/Ls_40/m_0.03 -name 'condensate_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.46/Ls_40/m_0.03 dirac fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.46/Ls_40/m_0.03 dirac fort.200
 
  ./simon/dirac/Ls32.beta0.44.m0.03/fort.11 :  $(shell find ../Data/simon/dirac/b_0.44/Ls_32/m_0.03 -name 'bose_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.44/Ls_32/m_0.03 dirac fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.44/Ls_32/m_0.03 dirac fort.11
 
  ./simon/dirac/Ls32.beta0.44.m0.03/fort.200 :  $(shell find ../Data/simon/dirac/b_0.44/Ls_32/m_0.03 -name 'condensate_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.44/Ls_32/m_0.03 dirac fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.44/Ls_32/m_0.03 dirac fort.200
 
  ./simon/dirac/Ls32.beta0.52.m0.04/fort.100 :  $(shell find ../Data/simon/dirac/b_0.52/Ls_32/m_0.04 -name 'conds_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.52/Ls_32/m_0.04 dirac fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.52/Ls_32/m_0.04 dirac fort.100
 
  ./simon/dirac/Ls40.beta0.46.m0.02/fort.100 :  $(shell find ../Data/simon/dirac/b_0.46/Ls_40/m_0.02 -name 'conds_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.46/Ls_40/m_0.02 dirac fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.46/Ls_40/m_0.02 dirac fort.100
 
  ./simon/sunbird/Ls24.beta0.40.m0.01/fort.200 :  $(shell find ../Data/simon/sunbird/b_0.4/Ls_24/m_0.01 -name 'condensate_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/sunbird/b_0.4/Ls_24/m_0.01 sunbird fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/sunbird/b_0.4/Ls_24/m_0.01 sunbird fort.200
 
  ./simon/dirac/Ls40.beta0.44.m0.02/fort.100 :  $(shell find ../Data/simon/dirac/b_0.44/Ls_40/m_0.02 -name 'conds_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.44/Ls_40/m_0.02 dirac fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.44/Ls_40/m_0.02 dirac fort.100
 
  ./simon/dirac/Ls40.beta0.50.m0.05/fort.11 :  $(shell find ../Data/simon/dirac/b_0.5/Ls_40/m_0.05 -name 'bose_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.5/Ls_40/m_0.05 dirac fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.5/Ls_40/m_0.05 dirac fort.11
 
  ./simon/sunbird/Ls24.beta0.52.m0.02/fort.11 :  $(shell find ../Data/simon/sunbird/b_0.52/Ls_24/m_0.02 -name 'bose_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/sunbird/b_0.52/Ls_24/m_0.02 sunbird fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/sunbird/b_0.52/Ls_24/m_0.02 sunbird fort.11
 
  ./simon/dirac/Ls32.beta0.46.m0.05/fort.11 :  $(shell find ../Data/simon/dirac/b_0.46/Ls_32/m_0.05 -name 'bose_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.46/Ls_32/m_0.05 dirac fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.46/Ls_32/m_0.05 dirac fort.11
 
  ./simon/dirac/Ls32.beta0.48.m0.01/fort.11 :  $(shell find ../Data/simon/dirac/b_0.48/Ls_32/m_0.01 -name 'bose_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.48/Ls_32/m_0.01 dirac fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.48/Ls_32/m_0.01 dirac fort.11
 
  ./simon/dirac/Ls32.beta0.44.m0.02/fort.200 :  $(shell find ../Data/simon/dirac/b_0.44/Ls_32/m_0.02 -name 'condensate_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.44/Ls_32/m_0.02 dirac fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.44/Ls_32/m_0.02 dirac fort.200
 
  ./simon/sunbird/Ls24.beta0.40.m0.02/fort.11 :  $(shell find ../Data/simon/sunbird/b_0.4/Ls_24/m_0.02 -name 'bose_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/sunbird/b_0.4/Ls_24/m_0.02 sunbird fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/sunbird/b_0.4/Ls_24/m_0.02 sunbird fort.11
 
  ./simon/dirac/Ls40.beta0.48.m0.05/fort.11 :  $(shell find ../Data/simon/dirac/b_0.48/Ls_40/m_0.05 -name 'bose_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.48/Ls_40/m_0.05 dirac fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.48/Ls_40/m_0.05 dirac fort.11
 
  ./simon/dirac/Ls32.beta0.50.m0.02/fort.11 :  $(shell find ../Data/simon/dirac/b_0.5/Ls_32/m_0.02 -name 'bose_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.5/Ls_32/m_0.02 dirac fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.5/Ls_32/m_0.02 dirac fort.11
 
  ./simon/dirac/Ls40.beta0.40.m0.01/fort.200 :  $(shell find ../Data/simon/dirac/b_0.4/Ls_40/m_0.01 -name 'condensate_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.4/Ls_40/m_0.01 dirac fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.4/Ls_40/m_0.01 dirac fort.200
 
  ./simon/dirac/Ls40.beta0.40.m0.03/fort.11 :  $(shell find ../Data/simon/dirac/b_0.4/Ls_40/m_0.03 -name 'bose_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.4/Ls_40/m_0.03 dirac fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.4/Ls_40/m_0.03 dirac fort.11
 
  ./simon/sunbird/Ls24.beta0.50.m0.01/fort.200 :  $(shell find ../Data/simon/sunbird/b_0.5/Ls_24/m_0.01 -name 'condensate_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/sunbird/b_0.5/Ls_24/m_0.01 sunbird fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/sunbird/b_0.5/Ls_24/m_0.01 sunbird fort.200
 
  ./simon/sunbird/Ls24.beta0.38.m0.05/fort.200 :  $(shell find ../Data/simon/sunbird/b_0.38/Ls_24/m_0.05 -name 'condensate_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/sunbird/b_0.38/Ls_24/m_0.05 sunbird fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/sunbird/b_0.38/Ls_24/m_0.05 sunbird fort.200
 
  ./simon/sunbird/Ls24.beta0.40.m0.02/fort.100 :  $(shell find ../Data/simon/sunbird/b_0.4/Ls_24/m_0.02 -name 'conds_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/sunbird/b_0.4/Ls_24/m_0.02 sunbird fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/sunbird/b_0.4/Ls_24/m_0.02 sunbird fort.100
 
  ./simon/dirac/Ls32.beta0.48.m0.03/fort.200 :  $(shell find ../Data/simon/dirac/b_0.48/Ls_32/m_0.03 -name 'condensate_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.48/Ls_32/m_0.03 dirac fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.48/Ls_32/m_0.03 dirac fort.200
 
  ./simon/dirac/Ls32.beta0.44.m0.03/fort.100 :  $(shell find ../Data/simon/dirac/b_0.44/Ls_32/m_0.03 -name 'conds_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.44/Ls_32/m_0.03 dirac fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.44/Ls_32/m_0.03 dirac fort.100
 
  ./simon/sunbird/Ls24.beta0.42.m0.01/fort.100 :  $(shell find ../Data/simon/sunbird/b_0.42/Ls_24/m_0.01 -name 'conds_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/sunbird/b_0.42/Ls_24/m_0.01 sunbird fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/sunbird/b_0.42/Ls_24/m_0.01 sunbird fort.100
 
  ./simon/sunbird/Ls24.beta0.52.m0.01/fort.200 :  $(shell find ../Data/simon/sunbird/b_0.52/Ls_24/m_0.01 -name 'condensate_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/sunbird/b_0.52/Ls_24/m_0.01 sunbird fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/sunbird/b_0.52/Ls_24/m_0.01 sunbird fort.200
 
  ./simon/dirac/Ls40.beta0.44.m0.01/fort.100 :  $(shell find ../Data/simon/dirac/b_0.44/Ls_40/m_0.01 -name 'conds_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.44/Ls_40/m_0.01 dirac fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.44/Ls_40/m_0.01 dirac fort.100
 
  ./simon/dirac/Ls32.beta0.44.m0.04/fort.100 :  $(shell find ../Data/simon/dirac/b_0.44/Ls_32/m_0.04 -name 'conds_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.44/Ls_32/m_0.04 dirac fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.44/Ls_32/m_0.04 dirac fort.100
 
  ./simon/sunbird/Ls24.beta0.32.m0.04/fort.100 :  $(shell find ../Data/simon/sunbird/b_0.32/Ls_24/m_0.04 -name 'conds_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/sunbird/b_0.32/Ls_24/m_0.04 sunbird fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/sunbird/b_0.32/Ls_24/m_0.04 sunbird fort.100
 
  ./simon/dirac/Ls40.beta0.50.m0.03/fort.100 :  $(shell find ../Data/simon/dirac/b_0.5/Ls_40/m_0.03 -name 'conds_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.5/Ls_40/m_0.03 dirac fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.5/Ls_40/m_0.03 dirac fort.100
 
  ./simon/dirac/Ls40.beta0.46.m0.01/fort.11 :  $(shell find ../Data/simon/dirac/b_0.46/Ls_40/m_0.01 -name 'bose_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.46/Ls_40/m_0.01 dirac fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.46/Ls_40/m_0.01 dirac fort.11
 
  ./simon/dirac/Ls32.beta0.42.m0.03/fort.11 :  $(shell find ../Data/simon/dirac/b_0.42/Ls_32/m_0.03 -name 'bose_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.42/Ls_32/m_0.03 dirac fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.42/Ls_32/m_0.03 dirac fort.11
 
  ./simon/sunbird/Ls24.beta0.44.m0.02/fort.200 :  $(shell find ../Data/simon/sunbird/b_0.44/Ls_24/m_0.02 -name 'condensate_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/sunbird/b_0.44/Ls_24/m_0.02 sunbird fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/sunbird/b_0.44/Ls_24/m_0.02 sunbird fort.200
 
  ./simon/sunbird/Ls24.beta0.48.m0.02/fort.11 :  $(shell find ../Data/simon/sunbird/b_0.48/Ls_24/m_0.02 -name 'bose_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/sunbird/b_0.48/Ls_24/m_0.02 sunbird fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/sunbird/b_0.48/Ls_24/m_0.02 sunbird fort.11
 
  ./simon/dirac/Ls32.beta0.52.m0.02/fort.11 :  $(shell find ../Data/simon/dirac/b_0.52/Ls_32/m_0.02 -name 'bose_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.52/Ls_32/m_0.02 dirac fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.52/Ls_32/m_0.02 dirac fort.11
 
  ./simon/sunbird/Ls24.beta0.36.m0.01/fort.200 :  $(shell find ../Data/simon/sunbird/b_0.36/Ls_24/m_0.01 -name 'condensate_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/sunbird/b_0.36/Ls_24/m_0.01 sunbird fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/sunbird/b_0.36/Ls_24/m_0.01 sunbird fort.200
 
  ./simon/dirac/Ls40.beta0.46.m0.05/fort.200 :  $(shell find ../Data/simon/dirac/b_0.46/Ls_40/m_0.05 -name 'condensate_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.46/Ls_40/m_0.05 dirac fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.46/Ls_40/m_0.05 dirac fort.200
 
  ./simon/sunbird/Ls24.beta0.46.m0.01/fort.100 :  $(shell find ../Data/simon/sunbird/b_0.46/Ls_24/m_0.01 -name 'conds_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/sunbird/b_0.46/Ls_24/m_0.01 sunbird fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/sunbird/b_0.46/Ls_24/m_0.01 sunbird fort.100
 
  ./simon/sunbird/Ls24.beta0.36.m0.03/fort.200 :  $(shell find ../Data/simon/sunbird/b_0.36/Ls_24/m_0.03 -name 'condensate_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/sunbird/b_0.36/Ls_24/m_0.03 sunbird fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/sunbird/b_0.36/Ls_24/m_0.03 sunbird fort.200
 
  ./simon/sunbird/Ls24.beta0.36.m0.05/fort.100 :  $(shell find ../Data/simon/sunbird/b_0.36/Ls_24/m_0.05 -name 'conds_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/sunbird/b_0.36/Ls_24/m_0.05 sunbird fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/sunbird/b_0.36/Ls_24/m_0.05 sunbird fort.100
 
  ./simon/sunbird/Ls24.beta0.34.m0.01/fort.200 :  $(shell find ../Data/simon/sunbird/b_0.34/Ls_24/m_0.01 -name 'condensate_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/sunbird/b_0.34/Ls_24/m_0.01 sunbird fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/sunbird/b_0.34/Ls_24/m_0.01 sunbird fort.200
 
  ./simon/dirac/Ls32.beta0.48.m0.02/fort.200 :  $(shell find ../Data/simon/dirac/b_0.48/Ls_32/m_0.02 -name 'condensate_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.48/Ls_32/m_0.02 dirac fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.48/Ls_32/m_0.02 dirac fort.200
 
  ./simon/dirac/Ls32.beta0.50.m0.04/fort.200 :  $(shell find ../Data/simon/dirac/b_0.5/Ls_32/m_0.04 -name 'condensate_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.5/Ls_32/m_0.04 dirac fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.5/Ls_32/m_0.04 dirac fort.200
 
  ./simon/dirac/Ls40.beta0.50.m0.05/fort.200 :  $(shell find ../Data/simon/dirac/b_0.5/Ls_40/m_0.05 -name 'condensate_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.5/Ls_40/m_0.05 dirac fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.5/Ls_40/m_0.05 dirac fort.200
 
  ./simon/dirac/Ls32.beta0.42.m0.05/fort.100 :  $(shell find ../Data/simon/dirac/b_0.42/Ls_32/m_0.05 -name 'conds_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.42/Ls_32/m_0.05 dirac fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.42/Ls_32/m_0.05 dirac fort.100
 
  ./simon/sunbird/Ls24.beta0.38.m0.02/fort.200 :  $(shell find ../Data/simon/sunbird/b_0.38/Ls_24/m_0.02 -name 'condensate_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/sunbird/b_0.38/Ls_24/m_0.02 sunbird fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/sunbird/b_0.38/Ls_24/m_0.02 sunbird fort.200
 
  ./simon/dirac/Ls32.beta0.46.m0.01/fort.11 :  $(shell find ../Data/simon/dirac/b_0.46/Ls_32/m_0.01 -name 'bose_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.46/Ls_32/m_0.01 dirac fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.46/Ls_32/m_0.01 dirac fort.11
 
  ./simon/sunbird/Ls24.beta0.34.m0.05/fort.100 :  $(shell find ../Data/simon/sunbird/b_0.34/Ls_24/m_0.05 -name 'conds_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/sunbird/b_0.34/Ls_24/m_0.05 sunbird fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/sunbird/b_0.34/Ls_24/m_0.05 sunbird fort.100
 
  ./simon/sunbird/Ls24.beta0.34.m0.01/fort.11 :  $(shell find ../Data/simon/sunbird/b_0.34/Ls_24/m_0.01 -name 'bose_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/sunbird/b_0.34/Ls_24/m_0.01 sunbird fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/sunbird/b_0.34/Ls_24/m_0.01 sunbird fort.11
 
  ./simon/dirac/Ls40.beta0.40.m0.04/fort.11 :  $(shell find ../Data/simon/dirac/b_0.4/Ls_40/m_0.04 -name 'bose_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.4/Ls_40/m_0.04 dirac fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.4/Ls_40/m_0.04 dirac fort.11
 
  ./simon/dirac/Ls32.beta0.50.m0.01/fort.11 :  $(shell find ../Data/simon/dirac/b_0.5/Ls_32/m_0.01 -name 'bose_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.5/Ls_32/m_0.01 dirac fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.5/Ls_32/m_0.01 dirac fort.11
 
  ./simon/dirac/Ls40.beta0.52.m0.01/fort.11 :  $(shell find ../Data/simon/dirac/b_0.52/Ls_40/m_0.01 -name 'bose_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.52/Ls_40/m_0.01 dirac fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.52/Ls_40/m_0.01 dirac fort.11
 
  ./simon/dirac/Ls40.beta0.46.m0.04/fort.100 :  $(shell find ../Data/simon/dirac/b_0.46/Ls_40/m_0.04 -name 'conds_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.46/Ls_40/m_0.04 dirac fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.46/Ls_40/m_0.04 dirac fort.100
 
  ./simon/sunbird/Ls24.beta0.36.m0.02/fort.200 :  $(shell find ../Data/simon/sunbird/b_0.36/Ls_24/m_0.02 -name 'condensate_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/sunbird/b_0.36/Ls_24/m_0.02 sunbird fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/sunbird/b_0.36/Ls_24/m_0.02 sunbird fort.200
 
  ./simon/dirac/Ls32.beta0.44.m0.05/fort.11 :  $(shell find ../Data/simon/dirac/b_0.44/Ls_32/m_0.05 -name 'bose_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.44/Ls_32/m_0.05 dirac fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.44/Ls_32/m_0.05 dirac fort.11
 
  ./simon/dirac/Ls40.beta0.50.m0.02/fort.200 :  $(shell find ../Data/simon/dirac/b_0.5/Ls_40/m_0.02 -name 'condensate_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.5/Ls_40/m_0.02 dirac fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.5/Ls_40/m_0.02 dirac fort.200
 
  ./simon/sunbird/Ls24.beta0.32.m0.04/fort.11 :  $(shell find ../Data/simon/sunbird/b_0.32/Ls_24/m_0.04 -name 'bose_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/sunbird/b_0.32/Ls_24/m_0.04 sunbird fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/sunbird/b_0.32/Ls_24/m_0.04 sunbird fort.11
 
  ./simon/dirac/Ls40.beta0.44.m0.02/fort.200 :  $(shell find ../Data/simon/dirac/b_0.44/Ls_40/m_0.02 -name 'condensate_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.44/Ls_40/m_0.02 dirac fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.44/Ls_40/m_0.02 dirac fort.200
 
  ./simon/sunbird/Ls24.beta0.32.m0.03/fort.200 :  $(shell find ../Data/simon/sunbird/b_0.32/Ls_24/m_0.03 -name 'condensate_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/sunbird/b_0.32/Ls_24/m_0.03 sunbird fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/sunbird/b_0.32/Ls_24/m_0.03 sunbird fort.200
 
  ./simon/dirac/Ls32.beta0.40.m0.05/fort.100 :  $(shell find ../Data/simon/dirac/b_0.4/Ls_32/m_0.05 -name 'conds_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.4/Ls_32/m_0.05 dirac fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.4/Ls_32/m_0.05 dirac fort.100
 
  ./simon/sunbird/Ls24.beta0.52.m0.01/fort.11 :  $(shell find ../Data/simon/sunbird/b_0.52/Ls_24/m_0.01 -name 'bose_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/sunbird/b_0.52/Ls_24/m_0.01 sunbird fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/sunbird/b_0.52/Ls_24/m_0.01 sunbird fort.11
 
  ./simon/sunbird/Ls24.beta0.34.m0.04/fort.200 :  $(shell find ../Data/simon/sunbird/b_0.34/Ls_24/m_0.04 -name 'condensate_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/sunbird/b_0.34/Ls_24/m_0.04 sunbird fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/sunbird/b_0.34/Ls_24/m_0.04 sunbird fort.200
 
  ./simon/dirac/Ls32.beta0.52.m0.05/fort.100 :  $(shell find ../Data/simon/dirac/b_0.52/Ls_32/m_0.05 -name 'conds_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.52/Ls_32/m_0.05 dirac fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.52/Ls_32/m_0.05 dirac fort.100
 
  ./simon/sunbird/Ls24.beta0.34.m0.02/fort.11 :  $(shell find ../Data/simon/sunbird/b_0.34/Ls_24/m_0.02 -name 'bose_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/sunbird/b_0.34/Ls_24/m_0.02 sunbird fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/sunbird/b_0.34/Ls_24/m_0.02 sunbird fort.11
 
  ./simon/sunbird/Ls24.beta0.38.m0.02/fort.11 :  $(shell find ../Data/simon/sunbird/b_0.38/Ls_24/m_0.02 -name 'bose_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/sunbird/b_0.38/Ls_24/m_0.02 sunbird fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/sunbird/b_0.38/Ls_24/m_0.02 sunbird fort.11
 
  ./simon/dirac/Ls40.beta0.52.m0.03/fort.100 :  $(shell find ../Data/simon/dirac/b_0.52/Ls_40/m_0.03 -name 'conds_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.52/Ls_40/m_0.03 dirac fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.52/Ls_40/m_0.03 dirac fort.100
 
  ./simon/dirac/Ls40.beta0.52.m0.03/fort.200 :  $(shell find ../Data/simon/dirac/b_0.52/Ls_40/m_0.03 -name 'condensate_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.52/Ls_40/m_0.03 dirac fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.52/Ls_40/m_0.03 dirac fort.200
 
  ./simon/dirac/Ls40.beta0.42.m0.02/fort.200 :  $(shell find ../Data/simon/dirac/b_0.42/Ls_40/m_0.02 -name 'condensate_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.42/Ls_40/m_0.02 dirac fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.42/Ls_40/m_0.02 dirac fort.200
 
  ./simon/sunbird/Ls24.beta0.46.m0.01/fort.11 :  $(shell find ../Data/simon/sunbird/b_0.46/Ls_24/m_0.01 -name 'bose_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/sunbird/b_0.46/Ls_24/m_0.01 sunbird fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/sunbird/b_0.46/Ls_24/m_0.01 sunbird fort.11
 
  ./simon/dirac/Ls32.beta0.50.m0.01/fort.100 :  $(shell find ../Data/simon/dirac/b_0.5/Ls_32/m_0.01 -name 'conds_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.5/Ls_32/m_0.01 dirac fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.5/Ls_32/m_0.01 dirac fort.100
 
  ./simon/dirac/Ls32.beta0.42.m0.04/fort.200 :  $(shell find ../Data/simon/dirac/b_0.42/Ls_32/m_0.04 -name 'condensate_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.42/Ls_32/m_0.04 dirac fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.42/Ls_32/m_0.04 dirac fort.200
 
  ./simon/sunbird/Ls24.beta0.34.m0.04/fort.100 :  $(shell find ../Data/simon/sunbird/b_0.34/Ls_24/m_0.04 -name 'conds_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/sunbird/b_0.34/Ls_24/m_0.04 sunbird fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/sunbird/b_0.34/Ls_24/m_0.04 sunbird fort.100
 
  ./simon/sunbird/Ls24.beta0.30.m0.05/fort.100 :  $(shell find ../Data/simon/sunbird/b_0.3/Ls_24/m_0.05 -name 'conds_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/sunbird/b_0.3/Ls_24/m_0.05 sunbird fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/sunbird/b_0.3/Ls_24/m_0.05 sunbird fort.100
 
  ./simon/sunbird/Ls24.beta0.38.m0.02/fort.100 :  $(shell find ../Data/simon/sunbird/b_0.38/Ls_24/m_0.02 -name 'conds_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/sunbird/b_0.38/Ls_24/m_0.02 sunbird fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/sunbird/b_0.38/Ls_24/m_0.02 sunbird fort.100
 
  ./simon/sunbird/Ls24.beta0.36.m0.05/fort.200 :  $(shell find ../Data/simon/sunbird/b_0.36/Ls_24/m_0.05 -name 'condensate_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/sunbird/b_0.36/Ls_24/m_0.05 sunbird fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/sunbird/b_0.36/Ls_24/m_0.05 sunbird fort.200
 
  ./simon/sunbird/Ls24.beta0.32.m0.02/fort.100 :  $(shell find ../Data/simon/sunbird/b_0.32/Ls_24/m_0.02 -name 'conds_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/sunbird/b_0.32/Ls_24/m_0.02 sunbird fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/sunbird/b_0.32/Ls_24/m_0.02 sunbird fort.100
 
  ./simon/dirac/Ls32.beta0.44.m0.02/fort.11 :  $(shell find ../Data/simon/dirac/b_0.44/Ls_32/m_0.02 -name 'bose_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.44/Ls_32/m_0.02 dirac fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.44/Ls_32/m_0.02 dirac fort.11
 
  ./simon/dirac/Ls32.beta0.52.m0.01/fort.11 :  $(shell find ../Data/simon/dirac/b_0.52/Ls_32/m_0.01 -name 'bose_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.52/Ls_32/m_0.01 dirac fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.52/Ls_32/m_0.01 dirac fort.11
 
  ./simon/dirac/Ls40.beta0.42.m0.02/fort.11 :  $(shell find ../Data/simon/dirac/b_0.42/Ls_40/m_0.02 -name 'bose_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.42/Ls_40/m_0.02 dirac fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.42/Ls_40/m_0.02 dirac fort.11
 
  ./simon/dirac/Ls32.beta0.40.m0.04/fort.200 :  $(shell find ../Data/simon/dirac/b_0.4/Ls_32/m_0.04 -name 'condensate_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.4/Ls_32/m_0.04 dirac fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.4/Ls_32/m_0.04 dirac fort.200
 
  ./simon/dirac/Ls40.beta0.52.m0.01/fort.100 :  $(shell find ../Data/simon/dirac/b_0.52/Ls_40/m_0.01 -name 'conds_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.52/Ls_40/m_0.01 dirac fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.52/Ls_40/m_0.01 dirac fort.100
 
  ./simon/sunbird/Ls24.beta0.36.m0.05/fort.11 :  $(shell find ../Data/simon/sunbird/b_0.36/Ls_24/m_0.05 -name 'bose_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/sunbird/b_0.36/Ls_24/m_0.05 sunbird fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/sunbird/b_0.36/Ls_24/m_0.05 sunbird fort.11
 
  ./simon/dirac/Ls32.beta0.50.m0.05/fort.11 :  $(shell find ../Data/simon/dirac/b_0.5/Ls_32/m_0.05 -name 'bose_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.5/Ls_32/m_0.05 dirac fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.5/Ls_32/m_0.05 dirac fort.11
 
  ./simon/dirac/Ls32.beta0.48.m0.04/fort.200 :  $(shell find ../Data/simon/dirac/b_0.48/Ls_32/m_0.04 -name 'condensate_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.48/Ls_32/m_0.04 dirac fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.48/Ls_32/m_0.04 dirac fort.200
 
  ./simon/dirac/Ls32.beta0.46.m0.04/fort.100 :  $(shell find ../Data/simon/dirac/b_0.46/Ls_32/m_0.04 -name 'conds_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.46/Ls_32/m_0.04 dirac fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.46/Ls_32/m_0.04 dirac fort.100
 
  ./simon/dirac/Ls32.beta0.50.m0.04/fort.11 :  $(shell find ../Data/simon/dirac/b_0.5/Ls_32/m_0.04 -name 'bose_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.5/Ls_32/m_0.04 dirac fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.5/Ls_32/m_0.04 dirac fort.11
 
  ./simon/dirac/Ls40.beta0.48.m0.02/fort.200 :  $(shell find ../Data/simon/dirac/b_0.48/Ls_40/m_0.02 -name 'condensate_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.48/Ls_40/m_0.02 dirac fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.48/Ls_40/m_0.02 dirac fort.200
 
  ./simon/sunbird/Ls24.beta0.50.m0.01/fort.11 :  $(shell find ../Data/simon/sunbird/b_0.5/Ls_24/m_0.01 -name 'bose_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/sunbird/b_0.5/Ls_24/m_0.01 sunbird fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/sunbird/b_0.5/Ls_24/m_0.01 sunbird fort.11
 
  ./simon/sunbird/Ls24.beta0.52.m0.02/fort.200 :  $(shell find ../Data/simon/sunbird/b_0.52/Ls_24/m_0.02 -name 'condensate_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/sunbird/b_0.52/Ls_24/m_0.02 sunbird fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/sunbird/b_0.52/Ls_24/m_0.02 sunbird fort.200
 
  ./simon/dirac/Ls40.beta0.40.m0.02/fort.11 :  $(shell find ../Data/simon/dirac/b_0.4/Ls_40/m_0.02 -name 'bose_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.4/Ls_40/m_0.02 dirac fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.4/Ls_40/m_0.02 dirac fort.11
 
  ./simon/dirac/Ls32.beta0.46.m0.03/fort.200 :  $(shell find ../Data/simon/dirac/b_0.46/Ls_32/m_0.03 -name 'condensate_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.46/Ls_32/m_0.03 dirac fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.46/Ls_32/m_0.03 dirac fort.200
 
  ./simon/dirac/Ls40.beta0.44.m0.03/fort.100 :  $(shell find ../Data/simon/dirac/b_0.44/Ls_40/m_0.03 -name 'conds_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.44/Ls_40/m_0.03 dirac fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.44/Ls_40/m_0.03 dirac fort.100
 
  ./simon/dirac/Ls48.beta0.52.m0.05/fort.100 :  $(shell find ../Data/simon/dirac/b_0.52/Ls_48/m_0.05 -name 'conds_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.52/Ls_48/m_0.05 dirac fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.52/Ls_48/m_0.05 dirac fort.100
 
  ./simon/sunbird/Ls24.beta0.32.m0.02/fort.200 :  $(shell find ../Data/simon/sunbird/b_0.32/Ls_24/m_0.02 -name 'condensate_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/sunbird/b_0.32/Ls_24/m_0.02 sunbird fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/sunbird/b_0.32/Ls_24/m_0.02 sunbird fort.200
 
  ./simon/sunbird/Ls24.beta0.36.m0.04/fort.11 :  $(shell find ../Data/simon/sunbird/b_0.36/Ls_24/m_0.04 -name 'bose_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/sunbird/b_0.36/Ls_24/m_0.04 sunbird fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/sunbird/b_0.36/Ls_24/m_0.04 sunbird fort.11
 
  ./simon/dirac/Ls48.beta0.50.m0.05/fort.200 :  $(shell find ../Data/simon/dirac/b_0.5/Ls_48/m_0.05 -name 'condensate_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.5/Ls_48/m_0.05 dirac fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.5/Ls_48/m_0.05 dirac fort.200
 
  ./simon/dirac/Ls40.beta0.52.m0.05/fort.11 :  $(shell find ../Data/simon/dirac/b_0.52/Ls_40/m_0.05 -name 'bose_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.52/Ls_40/m_0.05 dirac fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.52/Ls_40/m_0.05 dirac fort.11
 
  ./simon/dirac/Ls40.beta0.40.m0.04/fort.100 :  $(shell find ../Data/simon/dirac/b_0.4/Ls_40/m_0.04 -name 'conds_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.4/Ls_40/m_0.04 dirac fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.4/Ls_40/m_0.04 dirac fort.100
 
  ./simon/sunbird/Ls24.beta0.50.m0.02/fort.100 :  $(shell find ../Data/simon/sunbird/b_0.5/Ls_24/m_0.02 -name 'conds_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/sunbird/b_0.5/Ls_24/m_0.02 sunbird fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/sunbird/b_0.5/Ls_24/m_0.02 sunbird fort.100
 
  ./simon/sunbird/Ls24.beta0.48.m0.01/fort.11 :  $(shell find ../Data/simon/sunbird/b_0.48/Ls_24/m_0.01 -name 'bose_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/sunbird/b_0.48/Ls_24/m_0.01 sunbird fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/sunbird/b_0.48/Ls_24/m_0.01 sunbird fort.11
 
  ./simon/dirac/Ls32.beta0.48.m0.05/fort.100 :  $(shell find ../Data/simon/dirac/b_0.48/Ls_32/m_0.05 -name 'conds_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.48/Ls_32/m_0.05 dirac fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.48/Ls_32/m_0.05 dirac fort.100
 
  ./simon/dirac/Ls32.beta0.52.m0.03/fort.200 :  $(shell find ../Data/simon/dirac/b_0.52/Ls_32/m_0.03 -name 'condensate_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.52/Ls_32/m_0.03 dirac fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.52/Ls_32/m_0.03 dirac fort.200
 
  ./simon/sunbird/Ls24.beta0.38.m0.04/fort.11 :  $(shell find ../Data/simon/sunbird/b_0.38/Ls_24/m_0.04 -name 'bose_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/sunbird/b_0.38/Ls_24/m_0.04 sunbird fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/sunbird/b_0.38/Ls_24/m_0.04 sunbird fort.11
 
  ./simon/dirac/Ls32.beta0.46.m0.02/fort.100 :  $(shell find ../Data/simon/dirac/b_0.46/Ls_32/m_0.02 -name 'conds_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.46/Ls_32/m_0.02 dirac fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.46/Ls_32/m_0.02 dirac fort.100
 
  ./simon/sunbird/Ls24.beta0.48.m0.01/fort.100 :  $(shell find ../Data/simon/sunbird/b_0.48/Ls_24/m_0.01 -name 'conds_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/sunbird/b_0.48/Ls_24/m_0.01 sunbird fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/sunbird/b_0.48/Ls_24/m_0.01 sunbird fort.100
 
  ./simon/dirac/Ls40.beta0.50.m0.01/fort.11 :  $(shell find ../Data/simon/dirac/b_0.5/Ls_40/m_0.01 -name 'bose_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.5/Ls_40/m_0.01 dirac fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.5/Ls_40/m_0.01 dirac fort.11
 
  ./simon/dirac/Ls40.beta0.42.m0.04/fort.200 :  $(shell find ../Data/simon/dirac/b_0.42/Ls_40/m_0.04 -name 'condensate_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.42/Ls_40/m_0.04 dirac fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.42/Ls_40/m_0.04 dirac fort.200
 
  ./simon/dirac/Ls48.beta0.52.m0.05/fort.200 :  $(shell find ../Data/simon/dirac/b_0.52/Ls_48/m_0.05 -name 'condensate_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.52/Ls_48/m_0.05 dirac fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.52/Ls_48/m_0.05 dirac fort.200
 
  ./simon/dirac/Ls32.beta0.48.m0.05/fort.200 :  $(shell find ../Data/simon/dirac/b_0.48/Ls_32/m_0.05 -name 'condensate_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.48/Ls_32/m_0.05 dirac fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.48/Ls_32/m_0.05 dirac fort.200
 
  ./simon/sunbird/Ls24.beta0.46.m0.02/fort.11 :  $(shell find ../Data/simon/sunbird/b_0.46/Ls_24/m_0.02 -name 'bose_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/sunbird/b_0.46/Ls_24/m_0.02 sunbird fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/sunbird/b_0.46/Ls_24/m_0.02 sunbird fort.11
 
  ./simon/dirac/Ls32.beta0.42.m0.01/fort.100 :  $(shell find ../Data/simon/dirac/b_0.42/Ls_32/m_0.01 -name 'conds_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.42/Ls_32/m_0.01 dirac fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.42/Ls_32/m_0.01 dirac fort.100
 
  ./simon/dirac/Ls32.beta0.40.m0.05/fort.11 :  $(shell find ../Data/simon/dirac/b_0.4/Ls_32/m_0.05 -name 'bose_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.4/Ls_32/m_0.05 dirac fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.4/Ls_32/m_0.05 dirac fort.11
 
  ./simon/sunbird/Ls24.beta0.32.m0.04/fort.200 :  $(shell find ../Data/simon/sunbird/b_0.32/Ls_24/m_0.04 -name 'condensate_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/sunbird/b_0.32/Ls_24/m_0.04 sunbird fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/sunbird/b_0.32/Ls_24/m_0.04 sunbird fort.200
 
  ./simon/sunbird/Ls24.beta0.38.m0.04/fort.100 :  $(shell find ../Data/simon/sunbird/b_0.38/Ls_24/m_0.04 -name 'conds_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/sunbird/b_0.38/Ls_24/m_0.04 sunbird fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/sunbird/b_0.38/Ls_24/m_0.04 sunbird fort.100
 
  ./simon/sunbird/Ls24.beta0.30.m0.05/fort.200 :  $(shell find ../Data/simon/sunbird/b_0.3/Ls_24/m_0.05 -name 'condensate_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/sunbird/b_0.3/Ls_24/m_0.05 sunbird fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/sunbird/b_0.3/Ls_24/m_0.05 sunbird fort.200
 
  ./simon/dirac/Ls32.beta0.48.m0.01/fort.100 :  $(shell find ../Data/simon/dirac/b_0.48/Ls_32/m_0.01 -name 'conds_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.48/Ls_32/m_0.01 dirac fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.48/Ls_32/m_0.01 dirac fort.100
 
  ./simon/dirac/Ls32.beta0.40.m0.01/fort.100 :  $(shell find ../Data/simon/dirac/b_0.4/Ls_32/m_0.01 -name 'conds_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.4/Ls_32/m_0.01 dirac fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.4/Ls_32/m_0.01 dirac fort.100
 
  ./simon/dirac/Ls40.beta0.48.m0.05/fort.200 :  $(shell find ../Data/simon/dirac/b_0.48/Ls_40/m_0.05 -name 'condensate_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.48/Ls_40/m_0.05 dirac fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.48/Ls_40/m_0.05 dirac fort.200
 
  ./simon/dirac/Ls32.beta0.44.m0.02/fort.100 :  $(shell find ../Data/simon/dirac/b_0.44/Ls_32/m_0.02 -name 'conds_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.44/Ls_32/m_0.02 dirac fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.44/Ls_32/m_0.02 dirac fort.100
 
  ./simon/sunbird/Ls24.beta0.30.m0.05/fort.11 :  $(shell find ../Data/simon/sunbird/b_0.3/Ls_24/m_0.05 -name 'bose_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/sunbird/b_0.3/Ls_24/m_0.05 sunbird fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/sunbird/b_0.3/Ls_24/m_0.05 sunbird fort.11
 
  ./simon/dirac/Ls40.beta0.46.m0.05/fort.100 :  $(shell find ../Data/simon/dirac/b_0.46/Ls_40/m_0.05 -name 'conds_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.46/Ls_40/m_0.05 dirac fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.46/Ls_40/m_0.05 dirac fort.100
 
  ./simon/dirac/Ls40.beta0.46.m0.01/fort.100 :  $(shell find ../Data/simon/dirac/b_0.46/Ls_40/m_0.01 -name 'conds_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.46/Ls_40/m_0.01 dirac fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.46/Ls_40/m_0.01 dirac fort.100
 
  ./simon/dirac/Ls40.beta0.40.m0.01/fort.11 :  $(shell find ../Data/simon/dirac/b_0.4/Ls_40/m_0.01 -name 'bose_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.4/Ls_40/m_0.01 dirac fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.4/Ls_40/m_0.01 dirac fort.11
 
  ./simon/dirac/Ls40.beta0.44.m0.02/fort.11 :  $(shell find ../Data/simon/dirac/b_0.44/Ls_40/m_0.02 -name 'bose_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.44/Ls_40/m_0.02 dirac fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.44/Ls_40/m_0.02 dirac fort.11
 
  ./simon/dirac/Ls32.beta0.50.m0.05/fort.200 :  $(shell find ../Data/simon/dirac/b_0.5/Ls_32/m_0.05 -name 'condensate_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.5/Ls_32/m_0.05 dirac fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.5/Ls_32/m_0.05 dirac fort.200
 
  ./simon/dirac/Ls48.beta0.50.m0.05/fort.11 :  $(shell find ../Data/simon/dirac/b_0.5/Ls_48/m_0.05 -name 'bose_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.5/Ls_48/m_0.05 dirac fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.5/Ls_48/m_0.05 dirac fort.11
 
  ./simon/sunbird/Ls24.beta0.48.m0.02/fort.100 :  $(shell find ../Data/simon/sunbird/b_0.48/Ls_24/m_0.02 -name 'conds_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/sunbird/b_0.48/Ls_24/m_0.02 sunbird fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/sunbird/b_0.48/Ls_24/m_0.02 sunbird fort.100
 
  ./simon/sunbird/Ls24.beta0.40.m0.05/fort.200 :  $(shell find ../Data/simon/sunbird/b_0.4/Ls_24/m_0.05 -name 'condensate_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/sunbird/b_0.4/Ls_24/m_0.05 sunbird fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/sunbird/b_0.4/Ls_24/m_0.05 sunbird fort.200
 
  ./simon/dirac/Ls32.beta0.44.m0.05/fort.100 :  $(shell find ../Data/simon/dirac/b_0.44/Ls_32/m_0.05 -name 'conds_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.44/Ls_32/m_0.05 dirac fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.44/Ls_32/m_0.05 dirac fort.100
 
  ./simon/sunbird/Ls24.beta0.36.m0.04/fort.100 :  $(shell find ../Data/simon/sunbird/b_0.36/Ls_24/m_0.04 -name 'conds_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/sunbird/b_0.36/Ls_24/m_0.04 sunbird fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/sunbird/b_0.36/Ls_24/m_0.04 sunbird fort.100
 
  ./simon/dirac/Ls32.beta0.46.m0.02/fort.200 :  $(shell find ../Data/simon/dirac/b_0.46/Ls_32/m_0.02 -name 'condensate_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.46/Ls_32/m_0.02 dirac fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.46/Ls_32/m_0.02 dirac fort.200
 
  ./simon/dirac/Ls40.beta0.48.m0.01/fort.200 :  $(shell find ../Data/simon/dirac/b_0.48/Ls_40/m_0.01 -name 'condensate_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.48/Ls_40/m_0.01 dirac fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.48/Ls_40/m_0.01 dirac fort.200
 
  ./simon/dirac/Ls40.beta0.50.m0.04/fort.200 :  $(shell find ../Data/simon/dirac/b_0.5/Ls_40/m_0.04 -name 'condensate_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.5/Ls_40/m_0.04 dirac fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.5/Ls_40/m_0.04 dirac fort.200
 
  ./simon/dirac/Ls40.beta0.52.m0.04/fort.11 :  $(shell find ../Data/simon/dirac/b_0.52/Ls_40/m_0.04 -name 'bose_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.52/Ls_40/m_0.04 dirac fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.52/Ls_40/m_0.04 dirac fort.11
 
  ./simon/dirac/Ls40.beta0.42.m0.03/fort.200 :  $(shell find ../Data/simon/dirac/b_0.42/Ls_40/m_0.03 -name 'condensate_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.42/Ls_40/m_0.03 dirac fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.42/Ls_40/m_0.03 dirac fort.200
 
  ./simon/sunbird/Ls24.beta0.44.m0.01/fort.100 :  $(shell find ../Data/simon/sunbird/b_0.44/Ls_24/m_0.01 -name 'conds_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/sunbird/b_0.44/Ls_24/m_0.01 sunbird fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/sunbird/b_0.44/Ls_24/m_0.01 sunbird fort.100
 
  ./simon/sunbird/Ls24.beta0.38.m0.01/fort.11 :  $(shell find ../Data/simon/sunbird/b_0.38/Ls_24/m_0.01 -name 'bose_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/sunbird/b_0.38/Ls_24/m_0.01 sunbird fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/sunbird/b_0.38/Ls_24/m_0.01 sunbird fort.11
 
  ./simon/dirac/Ls40.beta0.44.m0.05/fort.11 :  $(shell find ../Data/simon/dirac/b_0.44/Ls_40/m_0.05 -name 'bose_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.44/Ls_40/m_0.05 dirac fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.44/Ls_40/m_0.05 dirac fort.11
 
  ./simon/dirac/Ls32.beta0.52.m0.02/fort.200 :  $(shell find ../Data/simon/dirac/b_0.52/Ls_32/m_0.02 -name 'condensate_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.52/Ls_32/m_0.02 dirac fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.52/Ls_32/m_0.02 dirac fort.200
 
  ./simon/sunbird/Ls24.beta0.30.m0.03/fort.100 :  $(shell find ../Data/simon/sunbird/b_0.3/Ls_24/m_0.03 -name 'conds_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/sunbird/b_0.3/Ls_24/m_0.03 sunbird fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/sunbird/b_0.3/Ls_24/m_0.03 sunbird fort.100
 
  ./simon/dirac/Ls40.beta0.50.m0.01/fort.100 :  $(shell find ../Data/simon/dirac/b_0.5/Ls_40/m_0.01 -name 'conds_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.5/Ls_40/m_0.01 dirac fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.5/Ls_40/m_0.01 dirac fort.100
 
  ./simon/dirac/Ls32.beta0.40.m0.02/fort.200 :  $(shell find ../Data/simon/dirac/b_0.4/Ls_32/m_0.02 -name 'condensate_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.4/Ls_32/m_0.02 dirac fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.4/Ls_32/m_0.02 dirac fort.200
 
  ./simon/sunbird/Ls24.beta0.52.m0.03/fort.11 :  $(shell find ../Data/simon/sunbird/b_0.52/Ls_24/m_0.03 -name 'bose_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/sunbird/b_0.52/Ls_24/m_0.03 sunbird fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/sunbird/b_0.52/Ls_24/m_0.03 sunbird fort.11
 
  ./simon/dirac/Ls32.beta0.48.m0.03/fort.100 :  $(shell find ../Data/simon/dirac/b_0.48/Ls_32/m_0.03 -name 'conds_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.48/Ls_32/m_0.03 dirac fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.48/Ls_32/m_0.03 dirac fort.100
 
  ./simon/dirac/Ls32.beta0.50.m0.02/fort.100 :  $(shell find ../Data/simon/dirac/b_0.5/Ls_32/m_0.02 -name 'conds_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.5/Ls_32/m_0.02 dirac fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.5/Ls_32/m_0.02 dirac fort.100
 
  ./simon/dirac/Ls32.beta0.52.m0.01/fort.100 :  $(shell find ../Data/simon/dirac/b_0.52/Ls_32/m_0.01 -name 'conds_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.52/Ls_32/m_0.01 dirac fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.52/Ls_32/m_0.01 dirac fort.100
 
  ./simon/dirac/Ls32.beta0.48.m0.05/fort.11 :  $(shell find ../Data/simon/dirac/b_0.48/Ls_32/m_0.05 -name 'bose_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.48/Ls_32/m_0.05 dirac fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.48/Ls_32/m_0.05 dirac fort.11
 
  ./simon/dirac/Ls40.beta0.40.m0.04/fort.200 :  $(shell find ../Data/simon/dirac/b_0.4/Ls_40/m_0.04 -name 'condensate_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.4/Ls_40/m_0.04 dirac fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.4/Ls_40/m_0.04 dirac fort.200
 
  ./simon/dirac/Ls32.beta0.40.m0.05/fort.200 :  $(shell find ../Data/simon/dirac/b_0.4/Ls_32/m_0.05 -name 'condensate_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.4/Ls_32/m_0.05 dirac fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.4/Ls_32/m_0.05 dirac fort.200
 
  ./simon/dirac/Ls32.beta0.40.m0.01/fort.11 :  $(shell find ../Data/simon/dirac/b_0.4/Ls_32/m_0.01 -name 'bose_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.4/Ls_32/m_0.01 dirac fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.4/Ls_32/m_0.01 dirac fort.11
 
  ./simon/sunbird/Ls24.beta0.50.m0.02/fort.11 :  $(shell find ../Data/simon/sunbird/b_0.5/Ls_24/m_0.02 -name 'bose_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/sunbird/b_0.5/Ls_24/m_0.02 sunbird fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/sunbird/b_0.5/Ls_24/m_0.02 sunbird fort.11
 
  ./simon/dirac/Ls40.beta0.50.m0.02/fort.11 :  $(shell find ../Data/simon/dirac/b_0.5/Ls_40/m_0.02 -name 'bose_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.5/Ls_40/m_0.02 dirac fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.5/Ls_40/m_0.02 dirac fort.11
 
  ./simon/sunbird/Ls24.beta0.36.m0.03/fort.100 :  $(shell find ../Data/simon/sunbird/b_0.36/Ls_24/m_0.03 -name 'conds_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/sunbird/b_0.36/Ls_24/m_0.03 sunbird fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/sunbird/b_0.36/Ls_24/m_0.03 sunbird fort.100
 
  ./simon/dirac/Ls32.beta0.40.m0.03/fort.200 :  $(shell find ../Data/simon/dirac/b_0.4/Ls_32/m_0.03 -name 'condensate_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.4/Ls_32/m_0.03 dirac fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.4/Ls_32/m_0.03 dirac fort.200
 
  ./simon/sunbird/Ls24.beta0.42.m0.02/fort.100 :  $(shell find ../Data/simon/sunbird/b_0.42/Ls_24/m_0.02 -name 'conds_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/sunbird/b_0.42/Ls_24/m_0.02 sunbird fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/sunbird/b_0.42/Ls_24/m_0.02 sunbird fort.100
 
  ./simon/sunbird/Ls24.beta0.30.m0.02/fort.100 :  $(shell find ../Data/simon/sunbird/b_0.3/Ls_24/m_0.02 -name 'conds_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/sunbird/b_0.3/Ls_24/m_0.02 sunbird fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/sunbird/b_0.3/Ls_24/m_0.02 sunbird fort.100
 
  ./simon/dirac/Ls40.beta0.52.m0.03/fort.11 :  $(shell find ../Data/simon/dirac/b_0.52/Ls_40/m_0.03 -name 'bose_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.52/Ls_40/m_0.03 dirac fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.52/Ls_40/m_0.03 dirac fort.11
 
  ./simon/sunbird/Ls24.beta0.38.m0.05/fort.11 :  $(shell find ../Data/simon/sunbird/b_0.38/Ls_24/m_0.05 -name 'bose_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/sunbird/b_0.38/Ls_24/m_0.05 sunbird fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/sunbird/b_0.38/Ls_24/m_0.05 sunbird fort.11
 
  ./simon/sunbird/Ls24.beta0.44.m0.02/fort.11 :  $(shell find ../Data/simon/sunbird/b_0.44/Ls_24/m_0.02 -name 'bose_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/sunbird/b_0.44/Ls_24/m_0.02 sunbird fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/sunbird/b_0.44/Ls_24/m_0.02 sunbird fort.11
 
  ./simon/dirac/Ls40.beta0.44.m0.03/fort.11 :  $(shell find ../Data/simon/dirac/b_0.44/Ls_40/m_0.03 -name 'bose_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.44/Ls_40/m_0.03 dirac fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.44/Ls_40/m_0.03 dirac fort.11
 
  ./simon/sunbird/Ls24.beta0.36.m0.03/fort.11 :  $(shell find ../Data/simon/sunbird/b_0.36/Ls_24/m_0.03 -name 'bose_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/sunbird/b_0.36/Ls_24/m_0.03 sunbird fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/sunbird/b_0.36/Ls_24/m_0.03 sunbird fort.11
 
  ./simon/dirac/Ls40.beta0.44.m0.04/fort.100 :  $(shell find ../Data/simon/dirac/b_0.44/Ls_40/m_0.04 -name 'conds_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.44/Ls_40/m_0.04 dirac fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.44/Ls_40/m_0.04 dirac fort.100
 
  ./simon/sunbird/Ls24.beta0.48.m0.01/fort.200 :  $(shell find ../Data/simon/sunbird/b_0.48/Ls_24/m_0.01 -name 'condensate_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/sunbird/b_0.48/Ls_24/m_0.01 sunbird fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/sunbird/b_0.48/Ls_24/m_0.01 sunbird fort.200
 
  ./simon/dirac/Ls32.beta0.42.m0.03/fort.200 :  $(shell find ../Data/simon/dirac/b_0.42/Ls_32/m_0.03 -name 'condensate_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.42/Ls_32/m_0.03 dirac fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.42/Ls_32/m_0.03 dirac fort.200
 
  ./simon/dirac/Ls32.beta0.46.m0.04/fort.11 :  $(shell find ../Data/simon/dirac/b_0.46/Ls_32/m_0.04 -name 'bose_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.46/Ls_32/m_0.04 dirac fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.46/Ls_32/m_0.04 dirac fort.11
 
  ./simon/dirac/Ls32.beta0.44.m0.01/fort.200 :  $(shell find ../Data/simon/dirac/b_0.44/Ls_32/m_0.01 -name 'condensate_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.44/Ls_32/m_0.01 dirac fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.44/Ls_32/m_0.01 dirac fort.200
 
  ./simon/sunbird/Ls24.beta0.34.m0.05/fort.11 :  $(shell find ../Data/simon/sunbird/b_0.34/Ls_24/m_0.05 -name 'bose_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/sunbird/b_0.34/Ls_24/m_0.05 sunbird fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/sunbird/b_0.34/Ls_24/m_0.05 sunbird fort.11
 
  ./simon/dirac/Ls32.beta0.52.m0.04/fort.11 :  $(shell find ../Data/simon/dirac/b_0.52/Ls_32/m_0.04 -name 'bose_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.52/Ls_32/m_0.04 dirac fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.52/Ls_32/m_0.04 dirac fort.11
 
  ./simon/sunbird/Ls24.beta0.38.m0.03/fort.100 :  $(shell find ../Data/simon/sunbird/b_0.38/Ls_24/m_0.03 -name 'conds_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/sunbird/b_0.38/Ls_24/m_0.03 sunbird fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/sunbird/b_0.38/Ls_24/m_0.03 sunbird fort.100
 
  ./simon/sunbird/Ls24.beta0.32.m0.03/fort.11 :  $(shell find ../Data/simon/sunbird/b_0.32/Ls_24/m_0.03 -name 'bose_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/sunbird/b_0.32/Ls_24/m_0.03 sunbird fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/sunbird/b_0.32/Ls_24/m_0.03 sunbird fort.11
 
  ./simon/sunbird/Ls24.beta0.48.m0.02/fort.200 :  $(shell find ../Data/simon/sunbird/b_0.48/Ls_24/m_0.02 -name 'condensate_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/sunbird/b_0.48/Ls_24/m_0.02 sunbird fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/sunbird/b_0.48/Ls_24/m_0.02 sunbird fort.200
 
  ./simon/sunbird/Ls24.beta0.42.m0.01/fort.11 :  $(shell find ../Data/simon/sunbird/b_0.42/Ls_24/m_0.01 -name 'bose_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/sunbird/b_0.42/Ls_24/m_0.01 sunbird fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/sunbird/b_0.42/Ls_24/m_0.01 sunbird fort.11
 
  ./simon/dirac/Ls40.beta0.48.m0.01/fort.100 :  $(shell find ../Data/simon/dirac/b_0.48/Ls_40/m_0.01 -name 'conds_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.48/Ls_40/m_0.01 dirac fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.48/Ls_40/m_0.01 dirac fort.100
 
  ./simon/dirac/Ls32.beta0.48.m0.03/fort.11 :  $(shell find ../Data/simon/dirac/b_0.48/Ls_32/m_0.03 -name 'bose_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.48/Ls_32/m_0.03 dirac fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.48/Ls_32/m_0.03 dirac fort.11
 
  ./simon/dirac/Ls40.beta0.50.m0.01/fort.200 :  $(shell find ../Data/simon/dirac/b_0.5/Ls_40/m_0.01 -name 'condensate_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.5/Ls_40/m_0.01 dirac fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.5/Ls_40/m_0.01 dirac fort.200
 
  ./simon/dirac/Ls32.beta0.46.m0.02/fort.11 :  $(shell find ../Data/simon/dirac/b_0.46/Ls_32/m_0.02 -name 'bose_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.46/Ls_32/m_0.02 dirac fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.46/Ls_32/m_0.02 dirac fort.11
 
  ./simon/sunbird/Ls24.beta0.52.m0.02/fort.100 :  $(shell find ../Data/simon/sunbird/b_0.52/Ls_24/m_0.02 -name 'conds_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/sunbird/b_0.52/Ls_24/m_0.02 sunbird fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/sunbird/b_0.52/Ls_24/m_0.02 sunbird fort.100
 
  ./simon/dirac/Ls32.beta0.52.m0.03/fort.11 :  $(shell find ../Data/simon/dirac/b_0.52/Ls_32/m_0.03 -name 'bose_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.52/Ls_32/m_0.03 dirac fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.52/Ls_32/m_0.03 dirac fort.11
 
  ./simon/dirac/Ls40.beta0.48.m0.03/fort.11 :  $(shell find ../Data/simon/dirac/b_0.48/Ls_40/m_0.03 -name 'bose_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.48/Ls_40/m_0.03 dirac fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.48/Ls_40/m_0.03 dirac fort.11
 
  ./simon/dirac/Ls40.beta0.50.m0.02/fort.100 :  $(shell find ../Data/simon/dirac/b_0.5/Ls_40/m_0.02 -name 'conds_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.5/Ls_40/m_0.02 dirac fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.5/Ls_40/m_0.02 dirac fort.100
 
  ./simon/dirac/Ls32.beta0.40.m0.02/fort.100 :  $(shell find ../Data/simon/dirac/b_0.4/Ls_32/m_0.02 -name 'conds_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.4/Ls_32/m_0.02 dirac fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.4/Ls_32/m_0.02 dirac fort.100
 
  ./simon/sunbird/Ls24.beta0.32.m0.01/fort.200 :  $(shell find ../Data/simon/sunbird/b_0.32/Ls_24/m_0.01 -name 'condensate_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/sunbird/b_0.32/Ls_24/m_0.01 sunbird fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/sunbird/b_0.32/Ls_24/m_0.01 sunbird fort.200
 
  ./simon/dirac/Ls40.beta0.40.m0.03/fort.100 :  $(shell find ../Data/simon/dirac/b_0.4/Ls_40/m_0.03 -name 'conds_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.4/Ls_40/m_0.03 dirac fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.4/Ls_40/m_0.03 dirac fort.100
 
  ./simon/dirac/Ls40.beta0.48.m0.02/fort.11 :  $(shell find ../Data/simon/dirac/b_0.48/Ls_40/m_0.02 -name 'bose_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.48/Ls_40/m_0.02 dirac fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.48/Ls_40/m_0.02 dirac fort.11
 
  ./simon/dirac/Ls32.beta0.40.m0.04/fort.11 :  $(shell find ../Data/simon/dirac/b_0.4/Ls_32/m_0.04 -name 'bose_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.4/Ls_32/m_0.04 dirac fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.4/Ls_32/m_0.04 dirac fort.11
 
  ./simon/dirac/Ls40.beta0.40.m0.02/fort.200 :  $(shell find ../Data/simon/dirac/b_0.4/Ls_40/m_0.02 -name 'condensate_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.4/Ls_40/m_0.02 dirac fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.4/Ls_40/m_0.02 dirac fort.200
 
  ./simon/dirac/Ls32.beta0.50.m0.04/fort.100 :  $(shell find ../Data/simon/dirac/b_0.5/Ls_32/m_0.04 -name 'conds_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.5/Ls_32/m_0.04 dirac fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.5/Ls_32/m_0.04 dirac fort.100
 
  ./simon/dirac/Ls32.beta0.48.m0.01/fort.200 :  $(shell find ../Data/simon/dirac/b_0.48/Ls_32/m_0.01 -name 'condensate_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.48/Ls_32/m_0.01 dirac fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.48/Ls_32/m_0.01 dirac fort.200
 
  ./simon/dirac/Ls40.beta0.42.m0.04/fort.11 :  $(shell find ../Data/simon/dirac/b_0.42/Ls_40/m_0.04 -name 'bose_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.42/Ls_40/m_0.04 dirac fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.42/Ls_40/m_0.04 dirac fort.11
 
  ./simon/dirac/Ls32.beta0.42.m0.01/fort.11 :  $(shell find ../Data/simon/dirac/b_0.42/Ls_32/m_0.01 -name 'bose_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.42/Ls_32/m_0.01 dirac fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.42/Ls_32/m_0.01 dirac fort.11
 
  ./simon/dirac/Ls40.beta0.46.m0.04/fort.11 :  $(shell find ../Data/simon/dirac/b_0.46/Ls_40/m_0.04 -name 'bose_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.46/Ls_40/m_0.04 dirac fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.46/Ls_40/m_0.04 dirac fort.11
 
  ./simon/sunbird/Ls24.beta0.46.m0.01/fort.200 :  $(shell find ../Data/simon/sunbird/b_0.46/Ls_24/m_0.01 -name 'condensate_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/sunbird/b_0.46/Ls_24/m_0.01 sunbird fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/sunbird/b_0.46/Ls_24/m_0.01 sunbird fort.200
 
  ./simon/dirac/Ls40.beta0.52.m0.04/fort.200 :  $(shell find ../Data/simon/dirac/b_0.52/Ls_40/m_0.04 -name 'condensate_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.52/Ls_40/m_0.04 dirac fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.52/Ls_40/m_0.04 dirac fort.200
 
  ./simon/dirac/Ls40.beta0.44.m0.05/fort.200 :  $(shell find ../Data/simon/dirac/b_0.44/Ls_40/m_0.05 -name 'condensate_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.44/Ls_40/m_0.05 dirac fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.44/Ls_40/m_0.05 dirac fort.200
 
  ./simon/sunbird/Ls24.beta0.38.m0.04/fort.200 :  $(shell find ../Data/simon/sunbird/b_0.38/Ls_24/m_0.04 -name 'condensate_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/sunbird/b_0.38/Ls_24/m_0.04 sunbird fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/sunbird/b_0.38/Ls_24/m_0.04 sunbird fort.200
 
  ./simon/dirac/Ls40.beta0.52.m0.05/fort.200 :  $(shell find ../Data/simon/dirac/b_0.52/Ls_40/m_0.05 -name 'condensate_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.52/Ls_40/m_0.05 dirac fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.52/Ls_40/m_0.05 dirac fort.200
 
  ./simon/dirac/Ls32.beta0.52.m0.05/fort.11 :  $(shell find ../Data/simon/dirac/b_0.52/Ls_32/m_0.05 -name 'bose_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.52/Ls_32/m_0.05 dirac fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.52/Ls_32/m_0.05 dirac fort.11
 
  ./simon/sunbird/Ls24.beta0.30.m0.04/fort.100 :  $(shell find ../Data/simon/sunbird/b_0.3/Ls_24/m_0.04 -name 'conds_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/sunbird/b_0.3/Ls_24/m_0.04 sunbird fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/sunbird/b_0.3/Ls_24/m_0.04 sunbird fort.100
 
  ./simon/dirac/Ls40.beta0.44.m0.01/fort.11 :  $(shell find ../Data/simon/dirac/b_0.44/Ls_40/m_0.01 -name 'bose_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.44/Ls_40/m_0.01 dirac fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.44/Ls_40/m_0.01 dirac fort.11
 
  ./simon/sunbird/Ls24.beta0.32.m0.02/fort.11 :  $(shell find ../Data/simon/sunbird/b_0.32/Ls_24/m_0.02 -name 'bose_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/sunbird/b_0.32/Ls_24/m_0.02 sunbird fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/sunbird/b_0.32/Ls_24/m_0.02 sunbird fort.11
 
  ./simon/dirac/Ls32.beta0.52.m0.01/fort.200 :  $(shell find ../Data/simon/dirac/b_0.52/Ls_32/m_0.01 -name 'condensate_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.52/Ls_32/m_0.01 dirac fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.52/Ls_32/m_0.01 dirac fort.200
 
  ./simon/sunbird/Ls24.beta0.30.m0.02/fort.200 :  $(shell find ../Data/simon/sunbird/b_0.3/Ls_24/m_0.02 -name 'condensate_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/sunbird/b_0.3/Ls_24/m_0.02 sunbird fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/sunbird/b_0.3/Ls_24/m_0.02 sunbird fort.200
 
  ./simon/dirac/Ls32.beta0.50.m0.01/fort.200 :  $(shell find ../Data/simon/dirac/b_0.5/Ls_32/m_0.01 -name 'condensate_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.5/Ls_32/m_0.01 dirac fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.5/Ls_32/m_0.01 dirac fort.200
 
  ./simon/dirac/Ls40.beta0.42.m0.01/fort.11 :  $(shell find ../Data/simon/dirac/b_0.42/Ls_40/m_0.01 -name 'bose_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.42/Ls_40/m_0.01 dirac fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.42/Ls_40/m_0.01 dirac fort.11
 
  ./simon/dirac/Ls40.beta0.46.m0.02/fort.200 :  $(shell find ../Data/simon/dirac/b_0.46/Ls_40/m_0.02 -name 'condensate_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.46/Ls_40/m_0.02 dirac fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.46/Ls_40/m_0.02 dirac fort.200
 
  ./simon/sunbird/Ls24.beta0.52.m0.03/fort.100 :  $(shell find ../Data/simon/sunbird/b_0.52/Ls_24/m_0.03 -name 'conds_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/sunbird/b_0.52/Ls_24/m_0.03 sunbird fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/sunbird/b_0.52/Ls_24/m_0.03 sunbird fort.100
 
  ./simon/sunbird/Ls24.beta0.34.m0.02/fort.200 :  $(shell find ../Data/simon/sunbird/b_0.34/Ls_24/m_0.02 -name 'condensate_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/sunbird/b_0.34/Ls_24/m_0.02 sunbird fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/sunbird/b_0.34/Ls_24/m_0.02 sunbird fort.200
 
  ./simon/dirac/Ls32.beta0.48.m0.04/fort.11 :  $(shell find ../Data/simon/dirac/b_0.48/Ls_32/m_0.04 -name 'bose_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.48/Ls_32/m_0.04 dirac fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.48/Ls_32/m_0.04 dirac fort.11
 
  ./simon/sunbird/Ls24.beta0.30.m0.04/fort.11 :  $(shell find ../Data/simon/sunbird/b_0.3/Ls_24/m_0.04 -name 'bose_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/sunbird/b_0.3/Ls_24/m_0.04 sunbird fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/sunbird/b_0.3/Ls_24/m_0.04 sunbird fort.11
 
  ./simon/dirac/Ls40.beta0.52.m0.02/fort.200 :  $(shell find ../Data/simon/dirac/b_0.52/Ls_40/m_0.02 -name 'condensate_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.52/Ls_40/m_0.02 dirac fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.52/Ls_40/m_0.02 dirac fort.200
 
  ./simon/dirac/Ls40.beta0.42.m0.02/fort.100 :  $(shell find ../Data/simon/dirac/b_0.42/Ls_40/m_0.02 -name 'conds_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.42/Ls_40/m_0.02 dirac fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.42/Ls_40/m_0.02 dirac fort.100
 
  ./simon/dirac/Ls32.beta0.52.m0.02/fort.100 :  $(shell find ../Data/simon/dirac/b_0.52/Ls_32/m_0.02 -name 'conds_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.52/Ls_32/m_0.02 dirac fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.52/Ls_32/m_0.02 dirac fort.100
 
  ./simon/dirac/Ls40.beta0.46.m0.05/fort.11 :  $(shell find ../Data/simon/dirac/b_0.46/Ls_40/m_0.05 -name 'bose_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.46/Ls_40/m_0.05 dirac fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.46/Ls_40/m_0.05 dirac fort.11
 
  ./simon/dirac/Ls32.beta0.46.m0.01/fort.100 :  $(shell find ../Data/simon/dirac/b_0.46/Ls_32/m_0.01 -name 'conds_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.46/Ls_32/m_0.01 dirac fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.46/Ls_32/m_0.01 dirac fort.100
 
  ./simon/sunbird/Ls24.beta0.32.m0.01/fort.100 :  $(shell find ../Data/simon/sunbird/b_0.32/Ls_24/m_0.01 -name 'conds_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/sunbird/b_0.32/Ls_24/m_0.01 sunbird fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/sunbird/b_0.32/Ls_24/m_0.01 sunbird fort.100
 
  ./simon/dirac/Ls32.beta0.46.m0.05/fort.200 :  $(shell find ../Data/simon/dirac/b_0.46/Ls_32/m_0.05 -name 'condensate_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.46/Ls_32/m_0.05 dirac fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.46/Ls_32/m_0.05 dirac fort.200
 
  ./simon/sunbird/Ls24.beta0.38.m0.05/fort.100 :  $(shell find ../Data/simon/sunbird/b_0.38/Ls_24/m_0.05 -name 'conds_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/sunbird/b_0.38/Ls_24/m_0.05 sunbird fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/sunbird/b_0.38/Ls_24/m_0.05 sunbird fort.100
 
  ./simon/dirac/Ls40.beta0.48.m0.02/fort.100 :  $(shell find ../Data/simon/dirac/b_0.48/Ls_40/m_0.02 -name 'conds_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.48/Ls_40/m_0.02 dirac fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.48/Ls_40/m_0.02 dirac fort.100
 
  ./simon/dirac/Ls32.beta0.50.m0.03/fort.100 :  $(shell find ../Data/simon/dirac/b_0.5/Ls_32/m_0.03 -name 'conds_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.5/Ls_32/m_0.03 dirac fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.5/Ls_32/m_0.03 dirac fort.100
 
  ./simon/dirac/Ls32.beta0.52.m0.05/fort.200 :  $(shell find ../Data/simon/dirac/b_0.52/Ls_32/m_0.05 -name 'condensate_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.52/Ls_32/m_0.05 dirac fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.52/Ls_32/m_0.05 dirac fort.200
 
  ./simon/dirac/Ls40.beta0.50.m0.04/fort.100 :  $(shell find ../Data/simon/dirac/b_0.5/Ls_40/m_0.04 -name 'conds_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.5/Ls_40/m_0.04 dirac fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.5/Ls_40/m_0.04 dirac fort.100
 
  ./simon/sunbird/Ls24.beta0.36.m0.02/fort.11 :  $(shell find ../Data/simon/sunbird/b_0.36/Ls_24/m_0.02 -name 'bose_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/sunbird/b_0.36/Ls_24/m_0.02 sunbird fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/sunbird/b_0.36/Ls_24/m_0.02 sunbird fort.11
 
  ./simon/dirac/Ls32.beta0.44.m0.04/fort.11 :  $(shell find ../Data/simon/dirac/b_0.44/Ls_32/m_0.04 -name 'bose_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.44/Ls_32/m_0.04 dirac fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.44/Ls_32/m_0.04 dirac fort.11
 
  ./simon/sunbird/Ls24.beta0.34.m0.03/fort.100 :  $(shell find ../Data/simon/sunbird/b_0.34/Ls_24/m_0.03 -name 'conds_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/sunbird/b_0.34/Ls_24/m_0.03 sunbird fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/sunbird/b_0.34/Ls_24/m_0.03 sunbird fort.100
 
  ./simon/dirac/Ls32.beta0.44.m0.01/fort.100 :  $(shell find ../Data/simon/dirac/b_0.44/Ls_32/m_0.01 -name 'conds_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.44/Ls_32/m_0.01 dirac fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.44/Ls_32/m_0.01 dirac fort.100
 
  ./simon/dirac/Ls32.beta0.44.m0.01/fort.11 :  $(shell find ../Data/simon/dirac/b_0.44/Ls_32/m_0.01 -name 'bose_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.44/Ls_32/m_0.01 dirac fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.44/Ls_32/m_0.01 dirac fort.11
 
  ./simon/dirac/Ls40.beta0.40.m0.02/fort.100 :  $(shell find ../Data/simon/dirac/b_0.4/Ls_40/m_0.02 -name 'conds_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.4/Ls_40/m_0.02 dirac fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.4/Ls_40/m_0.02 dirac fort.100
 
  ./simon/sunbird/Ls24.beta0.30.m0.01/fort.200 :  $(shell find ../Data/simon/sunbird/b_0.3/Ls_24/m_0.01 -name 'condensate_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/sunbird/b_0.3/Ls_24/m_0.01 sunbird fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/sunbird/b_0.3/Ls_24/m_0.01 sunbird fort.200
 
  ./simon/dirac/Ls32.beta0.46.m0.03/fort.100 :  $(shell find ../Data/simon/dirac/b_0.46/Ls_32/m_0.03 -name 'conds_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.46/Ls_32/m_0.03 dirac fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.46/Ls_32/m_0.03 dirac fort.100
 
  ./simon/dirac/Ls40.beta0.40.m0.03/fort.200 :  $(shell find ../Data/simon/dirac/b_0.4/Ls_40/m_0.03 -name 'condensate_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.4/Ls_40/m_0.03 dirac fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.4/Ls_40/m_0.03 dirac fort.200
 
  ./simon/dirac/Ls32.beta0.52.m0.04/fort.200 :  $(shell find ../Data/simon/dirac/b_0.52/Ls_32/m_0.04 -name 'condensate_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.52/Ls_32/m_0.04 dirac fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.52/Ls_32/m_0.04 dirac fort.200
 
  ./simon/dirac/Ls32.beta0.40.m0.02/fort.11 :  $(shell find ../Data/simon/dirac/b_0.4/Ls_32/m_0.02 -name 'bose_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.4/Ls_32/m_0.02 dirac fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.4/Ls_32/m_0.02 dirac fort.11
 
  ./simon/dirac/Ls32.beta0.46.m0.04/fort.200 :  $(shell find ../Data/simon/dirac/b_0.46/Ls_32/m_0.04 -name 'condensate_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.46/Ls_32/m_0.04 dirac fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.46/Ls_32/m_0.04 dirac fort.200
 
  ./simon/dirac/Ls40.beta0.46.m0.02/fort.11 :  $(shell find ../Data/simon/dirac/b_0.46/Ls_40/m_0.02 -name 'bose_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.46/Ls_40/m_0.02 dirac fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.46/Ls_40/m_0.02 dirac fort.11
 
  ./simon/dirac/Ls40.beta0.44.m0.01/fort.200 :  $(shell find ../Data/simon/dirac/b_0.44/Ls_40/m_0.01 -name 'condensate_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.44/Ls_40/m_0.01 dirac fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.44/Ls_40/m_0.01 dirac fort.200
 
  ./simon/dirac/Ls32.beta0.50.m0.02/fort.200 :  $(shell find ../Data/simon/dirac/b_0.5/Ls_32/m_0.02 -name 'condensate_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.5/Ls_32/m_0.02 dirac fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.5/Ls_32/m_0.02 dirac fort.200
 
  ./simon/dirac/Ls32.beta0.42.m0.02/fort.100 :  $(shell find ../Data/simon/dirac/b_0.42/Ls_32/m_0.02 -name 'conds_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.42/Ls_32/m_0.02 dirac fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.42/Ls_32/m_0.02 dirac fort.100
 
  ./simon/sunbird/Ls24.beta0.42.m0.01/fort.200 :  $(shell find ../Data/simon/sunbird/b_0.42/Ls_24/m_0.01 -name 'condensate_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/sunbird/b_0.42/Ls_24/m_0.01 sunbird fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/sunbird/b_0.42/Ls_24/m_0.01 sunbird fort.200
 
  ./simon/dirac/Ls40.beta0.52.m0.02/fort.100 :  $(shell find ../Data/simon/dirac/b_0.52/Ls_40/m_0.02 -name 'conds_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.52/Ls_40/m_0.02 dirac fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.52/Ls_40/m_0.02 dirac fort.100
 
  ./simon/dirac/Ls32.beta0.42.m0.02/fort.11 :  $(shell find ../Data/simon/dirac/b_0.42/Ls_32/m_0.02 -name 'bose_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.42/Ls_32/m_0.02 dirac fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.42/Ls_32/m_0.02 dirac fort.11
 
  ./simon/sunbird/Ls24.beta0.40.m0.01/fort.100 :  $(shell find ../Data/simon/sunbird/b_0.4/Ls_24/m_0.01 -name 'conds_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/sunbird/b_0.4/Ls_24/m_0.01 sunbird fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/sunbird/b_0.4/Ls_24/m_0.01 sunbird fort.100
 
  ./simon/dirac/Ls32.beta0.44.m0.04/fort.200 :  $(shell find ../Data/simon/dirac/b_0.44/Ls_32/m_0.04 -name 'condensate_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.44/Ls_32/m_0.04 dirac fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.44/Ls_32/m_0.04 dirac fort.200
 
  ./simon/dirac/Ls32.beta0.50.m0.05/fort.100 :  $(shell find ../Data/simon/dirac/b_0.5/Ls_32/m_0.05 -name 'conds_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.5/Ls_32/m_0.05 dirac fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.5/Ls_32/m_0.05 dirac fort.100
 
  ./simon/dirac/Ls40.beta0.42.m0.01/fort.200 :  $(shell find ../Data/simon/dirac/b_0.42/Ls_40/m_0.01 -name 'condensate_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.42/Ls_40/m_0.01 dirac fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.42/Ls_40/m_0.01 dirac fort.200
 
  ./simon/dirac/Ls32.beta0.42.m0.01/fort.200 :  $(shell find ../Data/simon/dirac/b_0.42/Ls_32/m_0.01 -name 'condensate_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.42/Ls_32/m_0.01 dirac fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.42/Ls_32/m_0.01 dirac fort.200
 
  ./simon/sunbird/Ls24.beta0.32.m0.03/fort.100 :  $(shell find ../Data/simon/sunbird/b_0.32/Ls_24/m_0.03 -name 'conds_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/sunbird/b_0.32/Ls_24/m_0.03 sunbird fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/sunbird/b_0.32/Ls_24/m_0.03 sunbird fort.100
 
  ./simon/sunbird/Ls24.beta0.36.m0.01/fort.100 :  $(shell find ../Data/simon/sunbird/b_0.36/Ls_24/m_0.01 -name 'conds_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/sunbird/b_0.36/Ls_24/m_0.01 sunbird fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/sunbird/b_0.36/Ls_24/m_0.01 sunbird fort.100
 
  ./simon/sunbird/Ls24.beta0.30.m0.02/fort.11 :  $(shell find ../Data/simon/sunbird/b_0.3/Ls_24/m_0.02 -name 'bose_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/sunbird/b_0.3/Ls_24/m_0.02 sunbird fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/sunbird/b_0.3/Ls_24/m_0.02 sunbird fort.11
 
  ./simon/dirac/Ls40.beta0.48.m0.01/fort.11 :  $(shell find ../Data/simon/dirac/b_0.48/Ls_40/m_0.01 -name 'bose_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.48/Ls_40/m_0.01 dirac fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.48/Ls_40/m_0.01 dirac fort.11
 
  ./simon/sunbird/Ls24.beta0.38.m0.03/fort.200 :  $(shell find ../Data/simon/sunbird/b_0.38/Ls_24/m_0.03 -name 'condensate_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/sunbird/b_0.38/Ls_24/m_0.03 sunbird fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/sunbird/b_0.38/Ls_24/m_0.03 sunbird fort.200
 
  ./simon/dirac/Ls32.beta0.44.m0.05/fort.200 :  $(shell find ../Data/simon/dirac/b_0.44/Ls_32/m_0.05 -name 'condensate_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.44/Ls_32/m_0.05 dirac fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.44/Ls_32/m_0.05 dirac fort.200
 
  ./simon/dirac/Ls40.beta0.48.m0.04/fort.100 :  $(shell find ../Data/simon/dirac/b_0.48/Ls_40/m_0.04 -name 'conds_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.48/Ls_40/m_0.04 dirac fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.48/Ls_40/m_0.04 dirac fort.100
 
  ./simon/dirac/Ls40.beta0.52.m0.04/fort.100 :  $(shell find ../Data/simon/dirac/b_0.52/Ls_40/m_0.04 -name 'conds_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.52/Ls_40/m_0.04 dirac fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.52/Ls_40/m_0.04 dirac fort.100
 
  ./simon/sunbird/Ls24.beta0.34.m0.04/fort.11 :  $(shell find ../Data/simon/sunbird/b_0.34/Ls_24/m_0.04 -name 'bose_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/sunbird/b_0.34/Ls_24/m_0.04 sunbird fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/sunbird/b_0.34/Ls_24/m_0.04 sunbird fort.11
 
  ./simon/dirac/Ls40.beta0.44.m0.03/fort.200 :  $(shell find ../Data/simon/dirac/b_0.44/Ls_40/m_0.03 -name 'condensate_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.44/Ls_40/m_0.03 dirac fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.44/Ls_40/m_0.03 dirac fort.200
 
  ./simon/sunbird/Ls24.beta0.38.m0.01/fort.100 :  $(shell find ../Data/simon/sunbird/b_0.38/Ls_24/m_0.01 -name 'conds_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/sunbird/b_0.38/Ls_24/m_0.01 sunbird fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/sunbird/b_0.38/Ls_24/m_0.01 sunbird fort.100
 
  ./simon/dirac/Ls40.beta0.50.m0.04/fort.11 :  $(shell find ../Data/simon/dirac/b_0.5/Ls_40/m_0.04 -name 'bose_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.5/Ls_40/m_0.04 dirac fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.5/Ls_40/m_0.04 dirac fort.11
 
  ./simon/dirac/Ls48.beta0.50.m0.05/fort.100 :  $(shell find ../Data/simon/dirac/b_0.5/Ls_48/m_0.05 -name 'conds_*')
-	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon.sh ../Data/simon/dirac/b_0.5/Ls_48/m_0.05 dirac fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/single_dir_simon1.sh ../Data/simon/dirac/b_0.5/Ls_48/m_0.05 dirac fort.100
 
  ./all_dirs16/Ls40.beta0.34.m0.01/fort.11.total.1\
  ./all_dirs16/Ls40.beta0.34.m0.01/fort.200.total.1 :  $(shell find ../Data/16/all_dirs/Ls40.beta0.34.m0.01 -name fort.11)\

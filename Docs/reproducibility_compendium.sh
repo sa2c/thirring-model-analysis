@@ -6,7 +6,12 @@
 # we aggregate and move Simon's data to the format/layout 
 # (directory names, file names) that are used with the rest of the analysis
 # an we log out action on each directory (identified by machine, beta, Ls, m)
-../Scripts/global_simon_script.sh
+# THIS IS FOR THE 'simon' directory
+../Scripts/global_simon_script1.sh
+# TODO: we need to take care of the 'simon_olfstuff' directory, which is 
+# much messier
+
+# TODO
 
 # we aggregate Michele's data 
 ../Scripts/stitch_everything.sh
