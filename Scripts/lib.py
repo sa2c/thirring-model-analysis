@@ -5,6 +5,7 @@ from os import path
 import numpy as np
 from matplotlib import pyplot as plt
 import re
+import threading
 
 numeric_types = [np.int, np.int64, np.float, np.float64]
 
@@ -91,10 +92,8 @@ def filelist_parser(filename):
     Returns dataframe containing the same information, indexed by L,Ls,beta,mass.
     '''
     print(f"Reading {filename}")
-    analysis_settings = pd.read_table(filename,
-                                      sep=r'\s+',
-                                      comment='#',
-                                      header=0)
+    analysis_settings = pd.read_table(
+        filename, sep=r'\s+', comment='#', header=0)
 
     run_params_list = [{
         'L':
@@ -111,11 +110,12 @@ def filelist_parser(filename):
     print(analysis_settings.set_index(parnames))
     return analysis_settings.set_index(parnames)
 
+
 def read_all_files(analysis_settings):
     ''' 
     Takes as input dataframe containing the same information, indexed by 
-    L,Ls,beta,mass. Returns a dictionary of df_dict with thermalization removed,
-    merged by L,Ls,beta,mass
+    L,Ls,beta,mass. Returns a dictionary, where each datafile has been split 
+    into 2 parts, the thermalisation and the proper data after that.
     '''
     df_dict = dict()
 
@@ -130,9 +130,8 @@ def read_all_files(analysis_settings):
 
         assert len(meas_every_data.drop_duplicates()) == 1
 
-        for filename, therm_ntrajs, meas_every in zip(filename_data,
-                                                      therm_ntrajs_data,
-                                                      meas_every_data):
+        for filename, therm_ntrajs, meas_every in zip(
+                filename_data, therm_ntrajs_data, meas_every_data):
             print(f"Reading {filename}")
             df = pd.read_table(filename.strip(), sep=r'\s+', header=0)
             thermalization_nmeas = np.ceil(therm_ntrajs / meas_every)
@@ -140,7 +139,7 @@ def read_all_files(analysis_settings):
             df_sane = df.tail(-int(thermalization_nmeas))
             df_therm = df.head(int(thermalization_nmeas))
             print(f"Nmeas to append: {len(df_sane)}")
-            df = {'therm' :  df_therm, 'sane' : df_sane }
+            df = {'therm': df_therm, 'sane': df_sane}
 
             dfs.append(df)
 
@@ -168,9 +167,8 @@ def cut_and_paste(analysis_settings):
 
         assert len(meas_every_data.drop_duplicates()) == 1
 
-        for filename, therm_ntrajs, meas_every in zip(filename_data,
-                                                      therm_ntrajs_data,
-                                                      meas_every_data):
+        for filename, therm_ntrajs, meas_every in zip(
+                filename_data, therm_ntrajs_data, meas_every_data):
             print(f"Reading {filename}")
             df = pd.read_table(filename.strip(), sep=r'\s+', header=0)
             thermalization_nmeas = np.ceil(therm_ntrajs / meas_every)
@@ -180,47 +178,156 @@ def cut_and_paste(analysis_settings):
 
             dfs_to_concatenate.append(df)
 
-        df_dict[idx] = pd.concat(dfs_to_concatenate,
-                                 axis='index').reset_index()
+        df_dict[idx] = pd.concat(
+            dfs_to_concatenate, axis='index').reset_index()
 
         print(f"Total nmeas: {len(df_dict[idx])}")
 
     return df_dict
 
 
-def scan_for_blocking(df_dict,df_dict_cut, observable, analysis_settings):
-    for k in sorted(df_dict.keys()):
-        vs_both  = df_dict[k]
-        count = 1
-        for v_both in vs_both:
-            v = v_both['sane']
-            therm = v_both['therm']
+def scan_for_blocking(df_dict, df_dict_cut, observable, analysis_settings):
+
+    list_need_more_statistics = open('need_more_statistics.txt','w')
+
+    with open('new_analysis_settings.set', 'w') as f:
+        f.write('L\t')
+        for col in analysis_settings.columns:
+            f.write(f'{col}\t')
+        f.write('\n')
+
+        # plot all runs with a certain parameter
+        for k in sorted(df_dict.keys()):
+            vs_both = df_dict[k]
+            measevery_data = analysis_settings.measevery[k]
+            measevery = measevery_data if type(
+                measevery_data
+            ) in numeric_types else measevery_data.drop_duplicates()[0]
+
+            assert type(measevery_data) in numeric_types or len(
+                measevery_data.drop_duplicates()) is 1
+
+            count = 1
+            for v_both in vs_both:
+
+                v = v_both['sane']
+                therm = v_both['therm']
+
+                plt.title("{}-{}".format(k, observable))
+                x = np.arange(len(therm[observable])) * measevery
+                plt.plot(x, therm[observable], label=str(count) + '_therm')
+                x = (np.arange(len(v[observable])) + len(therm[observable])) * measevery
+                plt.plot(x, v[observable], label=str(count))
+                count += 1
+
+            plt.legend()
+            # get new thermalisation values, for all runs with the same parameters
+            new_thermalizations = []
+            need_more_statistics = False
+
+            def work1():
+                nonlocal new_thermalizations
+                nonlocal analysis_settings
+                nonlocal x
+                nonlocal need_more_statistics
+                count = 1
+                thermalizations = analysis_settings.loc[[k], 'thermalization']
+                print(f"Parameters {k}")
+                for thermalization in thermalizations:
+                    print(f"copy no {count}, current thermalisation: {thermalization}. ",end='')
+                    print("new thermalisation:", end='')
+                    c = input()
+                    try:
+                        if c == 'N':
+                            need_more_statistics = True
+                            new_thermalization = thermalization
+                        else :
+                            new_thermalization = int(c)
+                    except:
+                        new_thermalization = thermalization
+                    print("New value: ",new_thermalization)
+                    new_thermalizations.append(new_thermalization)
+                    count += 1
+
+            x = threading.Thread(target = work1)
+            x.start()
+
+
+            plt.show()
+            x.join()
+            print(f"New thermalizations - post join: {new_thermalizations}")
+
+            # computing error vs blocksize
+            v = df_dict_cut[k]
+            n_meas = len(v[observable])
+            bmeassize_range = range(1, n_meas // 5, 2)
+            mean_errs = [
+                blockingMeanErr(v[observable], bsize)
+                for bsize in bmeassize_range
+            ]
+            y = [a for a, b in mean_errs]
+            ye = [b for a, b in mean_errs]
 
             plt.title("{}-{}".format(k, observable))
-            x = np.arange(len(therm[observable]))
-            plt.plot(x,therm[observable], label = str(count)+'_therm')
-            x = np.arange(len(v[observable])) + len(therm[observable])
-            plt.plot(x, v[observable], label = str(count))
-            count += 1
+            bsize_range = np.array(bmeassize_range) * measevery
+            plt.errorbar(bsize_range, y, ye)
 
-        plt.show()
-        v = df_dict_cut[k]
-        n_meas = len(v[observable])
-        bmeassize_range = range(1, n_meas // 5, 2)
-        mean_errs = [
-            blockingMeanErr(v[observable], bsize) for bsize in bmeassize_range
-        ]
-        y = [a for a, b in mean_errs]
-        ye = [b for a, b in mean_errs]
+            # plotting current value
+            current_blocksize_data = analysis_settings.blocksize[k]
+            current_blocksize = current_blocksize_data if type(
+                current_blocksize_data
+            ) in numeric_types else current_blocksize_data.drop_duplicates()[0]
 
-        plt.title("{}-{}".format(k, observable))
-        meas_every_data = analysis_settings.measevery[k]
-        meas_every = meas_every_data if type(
-            meas_every_data
-        ) in numeric_types else meas_every_data.drop_duplicates()[0]
-        bsize_range = np.array(bmeassize_range) * meas_every
-        plt.errorbar(bsize_range, y, ye)
-        plt.show()
+            y_current, ye_current = blockingMeanErr(
+                v[observable], int(current_blocksize / measevery))
+            plt.errorbar([current_blocksize], [y_current], [ye_current])
+
+            # show error vs blocksize
+            print(f"current block size: {current_blocksize}")
+
+
+            new_blocksize = current_blocksize
+            def work2():
+                nonlocal need_more_statistics
+                nonlocal new_blocksize
+                print("new blocksize:", end='')
+                c = input()
+                try:
+                    if c == 'N':
+                        need_more_statistics = True
+                        new_blocksize = current_blocksize
+                    else :
+                        new_blocksize = int(c)
+                except:
+                    new_blocksize = current_blocksize
+                print("New value: ", new_blocksize)
+
+            x = threading.Thread(target = work2)
+            x.start()
+            plt.show()
+            x.join()
+            print("New value - post-join: ", new_blocksize)
+
+
+            L, Ls, beta, mass = k
+            filenames = analysis_settings.loc[[k], 'filename']
+            measeverys = analysis_settings.loc[[k], 'measevery']
+
+            for new_thermalization, filename in zip(
+                    new_thermalizations, filenames):
+
+                for thing in [
+                        L, filename, new_thermalization, new_blocksize,
+                        measevery
+                ]:
+                    f.write(f'{thing}\t')
+                f.write('\n')
+
+            if need_more_statistics:
+                list_need_more_statistics.write(str(k))
+                list_need_more_statistics.write('\n')
+
+    list_need_more_statistics.close()
 
 
 def get_values_and_errors(df_dict, observable, analysis_settings):
@@ -251,12 +358,12 @@ def get_values_and_errors(df_dict, observable, analysis_settings):
 def plot_observable(observable, values_and_error_selected):
     for mass in np.arange(0.01, 0.06, 0.01):
         condition = (values_and_error_selected.mass == mass)
-        plt.errorbar(values_and_error_selected.beta[condition],
-                     values_and_error_selected[observable][condition],
-                     yerr=values_and_error_selected[observable +
-                                                    'Err'][condition],
-                     label='m=' + str(mass),
-                     linestyle='None',
-                     marker='+')
+        plt.errorbar(
+            values_and_error_selected.beta[condition],
+            values_and_error_selected[observable][condition],
+            yerr=values_and_error_selected[observable + 'Err'][condition],
+            label='m=' + str(mass),
+            linestyle='None',
+            marker='+')
 
     plt.legend()
