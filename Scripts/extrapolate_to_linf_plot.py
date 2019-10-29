@@ -18,7 +18,9 @@ def expexpression(A, alpha, constant, x):
 def plot_fit_exp(df_psibarpsi_multi, df_fitres_multi):
     from matplotlib import pyplot as plt
     plt.figure()
-    plt.xlim([20, 56])
+    xmin = min(df_psibarpsi_multi['Ls'])
+    xmax = max(df_psibarpsi_multi['Ls'])
+    plt.xlim([xmin - 4, xmax + 8])
 
     L = df_psibarpsi_multi.L.drop_duplicates().values[0]
     m = df_psibarpsi_multi.mass.drop_duplicates().values[0]
@@ -51,11 +53,12 @@ def plot_fit_exp(df_psibarpsi_multi, df_fitres_multi):
 
         print(beta, A, alpha, constant)
 
-        plt.errorbar(x, y, yerr=ye, linestyle='None')
         xplot = np.arange(min(x), max(x), (max(x) - min(x)) / 100)
         p = plt.plot(xplot,
                      expexpression(A, alpha, constant, xplot),
                      label=f'{beta}')
+        plt.errorbar(x, y, yerr=ye, linestyle='None', color = p[0].get_color())
+        #plt.plot(x, y, linestyle='None', marker='+', color = p[0].get_color())
 
     df_psibarpsi_multi.loc[df_psibarpsi_multi.beta.isin(
         df_fitres_multi.beta), :].groupby(by=['beta', 'mass', 'L']).apply(
@@ -80,7 +83,9 @@ def aggregate_psibarpsi_dataframes(L, mass, analysis_settings_filename):
     if len(filenames) is 0:
         print("No filenames matching expression:")
         print(glob_expression)
-        print(f"analysis_settings_filename: {analysis_settings_filename} L: {L}, mass: {mass}")
+        print(
+            f"analysis_settings_filename: {analysis_settings_filename} L: {L}, mass: {mass}"
+        )
         exit()
 
     def read_table(filename):
@@ -105,7 +110,9 @@ def aggregate_fit_inf_dataframes(L, mass, analysis_settings_filename):
     if len(filenames) is 0:
         print("No filenames matching expression:")
         print(glob_expression)
-        print(f"analysis_settings_filename: {analysis_settings_filename} L: {L}, beta : '0.*' mass: {mass}")
+        print(
+            f"analysis_settings_filename: {analysis_settings_filename} L: {L}, beta : '0.*' mass: {mass}"
+        )
         exit()
 
     def read_table(filename):
