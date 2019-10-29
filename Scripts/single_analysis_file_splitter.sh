@@ -4,6 +4,9 @@ FILE_TO_SPLIT=$1
 L=$2
 LsBetaM=$3
 
+source $(dirname ${BASH_SOURCE[0]})/dirname_lib.sh
+
+
 DIR_OUTPUT=analysis_setting_split
 
 TMP_FILE=$DIR_OUTPUT/tmp
@@ -12,7 +15,9 @@ mkdir -p $DIR_OUTPUT
 
 echo Reading $FILE_TO_SPLIT
 head -n 1 $FILE_TO_SPLIT > $TMP_FILE
-grep -E "^$L.*$LsBetaM.*" $FILE_TO_SPLIT >> $TMP_FILE
+select_lines_matching_LsBetaM $LsBetaM $FILE_TO_SPLIT | grep -E '^'$L''>> $TMP_FILE
+
+wc -l $TMP_FILE
 
 filename=$DIR_OUTPUT/L$L$LsBetaM.$FILE_TO_SPLIT 
 

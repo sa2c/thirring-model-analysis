@@ -6,25 +6,26 @@
 # we aggregate and move Simon's data to the format/layout 
 # (directory names, file names) that are used with the rest of the analysis
 # an we log out action on each directory (identified by machine, beta, Ls, m)
-# THIS IS FOR THE 'simon' directory
-../Scripts/global_simon_script1.sh
-# TODO: we need to take care of the 'simon_olfstuff' directory, which is 
-# much messier
+# THIS IS FOR THE 'simon' directory and PARTIALLY for the simon_oldstuff directory
+../Scripts/global_simon_script1.sh # stream 1 
+# TODO: we need to take care of the parts of 'simon_olfstuff' directory
+#       which to not fit the known patterns.
 
-# TODO
+# we aggregate Michele's data - old
+../Scripts/stitch_everything.sh # stream 2 
 
-# we aggregate Michele's data 
-../Scripts/stitch_everything.sh
+# we strap a header on new michele's data
+../Scripts/runs2.0.michele.sh # stream 3
 
 # splitting the global analysis setting file 
 # the command calls a lot of smaller commands and logs them
-../Scripts/global_analysis_file_splitter.sh fort.200.analysis.set
+../Scripts/global_analysis_file_splitter.sh fort.200.analysis.set # stream 4
 
 # each file in  analysis_setting_split is processed separately and 
 # the value of the condensate, with the error, is obtained.
 for file in analysis_setting_split/L1*
 do 
-    ../ProtocolUtils/log ../Scripts/pbp_data_processing_v2.py $file
+    ../ProtocolUtils/log ../Scripts/pbp_data_processing_v2.py $file # stream 1,2,3,4
 done 
 
 

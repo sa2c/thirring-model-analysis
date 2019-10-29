@@ -76,7 +76,7 @@ def blockingMeanErr(data0, blockSize):
 
 def parameters_from_dirname(dirname):
     match = re.search(
-        'Ls(?P<Ls>[0-9]{2})\.beta(?P<beta>0\.[0-9][0-9])\.m(?P<mass>0\.0[0-9])',
+        'Ls(?P<Ls>[0-9]+)\.beta(?P<beta>0\.[0-9]+)\.m(?P<mass>0\.0[0-9]+)',
         dirname)
 
     Ls = int(match['Ls'])

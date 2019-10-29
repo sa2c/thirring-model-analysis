@@ -1,7 +1,38 @@
-Place here the data files that need to be sewed together.
-See scripts and makefiles, i.e. ../Scripts/lib.sh and ../Analysis/makefile_stitch
 
-thirring_runs[12] : L=12 runs from sunbird (michele)
-16: data from L=16, dirac (michele)
-simon/dirac:  L=16 
-simon/sunbird: L=12
+Place here the data files, also the ones that need to be sewed together.
+
+Relevant scripts:
+global_simon_script1.sh
+single_dir_simon1.sh
+
+stitch_everything.sh
+lib.sh
+
+## 1.0
+1.0-style runs: many small files that need to be joined
+thirring_runs[1,2] : L=12 runs from sunbird (michele)
+                 16: data from L=16, dirac (michele)
+
+## 1.0-Simon
+1.0-simon-style runs: a few small files that need to be joined. Different
+                      schema from 1.0
+        simon/dirac: L=16 data obtained by Simon
+      simon/sunbird: L=12 data obtained by Simon
+     simon_oldstuff: previous stuff run by simon, with smaller Ls and various 
+                     couplings
+                     TODO: Include this in the analysis
+
+## 2.0
+2.0-style runs: no need to stitch everything
+sunbird_thirring_runs3_L12 : L=12 runs from sunbird (michele) in the new format
+           peta4_RUNS2_L16 : L=16 runs in the new format
+
+
+## Misc
+
+included171019.txt : list of file types that need to be synchronised with rsync
+   sync_michele.sh : script to sync michele's data
+     login_data.sh : bash script sourced in sync_michele.sh that contains login 
+                     info. Must not be included in the git repo, since it is 
+                     machine&user-dependent
+              TARS : collection of tar archives
