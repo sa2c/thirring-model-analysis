@@ -15,10 +15,11 @@ import glob
 def aggregate_psibarpsi_dataframes(Ls, L, analysis_settings_filename):
     """
     See single_analysis_file_splitter, the $filename variable.
+    Collect all relevant analysis setting files, grouped by L and Ls.
     """
     glob_expression = os.path.join(
         lib.pbpdir, lib.pbp_values_and_error_filename +
-        f"L{L}Ls{Ls}.beta0.*m0.0?.{analysis_settings_filename}")
+        f"L{L}Ls{Ls}.beta0.*m0.0*.{analysis_settings_filename}")
     filenames = glob.glob(glob_expression)
 
     if len(filenames) is 0:

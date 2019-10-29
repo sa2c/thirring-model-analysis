@@ -16,7 +16,7 @@ do
         echo LsBetaM $LsBetaM
         if (select_lines_matching_LsBetaM $LsBetaM $FILE_TO_SPLIT | grep $L &>/dev/null)
         then
-            ../ProtocolUtils/log ../Scripts/single_analysis_file_splitter.sh $FILE_TO_SPLIT $L $LsBetaM
+            ../ProtocolUtils/log ../Scripts/single_analysis_file_splitter.sh $FILE_TO_SPLIT $L $LsBetaM || exit 1
         else 
            echo Nothing found for LsBetaM $LsBetaM and L $L, no log will be produced
         fi

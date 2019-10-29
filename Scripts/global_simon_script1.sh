@@ -8,7 +8,7 @@ do
     do
         for dir in  ../Data/simon/$machine/b_0.*/Ls_*/m_0.0?
         do 
-            ../ProtocolUtils/log ../Scripts/single_dir_simon1.sh $dir $filetype $PREFIX
+            ../ProtocolUtils/log ../Scripts/single_dir_simon1.sh $dir $filetype $PREFIX || exit 1
         done 
     done 
 done
@@ -20,7 +20,7 @@ do
     PREFIX=old
     for dir in  ../Data/simon_oldstuff/b_0.*/Ls_*/m_0.0?
     do 
-        ../ProtocolUtils/log ../Scripts/single_dir_simon1.sh $dir $filetype $PREFIX 
+        ../ProtocolUtils/log ../Scripts/single_dir_simon1.sh $dir $filetype $PREFIX  || exit 1
     done 
 done 
 

@@ -114,10 +114,11 @@ def fit_exp(df):
 def aggregate_psibarpsi_dataframes(L, mass, beta, analysis_settings_filename):
     """
     See single_analysis_file_splitter, the $filename variable.
+    Collect all relevant analysis setting files, grouped by L, beta and mass."
     """
     glob_expression = os.path.join(
         lib.pbpdir, lib.pbp_values_and_error_filename +
-        f"L{L}Ls??.beta{beta}.m{mass}.{analysis_settings_filename}")
+        f"L{L}Ls??.beta{float(beta):1.6f}.m{float(mass):1.6f}.{analysis_settings_filename}")
     filenames = glob.glob(glob_expression)
 
     if len(filenames) is 0:

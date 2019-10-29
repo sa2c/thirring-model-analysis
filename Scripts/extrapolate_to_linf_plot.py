@@ -74,12 +74,13 @@ def aggregate_psibarpsi_dataframes(L, mass, analysis_settings_filename):
     """
     glob_expression = os.path.join(
         lib.pbpdir, lib.pbp_values_and_error_filename +
-        f"L{L}Ls??.beta0.*.m{mass}.{analysis_settings_filename}")
+        f"L{L}Ls*.beta0.*.m{float(mass):1.6f}.{analysis_settings_filename}")
     filenames = glob.glob(glob_expression)
 
     if len(filenames) is 0:
         print("No filenames matching expression:")
         print(glob_expression)
+        print(f"analysis_settings_filename: {analysis_settings_filename} L: {L}, mass: {mass}")
         exit()
 
     def read_table(filename):
@@ -104,6 +105,7 @@ def aggregate_fit_inf_dataframes(L, mass, analysis_settings_filename):
     if len(filenames) is 0:
         print("No filenames matching expression:")
         print(glob_expression)
+        print(f"analysis_settings_filename: {analysis_settings_filename} L: {L}, beta : '0.*' mass: {mass}")
         exit()
 
     def read_table(filename):
