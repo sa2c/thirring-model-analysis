@@ -1,8 +1,7 @@
 #!/usr/bin/env python3
 import numpy as np
 import pandas as pd
-from scipy.optimize import leastsq, brentq
-from sys import argv
+from scipy.optimize import leastsq
 import lib
 from tabulate import tabulate
 import argparse as ap
@@ -11,13 +10,10 @@ import glob
 import extrapolation_library as el
 
 
-def expexpression(A, alpha, constant, x):
-    return A * np.exp(-alpha * x) + constant
-
 
 def residuals(par, x, y, ye):
     A, alpha, constant = par
-    ytheo = expexpression(A, alpha, constant, x)
+    ytheo = el.expexpression(A, alpha, constant, x)
     return (y - ytheo) / ye
 
 
@@ -54,7 +50,7 @@ def fit_exp_single(df):
     return A, alpha, constant
 
 
-def fit_exp(df):
+def fit_exp(df,nboot):
 
     output_columns = el.output_columns
 
@@ -80,7 +76,6 @@ def fit_exp(df):
 
     A, alpha, constant = fit_exp_single(df)
 
-    nboot = 10
     L = df.L.drop_duplicates().values[0]
     beta = df.beta.drop_duplicates().values[0]
     mass = df.mass.drop_duplicates().values[0]
@@ -114,7 +109,7 @@ def fit_exp(df):
 def aggregate_psibarpsi_dataframes(L, mass, beta, analysis_settings_filename):
     """
     See single_analysis_file_splitter, the $filename variable.
-    Collect all relevant analysis setting files, grouped by L, beta and mass."
+    Collects all relevant analysis setting files, grouped by L, beta and mass.
     """
     glob_expression = os.path.join(
         lib.pbpdir, lib.pbp_values_and_error_filename +
@@ -146,6 +141,7 @@ parser.add_argument(
 parser.add_argument('mass', type=str, help='The chosen value of the mass')
 parser.add_argument('beta', type=str, help='The chosen value of beta')
 parser.add_argument('L', type=str, help='The chosen value of L')
+parser.add_argument('nboot', type=int, help='Number of boostrap resampling')
 
 args = parser.parse_args()
 
@@ -158,7 +154,7 @@ values_and_errors = aggregate_psibarpsi_dataframes(
 print("All values considered:")
 print(values_and_errors)
 
-extrapolation = fit_exp(values_and_errors)
+extrapolation = fit_exp(values_and_errors,args.nboot)
 os.makedirs(lib.pbp_inf_dir, exist_ok=True)
 
 output_filename = el.fit_output_filename_format( args.analysis_settings_filename,args.L,args.beta,args.mass)

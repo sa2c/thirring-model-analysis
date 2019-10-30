@@ -1,18 +1,11 @@
 #!/usr/bin/env python3
 import numpy as np
 import pandas as pd
-from scipy.optimize import leastsq, brentq
-from sys import argv
 import lib
 from tabulate import tabulate
 import argparse as ap
 import os
-import glob
 import extrapolation_library as el
-
-
-def expexpression(A, alpha, constant, x):
-    return A * np.exp(-alpha * x) + constant
 
 
 def plot_fit_exp(df_psibarpsi_multi, df_fitres_multi):
@@ -55,7 +48,7 @@ def plot_fit_exp(df_psibarpsi_multi, df_fitres_multi):
 
         xplot = np.arange(min(x), max(x), (max(x) - min(x)) / 100)
         p = plt.plot(xplot,
-                     expexpression(A, alpha, constant, xplot),
+                     el.expexpression(A, alpha, constant, xplot),
                      label=f'{beta}')
         plt.errorbar(x, y, yerr=ye, linestyle='None', color = p[0].get_color())
         #plt.plot(x, y, linestyle='None', marker='+', color = p[0].get_color())
@@ -64,6 +57,9 @@ def plot_fit_exp(df_psibarpsi_multi, df_fitres_multi):
         df_fitres_multi.beta), :].groupby(by=['beta', 'mass', 'L']).apply(
             lambda x: plot_fit_exp_single(x, df_fitres_multi))
 
+    plt.xlabel('Ls')
+    plt.ylabel('psibarpsi')
+    plt.title(f'pbp extrapolation, L:{L} , m:{m})')
     plt.legend()
 
     output_filename = os.path.join(lib.pbp_inf_dir, f'pbpextrL{L}_m{m}.png')
@@ -74,7 +70,10 @@ def plot_fit_exp(df_psibarpsi_multi, df_fitres_multi):
 def aggregate_psibarpsi_dataframes(L, mass, analysis_settings_filename):
     """
     See single_analysis_file_splitter, the $filename variable.
+    Collects all relevant analysis setting files, grouped by L and mass.
+    Values for multiple beta will be plotted in the same figure.
     """
+    import glob
     glob_expression = os.path.join(
         lib.pbpdir, lib.pbp_values_and_error_filename +
         f"L{L}Ls*.beta0.*.m{float(mass):1.6f}.{analysis_settings_filename}")
@@ -97,6 +96,10 @@ def aggregate_psibarpsi_dataframes(L, mass, analysis_settings_filename):
 
 
 def aggregate_fit_inf_dataframes(L, mass, analysis_settings_filename):
+    """
+    Collects all relevant fit result files, grouped by L and mass.
+    """
+    import glob
 
     glob_expression = el.fit_output_filename_format(
         analysis_settings_filename=analysis_settings_filename,

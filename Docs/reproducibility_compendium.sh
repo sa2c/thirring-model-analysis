@@ -51,7 +51,7 @@ done ) &
 # extrapolate everything separately, save values into file
 
 # we neglect beta=1.0
-(for L in 12 16 
+for L in 12 16 
  do 
      grep -E '^'$L fort.200.analysis.set |  sed -r 's/.*Ls([0-9]+).beta(0.[0-9]+).m(0.[0-9]+).*/\2 \3/' | sort -u |  (
  while read beta m 
@@ -63,12 +63,18 @@ done
 
 # read extrapolated parameters and make plots (grouping by (L,mass) which 
 #    means many betas per plot.
-for L in 12 16
+( for L in 12 16
  do 
      for m in $(seq 0.01 0.01 0.05)
  do 
     ../ProtocolUtils/log ../Scripts/extrapolate_to_linf_plot.py fort.200.analysis.set $m $L || exit 1
  done 
-done )
+done  ) &
 
-# Todo : fit the extrapolated values.
+# plotting extrapolated values of psibarpsi together with their errors.
+( for L in 12 16
+do
+    ../Scripts/plot_psibarpsi_extrapolated.py fort.200.analysis.set $L
+done) &
+
+# Todo : fit the extrapolated values (once they become reasonable)
