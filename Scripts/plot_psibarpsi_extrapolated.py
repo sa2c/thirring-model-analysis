@@ -3,6 +3,11 @@ import numpy as np
 import pandas as pd
 import extrapolation_library as el
 import argparse as ap
+from matplotlib import rc
+rc('font',**{'family':'sans-serif','sans-serif':['Helvetica']})
+## for Palatino and other serif fonts use:
+#rc('font',**{'family':'serif','serif':['Palatino']})
+rc('text', usetex=True)
 from matplotlib import pyplot as plt
 import os
 import lib
@@ -68,7 +73,7 @@ for mass in sorted(masses):
                      y=df.constant,
                      linestyle='None',
                      yerr=df.constant_e,
-                     label=f'{mass}')
+                     label=f'$m={mass}$')
     plt.plot(df.beta + offset,
              df.constant,
              linestyle='None',
@@ -76,8 +81,9 @@ for mass in sorted(masses):
              marker='+')
 
 plt.legend()
-plt.xlabel('beta')
-plt.ylabel('psibarpsi_inf')
+plt.xlabel(r'$\beta$')
+plt.ylabel(r'$\bar{\psi}\psi_{\infty}$')
+plt.title(f"$L={args.L}$ (tentative)")
 output_filename = os.path.join(lib.pbp_inf_dir, f'pbpextrL{args.L}.png')
 print(f'Writing {output_filename}')
 plt.savefig(output_filename)

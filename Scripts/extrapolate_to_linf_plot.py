@@ -9,11 +9,16 @@ import extrapolation_library as el
 
 
 def plot_fit_exp(df_psibarpsi_multi, df_fitres_multi):
+    from matplotlib import rc
+    rc('font',**{'family':'sans-serif','sans-serif':['Helvetica']})
+    ## for Palatino and other serif fonts use:
+    #rc('font',**{'family':'serif','serif':['Palatino']})
+    rc('text', usetex=True)
     from matplotlib import pyplot as plt
-    plt.figure()
+    plt.figure(figsize=(7.0,6.0))
     xmin = min(df_psibarpsi_multi['Ls'])
     xmax = max(df_psibarpsi_multi['Ls'])
-    plt.xlim([xmin - 4, xmax + 8])
+    plt.xlim([xmin - 8, xmax + 4])
 
     L = df_psibarpsi_multi.L.drop_duplicates().values[0]
     m = df_psibarpsi_multi.mass.drop_duplicates().values[0]
@@ -50,18 +55,19 @@ def plot_fit_exp(df_psibarpsi_multi, df_fitres_multi):
         xplot = np.arange(min(x), max(x), (max(x) - min(x)) / 100)
         p = plt.plot(xplot,
                      el.expexpression(A, alpha, constant, xplot),
-                     label=f'{beta}, {redchisq:1.1f}')
+                     label=f'$\\beta:{beta:1.2f},\chi^2/n_{{dof}}:{redchisq:1.1f}$')
         plt.errorbar(x, y, yerr=ye, linestyle='None', color = p[0].get_color())
-        #plt.plot(x, y, linestyle='None', marker='+', color = p[0].get_color())
+        plt.plot(x, y, linestyle='None', marker='+', color = p[0].get_color())
 
     df_psibarpsi_multi.loc[df_psibarpsi_multi.beta.isin(
         df_fitres_multi.beta), :].groupby(by=['beta', 'mass', 'L']).apply(
             lambda x: plot_fit_exp_single(x, df_fitres_multi))
 
-    plt.xlabel('Ls')
-    plt.ylabel('psibarpsi')
-    plt.title(f'pbp extrapolation, L:{L} , m:{m})')
-    plt.legend()
+    plt.xlabel(r'$L_s$')
+    plt.ylabel(r'$\bar{\psi}\psi$')
+    plt.title(r'Exponential Extrapolation: $\lim_{{L_s\rightarrow \infty }} \bar{{\psi}}\psi(L_s)$ , $L={L}$ , $m={m}$'.format(L=L,m=m))
+
+    plt.legend(loc='upper left')
 
     output_filename = os.path.join(lib.pbp_inf_dir, f'pbpextrL{L}_m{m}.png')
     print(f'Writing {output_filename}')

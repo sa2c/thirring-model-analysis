@@ -2,6 +2,11 @@
 from rounder import rounder
 import lib
 import pandas as pd
+from matplotlib import rc
+rc('font',**{'family':'sans-serif','sans-serif':['Helvetica']})
+## for Palatino and other serif fonts use:
+#rc('font',**{'family':'serif','serif':['Palatino']})
+rc('text', usetex=True)
 from matplotlib import pyplot as plt
 from scipy.optimize import leastsq, brentq
 import numpy as np
@@ -119,16 +124,16 @@ if cov is not None:
 
     def valerr_string(val, err):
         string, exp10 = rounder(val, err)
-        return f"{string}·10^({exp10})" if exp10 is not 0 else f"{string}"
+        return f"{string}\cdot10^{{{exp10}}}" if exp10 is not 0 else f"{string}"
     
     
     betac_str = valerr_string(betac, betac_err)
     delta_str = valerr_string(delta, delta_err)
     plt.title(
-        f"Ls={Ls},L={L} X^2/ndof = {num:.2f}/{den}, b={betac_str},d={delta_str},B={B:.2f}"
+        f"$L_s={Ls}$,$L={L}$, $\chi^2/n_{{dof}} = {num:.2f}/{den}$, $b={betac_str}$,$d={delta_str}$,$B={B:.2f}$"
     )
 else: 
-    plt.title(f"Ls={Ls}, X^2/ndof = {num:1.2f}/{den}, b={betac},d={delta},B={B}")
+    plt.title(f"$L_s={Ls}$, $\chi^2/n_{{dof}} = {num:1.2f}/{den}$, $b={betac}$,$d={delta}$,$B={B}$")
 
 iterables = [np.arange(0.01, 0.06, 0.01), np.arange(0.25, 0.6, 0.004)]
 index = pd.MultiIndex.from_product(iterables, names=['mass', 'beta'])
@@ -141,7 +146,7 @@ for mass, beta in psibarpsi.index:
         b=0.5)
 
 for mass in np.arange(0.01, 0.06, 0.01):
-    plt.plot(psibarpsi[mass], label=f'm={mass}', color='black', linestyle='--')
+    plt.plot(psibarpsi[mass], color='black', linestyle='--')
 
 if args.savefig:
     filename = os.path.join(lib.eos_fit_dir,f'fitLs{Ls}L{L}.png')

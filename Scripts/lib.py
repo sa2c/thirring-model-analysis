@@ -92,10 +92,8 @@ def filelist_parser(filename):
     Returns dataframe containing the same information, indexed by L,Ls,beta,mass.
     '''
     print(f"Reading {filename}")
-    analysis_settings = pd.read_table(filename,
-                                      sep=r'\s+',
-                                      comment='#',
-                                      header=0)
+    analysis_settings = pd.read_table(
+        filename, sep=r'\s+', comment='#', header=0)
 
     run_params_list = [{
         'L':
@@ -131,9 +129,8 @@ def read_all_files(analysis_settings):
 
         assert len(meas_every_data.drop_duplicates()) == 1
 
-        for filename, therm_ntrajs, meas_every in zip(filename_data,
-                                                      therm_ntrajs_data,
-                                                      meas_every_data):
+        for filename, therm_ntrajs, meas_every in zip(
+                filename_data, therm_ntrajs_data, meas_every_data):
             print(f"Reading {filename}")
             df = pd.read_table(filename.strip(), sep=r'\s+', header=0)
             thermalization_nmeas = np.ceil(therm_ntrajs / meas_every)
@@ -180,8 +177,8 @@ def cut_and_paste(analysis_settings):
 
             dfs_to_concatenate.append(df)
 
-        df_dict[idx] = pd.concat(dfs_to_concatenate,
-                                 axis='index').reset_index()
+        df_dict[idx] = pd.concat(
+            dfs_to_concatenate, axis='index').reset_index()
 
         print(f"Total nmeas: {len(df_dict[idx])}")
 
@@ -205,8 +202,8 @@ def get_n_meas(analysis_settings):
 
         assert len(meas_every_data.drop_duplicates()) == 1
         meas_every = meas_every_data.drop_duplicates().values[0]
-        blocksize = analysis_settings.loc[[idx], 'blocksize'].drop_duplicates(
-        )[0]
+        blocksize = analysis_settings.loc[[idx],
+                                          'blocksize'].drop_duplicates()[0]
 
         nlines = 0
         nfiles = 0
@@ -223,7 +220,9 @@ def get_n_meas(analysis_settings):
 
     return pd.DataFrame(
         data=df_data,
-        columns=['L', 'Ls', 'beta', 'mass', 'ntraj', 'blocksize', 'ratio', 'nfiles'])
+        columns=[
+            'L', 'Ls', 'beta', 'mass', 'ntraj', 'blocksize', 'ratio', 'nfiles'
+        ])
 
 
 def scan_for_blocking(df_dict, df_dict_cut, observable, analysis_settings):
@@ -256,8 +255,8 @@ def scan_for_blocking(df_dict, df_dict_cut, observable, analysis_settings):
                 plt.title("{}-{}".format(k, observable))
                 x = np.arange(len(therm[observable])) * measevery
                 plt.plot(x, therm[observable], label=str(count) + '_therm')
-                x = (np.arange(len(v[observable])) +
-                     len(therm[observable])) * measevery
+                x = (np.arange(len(v[observable])) + len(
+                    therm[observable])) * measevery
                 plt.plot(x, v[observable], label=str(count))
                 count += 1
 
@@ -399,12 +398,12 @@ def get_values_and_errors(df_dict, observable, analysis_settings):
 def plot_observable(observable, values_and_error_selected):
     for mass in np.arange(0.01, 0.06, 0.01):
         condition = (values_and_error_selected.mass == mass)
-        plt.errorbar(values_and_error_selected.beta[condition],
-                     values_and_error_selected[observable][condition],
-                     yerr=values_and_error_selected[observable +
-                                                    'Err'][condition],
-                     label='m=' + str(mass),
-                     linestyle='None',
-                     marker='+')
+        plt.errorbar(
+            values_and_error_selected.beta[condition],
+            values_and_error_selected[observable][condition],
+            yerr=values_and_error_selected[observable + 'Err'][condition],
+            label=f'$m={mass}$',
+            linestyle='None',
+            marker='+')
 
     plt.legend()
