@@ -6,7 +6,7 @@
 # there is a file named 'condensdate_1' instead of 'condensate_1',
 # fixing it, almost in place.
 
-../ProtocolUtils/log ../Scripts/fix_wrong_simon.sh & #|| exit 1 
+../ProtocolUtils/log ../Scripts/fix_wrong_simon.sh || exit 1 
 
 # we aggregate and move Simon's data to the format/layout 
 # (directory names, file names) that are used with the rest of the analysis
@@ -46,7 +46,7 @@ do
         # that have been created by the splitting
         ../ProtocolUtils/log ../Scripts/eos_fit_v3.py fort.200.analysis.set $Ls $L $MINBETA --savefig || exit 1 
     done 
-done )  || exit 1
+done )  & #|| exit 1
 
 #doing extrapolation to Ls-> inf
 # extrapolate everything separately, save values into file
@@ -71,12 +71,12 @@ done
  do 
     ../ProtocolUtils/log ../Scripts/extrapolate_to_linf_plot.py fort.200.analysis.set $m $L || exit 1
  done 
-done  ) &
+done  )  & #|| exit 1 
 
 # plotting extrapolated values of psibarpsi together with their errors.
 ( for L in 12 16
 do
     ../Scripts/plot_psibarpsi_extrapolated.py fort.200.analysis.set $L
-done) &
+done)  & #|| exit 1
 
 # Todo : fit the extrapolated values (once they become reasonable)
