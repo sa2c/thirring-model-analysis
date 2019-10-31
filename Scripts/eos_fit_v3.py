@@ -50,11 +50,12 @@ parser.add_argument(
     help="The original name of the file containing the thermalization \n"
     "and the block sizes. Used to find the names of the condensate files")
 
-parser.add_argument('Ls', type=int, help='The chosen value of Ls')
+parser.add_argument('Ls', type=str, help='The chosen value of Ls')
 
 parser.add_argument('L', type=int, help='The chosen value of L')
 
 parser.add_argument('min_beta', type=float, help='The minimum value of beta for the fits.')
+parser.add_argument('max_beta', type=float, help='The maximum value of beta for the fits.')
 
 parser.add_argument('--savefig',
                     action='store_true',
@@ -66,6 +67,7 @@ args = parser.parse_args()
 Ls = args.Ls
 L = args.L
 min_beta = args.min_beta
+max_beta = args.max_beta
 
 values_and_errors = aggregate_psibarpsi_dataframes(
     L=L, Ls=Ls, analysis_settings_filename=args.analysis_settings_filename)
@@ -75,9 +77,7 @@ values_and_errors = aggregate_psibarpsi_dataframes(
 os.makedirs(lib.eos_fit_dir,exist_ok=True)
 for mass in set(values_and_errors.mass):
     filename = os.path.join(lib.eos_fit_dir,f'cond_m0{int(mass/0.01)}_Ls{Ls}_L{L}')
-    selection = (values_and_errors.Ls == Ls) & (values_and_errors.mass == mass) & \
-            (values_and_errors.L == L)
-
+    selection = (values_and_errors.mass == mass) 
     dftosave = values_and_errors.loc[selection,
                                      ['beta', 'psibarpsi', 'psibarpsiErr']]
     print(f"Writing {filename}")
@@ -88,7 +88,8 @@ for mass in set(values_and_errors.mass):
     dftosave.to_csv(filename, sep='\t')
 
 # Selecting values of interest
-condition = (values_and_errors.Ls == Ls) & (values_and_errors.L == L) & (values_and_errors.beta >= min_beta) 
+condition = (values_and_errors.beta >= min_beta) & (values_and_errors.beta <= max_beta) 
+
 
 values_and_errors_selected = values_and_errors.loc[condition, :]
 lib.plot_observable('psibarpsi', values_and_errors_selected)

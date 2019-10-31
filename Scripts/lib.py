@@ -11,9 +11,6 @@ numeric_types = [np.int, np.int64, np.float, np.float64]
 
 pbp_values_and_error_filename = 'psibarpsi'
 pbp_values_and_error_pretty_filename = 'psibarpsi.pretty'
-pbp_inf_dir = 'psibarpsi_extrapolated'
-pbp_inf_filename_pretty = 'psibarpsi_extrapolated_pretty'
-
 pbpdir = 'psibarpsi'
 eos_fit_dir = 'eos_fit'
 

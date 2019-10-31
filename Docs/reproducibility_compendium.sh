@@ -38,13 +38,14 @@ done
 # We do the separate fits for each Ls.
 # we use the last version of eos_fit. 
 MINBETA=0.3
+MAXBETA=1.0
 (for L in 12 16 
 do 
     for Ls in 8 16 24 32 40 48 
     do 
         # notice: this does not actually read fort.200.analysis.set, but the files 
         # that have been created by the splitting
-        ../ProtocolUtils/log ../Scripts/eos_fit_v3.py fort.200.analysis.set $Ls $L $MINBETA --savefig || exit 1 
+        ../ProtocolUtils/log ../Scripts/eos_fit_v3.py fort.200.analysis.set $Ls $L $MINBETA $MAXBETA --savefig || exit 1 
     done 
 done )  & #|| exit 1
 
@@ -81,11 +82,15 @@ do
 done)  & #|| exit 1
 
 # extracting pbp values from fit results
-ls psibarpsi_extrapolated/fort.200* | xargs -n 1 basename | tr '_' ' ' | while read file L beta m 
+( ls psibarpsi_extrapolated/fort.200* | xargs -n 1 basename | tr '_' ' ' | while read file L beta m 
 do 
     echo $file $L $beta $m
     ../ProtocolUtils/log ../Scripts/extract_pbp_extrapolated.py $file $L $beta $m
 done
 
+# fit the extrapolated values (the reasonable ones) 
+../ProtocolUtils/log ../Scripts/eos_fit_v3.py fort.200.analysis.set INF 12 0.3 0.44 --savefig
+) & # ||exit 1
 
-# Todo : fit the extrapolated values (once they become reasonable)
+wait
+
