@@ -48,14 +48,15 @@ def plot_fit_exp(df_psibarpsi_multi, df_fitres_multi):
         A = df_fitres_multi.A[condition].values[0]
         alpha = df_fitres_multi.alpha[condition].values[0]
         constant = df_fitres_multi.constant[condition].values[0]
-        redchisq = df_fitres_multi.redchisq[condition].values[0]
+        chisq = df_fitres_multi.chisq[condition].values[0]
+        ndof = df_fitres_multi.ndof[condition].values[0]
 
         print(beta, A, alpha, constant)
 
         xplot = np.arange(min(x), max(x), (max(x) - min(x)) / 100)
         p = plt.plot(xplot,
                      el.expexpression(A, alpha, constant, xplot),
-                     label=f'$\\beta:{beta:1.2f},\chi^2/n_{{dof}}:{redchisq:1.1f}$')
+                     label=f'$\\beta:{beta:1.2f},\chi^2/n_{{dof}}:{chisq:.1f}/{ndof}$')
         plt.errorbar(x, y, yerr=ye, linestyle='None', color = p[0].get_color())
         plt.plot(x, y, linestyle='None', marker='+', color = p[0].get_color())
 
@@ -69,7 +70,7 @@ def plot_fit_exp(df_psibarpsi_multi, df_fitres_multi):
 
     plt.legend(loc='upper left')
 
-    output_filename = os.path.join(lib.pbp_inf_dir, f'pbpextrL{L}_m{m}.png')
+    output_filename = os.path.join(el.pbp_inf_dir, f'pbpextrL{L}_m{m}.png')
     print(f'Writing {output_filename}')
     plt.savefig(output_filename)
 

@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+import extrapolation_library as el
 import numpy as np
 import pandas as pd
 from scipy.optimize import leastsq, brentq
@@ -174,11 +175,11 @@ def plot_fit_exp(df_multi):
 
 values_and_errors.groupby(by=['L', 'mass']).apply(plot_fit_exp)
 
-output_filename = lib.pbp_inf_filename
+output_filename = el.pbp_inf_filename
 print(f"Writing {output_filename}")
 #extrapolation.to_csv(path_or_buf=output_filename, sep='\t')
 
-output_filename_pretty = lib.pbp_inf_filename_pretty
+output_filename_pretty = el.pbp_inf_filename_pretty
 print(f"Writing {output_filename_pretty}")
 with open(output_filename_pretty, 'w') as f:
     f.write(

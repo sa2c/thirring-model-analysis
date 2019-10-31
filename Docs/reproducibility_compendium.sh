@@ -74,9 +74,18 @@ done
 done  )  & #|| exit 1 
 
 # plotting extrapolated values of psibarpsi together with their errors.
+BETAMAX=0.44 # extrapolated values do not converge for high beta
 ( for L in 12 16
 do
-    ../ProtocolUtils/log ../Scripts/plot_psibarpsi_extrapolated.py fort.200.analysis.set $L
+    ../ProtocolUtils/log ../Scripts/plot_psibarpsi_extrapolated.py fort.200.analysis.set $L $BETAMAX
 done)  & #|| exit 1
+
+# extracting pbp values from fit results
+ls psibarpsi_extrapolated/fort.200* | xargs -n 1 basename | tr '_' ' ' | while read file L beta m 
+do 
+    echo $file $L $beta $m
+    ../ProtocolUtils/log ../Scripts/extract_pbp_extrapolated.py $file $L $beta $m
+done
+
 
 # Todo : fit the extrapolated values (once they become reasonable)

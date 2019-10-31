@@ -55,6 +55,7 @@ parser.add_argument(
     "and the block sizes. Used to find the names of the condensate files")
 
 parser.add_argument('L', type=str, help='The chosen value of L')
+parser.add_argument('betamax', type=float, help='Maximum value for Beta')
 
 args = parser.parse_args()
 
@@ -66,7 +67,8 @@ masses = fit_inf_params.mass.drop_duplicates()
 betas = fit_inf_params.beta.drop_duplicates().sort_values()
 step = betas.values[1] - betas.values[0]
 for mass in sorted(masses):
-    df = fit_inf_params.loc[fit_inf_params.mass == mass, :]
+    condition = (fit_inf_params.mass == mass) & (fit_inf_params.beta <= args.betamax)
+    df = fit_inf_params.loc[condition, :]
     offset = step / 3 * (mass / max(masses) - 0.5)
     print(mass, offset)
     p = plt.errorbar(x=df.beta + offset,
@@ -84,6 +86,6 @@ plt.legend()
 plt.xlabel(r'$\beta$')
 plt.ylabel(r'$\bar{\psi}\psi_{\infty}$')
 plt.title(f"$L={args.L}$ (tentative)")
-output_filename = os.path.join(lib.pbp_inf_dir, f'pbpextrL{args.L}.png')
+output_filename = os.path.join(el.pbp_inf_dir, f'pbpextrL{args.L}.png')
 print(f'Writing {output_filename}')
 plt.savefig(output_filename)

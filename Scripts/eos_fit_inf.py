@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+import extrapolation_library as el
 from rounder import rounder
 import lib
 import pandas as pd
@@ -25,8 +26,8 @@ args = parser.parse_args()
 # Parsing analysis settings, getting dataframe
 L = args.L
 
-print(f'Reading {lib.pbp_inf_filename}')
-values_and_errors  = pd.read_table(lib.pbp_inf_filename, sep=r'\s+',header=0)
+print(f'Reading {el.pbp_inf_filename}')
+values_and_errors  = pd.read_table(el.pbp_inf_filename, sep=r'\s+',header=0)
 
 # for each and L
 for mass in set(values_and_errors.mass):

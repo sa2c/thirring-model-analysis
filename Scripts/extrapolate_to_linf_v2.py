@@ -45,7 +45,7 @@ def fit_exp_single(df):
     A = res[0][0]
     alpha = res[0][1]
     constant = res[0][2]
-    redchisq = np.sum(res[2]['fvec']**2) / (x.size - 3)
+    redchisq = (np.sum(res[2]['fvec']**2), (x.size - 3))
 
     return A, alpha, constant, redchisq
 
@@ -100,7 +100,7 @@ def fit_exp(df, nboot):
     alpha_e = np.std(np.array(alphas))
     data = np.array([[
         last_pbp, last_pbp_e, constant, constant_e, alpha, alpha_e, A, A_e,
-        beta, L, mass, redchisq
+        beta, L, mass, redchisq[0], redchisq[1]
     ]])
 
     res = pd.DataFrame(data=data, columns=output_columns)
@@ -115,7 +115,7 @@ def aggregate_psibarpsi_dataframes(L, mass, beta, analysis_settings_filename):
     """
     glob_expression = os.path.join(
         lib.pbpdir, lib.pbp_values_and_error_filename +
-        f"L{L}Ls??.beta{float(beta):1.6f}.m{float(mass):1.6f}.{analysis_settings_filename}"
+        f"L{L}Ls*.beta{float(beta):1.6f}.m{float(mass):1.6f}.{analysis_settings_filename}"
     )
     filenames = glob.glob(glob_expression)
 
@@ -158,7 +158,7 @@ print("All values considered:")
 print(values_and_errors)
 
 extrapolation = fit_exp(values_and_errors, args.nboot)
-os.makedirs(lib.pbp_inf_dir, exist_ok=True)
+os.makedirs(el.pbp_inf_dir, exist_ok=True)
 
 output_filename = el.fit_output_filename_format(
     args.analysis_settings_filename, args.L, args.beta, args.mass)
