@@ -37,26 +37,28 @@ done
 
 # We do the separate fits for each Ls.
 # we use the last version of eos_fit. 
+MINBETA=0.3
 (for L in 12 16 
 do 
     for Ls in 8 16 24 32 40 48 
     do 
         # notice: this does not actually read fort.200.analysis.set, but the files 
         # that have been created by the splitting
-        ../ProtocolUtils/log ../Scripts/eos_fit_v3.py fort.200.analysis.set $Ls $L --savefig || exit 1 
+        ../ProtocolUtils/log ../Scripts/eos_fit_v3.py fort.200.analysis.set $Ls $L $MINBETA --savefig || exit 1 
     done 
-done ) &
+done )  || exit 1
 
 #doing extrapolation to Ls-> inf
 # extrapolate everything separately, save values into file
 
 # we neglect beta=1.0
+NBOOT=30 # This is small.
 for L in 12 16 
  do 
      grep -E '^'$L fort.200.analysis.set |  sed -r 's/.*Ls([0-9]+).beta(0.[0-9]+).m(0.[0-9]+).*/\2 \3/' | sort -u |  (
  while read beta m 
  do 
-    ../ProtocolUtils/log ../Scripts/extrapolate_to_linf_v2.py fort.200.analysis.set $m $beta $L || exit 1
+    ../ProtocolUtils/log ../Scripts/extrapolate_to_linf_v2.py fort.200.analysis.set $m $beta $L $NBOOT || exit 1
  done )
 done 
 

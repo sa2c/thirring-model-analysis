@@ -49,6 +49,8 @@ parser.add_argument('Ls', type=int, help='The chosen value of Ls')
 
 parser.add_argument('L', type=int, help='The chosen value of L')
 
+parser.add_argument('min_beta', type=float, help='The minimum value of beta for the fits.')
+
 parser.add_argument('--savefig',
                     action='store_true',
                     help='flag to save figure instead of showing it')
@@ -58,6 +60,7 @@ args = parser.parse_args()
 # Parsing analysis settings, getting dataframe
 Ls = args.Ls
 L = args.L
+min_beta = args.min_beta
 
 values_and_errors = aggregate_psibarpsi_dataframes(
     L=L, Ls=Ls, analysis_settings_filename=args.analysis_settings_filename)
@@ -80,7 +83,8 @@ for mass in set(values_and_errors.mass):
     dftosave.to_csv(filename, sep='\t')
 
 # Selecting values of interest
-condition = (values_and_errors.Ls == Ls) & (values_and_errors.L == L)
+condition = (values_and_errors.Ls == Ls) & (values_and_errors.L == L) & (values_and_errors.beta >= min_beta) 
+
 values_and_errors_selected = values_and_errors.loc[condition, :]
 lib.plot_observable('psibarpsi', values_and_errors_selected)
 
@@ -92,7 +96,7 @@ output = leastsq(func=efl.residuals,
                        values_and_errors_selected.psibarpsi,
                        values_and_errors_selected.psibarpsiErr,
                        values_and_errors_selected.mass),
-                 full_output=1)
+                 full_output=1, maxfev=5000)
 
 found_params = output[0]
 A, betac, p, B, delta = found_params
@@ -102,28 +106,29 @@ final_residuals = output[2]['fvec']
 cov = output[1]
 residual_variance = final_residuals.var()
 
-# https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.leastsq.html
-#  To obtain the covariance matrix of the parameters x,
-#  cov_x must be multiplied by the variance of the residuals
-A_err, betac_err, p_err, B_err, delta_err = np.sqrt(
-    np.diag(cov) * residual_variance)
 #reduced_chi_square
 num = (final_residuals**2).sum()
 den = (len(final_residuals) - len(found_params))
 
+if cov is not None:
+    # https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.leastsq.html
+    #  To obtain the covariance matrix of the parameters x,
+    #  cov_x must be multiplied by the variance of the residuals
+    A_err, betac_err, p_err, B_err, delta_err = np.sqrt(
+        np.diag(cov) * residual_variance)
 
-def valerr_string(val, err):
-    string, exp10 = rounder(val, err)
-    return f"{string}·10^({exp10})" if exp10 is not 0 else f"{string}"
-
-
-betac_str = valerr_string(betac, betac_err)
-delta_str = valerr_string(delta, delta_err)
-plt.title(
-    f"Ls={Ls},L={L} X^2/ndof = {num:.2f}/{den}, b={betac_str},d={delta_str},B={B:.2f}"
-)
-
-#plt.title(f"Ls={Ls}, X^2/ndof = {num:1.2f}/{den}, b={betac},d={delta},B={B}")
+    def valerr_string(val, err):
+        string, exp10 = rounder(val, err)
+        return f"{string}·10^({exp10})" if exp10 is not 0 else f"{string}"
+    
+    
+    betac_str = valerr_string(betac, betac_err)
+    delta_str = valerr_string(delta, delta_err)
+    plt.title(
+        f"Ls={Ls},L={L} X^2/ndof = {num:.2f}/{den}, b={betac_str},d={delta_str},B={B:.2f}"
+    )
+else: 
+    plt.title(f"Ls={Ls}, X^2/ndof = {num:1.2f}/{den}, b={betac},d={delta},B={B}")
 
 iterables = [np.arange(0.01, 0.06, 0.01), np.arange(0.25, 0.6, 0.004)]
 index = pd.MultiIndex.from_product(iterables, names=['mass', 'beta'])

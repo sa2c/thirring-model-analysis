@@ -43,13 +43,14 @@ def plot_fit_exp(df_psibarpsi_multi, df_fitres_multi):
         A = df_fitres_multi.A[condition].values[0]
         alpha = df_fitres_multi.alpha[condition].values[0]
         constant = df_fitres_multi.constant[condition].values[0]
+        redchisq = df_fitres_multi.redchisq[condition].values[0]
 
         print(beta, A, alpha, constant)
 
         xplot = np.arange(min(x), max(x), (max(x) - min(x)) / 100)
         p = plt.plot(xplot,
                      el.expexpression(A, alpha, constant, xplot),
-                     label=f'{beta}')
+                     label=f'{beta}, {redchisq:1.1f}')
         plt.errorbar(x, y, yerr=ye, linestyle='None', color = p[0].get_color())
         #plt.plot(x, y, linestyle='None', marker='+', color = p[0].get_color())
 

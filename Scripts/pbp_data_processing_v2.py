@@ -3,7 +3,6 @@ import lib
 import pandas as pd
 import numpy as np
 import argparse as ap
-from tabulate import tabulate
 import os 
 parser = ap.ArgumentParser(
     description="An utility compute and store the condensate data for all runs."

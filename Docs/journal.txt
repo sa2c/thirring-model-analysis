@@ -33,3 +33,24 @@ Severe
 16  simon/dirac/Ls48.beta0.50.m0.05/fort.200 100 30 5 
 16  simon/dirac/Ls48.beta0.52.m0.05/fort.200 100 30 5 
 #########################################################
+
+
+Wed Oct 30 23:53:29 GMT 2019
+
+After a long work, most of the data in old simon's directories have been added,
+although there might be some leftovers: only directories in the format b*/Ls*/m*
+have been added (see scripts and reproducibility compendium for details).
+
+Some tools have been added to check statistics (get_total_traj.py) and to compare
+the new condensate estimates with the ones provided by Simon in 
+../Data/TARS/Eos.tar.from.simon.tar.gz. (compare_old_new_conds.py).
+Old results seems mostly compatible with new, when both new and old version exist.
+
+Makefile is unwieldly and cumbersome, but reproducibility compendium seems to 
+work fine for now.
+
+Still, it seems that there are issues with reproducing the exponential fits for 
+the Ls->infinity limit.
+
+
+
