@@ -76,7 +76,7 @@ done  )  & #|| exit 1
 # plotting extrapolated values of psibarpsi together with their errors.
 ( for L in 12 16
 do
-    ../Scripts/plot_psibarpsi_extrapolated.py fort.200.analysis.set $L
+    ../ProtocolUtils/log ../Scripts/plot_psibarpsi_extrapolated.py fort.200.analysis.set $L
 done)  & #|| exit 1
 
 # Todo : fit the extrapolated values (once they become reasonable)
