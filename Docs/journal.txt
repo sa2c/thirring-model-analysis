@@ -52,5 +52,14 @@ work fine for now.
 Still, it seems that there are issues with reproducing the exponential fits for 
 the Ls->infinity limit.
 
+###########################################################################
+
+Fri Nov  1 13:24:48 GMT 2019
+
+Problems with fits for Ls->inf have been solved: the Ls=8 files were not being 
+picked up by the scripts because of wrong globbing expression. 
+Main reproducibility tool is not makefile, but Docs/reproducibility_compendium.sh.
+There was an issue with it. 
+Also, spotted an issue with a L=16 data being pushed into L=12.
 
 

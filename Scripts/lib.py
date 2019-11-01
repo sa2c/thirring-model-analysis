@@ -401,6 +401,6 @@ def plot_observable(observable, values_and_error_selected):
             yerr=values_and_error_selected[observable + 'Err'][condition],
             label=f'$m={mass}$',
             linestyle='None',
-            marker='+')
+            marker=".")
 
     plt.legend()

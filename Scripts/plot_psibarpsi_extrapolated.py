@@ -80,7 +80,7 @@ for mass in sorted(masses):
              df.constant,
              linestyle='None',
              color=p[0].get_color(),
-             marker='+')
+             marker=".")
 
 plt.legend()
 plt.xlabel(r'$\beta$')

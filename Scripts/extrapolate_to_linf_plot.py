@@ -58,7 +58,7 @@ def plot_fit_exp(df_psibarpsi_multi, df_fitres_multi):
                      el.expexpression(A, alpha, constant, xplot),
                      label=f'$\\beta:{beta:1.2f},\chi^2/n_{{dof}}:{chisq:.1f}/{ndof}$')
         plt.errorbar(x, y, yerr=ye, linestyle='None', color = p[0].get_color())
-        plt.plot(x, y, linestyle='None', marker='+', color = p[0].get_color())
+        plt.plot(x, y, linestyle='None', marker=".", color = p[0].get_color())
 
     df_psibarpsi_multi.loc[df_psibarpsi_multi.beta.isin(
         df_fitres_multi.beta), :].groupby(by=['beta', 'mass', 'L']).apply(
