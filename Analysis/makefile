@@ -2893,6 +2893,9 @@ all:  ./all_dirs/Ls32.beta0.30.m0.01/fort.11.total.1\
  ./psibarpsi_extrapolated/fort.200.analysis.set_12_0.600000_0.050000\
  ./psibarpsi_extrapolated/fort.200.analysis.set_16_0.300000_0.010000\
  ./psibarpsi_extrapolated/fort.200.analysis.set_16_0.600000_0.010000\
+ ./psibarpsi_extrapolated/pbpextrL12_m0.01.png ./psibarpsi_extrapolated/pbpextrL12_m0.02.png\
+ ./psibarpsi_extrapolated/pbpextrL12_m0.03.png ./psibarpsi_extrapolated/pbpextrL12_m0.04.png\
+ ./psibarpsi_extrapolated/pbpextrL12_m0.05.png ./psibarpsi_extrapolated/pbpextrL16_m0.01.png\
  ./simon/12/Ls24.beta0.3.m0.01/fort.100 ./simon/12/Ls24.beta0.3.m0.01/fort.11\
  ./simon/12/Ls24.beta0.3.m0.01/fort.200 ./simon/12/Ls24.beta0.3.m0.02/fort.100\
  ./simon/12/Ls24.beta0.3.m0.02/fort.11 ./simon/12/Ls24.beta0.3.m0.02/fort.200\
@@ -3563,6 +3566,150 @@ all:  ./all_dirs/Ls32.beta0.30.m0.01/fort.11.total.1\
  ./sunbird_thirring_runs3_L12/Ls32.beta0.30.m0.02/fort.100\
  ./sunbird_thirring_runs3_L12/Ls32.beta0.30.m0.02/fort.11\
  ./sunbird_thirring_runs3_L12/Ls32.beta0.30.m0.02/fort.200\
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.30.m0.03/fort.100\
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.30.m0.03/fort.11\
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.30.m0.03/fort.200\
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.30.m0.04/fort.100\
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.30.m0.04/fort.11\
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.30.m0.04/fort.200\
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.30.m0.05/fort.100\
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.30.m0.05/fort.11\
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.30.m0.05/fort.200\
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.32.m0.01/fort.100\
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.32.m0.01/fort.11\
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.32.m0.01/fort.200\
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.32.m0.02/fort.100\
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.32.m0.02/fort.11\
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.32.m0.02/fort.200\
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.32.m0.03/fort.100\
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.32.m0.03/fort.11\
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.32.m0.03/fort.200\
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.32.m0.04/fort.100\
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.32.m0.04/fort.11\
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.32.m0.04/fort.200\
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.32.m0.05/fort.100\
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.32.m0.05/fort.11\
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.32.m0.05/fort.200\
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.34.m0.01/fort.100\
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.34.m0.01/fort.11\
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.34.m0.01/fort.200\
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.34.m0.02/fort.100\
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.34.m0.02/fort.11\
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.34.m0.02/fort.200\
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.34.m0.03/fort.100\
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.34.m0.03/fort.11\
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.34.m0.03/fort.200\
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.34.m0.04/fort.100\
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.34.m0.04/fort.11\
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.34.m0.04/fort.200\
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.34.m0.05/fort.100\
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.34.m0.05/fort.11\
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.34.m0.05/fort.200\
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.36.m0.01/fort.100\
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.36.m0.01/fort.11\
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.36.m0.01/fort.200\
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.36.m0.02/fort.100\
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.36.m0.02/fort.11\
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.36.m0.02/fort.200\
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.36.m0.03/fort.100\
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.36.m0.03/fort.11\
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.36.m0.03/fort.200\
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.36.m0.04/fort.100\
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.36.m0.04/fort.11\
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.36.m0.04/fort.200\
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.36.m0.05/fort.100\
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.36.m0.05/fort.11\
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.36.m0.05/fort.200\
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.38.m0.01/fort.100\
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.38.m0.01/fort.11\
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.38.m0.01/fort.200\
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.38.m0.02/fort.100\
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.38.m0.02/fort.11\
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.38.m0.02/fort.200\
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.38.m0.03/fort.100\
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.38.m0.03/fort.11\
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.38.m0.03/fort.200\
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.38.m0.04/fort.100\
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.38.m0.04/fort.11\
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.38.m0.04/fort.200\
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.38.m0.05/fort.100\
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.38.m0.05/fort.11\
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.38.m0.05/fort.200\
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.40.m0.01/fort.100\
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.40.m0.01/fort.11\
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.40.m0.01/fort.200\
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.40.m0.02/fort.100\
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.40.m0.02/fort.11\
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.40.m0.02/fort.200\
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.40.m0.03/fort.100\
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.40.m0.03/fort.11\
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.40.m0.03/fort.200\
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.40.m0.04/fort.100\
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.40.m0.04/fort.11\
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.40.m0.04/fort.200\
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.40.m0.05/fort.100\
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.40.m0.05/fort.11\
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.40.m0.05/fort.200\
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.42.m0.01/fort.100\
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.42.m0.01/fort.11\
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.42.m0.01/fort.200\
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.42.m0.02/fort.100\
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.42.m0.02/fort.11\
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.42.m0.02/fort.200\
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.42.m0.03/fort.100\
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.42.m0.03/fort.11\
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.42.m0.03/fort.200\
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.42.m0.04/fort.100\
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.42.m0.04/fort.11\
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.42.m0.04/fort.200\
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.42.m0.05/fort.100\
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.42.m0.05/fort.11\
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.42.m0.05/fort.200\
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.44.m0.01/fort.100\
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.44.m0.01/fort.11\
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.44.m0.01/fort.200\
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.44.m0.02/fort.100\
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.44.m0.02/fort.11\
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.44.m0.02/fort.200\
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.44.m0.03/fort.100\
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.44.m0.03/fort.11\
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.44.m0.03/fort.200\
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.44.m0.04/fort.100\
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.44.m0.04/fort.11\
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.44.m0.04/fort.200\
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.44.m0.05/fort.100\
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.44.m0.05/fort.11\
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.44.m0.05/fort.200\
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.46.m0.01/fort.100\
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.46.m0.01/fort.11\
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.46.m0.01/fort.200\
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.46.m0.02/fort.100\
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.46.m0.02/fort.11\
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.46.m0.02/fort.200\
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.46.m0.03/fort.100\
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.46.m0.03/fort.11\
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.46.m0.03/fort.200\
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.46.m0.04/fort.100\
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.46.m0.04/fort.11\
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.46.m0.04/fort.200\
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.46.m0.05/fort.100\
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.46.m0.05/fort.11\
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.46.m0.05/fort.200\
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.55.m0.01/fort.100\
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.55.m0.01/fort.11\
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.55.m0.01/fort.200\
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.55.m0.02/fort.100\
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.55.m0.02/fort.11\
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.55.m0.02/fort.200\
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.55.m0.03/fort.100\
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.55.m0.03/fort.11\
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.55.m0.03/fort.200\
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.55.m0.04/fort.100\
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.55.m0.04/fort.11\
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.55.m0.04/fort.200\
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.55.m0.05/fort.100\
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.55.m0.05/fort.11\
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.55.m0.05/fort.200\
  ./sunbird_thirring_runs3_L12/Ls40.beta0.30.m0.01/fort.100\
  ./sunbird_thirring_runs3_L12/Ls40.beta0.30.m0.01/fort.11\
  ./sunbird_thirring_runs3_L12/Ls40.beta0.30.m0.01/fort.200\
@@ -3578,6 +3725,30 @@ all:  ./all_dirs/Ls32.beta0.30.m0.01/fort.11.total.1\
  ./sunbird_thirring_runs3_L12/Ls40.beta0.30.m0.05/fort.100\
  ./sunbird_thirring_runs3_L12/Ls40.beta0.30.m0.05/fort.11\
  ./sunbird_thirring_runs3_L12/Ls40.beta0.30.m0.05/fort.200\
+ ./sunbird_thirring_runs3_L12/Ls40.beta0.32.m0.01/fort.100\
+ ./sunbird_thirring_runs3_L12/Ls40.beta0.32.m0.01/fort.11\
+ ./sunbird_thirring_runs3_L12/Ls40.beta0.32.m0.01/fort.200\
+ ./sunbird_thirring_runs3_L12/Ls40.beta0.32.m0.02/fort.100\
+ ./sunbird_thirring_runs3_L12/Ls40.beta0.32.m0.02/fort.11\
+ ./sunbird_thirring_runs3_L12/Ls40.beta0.32.m0.02/fort.200\
+ ./sunbird_thirring_runs3_L12/Ls40.beta0.32.m0.03/fort.100\
+ ./sunbird_thirring_runs3_L12/Ls40.beta0.32.m0.03/fort.11\
+ ./sunbird_thirring_runs3_L12/Ls40.beta0.32.m0.03/fort.200\
+ ./sunbird_thirring_runs3_L12/Ls40.beta0.32.m0.04/fort.100\
+ ./sunbird_thirring_runs3_L12/Ls40.beta0.32.m0.04/fort.11\
+ ./sunbird_thirring_runs3_L12/Ls40.beta0.32.m0.04/fort.200\
+ ./sunbird_thirring_runs3_L12/Ls40.beta0.32.m0.05/fort.100\
+ ./sunbird_thirring_runs3_L12/Ls40.beta0.32.m0.05/fort.11\
+ ./sunbird_thirring_runs3_L12/Ls40.beta0.32.m0.05/fort.200\
+ ./sunbird_thirring_runs3_L12/Ls40.beta0.34.m0.01/fort.100\
+ ./sunbird_thirring_runs3_L12/Ls40.beta0.34.m0.01/fort.11\
+ ./sunbird_thirring_runs3_L12/Ls40.beta0.34.m0.01/fort.200\
+ ./sunbird_thirring_runs3_L12/Ls40.beta0.34.m0.02/fort.100\
+ ./sunbird_thirring_runs3_L12/Ls40.beta0.34.m0.02/fort.11\
+ ./sunbird_thirring_runs3_L12/Ls40.beta0.34.m0.02/fort.200\
+ ./sunbird_thirring_runs3_L12/Ls40.beta0.34.m0.03/fort.100\
+ ./sunbird_thirring_runs3_L12/Ls40.beta0.34.m0.03/fort.11\
+ ./sunbird_thirring_runs3_L12/Ls40.beta0.34.m0.03/fort.200\
  ./sunbird_thirring_runs3_L12/Ls40.beta0.34.m0.04/fort.100\
  ./sunbird_thirring_runs3_L12/Ls40.beta0.34.m0.04/fort.11\
  ./sunbird_thirring_runs3_L12/Ls40.beta0.34.m0.04/fort.200\
@@ -3737,6 +3908,63 @@ all:  ./all_dirs/Ls32.beta0.30.m0.01/fort.11.total.1\
  ./sunbird_thirring_runs3_L12/Ls48.beta0.36.m0.01/fort.100\
  ./sunbird_thirring_runs3_L12/Ls48.beta0.36.m0.01/fort.11\
  ./sunbird_thirring_runs3_L12/Ls48.beta0.36.m0.01/fort.200\
+ ./sunbird_thirring_runs3_L12/Ls48.beta0.36.m0.02/fort.100\
+ ./sunbird_thirring_runs3_L12/Ls48.beta0.36.m0.02/fort.11\
+ ./sunbird_thirring_runs3_L12/Ls48.beta0.36.m0.02/fort.200\
+ ./sunbird_thirring_runs3_L12/Ls48.beta0.36.m0.03/fort.100\
+ ./sunbird_thirring_runs3_L12/Ls48.beta0.36.m0.03/fort.11\
+ ./sunbird_thirring_runs3_L12/Ls48.beta0.36.m0.03/fort.200\
+ ./sunbird_thirring_runs3_L12/Ls48.beta0.36.m0.04/fort.100\
+ ./sunbird_thirring_runs3_L12/Ls48.beta0.36.m0.04/fort.11\
+ ./sunbird_thirring_runs3_L12/Ls48.beta0.36.m0.04/fort.200\
+ ./sunbird_thirring_runs3_L12/Ls48.beta0.36.m0.05/fort.100\
+ ./sunbird_thirring_runs3_L12/Ls48.beta0.36.m0.05/fort.11\
+ ./sunbird_thirring_runs3_L12/Ls48.beta0.36.m0.05/fort.200\
+ ./sunbird_thirring_runs3_L12/Ls48.beta0.38.m0.01/fort.100\
+ ./sunbird_thirring_runs3_L12/Ls48.beta0.38.m0.01/fort.11\
+ ./sunbird_thirring_runs3_L12/Ls48.beta0.38.m0.01/fort.200\
+ ./sunbird_thirring_runs3_L12/Ls48.beta0.38.m0.02/fort.100\
+ ./sunbird_thirring_runs3_L12/Ls48.beta0.38.m0.02/fort.11\
+ ./sunbird_thirring_runs3_L12/Ls48.beta0.38.m0.02/fort.200\
+ ./sunbird_thirring_runs3_L12/Ls48.beta0.38.m0.03/fort.100\
+ ./sunbird_thirring_runs3_L12/Ls48.beta0.38.m0.03/fort.11\
+ ./sunbird_thirring_runs3_L12/Ls48.beta0.38.m0.03/fort.200\
+ ./sunbird_thirring_runs3_L12/Ls48.beta0.38.m0.04/fort.100\
+ ./sunbird_thirring_runs3_L12/Ls48.beta0.38.m0.04/fort.11\
+ ./sunbird_thirring_runs3_L12/Ls48.beta0.38.m0.04/fort.200\
+ ./sunbird_thirring_runs3_L12/Ls48.beta0.38.m0.05/fort.100\
+ ./sunbird_thirring_runs3_L12/Ls48.beta0.38.m0.05/fort.11\
+ ./sunbird_thirring_runs3_L12/Ls48.beta0.38.m0.05/fort.200\
+ ./sunbird_thirring_runs3_L12/Ls48.beta0.40.m0.01/fort.100\
+ ./sunbird_thirring_runs3_L12/Ls48.beta0.40.m0.01/fort.11\
+ ./sunbird_thirring_runs3_L12/Ls48.beta0.40.m0.01/fort.200\
+ ./sunbird_thirring_runs3_L12/Ls48.beta0.40.m0.02/fort.100\
+ ./sunbird_thirring_runs3_L12/Ls48.beta0.40.m0.02/fort.11\
+ ./sunbird_thirring_runs3_L12/Ls48.beta0.40.m0.02/fort.200\
+ ./sunbird_thirring_runs3_L12/Ls48.beta0.40.m0.03/fort.100\
+ ./sunbird_thirring_runs3_L12/Ls48.beta0.40.m0.03/fort.11\
+ ./sunbird_thirring_runs3_L12/Ls48.beta0.40.m0.03/fort.200\
+ ./sunbird_thirring_runs3_L12/Ls48.beta0.40.m0.04/fort.100\
+ ./sunbird_thirring_runs3_L12/Ls48.beta0.40.m0.04/fort.11\
+ ./sunbird_thirring_runs3_L12/Ls48.beta0.40.m0.04/fort.200\
+ ./sunbird_thirring_runs3_L12/Ls48.beta0.40.m0.05/fort.100\
+ ./sunbird_thirring_runs3_L12/Ls48.beta0.40.m0.05/fort.11\
+ ./sunbird_thirring_runs3_L12/Ls48.beta0.40.m0.05/fort.200\
+ ./sunbird_thirring_runs3_L12/Ls48.beta0.42.m0.01/fort.100\
+ ./sunbird_thirring_runs3_L12/Ls48.beta0.42.m0.01/fort.11\
+ ./sunbird_thirring_runs3_L12/Ls48.beta0.42.m0.01/fort.200\
+ ./sunbird_thirring_runs3_L12/Ls48.beta0.42.m0.02/fort.100\
+ ./sunbird_thirring_runs3_L12/Ls48.beta0.42.m0.02/fort.11\
+ ./sunbird_thirring_runs3_L12/Ls48.beta0.42.m0.02/fort.200\
+ ./sunbird_thirring_runs3_L12/Ls48.beta0.42.m0.03/fort.100\
+ ./sunbird_thirring_runs3_L12/Ls48.beta0.42.m0.03/fort.11\
+ ./sunbird_thirring_runs3_L12/Ls48.beta0.42.m0.03/fort.200\
+ ./sunbird_thirring_runs3_L12/Ls48.beta0.42.m0.04/fort.100\
+ ./sunbird_thirring_runs3_L12/Ls48.beta0.42.m0.04/fort.11\
+ ./sunbird_thirring_runs3_L12/Ls48.beta0.42.m0.04/fort.200\
+ ./sunbird_thirring_runs3_L12/Ls48.beta0.42.m0.05/fort.100\
+ ./sunbird_thirring_runs3_L12/Ls48.beta0.42.m0.05/fort.11\
+ ./sunbird_thirring_runs3_L12/Ls48.beta0.42.m0.05/fort.200\
  ./sunbird_thirring_runs3_L12/Ls48.beta0.44.m0.01/fort.100\
  ./sunbird_thirring_runs3_L12/Ls48.beta0.44.m0.01/fort.11\
  ./sunbird_thirring_runs3_L12/Ls48.beta0.44.m0.01/fort.200\
@@ -4608,167 +4836,754 @@ all:  ./all_dirs/Ls32.beta0.30.m0.01/fort.11.total.1\
  ./psibarpsi/psibarpsiL12Ls40.beta0.600000.m0.050000.fort.200.analysis.set
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/eos_fit_v3.py fort.200.analysis.set 40 12 0.3 1.0 --savefig
 
- ./psibarpsi/psibarpsiL12LsINF.beta0.34m0.02.fort.200.analysis.set :  ./{file_to_process}
+ ./psibarpsi/psibarpsiL12LsINF.beta0.34m0.02.fort.200.analysis.set :  ./psibarpsi_extrapolated/fort.200.analysis.set_12_0.340000_0.020000
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/extract_pbp_extrapolated.py fort.200.analysis.set 12 0.340000 0.020000
 
- ./psibarpsi/psibarpsiL12LsINF.beta0.4m0.03.fort.200.analysis.set :  ./{file_to_process}
+ ./psibarpsi/psibarpsiL12LsINF.beta0.4m0.03.fort.200.analysis.set :  ./psibarpsi_extrapolated/fort.200.analysis.set_12_0.400000_0.030000
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/extract_pbp_extrapolated.py fort.200.analysis.set 12 0.400000 0.030000
 
- ./psibarpsi/psibarpsiL12LsINF.beta0.42m0.03.fort.200.analysis.set :  ./{file_to_process}
+ ./psibarpsi/psibarpsiL12LsINF.beta0.42m0.03.fort.200.analysis.set :  ./psibarpsi_extrapolated/fort.200.analysis.set_12_0.420000_0.030000
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/extract_pbp_extrapolated.py fort.200.analysis.set 12 0.420000 0.030000
 
- ./psibarpsi/psibarpsiL12LsINF.beta0.36m0.04.fort.200.analysis.set :  ./{file_to_process}
+ ./psibarpsi/psibarpsiL12LsINF.beta0.36m0.04.fort.200.analysis.set :  ./psibarpsi_extrapolated/fort.200.analysis.set_12_0.360000_0.040000
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/extract_pbp_extrapolated.py fort.200.analysis.set 12 0.360000 0.040000
 
- ./psibarpsi/psibarpsiL12LsINF.beta0.32m0.02.fort.200.analysis.set :  ./{file_to_process}
+ ./psibarpsi/psibarpsiL12LsINF.beta0.32m0.02.fort.200.analysis.set :  ./psibarpsi_extrapolated/fort.200.analysis.set_12_0.320000_0.020000
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/extract_pbp_extrapolated.py fort.200.analysis.set 12 0.320000 0.020000
 
- ./psibarpsi/psibarpsiL12LsINF.beta0.42m0.05.fort.200.analysis.set :  ./{file_to_process}
+ ./psibarpsi/psibarpsiL12LsINF.beta0.42m0.05.fort.200.analysis.set :  ./psibarpsi_extrapolated/fort.200.analysis.set_12_0.420000_0.050000
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/extract_pbp_extrapolated.py fort.200.analysis.set 12 0.420000 0.050000
 
- ./psibarpsi/psibarpsiL12LsINF.beta0.34m0.05.fort.200.analysis.set :  ./{file_to_process}
+ ./psibarpsi/psibarpsiL12LsINF.beta0.34m0.05.fort.200.analysis.set :  ./psibarpsi_extrapolated/fort.200.analysis.set_12_0.340000_0.050000
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/extract_pbp_extrapolated.py fort.200.analysis.set 12 0.340000 0.050000
 
- ./psibarpsi/psibarpsiL12LsINF.beta0.46m0.01.fort.200.analysis.set :  ./{file_to_process}
+ ./psibarpsi/psibarpsiL12LsINF.beta0.46m0.01.fort.200.analysis.set :  ./psibarpsi_extrapolated/fort.200.analysis.set_12_0.460000_0.010000
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/extract_pbp_extrapolated.py fort.200.analysis.set 12 0.460000 0.010000
 
- ./psibarpsi/psibarpsiL12LsINF.beta0.34m0.01.fort.200.analysis.set :  ./{file_to_process}
+ ./psibarpsi/psibarpsiL12LsINF.beta0.34m0.01.fort.200.analysis.set :  ./psibarpsi_extrapolated/fort.200.analysis.set_12_0.340000_0.010000
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/extract_pbp_extrapolated.py fort.200.analysis.set 12 0.340000 0.010000
 
- ./psibarpsi/psibarpsiL12LsINF.beta0.3m0.03.fort.200.analysis.set :  ./{file_to_process}
+ ./psibarpsi/psibarpsiL12LsINF.beta0.3m0.03.fort.200.analysis.set :  ./psibarpsi_extrapolated/fort.200.analysis.set_12_0.300000_0.030000
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/extract_pbp_extrapolated.py fort.200.analysis.set 12 0.300000 0.030000
 
- ./psibarpsi/psibarpsiL12LsINF.beta0.3m0.05.fort.200.analysis.set :  ./{file_to_process}
+ ./psibarpsi/psibarpsiL12LsINF.beta0.3m0.05.fort.200.analysis.set :  ./psibarpsi_extrapolated/fort.200.analysis.set_12_0.300000_0.050000
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/extract_pbp_extrapolated.py fort.200.analysis.set 12 0.300000 0.050000
 
- ./psibarpsi/psibarpsiL12LsINF.beta0.32m0.04.fort.200.analysis.set :  ./{file_to_process}
+ ./psibarpsi/psibarpsiL12LsINF.beta0.32m0.04.fort.200.analysis.set :  ./psibarpsi_extrapolated/fort.200.analysis.set_12_0.320000_0.040000
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/extract_pbp_extrapolated.py fort.200.analysis.set 12 0.320000 0.040000
 
- ./psibarpsi/psibarpsiL16LsINF.beta0.6m0.01.fort.200.analysis.set :  ./{file_to_process}
+ ./psibarpsi/psibarpsiL16LsINF.beta0.6m0.01.fort.200.analysis.set :  ./psibarpsi_extrapolated/fort.200.analysis.set_16_0.600000_0.010000
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/extract_pbp_extrapolated.py fort.200.analysis.set 16 0.600000 0.010000
 
- ./psibarpsi/psibarpsiL12LsINF.beta0.38m0.05.fort.200.analysis.set :  ./{file_to_process}
+ ./psibarpsi/psibarpsiL12LsINF.beta0.38m0.05.fort.200.analysis.set :  ./psibarpsi_extrapolated/fort.200.analysis.set_12_0.380000_0.050000
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/extract_pbp_extrapolated.py fort.200.analysis.set 12 0.380000 0.050000
 
- ./psibarpsi/psibarpsiL12LsINF.beta0.4m0.05.fort.200.analysis.set :  ./{file_to_process}
+ ./psibarpsi/psibarpsiL12LsINF.beta0.4m0.05.fort.200.analysis.set :  ./psibarpsi_extrapolated/fort.200.analysis.set_12_0.400000_0.050000
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/extract_pbp_extrapolated.py fort.200.analysis.set 12 0.400000 0.050000
 
- ./psibarpsi/psibarpsiL12LsINF.beta0.38m0.02.fort.200.analysis.set :  ./{file_to_process}
+ ./psibarpsi/psibarpsiL12LsINF.beta0.38m0.02.fort.200.analysis.set :  ./psibarpsi_extrapolated/fort.200.analysis.set_12_0.380000_0.020000
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/extract_pbp_extrapolated.py fort.200.analysis.set 12 0.380000 0.020000
 
- ./psibarpsi/psibarpsiL12LsINF.beta0.34m0.03.fort.200.analysis.set :  ./{file_to_process}
+ ./psibarpsi/psibarpsiL12LsINF.beta0.34m0.03.fort.200.analysis.set :  ./psibarpsi_extrapolated/fort.200.analysis.set_12_0.340000_0.030000
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/extract_pbp_extrapolated.py fort.200.analysis.set 12 0.340000 0.030000
 
- ./psibarpsi/psibarpsiL12LsINF.beta0.4m0.04.fort.200.analysis.set :  ./{file_to_process}
+ ./psibarpsi/psibarpsiL12LsINF.beta0.4m0.04.fort.200.analysis.set :  ./psibarpsi_extrapolated/fort.200.analysis.set_12_0.400000_0.040000
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/extract_pbp_extrapolated.py fort.200.analysis.set 12 0.400000 0.040000
 
- ./psibarpsi/psibarpsiL12LsINF.beta0.38m0.04.fort.200.analysis.set :  ./{file_to_process}
+ ./psibarpsi/psibarpsiL12LsINF.beta0.38m0.04.fort.200.analysis.set :  ./psibarpsi_extrapolated/fort.200.analysis.set_12_0.380000_0.040000
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/extract_pbp_extrapolated.py fort.200.analysis.set 12 0.380000 0.040000
 
- ./psibarpsi/psibarpsiL12LsINF.beta0.4m0.01.fort.200.analysis.set :  ./{file_to_process}
+ ./psibarpsi/psibarpsiL12LsINF.beta0.4m0.01.fort.200.analysis.set :  ./psibarpsi_extrapolated/fort.200.analysis.set_12_0.400000_0.010000
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/extract_pbp_extrapolated.py fort.200.analysis.set 12 0.400000 0.010000
 
- ./psibarpsi/psibarpsiL12LsINF.beta0.46m0.02.fort.200.analysis.set :  ./{file_to_process}
+ ./psibarpsi/psibarpsiL12LsINF.beta0.46m0.02.fort.200.analysis.set :  ./psibarpsi_extrapolated/fort.200.analysis.set_12_0.460000_0.020000
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/extract_pbp_extrapolated.py fort.200.analysis.set 12 0.460000 0.020000
 
- ./psibarpsi/psibarpsiL12LsINF.beta0.3m0.02.fort.200.analysis.set :  ./{file_to_process}
+ ./psibarpsi/psibarpsiL12LsINF.beta0.3m0.02.fort.200.analysis.set :  ./psibarpsi_extrapolated/fort.200.analysis.set_12_0.300000_0.020000
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/extract_pbp_extrapolated.py fort.200.analysis.set 12 0.300000 0.020000
 
- ./psibarpsi/psibarpsiL12LsINF.beta0.38m0.03.fort.200.analysis.set :  ./{file_to_process}
+ ./psibarpsi/psibarpsiL12LsINF.beta0.38m0.03.fort.200.analysis.set :  ./psibarpsi_extrapolated/fort.200.analysis.set_12_0.380000_0.030000
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/extract_pbp_extrapolated.py fort.200.analysis.set 12 0.380000 0.030000
 
- ./psibarpsi/psibarpsiL12LsINF.beta0.44m0.03.fort.200.analysis.set :  ./{file_to_process}
+ ./psibarpsi/psibarpsiL12LsINF.beta0.44m0.03.fort.200.analysis.set :  ./psibarpsi_extrapolated/fort.200.analysis.set_12_0.440000_0.030000
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/extract_pbp_extrapolated.py fort.200.analysis.set 12 0.440000 0.030000
 
- ./psibarpsi/psibarpsiL12LsINF.beta0.36m0.01.fort.200.analysis.set :  ./{file_to_process}
+ ./psibarpsi/psibarpsiL12LsINF.beta0.36m0.01.fort.200.analysis.set :  ./psibarpsi_extrapolated/fort.200.analysis.set_12_0.360000_0.010000
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/extract_pbp_extrapolated.py fort.200.analysis.set 12 0.360000 0.010000
 
- ./psibarpsi/psibarpsiL12LsINF.beta0.5m0.05.fort.200.analysis.set :  ./{file_to_process}
+ ./psibarpsi/psibarpsiL12LsINF.beta0.5m0.05.fort.200.analysis.set :  ./psibarpsi_extrapolated/fort.200.analysis.set_12_0.500000_0.050000
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/extract_pbp_extrapolated.py fort.200.analysis.set 12 0.500000 0.050000
 
- ./psibarpsi/psibarpsiL12LsINF.beta0.6m0.05.fort.200.analysis.set :  ./{file_to_process}
+ ./psibarpsi/psibarpsiL12LsINF.beta0.6m0.05.fort.200.analysis.set :  ./psibarpsi_extrapolated/fort.200.analysis.set_12_0.600000_0.050000
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/extract_pbp_extrapolated.py fort.200.analysis.set 12 0.600000 0.050000
 
- ./psibarpsi/psibarpsiL12LsINF.beta0.44m0.01.fort.200.analysis.set :  ./{file_to_process}
+ ./psibarpsi/psibarpsiL12LsINF.beta0.44m0.01.fort.200.analysis.set :  ./psibarpsi_extrapolated/fort.200.analysis.set_12_0.440000_0.010000
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/extract_pbp_extrapolated.py fort.200.analysis.set 12 0.440000 0.010000
 
- ./psibarpsi/psibarpsiL12LsINF.beta0.44m0.05.fort.200.analysis.set :  ./{file_to_process}
+ ./psibarpsi/psibarpsiL12LsINF.beta0.44m0.05.fort.200.analysis.set :  ./psibarpsi_extrapolated/fort.200.analysis.set_12_0.440000_0.050000
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/extract_pbp_extrapolated.py fort.200.analysis.set 12 0.440000 0.050000
 
- ./psibarpsi/psibarpsiL16LsINF.beta0.3m0.01.fort.200.analysis.set :  ./{file_to_process}
+ ./psibarpsi/psibarpsiL16LsINF.beta0.3m0.01.fort.200.analysis.set :  ./psibarpsi_extrapolated/fort.200.analysis.set_16_0.300000_0.010000
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/extract_pbp_extrapolated.py fort.200.analysis.set 16 0.300000 0.010000
 
- ./psibarpsi/psibarpsiL12LsINF.beta0.4m0.02.fort.200.analysis.set :  ./{file_to_process}
+ ./psibarpsi/psibarpsiL12LsINF.beta0.4m0.02.fort.200.analysis.set :  ./psibarpsi_extrapolated/fort.200.analysis.set_12_0.400000_0.020000
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/extract_pbp_extrapolated.py fort.200.analysis.set 12 0.400000 0.020000
 
- ./psibarpsi/psibarpsiL12LsINF.beta0.44m0.02.fort.200.analysis.set :  ./{file_to_process}
+ ./psibarpsi/psibarpsiL12LsINF.beta0.44m0.02.fort.200.analysis.set :  ./psibarpsi_extrapolated/fort.200.analysis.set_12_0.440000_0.020000
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/extract_pbp_extrapolated.py fort.200.analysis.set 12 0.440000 0.020000
 
- ./psibarpsi/psibarpsiL12LsINF.beta0.32m0.01.fort.200.analysis.set :  ./{file_to_process}
+ ./psibarpsi/psibarpsiL12LsINF.beta0.32m0.01.fort.200.analysis.set :  ./psibarpsi_extrapolated/fort.200.analysis.set_12_0.320000_0.010000
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/extract_pbp_extrapolated.py fort.200.analysis.set 12 0.320000 0.010000
 
- ./psibarpsi/psibarpsiL12LsINF.beta0.34m0.04.fort.200.analysis.set :  ./{file_to_process}
+ ./psibarpsi/psibarpsiL12LsINF.beta0.34m0.04.fort.200.analysis.set :  ./psibarpsi_extrapolated/fort.200.analysis.set_12_0.340000_0.040000
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/extract_pbp_extrapolated.py fort.200.analysis.set 12 0.340000 0.040000
 
- ./psibarpsi/psibarpsiL12LsINF.beta0.36m0.02.fort.200.analysis.set :  ./{file_to_process}
+ ./psibarpsi/psibarpsiL12LsINF.beta0.36m0.02.fort.200.analysis.set :  ./psibarpsi_extrapolated/fort.200.analysis.set_12_0.360000_0.020000
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/extract_pbp_extrapolated.py fort.200.analysis.set 12 0.360000 0.020000
 
- ./psibarpsi/psibarpsiL12LsINF.beta0.32m0.05.fort.200.analysis.set :  ./{file_to_process}
+ ./psibarpsi/psibarpsiL12LsINF.beta0.32m0.05.fort.200.analysis.set :  ./psibarpsi_extrapolated/fort.200.analysis.set_12_0.320000_0.050000
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/extract_pbp_extrapolated.py fort.200.analysis.set 12 0.320000 0.050000
 
- ./psibarpsi/psibarpsiL12LsINF.beta0.36m0.05.fort.200.analysis.set :  ./{file_to_process}
+ ./psibarpsi/psibarpsiL12LsINF.beta0.36m0.05.fort.200.analysis.set :  ./psibarpsi_extrapolated/fort.200.analysis.set_12_0.360000_0.050000
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/extract_pbp_extrapolated.py fort.200.analysis.set 12 0.360000 0.050000
 
- ./psibarpsi/psibarpsiL12LsINF.beta0.5m0.03.fort.200.analysis.set :  ./{file_to_process}
+ ./psibarpsi/psibarpsiL12LsINF.beta0.5m0.03.fort.200.analysis.set :  ./psibarpsi_extrapolated/fort.200.analysis.set_12_0.500000_0.030000
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/extract_pbp_extrapolated.py fort.200.analysis.set 12 0.500000 0.030000
 
- ./psibarpsi/psibarpsiL12LsINF.beta0.42m0.02.fort.200.analysis.set :  ./{file_to_process}
+ ./psibarpsi/psibarpsiL12LsINF.beta0.42m0.02.fort.200.analysis.set :  ./psibarpsi_extrapolated/fort.200.analysis.set_12_0.420000_0.020000
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/extract_pbp_extrapolated.py fort.200.analysis.set 12 0.420000 0.020000
 
- ./psibarpsi/psibarpsiL12LsINF.beta0.5m0.04.fort.200.analysis.set :  ./{file_to_process}
+ ./psibarpsi/psibarpsiL12LsINF.beta0.5m0.04.fort.200.analysis.set :  ./psibarpsi_extrapolated/fort.200.analysis.set_12_0.500000_0.040000
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/extract_pbp_extrapolated.py fort.200.analysis.set 12 0.500000 0.040000
 
- ./psibarpsi/psibarpsiL12LsINF.beta0.3m0.04.fort.200.analysis.set :  ./{file_to_process}
+ ./psibarpsi/psibarpsiL12LsINF.beta0.3m0.04.fort.200.analysis.set :  ./psibarpsi_extrapolated/fort.200.analysis.set_12_0.300000_0.040000
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/extract_pbp_extrapolated.py fort.200.analysis.set 12 0.300000 0.040000
 
- ./psibarpsi/psibarpsiL12LsINF.beta0.38m0.01.fort.200.analysis.set :  ./{file_to_process}
+ ./psibarpsi/psibarpsiL12LsINF.beta0.38m0.01.fort.200.analysis.set :  ./psibarpsi_extrapolated/fort.200.analysis.set_12_0.380000_0.010000
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/extract_pbp_extrapolated.py fort.200.analysis.set 12 0.380000 0.010000
 
- ./psibarpsi/psibarpsiL12LsINF.beta0.6m0.01.fort.200.analysis.set :  ./{file_to_process}
+ ./psibarpsi/psibarpsiL12LsINF.beta0.6m0.01.fort.200.analysis.set :  ./psibarpsi_extrapolated/fort.200.analysis.set_12_0.600000_0.010000
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/extract_pbp_extrapolated.py fort.200.analysis.set 12 0.600000 0.010000
 
- ./psibarpsi/psibarpsiL12LsINF.beta0.36m0.03.fort.200.analysis.set :  ./{file_to_process}
+ ./psibarpsi/psibarpsiL12LsINF.beta0.36m0.03.fort.200.analysis.set :  ./psibarpsi_extrapolated/fort.200.analysis.set_12_0.360000_0.030000
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/extract_pbp_extrapolated.py fort.200.analysis.set 12 0.360000 0.030000
 
- ./psibarpsi/psibarpsiL12LsINF.beta0.6m0.04.fort.200.analysis.set :  ./{file_to_process}
+ ./psibarpsi/psibarpsiL12LsINF.beta0.6m0.04.fort.200.analysis.set :  ./psibarpsi_extrapolated/fort.200.analysis.set_12_0.600000_0.040000
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/extract_pbp_extrapolated.py fort.200.analysis.set 12 0.600000 0.040000
 
- ./psibarpsi/psibarpsiL12LsINF.beta0.32m0.03.fort.200.analysis.set :  ./{file_to_process}
+ ./psibarpsi/psibarpsiL12LsINF.beta0.32m0.03.fort.200.analysis.set :  ./psibarpsi_extrapolated/fort.200.analysis.set_12_0.320000_0.030000
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/extract_pbp_extrapolated.py fort.200.analysis.set 12 0.320000 0.030000
 
- ./psibarpsi/psibarpsiL12LsINF.beta0.6m0.03.fort.200.analysis.set :  ./{file_to_process}
+ ./psibarpsi/psibarpsiL12LsINF.beta0.6m0.03.fort.200.analysis.set :  ./psibarpsi_extrapolated/fort.200.analysis.set_12_0.600000_0.030000
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/extract_pbp_extrapolated.py fort.200.analysis.set 12 0.600000 0.030000
 
- ./psibarpsi/psibarpsiL12LsINF.beta0.6m0.02.fort.200.analysis.set :  ./{file_to_process}
+ ./psibarpsi/psibarpsiL12LsINF.beta0.6m0.02.fort.200.analysis.set :  ./psibarpsi_extrapolated/fort.200.analysis.set_12_0.600000_0.020000
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/extract_pbp_extrapolated.py fort.200.analysis.set 12 0.600000 0.020000
 
- ./psibarpsi/psibarpsiL12LsINF.beta0.42m0.01.fort.200.analysis.set :  ./{file_to_process}
+ ./psibarpsi/psibarpsiL12LsINF.beta0.42m0.01.fort.200.analysis.set :  ./psibarpsi_extrapolated/fort.200.analysis.set_12_0.420000_0.010000
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/extract_pbp_extrapolated.py fort.200.analysis.set 12 0.420000 0.010000
 
- ./psibarpsi/psibarpsiL12LsINF.beta0.5m0.01.fort.200.analysis.set :  ./{file_to_process}
+ ./psibarpsi/psibarpsiL12LsINF.beta0.5m0.01.fort.200.analysis.set :  ./psibarpsi_extrapolated/fort.200.analysis.set_12_0.500000_0.010000
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/extract_pbp_extrapolated.py fort.200.analysis.set 12 0.500000 0.010000
 
- ./psibarpsi/psibarpsiL12LsINF.beta0.44m0.04.fort.200.analysis.set :  ./{file_to_process}
+ ./psibarpsi/psibarpsiL12LsINF.beta0.44m0.04.fort.200.analysis.set :  ./psibarpsi_extrapolated/fort.200.analysis.set_12_0.440000_0.040000
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/extract_pbp_extrapolated.py fort.200.analysis.set 12 0.440000 0.040000
 
- ./psibarpsi/psibarpsiL12LsINF.beta0.3m0.01.fort.200.analysis.set :  ./{file_to_process}
+ ./psibarpsi/psibarpsiL12LsINF.beta0.3m0.01.fort.200.analysis.set :  ./psibarpsi_extrapolated/fort.200.analysis.set_12_0.300000_0.010000
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/extract_pbp_extrapolated.py fort.200.analysis.set 12 0.300000 0.010000
 
- ./psibarpsi/psibarpsiL12LsINF.beta0.5m0.02.fort.200.analysis.set :  ./{file_to_process}
+ ./psibarpsi/psibarpsiL12LsINF.beta0.5m0.02.fort.200.analysis.set :  ./psibarpsi_extrapolated/fort.200.analysis.set_12_0.500000_0.020000
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/extract_pbp_extrapolated.py fort.200.analysis.set 12 0.500000 0.020000
 
- ./psibarpsi/psibarpsiL12LsINF.beta0.42m0.04.fort.200.analysis.set :  ./{file_to_process}
+ ./psibarpsi/psibarpsiL12LsINF.beta0.42m0.04.fort.200.analysis.set :  ./psibarpsi_extrapolated/fort.200.analysis.set_12_0.420000_0.040000
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/extract_pbp_extrapolated.py fort.200.analysis.set 12 0.420000 0.040000
+
+ ./psibarpsi_extrapolated/pbpextrL12_m0.04.png :  ./psibarpsi/psibarpsiL12Ls16.beta0.300000.m0.040000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls16.beta0.310000.m0.040000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls16.beta0.320000.m0.040000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls16.beta0.330000.m0.040000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls16.beta0.340000.m0.040000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls16.beta0.350000.m0.040000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls16.beta0.360000.m0.040000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls16.beta0.370000.m0.040000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls16.beta0.380000.m0.040000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls16.beta0.390000.m0.040000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls16.beta0.400000.m0.040000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls16.beta0.410000.m0.040000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls16.beta0.420000.m0.040000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls16.beta0.430000.m0.040000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls16.beta0.440000.m0.040000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls16.beta0.450000.m0.040000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls16.beta0.500000.m0.040000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls16.beta0.600000.m0.040000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls24.beta0.300000.m0.040000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls24.beta0.310000.m0.040000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls24.beta0.320000.m0.040000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls24.beta0.330000.m0.040000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls24.beta0.340000.m0.040000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls24.beta0.350000.m0.040000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls24.beta0.360000.m0.040000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls24.beta0.370000.m0.040000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls24.beta0.380000.m0.040000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls24.beta0.390000.m0.040000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls24.beta0.400000.m0.040000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls24.beta0.410000.m0.040000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls24.beta0.420000.m0.040000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls24.beta0.430000.m0.040000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls24.beta0.440000.m0.040000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls24.beta0.450000.m0.040000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls24.beta0.500000.m0.040000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls24.beta0.600000.m0.040000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls32.beta0.300000.m0.040000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls32.beta0.320000.m0.040000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls32.beta0.340000.m0.040000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls32.beta0.360000.m0.040000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls32.beta0.380000.m0.040000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls32.beta0.400000.m0.040000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls32.beta0.420000.m0.040000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls32.beta0.440000.m0.040000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls32.beta0.460000.m0.040000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls32.beta0.500000.m0.040000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls32.beta0.550000.m0.040000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls32.beta0.600000.m0.040000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls40.beta0.300000.m0.040000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls40.beta0.320000.m0.040000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls40.beta0.340000.m0.040000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls40.beta0.360000.m0.040000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls40.beta0.380000.m0.040000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls40.beta0.400000.m0.040000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls40.beta0.420000.m0.040000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls40.beta0.440000.m0.040000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls40.beta0.460000.m0.040000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls40.beta0.500000.m0.040000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls40.beta0.550000.m0.040000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls40.beta0.600000.m0.040000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls48.beta0.300000.m0.040000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls48.beta0.320000.m0.040000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls48.beta0.340000.m0.040000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls48.beta0.360000.m0.040000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls48.beta0.380000.m0.040000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls48.beta0.400000.m0.040000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls48.beta0.420000.m0.040000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls48.beta0.440000.m0.040000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls48.beta0.460000.m0.040000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls48.beta0.550000.m0.040000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls8.beta0.275000.m0.040000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls8.beta0.300000.m0.040000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls8.beta0.310000.m0.040000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls8.beta0.320000.m0.040000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls8.beta0.325000.m0.040000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls8.beta0.330000.m0.040000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls8.beta0.340000.m0.040000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls8.beta0.350000.m0.040000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls8.beta0.360000.m0.040000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls8.beta0.370000.m0.040000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls8.beta0.380000.m0.040000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls8.beta0.390000.m0.040000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls8.beta0.400000.m0.040000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls8.beta0.410000.m0.040000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls8.beta0.420000.m0.040000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls8.beta0.430000.m0.040000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls8.beta0.440000.m0.040000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls8.beta0.450000.m0.040000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls8.beta0.500000.m0.040000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls8.beta0.600000.m0.040000.fort.200.analysis.set\
+ ./psibarpsi_extrapolated/fort.200.analysis.set_12_0.300000_0.040000\
+ ./psibarpsi_extrapolated/fort.200.analysis.set_12_0.320000_0.040000\
+ ./psibarpsi_extrapolated/fort.200.analysis.set_12_0.340000_0.040000\
+ ./psibarpsi_extrapolated/fort.200.analysis.set_12_0.360000_0.040000\
+ ./psibarpsi_extrapolated/fort.200.analysis.set_12_0.380000_0.040000\
+ ./psibarpsi_extrapolated/fort.200.analysis.set_12_0.400000_0.040000\
+ ./psibarpsi_extrapolated/fort.200.analysis.set_12_0.420000_0.040000\
+ ./psibarpsi_extrapolated/fort.200.analysis.set_12_0.440000_0.040000\
+ ./psibarpsi_extrapolated/fort.200.analysis.set_12_0.500000_0.040000\
+ ./psibarpsi_extrapolated/fort.200.analysis.set_12_0.600000_0.040000
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/extrapolate_to_linf_plot.py fort.200.analysis.set 0.04 12
+
+ ./psibarpsi_extrapolated/pbpextrL12_m0.01.png :  ./psibarpsi/psibarpsiL12Ls16.beta0.300000.m0.010000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls16.beta0.310000.m0.010000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls16.beta0.320000.m0.010000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls16.beta0.330000.m0.010000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls16.beta0.340000.m0.010000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls16.beta0.350000.m0.010000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls16.beta0.360000.m0.010000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls16.beta0.370000.m0.010000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls16.beta0.380000.m0.010000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls16.beta0.390000.m0.010000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls16.beta0.400000.m0.010000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls16.beta0.410000.m0.010000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls16.beta0.420000.m0.010000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls16.beta0.430000.m0.010000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls16.beta0.440000.m0.010000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls16.beta0.450000.m0.010000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls16.beta0.500000.m0.010000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls16.beta0.600000.m0.010000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls24.beta0.300000.m0.010000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls24.beta0.310000.m0.010000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls24.beta0.320000.m0.010000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls24.beta0.330000.m0.010000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls24.beta0.340000.m0.010000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls24.beta0.350000.m0.010000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls24.beta0.360000.m0.010000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls24.beta0.370000.m0.010000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls24.beta0.380000.m0.010000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls24.beta0.390000.m0.010000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls24.beta0.400000.m0.010000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls24.beta0.410000.m0.010000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls24.beta0.420000.m0.010000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls24.beta0.430000.m0.010000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls24.beta0.440000.m0.010000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls24.beta0.450000.m0.010000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls24.beta0.460000.m0.010000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls24.beta0.480000.m0.010000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls24.beta0.500000.m0.010000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls24.beta0.520000.m0.010000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls24.beta0.600000.m0.010000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls32.beta0.300000.m0.010000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls32.beta0.320000.m0.010000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls32.beta0.340000.m0.010000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls32.beta0.360000.m0.010000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls32.beta0.380000.m0.010000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls32.beta0.400000.m0.010000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls32.beta0.420000.m0.010000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls32.beta0.440000.m0.010000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls32.beta0.460000.m0.010000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls32.beta0.500000.m0.010000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls32.beta0.550000.m0.010000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls32.beta0.600000.m0.010000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls40.beta0.300000.m0.010000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls40.beta0.320000.m0.010000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls40.beta0.340000.m0.010000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls40.beta0.360000.m0.010000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls40.beta0.380000.m0.010000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls40.beta0.400000.m0.010000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls40.beta0.420000.m0.010000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls40.beta0.440000.m0.010000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls40.beta0.460000.m0.010000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls40.beta0.500000.m0.010000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls40.beta0.550000.m0.010000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls40.beta0.600000.m0.010000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls48.beta0.300000.m0.010000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls48.beta0.320000.m0.010000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls48.beta0.340000.m0.010000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls48.beta0.360000.m0.010000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls48.beta0.380000.m0.010000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls48.beta0.400000.m0.010000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls48.beta0.420000.m0.010000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls48.beta0.440000.m0.010000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls48.beta0.460000.m0.010000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls48.beta0.550000.m0.010000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls8.beta0.225000.m0.010000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls8.beta0.275000.m0.010000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls8.beta0.300000.m0.010000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls8.beta0.310000.m0.010000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls8.beta0.320000.m0.010000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls8.beta0.325000.m0.010000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls8.beta0.330000.m0.010000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls8.beta0.340000.m0.010000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls8.beta0.350000.m0.010000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls8.beta0.360000.m0.010000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls8.beta0.370000.m0.010000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls8.beta0.375000.m0.010000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls8.beta0.380000.m0.010000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls8.beta0.390000.m0.010000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls8.beta0.400000.m0.010000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls8.beta0.410000.m0.010000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls8.beta0.420000.m0.010000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls8.beta0.425000.m0.010000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls8.beta0.430000.m0.010000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls8.beta0.440000.m0.010000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls8.beta0.450000.m0.010000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls8.beta0.475000.m0.010000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls8.beta0.500000.m0.010000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls8.beta0.600000.m0.010000.fort.200.analysis.set\
+ ./psibarpsi_extrapolated/fort.200.analysis.set_12_0.300000_0.010000\
+ ./psibarpsi_extrapolated/fort.200.analysis.set_12_0.320000_0.010000\
+ ./psibarpsi_extrapolated/fort.200.analysis.set_12_0.340000_0.010000\
+ ./psibarpsi_extrapolated/fort.200.analysis.set_12_0.360000_0.010000\
+ ./psibarpsi_extrapolated/fort.200.analysis.set_12_0.380000_0.010000\
+ ./psibarpsi_extrapolated/fort.200.analysis.set_12_0.400000_0.010000\
+ ./psibarpsi_extrapolated/fort.200.analysis.set_12_0.420000_0.010000\
+ ./psibarpsi_extrapolated/fort.200.analysis.set_12_0.440000_0.010000\
+ ./psibarpsi_extrapolated/fort.200.analysis.set_12_0.460000_0.010000\
+ ./psibarpsi_extrapolated/fort.200.analysis.set_12_0.500000_0.010000\
+ ./psibarpsi_extrapolated/fort.200.analysis.set_12_0.600000_0.010000
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/extrapolate_to_linf_plot.py fort.200.analysis.set 0.01 12
+
+ ./psibarpsi_extrapolated/pbpextrL12_m0.02.png :  ./psibarpsi/psibarpsiL12Ls16.beta0.300000.m0.020000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls16.beta0.310000.m0.020000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls16.beta0.320000.m0.020000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls16.beta0.330000.m0.020000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls16.beta0.340000.m0.020000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls16.beta0.350000.m0.020000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls16.beta0.360000.m0.020000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls16.beta0.370000.m0.020000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls16.beta0.380000.m0.020000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls16.beta0.390000.m0.020000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls16.beta0.400000.m0.020000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls16.beta0.410000.m0.020000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls16.beta0.420000.m0.020000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls16.beta0.430000.m0.020000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls16.beta0.440000.m0.020000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls16.beta0.450000.m0.020000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls16.beta0.500000.m0.020000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls16.beta0.600000.m0.020000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls24.beta0.300000.m0.020000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls24.beta0.310000.m0.020000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls24.beta0.320000.m0.020000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls24.beta0.330000.m0.020000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls24.beta0.340000.m0.020000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls24.beta0.350000.m0.020000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls24.beta0.360000.m0.020000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls24.beta0.370000.m0.020000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls24.beta0.380000.m0.020000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls24.beta0.390000.m0.020000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls24.beta0.400000.m0.020000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls24.beta0.410000.m0.020000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls24.beta0.420000.m0.020000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls24.beta0.430000.m0.020000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls24.beta0.440000.m0.020000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls24.beta0.450000.m0.020000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls24.beta0.460000.m0.020000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls24.beta0.480000.m0.020000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls24.beta0.500000.m0.020000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls24.beta0.520000.m0.020000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls24.beta0.600000.m0.020000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls32.beta0.300000.m0.020000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls32.beta0.320000.m0.020000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls32.beta0.340000.m0.020000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls32.beta0.360000.m0.020000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls32.beta0.380000.m0.020000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls32.beta0.400000.m0.020000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls32.beta0.420000.m0.020000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls32.beta0.440000.m0.020000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls32.beta0.460000.m0.020000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls32.beta0.500000.m0.020000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls32.beta0.550000.m0.020000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls32.beta0.600000.m0.020000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls40.beta0.300000.m0.020000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls40.beta0.320000.m0.020000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls40.beta0.340000.m0.020000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls40.beta0.360000.m0.020000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls40.beta0.380000.m0.020000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls40.beta0.400000.m0.020000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls40.beta0.420000.m0.020000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls40.beta0.440000.m0.020000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls40.beta0.460000.m0.020000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls40.beta0.500000.m0.020000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls40.beta0.550000.m0.020000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls40.beta0.600000.m0.020000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls48.beta0.300000.m0.020000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls48.beta0.320000.m0.020000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls48.beta0.340000.m0.020000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls48.beta0.360000.m0.020000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls48.beta0.380000.m0.020000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls48.beta0.400000.m0.020000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls48.beta0.420000.m0.020000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls48.beta0.440000.m0.020000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls48.beta0.460000.m0.020000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls48.beta0.550000.m0.020000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls8.beta0.275000.m0.020000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls8.beta0.300000.m0.020000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls8.beta0.310000.m0.020000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls8.beta0.320000.m0.020000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls8.beta0.325000.m0.020000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls8.beta0.330000.m0.020000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls8.beta0.340000.m0.020000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls8.beta0.350000.m0.020000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls8.beta0.360000.m0.020000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls8.beta0.370000.m0.020000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls8.beta0.380000.m0.020000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls8.beta0.390000.m0.020000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls8.beta0.400000.m0.020000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls8.beta0.410000.m0.020000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls8.beta0.420000.m0.020000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls8.beta0.430000.m0.020000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls8.beta0.440000.m0.020000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls8.beta0.450000.m0.020000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls8.beta0.500000.m0.020000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls8.beta0.600000.m0.020000.fort.200.analysis.set\
+ ./psibarpsi_extrapolated/fort.200.analysis.set_12_0.300000_0.020000\
+ ./psibarpsi_extrapolated/fort.200.analysis.set_12_0.320000_0.020000\
+ ./psibarpsi_extrapolated/fort.200.analysis.set_12_0.340000_0.020000\
+ ./psibarpsi_extrapolated/fort.200.analysis.set_12_0.360000_0.020000\
+ ./psibarpsi_extrapolated/fort.200.analysis.set_12_0.380000_0.020000\
+ ./psibarpsi_extrapolated/fort.200.analysis.set_12_0.400000_0.020000\
+ ./psibarpsi_extrapolated/fort.200.analysis.set_12_0.420000_0.020000\
+ ./psibarpsi_extrapolated/fort.200.analysis.set_12_0.440000_0.020000\
+ ./psibarpsi_extrapolated/fort.200.analysis.set_12_0.460000_0.020000\
+ ./psibarpsi_extrapolated/fort.200.analysis.set_12_0.500000_0.020000\
+ ./psibarpsi_extrapolated/fort.200.analysis.set_12_0.600000_0.020000
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/extrapolate_to_linf_plot.py fort.200.analysis.set 0.02 12
+
+ ./psibarpsi_extrapolated/pbpextrL12_m0.05.png :  ./psibarpsi/psibarpsiL12Ls16.beta0.300000.m0.050000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls16.beta0.310000.m0.050000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls16.beta0.320000.m0.050000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls16.beta0.330000.m0.050000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls16.beta0.340000.m0.050000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls16.beta0.350000.m0.050000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls16.beta0.360000.m0.050000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls16.beta0.370000.m0.050000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls16.beta0.380000.m0.050000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls16.beta0.390000.m0.050000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls16.beta0.400000.m0.050000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls16.beta0.410000.m0.050000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls16.beta0.420000.m0.050000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls16.beta0.430000.m0.050000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls16.beta0.440000.m0.050000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls16.beta0.450000.m0.050000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls16.beta0.500000.m0.050000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls16.beta0.600000.m0.050000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls24.beta0.300000.m0.050000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls24.beta0.310000.m0.050000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls24.beta0.320000.m0.050000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls24.beta0.330000.m0.050000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls24.beta0.340000.m0.050000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls24.beta0.350000.m0.050000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls24.beta0.360000.m0.050000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls24.beta0.370000.m0.050000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls24.beta0.380000.m0.050000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls24.beta0.390000.m0.050000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls24.beta0.400000.m0.050000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls24.beta0.410000.m0.050000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls24.beta0.420000.m0.050000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls24.beta0.430000.m0.050000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls24.beta0.440000.m0.050000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls24.beta0.450000.m0.050000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls24.beta0.500000.m0.050000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls24.beta0.600000.m0.050000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls32.beta0.300000.m0.050000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls32.beta0.320000.m0.050000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls32.beta0.340000.m0.050000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls32.beta0.360000.m0.050000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls32.beta0.380000.m0.050000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls32.beta0.400000.m0.050000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls32.beta0.420000.m0.050000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls32.beta0.440000.m0.050000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls32.beta0.460000.m0.050000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls32.beta0.500000.m0.050000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls32.beta0.550000.m0.050000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls32.beta0.600000.m0.050000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls40.beta0.300000.m0.050000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls40.beta0.320000.m0.050000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls40.beta0.340000.m0.050000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls40.beta0.360000.m0.050000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls40.beta0.380000.m0.050000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls40.beta0.400000.m0.050000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls40.beta0.420000.m0.050000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls40.beta0.440000.m0.050000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls40.beta0.460000.m0.050000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls40.beta0.500000.m0.050000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls40.beta0.550000.m0.050000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls40.beta0.600000.m0.050000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls48.beta0.300000.m0.050000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls48.beta0.320000.m0.050000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls48.beta0.340000.m0.050000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls48.beta0.360000.m0.050000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls48.beta0.380000.m0.050000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls48.beta0.400000.m0.050000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls48.beta0.420000.m0.050000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls48.beta0.440000.m0.050000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls48.beta0.460000.m0.050000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls48.beta0.550000.m0.050000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls8.beta0.275000.m0.050000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls8.beta0.300000.m0.050000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls8.beta0.310000.m0.050000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls8.beta0.320000.m0.050000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls8.beta0.325000.m0.050000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls8.beta0.330000.m0.050000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls8.beta0.340000.m0.050000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls8.beta0.350000.m0.050000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls8.beta0.360000.m0.050000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls8.beta0.370000.m0.050000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls8.beta0.380000.m0.050000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls8.beta0.390000.m0.050000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls8.beta0.400000.m0.050000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls8.beta0.410000.m0.050000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls8.beta0.420000.m0.050000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls8.beta0.430000.m0.050000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls8.beta0.440000.m0.050000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls8.beta0.450000.m0.050000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls8.beta0.500000.m0.050000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls8.beta0.600000.m0.050000.fort.200.analysis.set\
+ ./psibarpsi_extrapolated/fort.200.analysis.set_12_0.300000_0.050000\
+ ./psibarpsi_extrapolated/fort.200.analysis.set_12_0.320000_0.050000\
+ ./psibarpsi_extrapolated/fort.200.analysis.set_12_0.340000_0.050000\
+ ./psibarpsi_extrapolated/fort.200.analysis.set_12_0.360000_0.050000\
+ ./psibarpsi_extrapolated/fort.200.analysis.set_12_0.380000_0.050000\
+ ./psibarpsi_extrapolated/fort.200.analysis.set_12_0.400000_0.050000\
+ ./psibarpsi_extrapolated/fort.200.analysis.set_12_0.420000_0.050000\
+ ./psibarpsi_extrapolated/fort.200.analysis.set_12_0.440000_0.050000\
+ ./psibarpsi_extrapolated/fort.200.analysis.set_12_0.500000_0.050000\
+ ./psibarpsi_extrapolated/fort.200.analysis.set_12_0.600000_0.050000
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/extrapolate_to_linf_plot.py fort.200.analysis.set 0.05 12
+
+ ./psibarpsi_extrapolated/pbpextrL16_m0.01.png :  ./psibarpsi/psibarpsiL16Ls16.beta0.300000.m0.010000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL16Ls16.beta0.310000.m0.010000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL16Ls16.beta0.320000.m0.010000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL16Ls16.beta0.330000.m0.010000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL16Ls16.beta0.340000.m0.010000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL16Ls16.beta0.350000.m0.010000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL16Ls16.beta0.360000.m0.010000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL16Ls16.beta0.370000.m0.010000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL16Ls16.beta0.380000.m0.010000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL16Ls16.beta0.390000.m0.010000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL16Ls16.beta0.400000.m0.010000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL16Ls16.beta0.410000.m0.010000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL16Ls16.beta0.420000.m0.010000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL16Ls16.beta0.430000.m0.010000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL16Ls16.beta0.440000.m0.010000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL16Ls16.beta0.450000.m0.010000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL16Ls16.beta0.500000.m0.010000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL16Ls16.beta0.600000.m0.010000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL16Ls24.beta0.300000.m0.010000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL16Ls24.beta0.600000.m0.010000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL16Ls32.beta0.300000.m0.010000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL16Ls32.beta0.320000.m0.010000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL16Ls32.beta0.340000.m0.010000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL16Ls32.beta0.360000.m0.010000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL16Ls32.beta0.380000.m0.010000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL16Ls32.beta0.400000.m0.010000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL16Ls32.beta0.420000.m0.010000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL16Ls32.beta0.440000.m0.010000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL16Ls32.beta0.460000.m0.010000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL16Ls32.beta0.480000.m0.010000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL16Ls32.beta0.500000.m0.010000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL16Ls32.beta0.520000.m0.010000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL16Ls32.beta0.600000.m0.010000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL16Ls40.beta0.300000.m0.010000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL16Ls40.beta0.320000.m0.010000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL16Ls40.beta0.340000.m0.010000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL16Ls40.beta0.360000.m0.010000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL16Ls40.beta0.380000.m0.010000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL16Ls40.beta0.400000.m0.010000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL16Ls40.beta0.420000.m0.010000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL16Ls40.beta0.440000.m0.010000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL16Ls40.beta0.460000.m0.010000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL16Ls40.beta0.480000.m0.010000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL16Ls40.beta0.500000.m0.010000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL16Ls40.beta0.520000.m0.010000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL16Ls40.beta0.600000.m0.010000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL16Ls48.beta0.300000.m0.010000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL16Ls48.beta0.320000.m0.010000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL16Ls48.beta0.340000.m0.010000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL16Ls48.beta0.360000.m0.010000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL16Ls48.beta0.380000.m0.010000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL16Ls48.beta0.400000.m0.010000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL16Ls48.beta0.420000.m0.010000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL16Ls48.beta0.440000.m0.010000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL16Ls48.beta0.460000.m0.010000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL16Ls48.beta0.480000.m0.010000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL16Ls48.beta0.500000.m0.010000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL16Ls48.beta0.520000.m0.010000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL16Ls8.beta0.300000.m0.010000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL16Ls8.beta0.600000.m0.010000.fort.200.analysis.set\
+ ./psibarpsi_extrapolated/fort.200.analysis.set_16_0.300000_0.010000\
+ ./psibarpsi_extrapolated/fort.200.analysis.set_16_0.600000_0.010000
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/extrapolate_to_linf_plot.py fort.200.analysis.set 0.01 16
+
+ ./psibarpsi_extrapolated/pbpextrL12_m0.03.png :  ./psibarpsi/psibarpsiL12Ls16.beta0.300000.m0.030000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls16.beta0.310000.m0.030000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls16.beta0.320000.m0.030000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls16.beta0.330000.m0.030000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls16.beta0.340000.m0.030000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls16.beta0.350000.m0.030000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls16.beta0.360000.m0.030000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls16.beta0.370000.m0.030000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls16.beta0.380000.m0.030000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls16.beta0.390000.m0.030000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls16.beta0.400000.m0.030000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls16.beta0.410000.m0.030000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls16.beta0.420000.m0.030000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls16.beta0.430000.m0.030000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls16.beta0.440000.m0.030000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls16.beta0.450000.m0.030000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls16.beta0.500000.m0.030000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls16.beta0.600000.m0.030000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls24.beta0.300000.m0.030000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls24.beta0.310000.m0.030000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls24.beta0.320000.m0.030000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls24.beta0.330000.m0.030000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls24.beta0.340000.m0.030000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls24.beta0.350000.m0.030000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls24.beta0.360000.m0.030000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls24.beta0.370000.m0.030000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls24.beta0.380000.m0.030000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls24.beta0.390000.m0.030000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls24.beta0.400000.m0.030000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls24.beta0.410000.m0.030000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls24.beta0.420000.m0.030000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls24.beta0.430000.m0.030000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls24.beta0.440000.m0.030000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls24.beta0.450000.m0.030000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls24.beta0.500000.m0.030000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls24.beta0.520000.m0.030000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls24.beta0.600000.m0.030000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls32.beta0.300000.m0.030000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls32.beta0.320000.m0.030000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls32.beta0.340000.m0.030000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls32.beta0.360000.m0.030000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls32.beta0.380000.m0.030000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls32.beta0.400000.m0.030000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls32.beta0.420000.m0.030000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls32.beta0.440000.m0.030000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls32.beta0.460000.m0.030000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls32.beta0.500000.m0.030000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls32.beta0.550000.m0.030000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls32.beta0.600000.m0.030000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls40.beta0.300000.m0.030000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls40.beta0.320000.m0.030000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls40.beta0.340000.m0.030000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls40.beta0.360000.m0.030000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls40.beta0.380000.m0.030000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls40.beta0.400000.m0.030000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls40.beta0.420000.m0.030000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls40.beta0.440000.m0.030000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls40.beta0.460000.m0.030000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls40.beta0.500000.m0.030000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls40.beta0.550000.m0.030000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls40.beta0.600000.m0.030000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls48.beta0.300000.m0.030000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls48.beta0.320000.m0.030000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls48.beta0.340000.m0.030000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls48.beta0.360000.m0.030000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls48.beta0.380000.m0.030000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls48.beta0.400000.m0.030000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls48.beta0.420000.m0.030000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls48.beta0.440000.m0.030000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls48.beta0.460000.m0.030000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls48.beta0.550000.m0.030000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls8.beta0.275000.m0.030000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls8.beta0.300000.m0.030000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls8.beta0.310000.m0.030000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls8.beta0.320000.m0.030000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls8.beta0.325000.m0.030000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls8.beta0.330000.m0.030000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls8.beta0.340000.m0.030000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls8.beta0.350000.m0.030000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls8.beta0.360000.m0.030000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls8.beta0.370000.m0.030000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls8.beta0.380000.m0.030000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls8.beta0.390000.m0.030000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls8.beta0.400000.m0.030000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls8.beta0.410000.m0.030000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls8.beta0.420000.m0.030000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls8.beta0.430000.m0.030000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls8.beta0.440000.m0.030000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls8.beta0.450000.m0.030000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls8.beta0.500000.m0.030000.fort.200.analysis.set\
+ ./psibarpsi/psibarpsiL12Ls8.beta0.600000.m0.030000.fort.200.analysis.set\
+ ./psibarpsi_extrapolated/fort.200.analysis.set_12_0.300000_0.030000\
+ ./psibarpsi_extrapolated/fort.200.analysis.set_12_0.320000_0.030000\
+ ./psibarpsi_extrapolated/fort.200.analysis.set_12_0.340000_0.030000\
+ ./psibarpsi_extrapolated/fort.200.analysis.set_12_0.360000_0.030000\
+ ./psibarpsi_extrapolated/fort.200.analysis.set_12_0.380000_0.030000\
+ ./psibarpsi_extrapolated/fort.200.analysis.set_12_0.400000_0.030000\
+ ./psibarpsi_extrapolated/fort.200.analysis.set_12_0.420000_0.030000\
+ ./psibarpsi_extrapolated/fort.200.analysis.set_12_0.440000_0.030000\
+ ./psibarpsi_extrapolated/fort.200.analysis.set_12_0.500000_0.030000\
+ ./psibarpsi_extrapolated/fort.200.analysis.set_12_0.600000_0.030000
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/extrapolate_to_linf_plot.py fort.200.analysis.set 0.03 12
 
  ./psibarpsi_extrapolated/fort.200.analysis.set_12_0.460000_0.010000 :  ./psibarpsi/psibarpsiL12Ls24.beta0.460000.m0.010000.fort.200.analysis.set\
  ./psibarpsi/psibarpsiL12Ls32.beta0.460000.m0.010000.fort.200.analysis.set\
@@ -7304,7 +8119,7 @@ all:  ./all_dirs/Ls32.beta0.30.m0.01/fort.11.total.1\
  ./psibarpsi/psibarpsiL12Ls32.beta0.300000.m0.010000.fort.200.analysis.set :  ./all_dirs/Ls32.beta0.30.m0.01/fort.200.total.1\
  ./all_dirs/Ls32.beta0.30.m0.01/fort.200.total.2\
  ./analysis_setting_split/L12Ls32.beta0.300000.m0.010000.fort.200.analysis.set\
- ./simon/old/12/Ls32.beta0.3.m0.01/fort.200 ./simon/old/16/b/Ls32.beta0.3.m0.01/fort.200\
+ ./simon/old/12/Ls32.beta0.3.m0.01/fort.200\
  ./sunbird_thirring_runs3_L12/Ls32.beta0.30.m0.01/fort.200
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/pbp_data_processing_v2.py analysis_setting_split/L12Ls32.beta0.300000.m0.010000.fort.200.analysis.set
 
@@ -8024,7 +8839,7 @@ all:  ./all_dirs/Ls32.beta0.30.m0.01/fort.11.total.1\
 
  ./psibarpsi/psibarpsiL16Ls32.beta0.300000.m0.010000.fort.200.analysis.set :  ./all_dirs16/Ls32.beta0.30.m0.01/fort.200.total.1\
  ./analysis_setting_split/L16Ls32.beta0.300000.m0.010000.fort.200.analysis.set\
- ./peta4_RUNS2_L16/Ls32.beta0.30.m0.01/fort.200
+ ./peta4_RUNS2_L16/Ls32.beta0.30.m0.01/fort.200 ./simon/old/16/b/Ls32.beta0.3.m0.01/fort.200
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/pbp_data_processing_v2.py analysis_setting_split/L16Ls32.beta0.300000.m0.010000.fort.200.analysis.set
 
  ./psibarpsi/psibarpsiL16Ls16.beta0.500000.m0.010000.fort.200.analysis.set :  ./analysis_setting_split/L16Ls16.beta0.500000.m0.010000.fort.200.analysis.set
@@ -8356,6 +9171,9 @@ all:  ./all_dirs/Ls32.beta0.30.m0.01/fort.11.total.1\
  ./peta4_RUNS2_L16/Ls48.beta0.38.m0.04/fort.11 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls48.beta0.38.m0.04/fort.11
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls48.beta0.38.m0.04/fort.11 peta4_RUNS2_L16 fort.11
 
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.40.m0.05/fort.11 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.40.m0.05/fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.40.m0.05/fort.11 sunbird_thirring_runs3_L12 fort.11
+
  ./peta4_RUNS2_L16/Ls32.beta0.52.m0.04/fort.200 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls32.beta0.52.m0.04/fort.200
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls32.beta0.52.m0.04/fort.200 peta4_RUNS2_L16 fort.200
 
@@ -8374,6 +9192,9 @@ all:  ./all_dirs/Ls32.beta0.30.m0.01/fort.11.total.1\
  ./sunbird_thirring_runs3_L12/Ls40.beta0.55.m0.02/fort.11 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls40.beta0.55.m0.02/fort.11
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls40.beta0.55.m0.02/fort.11 sunbird_thirring_runs3_L12 fort.11
 
+ ./sunbird_thirring_runs3_L12/Ls48.beta0.36.m0.04/fort.200 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.36.m0.04/fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.36.m0.04/fort.200 sunbird_thirring_runs3_L12 fort.200
+
  ./peta4_RUNS2_L16/Ls40.beta0.30.m0.02/fort.200 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls40.beta0.30.m0.02/fort.200
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls40.beta0.30.m0.02/fort.200 peta4_RUNS2_L16 fort.200
 
@@ -8382,6 +9203,12 @@ all:  ./all_dirs/Ls32.beta0.30.m0.01/fort.11.total.1\
 
  ./peta4_RUNS2_L16/Ls40.beta0.36.m0.01/fort.100 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls40.beta0.36.m0.01/fort.100
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls40.beta0.36.m0.01/fort.100 peta4_RUNS2_L16 fort.100
+
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.46.m0.01/fort.200 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.46.m0.01/fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.46.m0.01/fort.200 sunbird_thirring_runs3_L12 fort.200
+
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.30.m0.05/fort.100 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.30.m0.05/fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.30.m0.05/fort.100 sunbird_thirring_runs3_L12 fort.100
 
  ./sunbird_thirring_runs3_L12/Ls48.beta0.32.m0.04/fort.200 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.32.m0.04/fort.200
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.32.m0.04/fort.200 sunbird_thirring_runs3_L12 fort.200
@@ -8419,11 +9246,17 @@ all:  ./all_dirs/Ls32.beta0.30.m0.01/fort.11.total.1\
  ./peta4_RUNS2_L16/Ls40.beta0.34.m0.03/fort.11 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls40.beta0.34.m0.03/fort.11
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls40.beta0.34.m0.03/fort.11 peta4_RUNS2_L16 fort.11
 
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.34.m0.02/fort.200 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.34.m0.02/fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.34.m0.02/fort.200 sunbird_thirring_runs3_L12 fort.200
+
  ./peta4_RUNS2_L16/Ls32.beta0.30.m0.01/fort.11 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls32.beta0.30.m0.01/fort.11
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls32.beta0.30.m0.01/fort.11 peta4_RUNS2_L16 fort.11
 
  ./peta4_RUNS2_L16/Ls32.beta0.48.m0.03/fort.200 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls32.beta0.48.m0.03/fort.200
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls32.beta0.48.m0.03/fort.200 peta4_RUNS2_L16 fort.200
+
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.34.m0.04/fort.200 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.34.m0.04/fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.34.m0.04/fort.200 sunbird_thirring_runs3_L12 fort.200
 
  ./sunbird_thirring_runs3_L12/Ls40.beta0.42.m0.04/fort.11 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls40.beta0.42.m0.04/fort.11
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls40.beta0.42.m0.04/fort.11 sunbird_thirring_runs3_L12 fort.11
@@ -8440,6 +9273,12 @@ all:  ./all_dirs/Ls32.beta0.30.m0.01/fort.11.total.1\
  ./peta4_RUNS2_L16/Ls40.beta0.38.m0.04/fort.11 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls40.beta0.38.m0.04/fort.11
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls40.beta0.38.m0.04/fort.11 peta4_RUNS2_L16 fort.11
 
+ ./sunbird_thirring_runs3_L12/Ls40.beta0.32.m0.02/fort.100 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls40.beta0.32.m0.02/fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls40.beta0.32.m0.02/fort.100 sunbird_thirring_runs3_L12 fort.100
+
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.44.m0.02/fort.11 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.44.m0.02/fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.44.m0.02/fort.11 sunbird_thirring_runs3_L12 fort.11
+
  ./sunbird_thirring_runs3_L12/Ls40.beta0.42.m0.05/fort.200 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls40.beta0.42.m0.05/fort.200
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls40.beta0.42.m0.05/fort.200 sunbird_thirring_runs3_L12 fort.200
 
@@ -8454,6 +9293,9 @@ all:  ./all_dirs/Ls32.beta0.30.m0.01/fort.11.total.1\
 
  ./peta4_RUNS2_L16/Ls48.beta0.50.m0.03/fort.200 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls48.beta0.50.m0.03/fort.200
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls48.beta0.50.m0.03/fort.200 peta4_RUNS2_L16 fort.200
+
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.44.m0.02/fort.200 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.44.m0.02/fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.44.m0.02/fort.200 sunbird_thirring_runs3_L12 fort.200
 
  ./sunbird_thirring_runs3_L12/Ls40.beta0.40.m0.03/fort.200 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls40.beta0.40.m0.03/fort.200
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls40.beta0.40.m0.03/fort.200 sunbird_thirring_runs3_L12 fort.200
@@ -8497,8 +9339,14 @@ all:  ./all_dirs/Ls32.beta0.30.m0.01/fort.11.total.1\
  ./peta4_RUNS2_L16/Ls48.beta0.36.m0.02/fort.11 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls48.beta0.36.m0.02/fort.11
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls48.beta0.36.m0.02/fort.11 peta4_RUNS2_L16 fort.11
 
+ ./sunbird_thirring_runs3_L12/Ls40.beta0.34.m0.02/fort.100 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls40.beta0.34.m0.02/fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls40.beta0.34.m0.02/fort.100 sunbird_thirring_runs3_L12 fort.100
+
  ./sunbird_thirring_runs3_L12/Ls40.beta0.42.m0.01/fort.11 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls40.beta0.42.m0.01/fort.11
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls40.beta0.42.m0.01/fort.11 sunbird_thirring_runs3_L12 fort.11
+
+ ./sunbird_thirring_runs3_L12/Ls40.beta0.32.m0.02/fort.11 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls40.beta0.32.m0.02/fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls40.beta0.32.m0.02/fort.11 sunbird_thirring_runs3_L12 fort.11
 
  ./peta4_RUNS2_L16/Ls32.beta0.32.m0.03/fort.200 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls32.beta0.32.m0.03/fort.200
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls32.beta0.32.m0.03/fort.200 peta4_RUNS2_L16 fort.200
@@ -8514,6 +9362,9 @@ all:  ./all_dirs/Ls32.beta0.30.m0.01/fort.11.total.1\
 
  ./peta4_RUNS2_L16/Ls48.beta0.30.m0.05/fort.11 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls48.beta0.30.m0.05/fort.11
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls48.beta0.30.m0.05/fort.11 peta4_RUNS2_L16 fort.11
+
+ ./sunbird_thirring_runs3_L12/Ls48.beta0.36.m0.03/fort.100 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.36.m0.03/fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.36.m0.03/fort.100 sunbird_thirring_runs3_L12 fort.100
 
  ./peta4_RUNS2_L16/Ls48.beta0.50.m0.04/fort.11 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls48.beta0.50.m0.04/fort.11
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls48.beta0.50.m0.04/fort.11 peta4_RUNS2_L16 fort.11
@@ -8545,6 +9396,9 @@ all:  ./all_dirs/Ls32.beta0.30.m0.01/fort.11.total.1\
  ./peta4_RUNS2_L16/Ls40.beta0.48.m0.02/fort.100 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls40.beta0.48.m0.02/fort.100
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls40.beta0.48.m0.02/fort.100 peta4_RUNS2_L16 fort.100
 
+ ./sunbird_thirring_runs3_L12/Ls48.beta0.42.m0.02/fort.11 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.42.m0.02/fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.42.m0.02/fort.11 sunbird_thirring_runs3_L12 fort.11
+
  ./peta4_RUNS2_L16/Ls32.beta0.34.m0.02/fort.100 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls32.beta0.34.m0.02/fort.100
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls32.beta0.34.m0.02/fort.100 peta4_RUNS2_L16 fort.100
 
@@ -8553,6 +9407,12 @@ all:  ./all_dirs/Ls32.beta0.30.m0.01/fort.11.total.1\
 
  ./peta4_RUNS2_L16/Ls40.beta0.44.m0.04/fort.11 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls40.beta0.44.m0.04/fort.11
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls40.beta0.44.m0.04/fort.11 peta4_RUNS2_L16 fort.11
+
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.55.m0.02/fort.11 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.55.m0.02/fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.55.m0.02/fort.11 sunbird_thirring_runs3_L12 fort.11
+
+ ./sunbird_thirring_runs3_L12/Ls40.beta0.32.m0.02/fort.200 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls40.beta0.32.m0.02/fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls40.beta0.32.m0.02/fort.200 sunbird_thirring_runs3_L12 fort.200
 
  ./peta4_RUNS2_L16/Ls40.beta0.34.m0.05/fort.100 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls40.beta0.34.m0.05/fort.100
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls40.beta0.34.m0.05/fort.100 peta4_RUNS2_L16 fort.100
@@ -8571,6 +9431,9 @@ all:  ./all_dirs/Ls32.beta0.30.m0.01/fort.11.total.1\
 
  ./peta4_RUNS2_L16/Ls40.beta0.42.m0.04/fort.100 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls40.beta0.42.m0.04/fort.100
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls40.beta0.42.m0.04/fort.100 peta4_RUNS2_L16 fort.100
+
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.40.m0.04/fort.11 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.40.m0.04/fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.40.m0.04/fort.11 sunbird_thirring_runs3_L12 fort.11
 
  ./peta4_RUNS2_L16/Ls48.beta0.30.m0.01/fort.100 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls48.beta0.30.m0.01/fort.100
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls48.beta0.30.m0.01/fort.100 peta4_RUNS2_L16 fort.100
@@ -8602,14 +9465,26 @@ all:  ./all_dirs/Ls32.beta0.30.m0.01/fort.11.total.1\
  ./peta4_RUNS2_L16/Ls32.beta0.34.m0.02/fort.200 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls32.beta0.34.m0.02/fort.200
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls32.beta0.34.m0.02/fort.200 peta4_RUNS2_L16 fort.200
 
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.34.m0.01/fort.100 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.34.m0.01/fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.34.m0.01/fort.100 sunbird_thirring_runs3_L12 fort.100
+
  ./peta4_RUNS2_L16/Ls48.beta0.50.m0.02/fort.100 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls48.beta0.50.m0.02/fort.100
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls48.beta0.50.m0.02/fort.100 peta4_RUNS2_L16 fort.100
+
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.32.m0.03/fort.100 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.32.m0.03/fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.32.m0.03/fort.100 sunbird_thirring_runs3_L12 fort.100
+
+ ./sunbird_thirring_runs3_L12/Ls40.beta0.34.m0.02/fort.200 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls40.beta0.34.m0.02/fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls40.beta0.34.m0.02/fort.200 sunbird_thirring_runs3_L12 fort.200
 
  ./peta4_RUNS2_L16/Ls40.beta0.44.m0.05/fort.100 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls40.beta0.44.m0.05/fort.100
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls40.beta0.44.m0.05/fort.100 peta4_RUNS2_L16 fort.100
 
  ./peta4_RUNS2_L16/Ls40.beta0.42.m0.04/fort.200 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls40.beta0.42.m0.04/fort.200
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls40.beta0.42.m0.04/fort.200 peta4_RUNS2_L16 fort.200
+
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.32.m0.02/fort.200 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.32.m0.02/fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.32.m0.02/fort.200 sunbird_thirring_runs3_L12 fort.200
 
  ./sunbird_thirring_runs3_L12/Ls40.beta0.40.m0.04/fort.100 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls40.beta0.40.m0.04/fort.100
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls40.beta0.40.m0.04/fort.100 sunbird_thirring_runs3_L12 fort.100
@@ -8640,6 +9515,9 @@ all:  ./all_dirs/Ls32.beta0.30.m0.01/fort.11.total.1\
 
  ./peta4_RUNS2_L16/Ls40.beta0.30.m0.02/fort.100 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls40.beta0.30.m0.02/fort.100
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls40.beta0.30.m0.02/fort.100 peta4_RUNS2_L16 fort.100
+
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.32.m0.02/fort.100 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.32.m0.02/fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.32.m0.02/fort.100 sunbird_thirring_runs3_L12 fort.100
 
  ./peta4_RUNS2_L16/Ls40.beta0.42.m0.03/fort.100 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls40.beta0.42.m0.03/fort.100
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls40.beta0.42.m0.03/fort.100 peta4_RUNS2_L16 fort.100
@@ -8683,6 +9561,9 @@ all:  ./all_dirs/Ls32.beta0.30.m0.01/fort.11.total.1\
  ./sunbird_thirring_runs3_L12/Ls32.beta0.30.m0.02/fort.200 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.30.m0.02/fort.200
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.30.m0.02/fort.200 sunbird_thirring_runs3_L12 fort.200
 
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.36.m0.02/fort.11 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.36.m0.02/fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.36.m0.02/fort.11 sunbird_thirring_runs3_L12 fort.11
+
  ./peta4_RUNS2_L16/Ls48.beta0.42.m0.02/fort.100 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls48.beta0.42.m0.02/fort.100
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls48.beta0.42.m0.02/fort.100 peta4_RUNS2_L16 fort.100
 
@@ -8691,6 +9572,9 @@ all:  ./all_dirs/Ls32.beta0.30.m0.01/fort.11.total.1\
 
  ./peta4_RUNS2_L16/Ls40.beta0.40.m0.02/fort.11 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls40.beta0.40.m0.02/fort.11
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls40.beta0.40.m0.02/fort.11 peta4_RUNS2_L16 fort.11
+
+ ./sunbird_thirring_runs3_L12/Ls48.beta0.42.m0.01/fort.11 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.42.m0.01/fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.42.m0.01/fort.11 sunbird_thirring_runs3_L12 fort.11
 
  ./peta4_RUNS2_L16/Ls32.beta0.44.m0.01/fort.100 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls32.beta0.44.m0.01/fort.100
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls32.beta0.44.m0.01/fort.100 peta4_RUNS2_L16 fort.100
@@ -8701,6 +9585,9 @@ all:  ./all_dirs/Ls32.beta0.30.m0.01/fort.11.total.1\
  ./peta4_RUNS2_L16/Ls32.beta0.44.m0.03/fort.11 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls32.beta0.44.m0.03/fort.11
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls32.beta0.44.m0.03/fort.11 peta4_RUNS2_L16 fort.11
 
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.40.m0.03/fort.100 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.40.m0.03/fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.40.m0.03/fort.100 sunbird_thirring_runs3_L12 fort.100
+
  ./peta4_RUNS2_L16/Ls48.beta0.32.m0.04/fort.200 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls48.beta0.32.m0.04/fort.200
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls48.beta0.32.m0.04/fort.200 peta4_RUNS2_L16 fort.200
 
@@ -8710,14 +9597,26 @@ all:  ./all_dirs/Ls32.beta0.30.m0.01/fort.11.total.1\
  ./peta4_RUNS2_L16/Ls32.beta0.34.m0.02/fort.11 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls32.beta0.34.m0.02/fort.11
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls32.beta0.34.m0.02/fort.11 peta4_RUNS2_L16 fort.11
 
+ ./sunbird_thirring_runs3_L12/Ls40.beta0.32.m0.01/fort.100 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls40.beta0.32.m0.01/fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls40.beta0.32.m0.01/fort.100 sunbird_thirring_runs3_L12 fort.100
+
  ./peta4_RUNS2_L16/Ls48.beta0.44.m0.02/fort.11 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls48.beta0.44.m0.02/fort.11
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls48.beta0.44.m0.02/fort.11 peta4_RUNS2_L16 fort.11
+
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.44.m0.01/fort.11 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.44.m0.01/fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.44.m0.01/fort.11 sunbird_thirring_runs3_L12 fort.11
+
+ ./sunbird_thirring_runs3_L12/Ls48.beta0.40.m0.03/fort.100 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.40.m0.03/fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.40.m0.03/fort.100 sunbird_thirring_runs3_L12 fort.100
 
  ./peta4_RUNS2_L16/Ls48.beta0.42.m0.02/fort.11 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls48.beta0.42.m0.02/fort.11
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls48.beta0.42.m0.02/fort.11 peta4_RUNS2_L16 fort.11
 
  ./sunbird_thirring_runs3_L12/Ls48.beta0.46.m0.03/fort.100 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.46.m0.03/fort.100
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.46.m0.03/fort.100 sunbird_thirring_runs3_L12 fort.100
+
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.34.m0.05/fort.11 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.34.m0.05/fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.34.m0.05/fort.11 sunbird_thirring_runs3_L12 fort.11
 
  ./peta4_RUNS2_L16/Ls32.beta0.38.m0.03/fort.200 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls32.beta0.38.m0.03/fort.200
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls32.beta0.38.m0.03/fort.200 peta4_RUNS2_L16 fort.200
@@ -8737,6 +9636,9 @@ all:  ./all_dirs/Ls32.beta0.30.m0.01/fort.11.total.1\
  ./peta4_RUNS2_L16/Ls48.beta0.30.m0.01/fort.200 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls48.beta0.30.m0.01/fort.200
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls48.beta0.30.m0.01/fort.200 peta4_RUNS2_L16 fort.200
 
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.55.m0.02/fort.200 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.55.m0.02/fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.55.m0.02/fort.200 sunbird_thirring_runs3_L12 fort.200
+
  ./peta4_RUNS2_L16/Ls32.beta0.52.m0.02/fort.100 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls32.beta0.52.m0.02/fort.100
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls32.beta0.52.m0.02/fort.100 peta4_RUNS2_L16 fort.100
 
@@ -8752,6 +9654,9 @@ all:  ./all_dirs/Ls32.beta0.30.m0.01/fort.11.total.1\
  ./peta4_RUNS2_L16/Ls32.beta0.38.m0.01/fort.200 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls32.beta0.38.m0.01/fort.200
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls32.beta0.38.m0.01/fort.200 peta4_RUNS2_L16 fort.200
 
+ ./sunbird_thirring_runs3_L12/Ls48.beta0.42.m0.04/fort.100 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.42.m0.04/fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.42.m0.04/fort.100 sunbird_thirring_runs3_L12 fort.100
+
  ./sunbird_thirring_runs3_L12/Ls40.beta0.38.m0.01/fort.100 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls40.beta0.38.m0.01/fort.100
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls40.beta0.38.m0.01/fort.100 sunbird_thirring_runs3_L12 fort.100
 
@@ -8761,11 +9666,20 @@ all:  ./all_dirs/Ls32.beta0.30.m0.01/fort.11.total.1\
  ./peta4_RUNS2_L16/Ls32.beta0.48.m0.01/fort.100 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls32.beta0.48.m0.01/fort.100
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls32.beta0.48.m0.01/fort.100 peta4_RUNS2_L16 fort.100
 
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.36.m0.03/fort.200 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.36.m0.03/fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.36.m0.03/fort.200 sunbird_thirring_runs3_L12 fort.200
+
  ./peta4_RUNS2_L16/Ls32.beta0.46.m0.04/fort.11 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls32.beta0.46.m0.04/fort.11
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls32.beta0.46.m0.04/fort.11 peta4_RUNS2_L16 fort.11
 
+ ./sunbird_thirring_runs3_L12/Ls48.beta0.36.m0.03/fort.11 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.36.m0.03/fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.36.m0.03/fort.11 sunbird_thirring_runs3_L12 fort.11
+
  ./peta4_RUNS2_L16/Ls40.beta0.48.m0.01/fort.200 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls40.beta0.48.m0.01/fort.200
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls40.beta0.48.m0.01/fort.200 peta4_RUNS2_L16 fort.200
+
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.38.m0.04/fort.200 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.38.m0.04/fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.38.m0.04/fort.200 sunbird_thirring_runs3_L12 fort.200
 
  ./sunbird_thirring_runs3_L12/Ls40.beta0.46.m0.03/fort.11 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls40.beta0.46.m0.03/fort.11
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls40.beta0.46.m0.03/fort.11 sunbird_thirring_runs3_L12 fort.11
@@ -8773,14 +9687,23 @@ all:  ./all_dirs/Ls32.beta0.30.m0.01/fort.11.total.1\
  ./peta4_RUNS2_L16/Ls32.beta0.40.m0.02/fort.11 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls32.beta0.40.m0.02/fort.11
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls32.beta0.40.m0.02/fort.11 peta4_RUNS2_L16 fort.11
 
+ ./sunbird_thirring_runs3_L12/Ls48.beta0.38.m0.05/fort.100 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.38.m0.05/fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.38.m0.05/fort.100 sunbird_thirring_runs3_L12 fort.100
+
  ./sunbird_thirring_runs3_L12/Ls40.beta0.55.m0.03/fort.11 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls40.beta0.55.m0.03/fort.11
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls40.beta0.55.m0.03/fort.11 sunbird_thirring_runs3_L12 fort.11
+
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.40.m0.01/fort.11 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.40.m0.01/fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.40.m0.01/fort.11 sunbird_thirring_runs3_L12 fort.11
 
  ./sunbird_thirring_runs3_L12/Ls48.beta0.46.m0.03/fort.11 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.46.m0.03/fort.11
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.46.m0.03/fort.11 sunbird_thirring_runs3_L12 fort.11
 
  ./peta4_RUNS2_L16/Ls32.beta0.38.m0.01/fort.100 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls32.beta0.38.m0.01/fort.100
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls32.beta0.38.m0.01/fort.100 peta4_RUNS2_L16 fort.100
+
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.36.m0.01/fort.11 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.36.m0.01/fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.36.m0.01/fort.11 sunbird_thirring_runs3_L12 fort.11
 
  ./peta4_RUNS2_L16/Ls48.beta0.30.m0.04/fort.100 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls48.beta0.30.m0.04/fort.100
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls48.beta0.30.m0.04/fort.100 peta4_RUNS2_L16 fort.100
@@ -8790,6 +9713,9 @@ all:  ./all_dirs/Ls32.beta0.30.m0.01/fort.11.total.1\
 
  ./peta4_RUNS2_L16/Ls48.beta0.46.m0.01/fort.11 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls48.beta0.46.m0.01/fort.11
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls48.beta0.46.m0.01/fort.11 peta4_RUNS2_L16 fort.11
+
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.46.m0.04/fort.100 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.46.m0.04/fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.46.m0.04/fort.100 sunbird_thirring_runs3_L12 fort.100
 
  ./sunbird_thirring_runs3_L12/Ls40.beta0.55.m0.01/fort.200 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls40.beta0.55.m0.01/fort.200
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls40.beta0.55.m0.01/fort.200 sunbird_thirring_runs3_L12 fort.200
@@ -8806,6 +9732,9 @@ all:  ./all_dirs/Ls32.beta0.30.m0.01/fort.11.total.1\
  ./peta4_RUNS2_L16/Ls40.beta0.38.m0.05/fort.11 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls40.beta0.38.m0.05/fort.11
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls40.beta0.38.m0.05/fort.11 peta4_RUNS2_L16 fort.11
 
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.55.m0.05/fort.100 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.55.m0.05/fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.55.m0.05/fort.100 sunbird_thirring_runs3_L12 fort.100
+
  ./peta4_RUNS2_L16/Ls48.beta0.44.m0.03/fort.200 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls48.beta0.44.m0.03/fort.200
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls48.beta0.44.m0.03/fort.200 peta4_RUNS2_L16 fort.200
 
@@ -8818,6 +9747,9 @@ all:  ./all_dirs/Ls32.beta0.30.m0.01/fort.11.total.1\
  ./peta4_RUNS2_L16/Ls40.beta0.38.m0.02/fort.100 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls40.beta0.38.m0.02/fort.100
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls40.beta0.38.m0.02/fort.100 peta4_RUNS2_L16 fort.100
 
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.38.m0.05/fort.200 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.38.m0.05/fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.38.m0.05/fort.200 sunbird_thirring_runs3_L12 fort.200
+
  ./peta4_RUNS2_L16/Ls32.beta0.48.m0.03/fort.11 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls32.beta0.48.m0.03/fort.11
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls32.beta0.48.m0.03/fort.11 peta4_RUNS2_L16 fort.11
 
@@ -8826,6 +9758,9 @@ all:  ./all_dirs/Ls32.beta0.30.m0.01/fort.11.total.1\
 
  ./peta4_RUNS2_L16/Ls40.beta0.48.m0.03/fort.100 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls40.beta0.48.m0.03/fort.100
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls40.beta0.48.m0.03/fort.100 peta4_RUNS2_L16 fort.100
+
+ ./sunbird_thirring_runs3_L12/Ls40.beta0.32.m0.05/fort.11 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls40.beta0.32.m0.05/fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls40.beta0.32.m0.05/fort.11 sunbird_thirring_runs3_L12 fort.11
 
  ./peta4_RUNS2_L16/Ls40.beta0.52.m0.05/fort.200 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls40.beta0.52.m0.05/fort.200
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls40.beta0.52.m0.05/fort.200 peta4_RUNS2_L16 fort.200
@@ -8842,11 +9777,17 @@ all:  ./all_dirs/Ls32.beta0.30.m0.01/fort.11.total.1\
  ./sunbird_thirring_runs3_L12/Ls40.beta0.30.m0.03/fort.200 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls40.beta0.30.m0.03/fort.200
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls40.beta0.30.m0.03/fort.200 sunbird_thirring_runs3_L12 fort.200
 
+ ./sunbird_thirring_runs3_L12/Ls48.beta0.36.m0.05/fort.200 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.36.m0.05/fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.36.m0.05/fort.200 sunbird_thirring_runs3_L12 fort.200
+
  ./peta4_RUNS2_L16/Ls48.beta0.40.m0.01/fort.100 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls48.beta0.40.m0.01/fort.100
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls48.beta0.40.m0.01/fort.100 peta4_RUNS2_L16 fort.100
 
  ./sunbird_thirring_runs3_L12/Ls48.beta0.44.m0.02/fort.200 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.44.m0.02/fort.200
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.44.m0.02/fort.200 sunbird_thirring_runs3_L12 fort.200
+
+ ./sunbird_thirring_runs3_L12/Ls48.beta0.40.m0.04/fort.200 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.40.m0.04/fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.40.m0.04/fort.200 sunbird_thirring_runs3_L12 fort.200
 
  ./sunbird_thirring_runs3_L12/Ls40.beta0.38.m0.02/fort.200 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls40.beta0.38.m0.02/fort.200
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls40.beta0.38.m0.02/fort.200 sunbird_thirring_runs3_L12 fort.200
@@ -8857,6 +9798,9 @@ all:  ./all_dirs/Ls32.beta0.30.m0.01/fort.11.total.1\
  ./sunbird_thirring_runs3_L12/Ls40.beta0.40.m0.02/fort.200 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls40.beta0.40.m0.02/fort.200
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls40.beta0.40.m0.02/fort.200 sunbird_thirring_runs3_L12 fort.200
 
+ ./sunbird_thirring_runs3_L12/Ls48.beta0.42.m0.04/fort.200 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.42.m0.04/fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.42.m0.04/fort.200 sunbird_thirring_runs3_L12 fort.200
+
  ./peta4_RUNS2_L16/Ls48.beta0.36.m0.02/fort.100 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls48.beta0.36.m0.02/fort.100
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls48.beta0.36.m0.02/fort.100 peta4_RUNS2_L16 fort.100
 
@@ -8866,8 +9810,20 @@ all:  ./all_dirs/Ls32.beta0.30.m0.01/fort.11.total.1\
  ./sunbird_thirring_runs3_L12/Ls48.beta0.36.m0.01/fort.100 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.36.m0.01/fort.100
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.36.m0.01/fort.100 sunbird_thirring_runs3_L12 fort.100
 
+ ./sunbird_thirring_runs3_L12/Ls48.beta0.38.m0.01/fort.100 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.38.m0.01/fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.38.m0.01/fort.100 sunbird_thirring_runs3_L12 fort.100
+
+ ./sunbird_thirring_runs3_L12/Ls48.beta0.38.m0.02/fort.100 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.38.m0.02/fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.38.m0.02/fort.100 sunbird_thirring_runs3_L12 fort.100
+
+ ./sunbird_thirring_runs3_L12/Ls48.beta0.38.m0.02/fort.200 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.38.m0.02/fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.38.m0.02/fort.200 sunbird_thirring_runs3_L12 fort.200
+
  ./sunbird_thirring_runs3_L12/Ls40.beta0.42.m0.05/fort.100 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls40.beta0.42.m0.05/fort.100
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls40.beta0.42.m0.05/fort.100 sunbird_thirring_runs3_L12 fort.100
+
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.44.m0.03/fort.11 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.44.m0.03/fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.44.m0.03/fort.11 sunbird_thirring_runs3_L12 fort.11
 
  ./sunbird_thirring_runs3_L12/Ls40.beta0.34.m0.05/fort.200 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls40.beta0.34.m0.05/fort.200
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls40.beta0.34.m0.05/fort.200 sunbird_thirring_runs3_L12 fort.200
@@ -8881,8 +9837,17 @@ all:  ./all_dirs/Ls32.beta0.30.m0.01/fort.11.total.1\
  ./peta4_RUNS2_L16/Ls48.beta0.32.m0.02/fort.200 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls48.beta0.32.m0.02/fort.200
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls48.beta0.32.m0.02/fort.200 peta4_RUNS2_L16 fort.200
 
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.34.m0.05/fort.100 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.34.m0.05/fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.34.m0.05/fort.100 sunbird_thirring_runs3_L12 fort.100
+
+ ./sunbird_thirring_runs3_L12/Ls40.beta0.32.m0.03/fort.11 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls40.beta0.32.m0.03/fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls40.beta0.32.m0.03/fort.11 sunbird_thirring_runs3_L12 fort.11
+
  ./peta4_RUNS2_L16/Ls48.beta0.38.m0.03/fort.100 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls48.beta0.38.m0.03/fort.100
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls48.beta0.38.m0.03/fort.100 peta4_RUNS2_L16 fort.100
+
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.44.m0.05/fort.200 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.44.m0.05/fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.44.m0.05/fort.200 sunbird_thirring_runs3_L12 fort.200
 
  ./peta4_RUNS2_L16/Ls32.beta0.52.m0.02/fort.11 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls32.beta0.52.m0.02/fort.11
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls32.beta0.52.m0.02/fort.11 peta4_RUNS2_L16 fort.11
@@ -8896,6 +9861,12 @@ all:  ./all_dirs/Ls32.beta0.30.m0.01/fort.11.total.1\
  ./peta4_RUNS2_L16/Ls32.beta0.50.m0.03/fort.200 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls32.beta0.50.m0.03/fort.200
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls32.beta0.50.m0.03/fort.200 peta4_RUNS2_L16 fort.200
 
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.42.m0.01/fort.100 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.42.m0.01/fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.42.m0.01/fort.100 sunbird_thirring_runs3_L12 fort.100
+
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.32.m0.01/fort.200 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.32.m0.01/fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.32.m0.01/fort.200 sunbird_thirring_runs3_L12 fort.200
+
  ./peta4_RUNS2_L16/Ls48.beta0.40.m0.02/fort.11 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls48.beta0.40.m0.02/fort.11
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls48.beta0.40.m0.02/fort.11 peta4_RUNS2_L16 fort.11
 
@@ -8905,8 +9876,14 @@ all:  ./all_dirs/Ls32.beta0.30.m0.01/fort.11.total.1\
  ./sunbird_thirring_runs3_L12/Ls48.beta0.55.m0.05/fort.11 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.55.m0.05/fort.11
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.55.m0.05/fort.11 sunbird_thirring_runs3_L12 fort.11
 
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.44.m0.05/fort.11 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.44.m0.05/fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.44.m0.05/fort.11 sunbird_thirring_runs3_L12 fort.11
+
  ./peta4_RUNS2_L16/Ls48.beta0.38.m0.05/fort.100 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls48.beta0.38.m0.05/fort.100
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls48.beta0.38.m0.05/fort.100 peta4_RUNS2_L16 fort.100
+
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.42.m0.05/fort.100 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.42.m0.05/fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.42.m0.05/fort.100 sunbird_thirring_runs3_L12 fort.100
 
  ./sunbird_thirring_runs3_L12/Ls48.beta0.30.m0.04/fort.200 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.30.m0.04/fort.200
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.30.m0.04/fort.200 sunbird_thirring_runs3_L12 fort.200
@@ -8923,8 +9900,20 @@ all:  ./all_dirs/Ls32.beta0.30.m0.01/fort.11.total.1\
  ./peta4_RUNS2_L16/Ls32.beta0.44.m0.02/fort.100 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls32.beta0.44.m0.02/fort.100
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls32.beta0.44.m0.02/fort.100 peta4_RUNS2_L16 fort.100
 
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.42.m0.02/fort.100 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.42.m0.02/fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.42.m0.02/fort.100 sunbird_thirring_runs3_L12 fort.100
+
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.32.m0.04/fort.200 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.32.m0.04/fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.32.m0.04/fort.200 sunbird_thirring_runs3_L12 fort.200
+
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.42.m0.04/fort.100 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.42.m0.04/fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.42.m0.04/fort.100 sunbird_thirring_runs3_L12 fort.100
+
  ./peta4_RUNS2_L16/Ls40.beta0.32.m0.02/fort.200 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls40.beta0.32.m0.02/fort.200
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls40.beta0.32.m0.02/fort.200 peta4_RUNS2_L16 fort.200
+
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.44.m0.03/fort.200 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.44.m0.03/fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.44.m0.03/fort.200 sunbird_thirring_runs3_L12 fort.200
 
  ./sunbird_thirring_runs3_L12/Ls48.beta0.34.m0.03/fort.100 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.34.m0.03/fort.100
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.34.m0.03/fort.100 sunbird_thirring_runs3_L12 fort.100
@@ -8935,6 +9924,9 @@ all:  ./all_dirs/Ls32.beta0.30.m0.01/fort.11.total.1\
  ./peta4_RUNS2_L16/Ls40.beta0.44.m0.05/fort.11 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls40.beta0.44.m0.05/fort.11
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls40.beta0.44.m0.05/fort.11 peta4_RUNS2_L16 fort.11
 
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.34.m0.03/fort.11 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.34.m0.03/fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.34.m0.03/fort.11 sunbird_thirring_runs3_L12 fort.11
+
  ./peta4_RUNS2_L16/Ls48.beta0.36.m0.05/fort.100 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls48.beta0.36.m0.05/fort.100
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls48.beta0.36.m0.05/fort.100 peta4_RUNS2_L16 fort.100
 
@@ -8943,6 +9935,9 @@ all:  ./all_dirs/Ls32.beta0.30.m0.01/fort.11.total.1\
 
  ./peta4_RUNS2_L16/Ls32.beta0.48.m0.05/fort.11 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls32.beta0.48.m0.05/fort.11
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls32.beta0.48.m0.05/fort.11 peta4_RUNS2_L16 fort.11
+
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.42.m0.02/fort.11 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.42.m0.02/fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.42.m0.02/fort.11 sunbird_thirring_runs3_L12 fort.11
 
  ./peta4_RUNS2_L16/Ls48.beta0.42.m0.05/fort.11 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls48.beta0.42.m0.05/fort.11
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls48.beta0.42.m0.05/fort.11 peta4_RUNS2_L16 fort.11
@@ -8977,6 +9972,9 @@ all:  ./all_dirs/Ls32.beta0.30.m0.01/fort.11.total.1\
  ./sunbird_thirring_runs3_L12/Ls40.beta0.38.m0.05/fort.200 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls40.beta0.38.m0.05/fort.200
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls40.beta0.38.m0.05/fort.200 sunbird_thirring_runs3_L12 fort.200
 
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.44.m0.01/fort.100 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.44.m0.01/fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.44.m0.01/fort.100 sunbird_thirring_runs3_L12 fort.100
+
  ./peta4_RUNS2_L16/Ls32.beta0.42.m0.04/fort.200 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls32.beta0.42.m0.04/fort.200
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls32.beta0.42.m0.04/fort.200 peta4_RUNS2_L16 fort.200
 
@@ -8986,6 +9984,9 @@ all:  ./all_dirs/Ls32.beta0.30.m0.01/fort.11.total.1\
  ./sunbird_thirring_runs3_L12/Ls48.beta0.44.m0.04/fort.200 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.44.m0.04/fort.200
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.44.m0.04/fort.200 sunbird_thirring_runs3_L12 fort.200
 
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.42.m0.05/fort.200 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.42.m0.05/fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.42.m0.05/fort.200 sunbird_thirring_runs3_L12 fort.200
+
  ./peta4_RUNS2_L16/Ls32.beta0.50.m0.03/fort.100 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls32.beta0.50.m0.03/fort.100
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls32.beta0.50.m0.03/fort.100 peta4_RUNS2_L16 fort.100
 
@@ -8994,6 +9995,12 @@ all:  ./all_dirs/Ls32.beta0.30.m0.01/fort.11.total.1\
 
  ./peta4_RUNS2_L16/Ls32.beta0.30.m0.04/fort.100 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls32.beta0.30.m0.04/fort.100
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls32.beta0.30.m0.04/fort.100 peta4_RUNS2_L16 fort.100
+
+ ./sunbird_thirring_runs3_L12/Ls40.beta0.34.m0.01/fort.200 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls40.beta0.34.m0.01/fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls40.beta0.34.m0.01/fort.200 sunbird_thirring_runs3_L12 fort.200
+
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.42.m0.04/fort.200 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.42.m0.04/fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.42.m0.04/fort.200 sunbird_thirring_runs3_L12 fort.200
 
  ./peta4_RUNS2_L16/Ls48.beta0.46.m0.05/fort.11 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls48.beta0.46.m0.05/fort.11
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls48.beta0.46.m0.05/fort.11 peta4_RUNS2_L16 fort.11
@@ -9013,8 +10020,17 @@ all:  ./all_dirs/Ls32.beta0.30.m0.01/fort.11.total.1\
  ./peta4_RUNS2_L16/Ls48.beta0.44.m0.05/fort.100 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls48.beta0.44.m0.05/fort.100
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls48.beta0.44.m0.05/fort.100 peta4_RUNS2_L16 fort.100
 
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.38.m0.03/fort.200 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.38.m0.03/fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.38.m0.03/fort.200 sunbird_thirring_runs3_L12 fort.200
+
  ./peta4_RUNS2_L16/Ls48.beta0.52.m0.01/fort.200 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls48.beta0.52.m0.01/fort.200
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls48.beta0.52.m0.01/fort.200 peta4_RUNS2_L16 fort.200
+
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.38.m0.02/fort.11 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.38.m0.02/fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.38.m0.02/fort.11 sunbird_thirring_runs3_L12 fort.11
+
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.46.m0.02/fort.200 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.46.m0.02/fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.46.m0.02/fort.200 sunbird_thirring_runs3_L12 fort.200
 
  ./peta4_RUNS2_L16/Ls40.beta0.46.m0.02/fort.200 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls40.beta0.46.m0.02/fort.200
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls40.beta0.46.m0.02/fort.200 peta4_RUNS2_L16 fort.200
@@ -9028,11 +10044,20 @@ all:  ./all_dirs/Ls32.beta0.30.m0.01/fort.11.total.1\
  ./peta4_RUNS2_L16/Ls40.beta0.46.m0.05/fort.200 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls40.beta0.46.m0.05/fort.200
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls40.beta0.46.m0.05/fort.200 peta4_RUNS2_L16 fort.200
 
+ ./sunbird_thirring_runs3_L12/Ls48.beta0.38.m0.01/fort.11 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.38.m0.01/fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.38.m0.01/fort.11 sunbird_thirring_runs3_L12 fort.11
+
+ ./sunbird_thirring_runs3_L12/Ls48.beta0.42.m0.05/fort.11 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.42.m0.05/fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.42.m0.05/fort.11 sunbird_thirring_runs3_L12 fort.11
+
  ./sunbird_thirring_runs3_L12/Ls48.beta0.30.m0.03/fort.200 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.30.m0.03/fort.200
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.30.m0.03/fort.200 sunbird_thirring_runs3_L12 fort.200
 
  ./peta4_RUNS2_L16/Ls48.beta0.30.m0.03/fort.100 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls48.beta0.30.m0.03/fort.100
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls48.beta0.30.m0.03/fort.100 peta4_RUNS2_L16 fort.100
+
+ ./sunbird_thirring_runs3_L12/Ls48.beta0.36.m0.04/fort.11 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.36.m0.04/fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.36.m0.04/fort.11 sunbird_thirring_runs3_L12 fort.11
 
  ./peta4_RUNS2_L16/Ls40.beta0.40.m0.01/fort.11 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls40.beta0.40.m0.01/fort.11
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls40.beta0.40.m0.01/fort.11 peta4_RUNS2_L16 fort.11
@@ -9040,14 +10065,23 @@ all:  ./all_dirs/Ls32.beta0.30.m0.01/fort.11.total.1\
  ./peta4_RUNS2_L16/Ls40.beta0.44.m0.04/fort.200 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls40.beta0.44.m0.04/fort.200
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls40.beta0.44.m0.04/fort.200 peta4_RUNS2_L16 fort.200
 
+ ./sunbird_thirring_runs3_L12/Ls48.beta0.38.m0.05/fort.200 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.38.m0.05/fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.38.m0.05/fort.200 sunbird_thirring_runs3_L12 fort.200
+
  ./peta4_RUNS2_L16/Ls48.beta0.32.m0.05/fort.11 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls48.beta0.32.m0.05/fort.11
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls48.beta0.32.m0.05/fort.11 peta4_RUNS2_L16 fort.11
 
  ./peta4_RUNS2_L16/Ls40.beta0.46.m0.03/fort.100 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls40.beta0.46.m0.03/fort.100
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls40.beta0.46.m0.03/fort.100 peta4_RUNS2_L16 fort.100
 
+ ./sunbird_thirring_runs3_L12/Ls48.beta0.42.m0.02/fort.200 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.42.m0.02/fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.42.m0.02/fort.200 sunbird_thirring_runs3_L12 fort.200
+
  ./peta4_RUNS2_L16/Ls40.beta0.30.m0.03/fort.200 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls40.beta0.30.m0.03/fort.200
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls40.beta0.30.m0.03/fort.200 peta4_RUNS2_L16 fort.200
+
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.55.m0.01/fort.200 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.55.m0.01/fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.55.m0.01/fort.200 sunbird_thirring_runs3_L12 fort.200
 
  ./peta4_RUNS2_L16/Ls32.beta0.34.m0.03/fort.11 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls32.beta0.34.m0.03/fort.11
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls32.beta0.34.m0.03/fort.11 peta4_RUNS2_L16 fort.11
@@ -9057,6 +10091,12 @@ all:  ./all_dirs/Ls32.beta0.30.m0.01/fort.11.total.1\
 
  ./peta4_RUNS2_L16/Ls40.beta0.42.m0.02/fort.200 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls40.beta0.42.m0.02/fort.200
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls40.beta0.42.m0.02/fort.200 peta4_RUNS2_L16 fort.200
+
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.46.m0.03/fort.11 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.46.m0.03/fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.46.m0.03/fort.11 sunbird_thirring_runs3_L12 fort.11
+
+ ./sunbird_thirring_runs3_L12/Ls48.beta0.42.m0.05/fort.200 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.42.m0.05/fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.42.m0.05/fort.200 sunbird_thirring_runs3_L12 fort.200
 
  ./peta4_RUNS2_L16/Ls32.beta0.42.m0.03/fort.200 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls32.beta0.42.m0.03/fort.200
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls32.beta0.42.m0.03/fort.200 peta4_RUNS2_L16 fort.200
@@ -9076,11 +10116,23 @@ all:  ./all_dirs/Ls32.beta0.30.m0.01/fort.11.total.1\
  ./peta4_RUNS2_L16/Ls40.beta0.48.m0.04/fort.200 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls40.beta0.48.m0.04/fort.200
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls40.beta0.48.m0.04/fort.200 peta4_RUNS2_L16 fort.200
 
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.32.m0.04/fort.100 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.32.m0.04/fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.32.m0.04/fort.100 sunbird_thirring_runs3_L12 fort.100
+
  ./peta4_RUNS2_L16/Ls32.beta0.36.m0.04/fort.11 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls32.beta0.36.m0.04/fort.11
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls32.beta0.36.m0.04/fort.11 peta4_RUNS2_L16 fort.11
 
  ./peta4_RUNS2_L16/Ls32.beta0.48.m0.01/fort.200 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls32.beta0.48.m0.01/fort.200
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls32.beta0.48.m0.01/fort.200 peta4_RUNS2_L16 fort.200
+
+ ./sunbird_thirring_runs3_L12/Ls48.beta0.36.m0.02/fort.100 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.36.m0.02/fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.36.m0.02/fort.100 sunbird_thirring_runs3_L12 fort.100
+
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.38.m0.01/fort.11 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.38.m0.01/fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.38.m0.01/fort.11 sunbird_thirring_runs3_L12 fort.11
+
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.32.m0.02/fort.11 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.32.m0.02/fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.32.m0.02/fort.11 sunbird_thirring_runs3_L12 fort.11
 
  ./peta4_RUNS2_L16/Ls40.beta0.36.m0.01/fort.200 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls40.beta0.36.m0.01/fort.200
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls40.beta0.36.m0.01/fort.200 peta4_RUNS2_L16 fort.200
@@ -9090,6 +10142,9 @@ all:  ./all_dirs/Ls32.beta0.30.m0.01/fort.11.total.1\
 
  ./peta4_RUNS2_L16/Ls48.beta0.38.m0.03/fort.200 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls48.beta0.38.m0.03/fort.200
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls48.beta0.38.m0.03/fort.200 peta4_RUNS2_L16 fort.200
+
+ ./sunbird_thirring_runs3_L12/Ls48.beta0.40.m0.01/fort.11 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.40.m0.01/fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.40.m0.01/fort.11 sunbird_thirring_runs3_L12 fort.11
 
  ./peta4_RUNS2_L16/Ls40.beta0.32.m0.03/fort.100 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls40.beta0.32.m0.03/fort.100
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls40.beta0.32.m0.03/fort.100 peta4_RUNS2_L16 fort.100
@@ -9121,11 +10176,32 @@ all:  ./all_dirs/Ls32.beta0.30.m0.01/fort.11.total.1\
  ./sunbird_thirring_runs3_L12/Ls40.beta0.40.m0.05/fort.11 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls40.beta0.40.m0.05/fort.11
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls40.beta0.40.m0.05/fort.11 sunbird_thirring_runs3_L12 fort.11
 
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.36.m0.05/fort.100 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.36.m0.05/fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.36.m0.05/fort.100 sunbird_thirring_runs3_L12 fort.100
+
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.44.m0.05/fort.100 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.44.m0.05/fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.44.m0.05/fort.100 sunbird_thirring_runs3_L12 fort.100
+
  ./peta4_RUNS2_L16/Ls40.beta0.46.m0.01/fort.11 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls40.beta0.46.m0.01/fort.11
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls40.beta0.46.m0.01/fort.11 peta4_RUNS2_L16 fort.11
 
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.42.m0.03/fort.11 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.42.m0.03/fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.42.m0.03/fort.11 sunbird_thirring_runs3_L12 fort.11
+
+ ./sunbird_thirring_runs3_L12/Ls48.beta0.42.m0.03/fort.11 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.42.m0.03/fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.42.m0.03/fort.11 sunbird_thirring_runs3_L12 fort.11
+
  ./peta4_RUNS2_L16/Ls40.beta0.32.m0.05/fort.100 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls40.beta0.32.m0.05/fort.100
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls40.beta0.32.m0.05/fort.100 peta4_RUNS2_L16 fort.100
+
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.30.m0.04/fort.200 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.30.m0.04/fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.30.m0.04/fort.200 sunbird_thirring_runs3_L12 fort.200
+
+ ./sunbird_thirring_runs3_L12/Ls40.beta0.34.m0.03/fort.100 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls40.beta0.34.m0.03/fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls40.beta0.34.m0.03/fort.100 sunbird_thirring_runs3_L12 fort.100
+
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.55.m0.01/fort.11 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.55.m0.01/fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.55.m0.01/fort.11 sunbird_thirring_runs3_L12 fort.11
 
  ./sunbird_thirring_runs3_L12/Ls40.beta0.44.m0.03/fort.200 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls40.beta0.44.m0.03/fort.200
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls40.beta0.44.m0.03/fort.200 sunbird_thirring_runs3_L12 fort.200
@@ -9133,11 +10209,20 @@ all:  ./all_dirs/Ls32.beta0.30.m0.01/fort.11.total.1\
  ./sunbird_thirring_runs3_L12/Ls48.beta0.55.m0.02/fort.100 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.55.m0.02/fort.100
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.55.m0.02/fort.100 sunbird_thirring_runs3_L12 fort.100
 
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.34.m0.05/fort.200 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.34.m0.05/fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.34.m0.05/fort.200 sunbird_thirring_runs3_L12 fort.200
+
  ./peta4_RUNS2_L16/Ls32.beta0.40.m0.03/fort.11 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls32.beta0.40.m0.03/fort.11
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls32.beta0.40.m0.03/fort.11 peta4_RUNS2_L16 fort.11
 
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.42.m0.04/fort.11 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.42.m0.04/fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.42.m0.04/fort.11 sunbird_thirring_runs3_L12 fort.11
+
  ./peta4_RUNS2_L16/Ls48.beta0.30.m0.02/fort.200 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls48.beta0.30.m0.02/fort.200
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls48.beta0.30.m0.02/fort.200 peta4_RUNS2_L16 fort.200
+
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.40.m0.02/fort.200 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.40.m0.02/fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.40.m0.02/fort.200 sunbird_thirring_runs3_L12 fort.200
 
  ./peta4_RUNS2_L16/Ls48.beta0.40.m0.01/fort.11 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls48.beta0.40.m0.01/fort.11
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls48.beta0.40.m0.01/fort.11 peta4_RUNS2_L16 fort.11
@@ -9145,8 +10230,17 @@ all:  ./all_dirs/Ls32.beta0.30.m0.01/fort.11.total.1\
  ./sunbird_thirring_runs3_L12/Ls48.beta0.46.m0.05/fort.11 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.46.m0.05/fort.11
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.46.m0.05/fort.11 sunbird_thirring_runs3_L12 fort.11
 
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.30.m0.04/fort.100 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.30.m0.04/fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.30.m0.04/fort.100 sunbird_thirring_runs3_L12 fort.100
+
  ./peta4_RUNS2_L16/Ls40.beta0.52.m0.01/fort.200 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls40.beta0.52.m0.01/fort.200
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls40.beta0.52.m0.01/fort.200 peta4_RUNS2_L16 fort.200
+
+ ./sunbird_thirring_runs3_L12/Ls48.beta0.40.m0.05/fort.11 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.40.m0.05/fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.40.m0.05/fort.11 sunbird_thirring_runs3_L12 fort.11
+
+ ./sunbird_thirring_runs3_L12/Ls48.beta0.38.m0.05/fort.11 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.38.m0.05/fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.38.m0.05/fort.11 sunbird_thirring_runs3_L12 fort.11
 
  ./peta4_RUNS2_L16/Ls32.beta0.42.m0.01/fort.100 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls32.beta0.42.m0.01/fort.100
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls32.beta0.42.m0.01/fort.100 peta4_RUNS2_L16 fort.100
@@ -9184,6 +10278,9 @@ all:  ./all_dirs/Ls32.beta0.30.m0.01/fort.11.total.1\
  ./peta4_RUNS2_L16/Ls40.beta0.36.m0.03/fort.200 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls40.beta0.36.m0.03/fort.200
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls40.beta0.36.m0.03/fort.200 peta4_RUNS2_L16 fort.200
 
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.46.m0.01/fort.100 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.46.m0.01/fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.46.m0.01/fort.100 sunbird_thirring_runs3_L12 fort.100
+
  ./peta4_RUNS2_L16/Ls32.beta0.46.m0.02/fort.100 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls32.beta0.46.m0.02/fort.100
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls32.beta0.46.m0.02/fort.100 peta4_RUNS2_L16 fort.100
 
@@ -9199,8 +10296,14 @@ all:  ./all_dirs/Ls32.beta0.30.m0.01/fort.11.total.1\
  ./peta4_RUNS2_L16/Ls32.beta0.42.m0.04/fort.100 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls32.beta0.42.m0.04/fort.100
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls32.beta0.42.m0.04/fort.100 peta4_RUNS2_L16 fort.100
 
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.34.m0.03/fort.100 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.34.m0.03/fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.34.m0.03/fort.100 sunbird_thirring_runs3_L12 fort.100
+
  ./sunbird_thirring_runs3_L12/Ls40.beta0.40.m0.03/fort.11 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls40.beta0.40.m0.03/fort.11
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls40.beta0.40.m0.03/fort.11 sunbird_thirring_runs3_L12 fort.11
+
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.40.m0.04/fort.200 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.40.m0.04/fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.40.m0.04/fort.200 sunbird_thirring_runs3_L12 fort.200
 
  ./sunbird_thirring_runs3_L12/Ls48.beta0.30.m0.03/fort.100 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.30.m0.03/fort.100
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.30.m0.03/fort.100 sunbird_thirring_runs3_L12 fort.100
@@ -9213,6 +10316,9 @@ all:  ./all_dirs/Ls32.beta0.30.m0.01/fort.11.total.1\
 
  ./peta4_RUNS2_L16/Ls40.beta0.30.m0.05/fort.11 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls40.beta0.30.m0.05/fort.11
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls40.beta0.30.m0.05/fort.11 peta4_RUNS2_L16 fort.11
+
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.40.m0.01/fort.200 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.40.m0.01/fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.40.m0.01/fort.200 sunbird_thirring_runs3_L12 fort.200
 
  ./peta4_RUNS2_L16/Ls48.beta0.40.m0.03/fort.11 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls48.beta0.40.m0.03/fort.11
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls48.beta0.40.m0.03/fort.11 peta4_RUNS2_L16 fort.11
@@ -9250,6 +10356,9 @@ all:  ./all_dirs/Ls32.beta0.30.m0.01/fort.11.total.1\
  ./sunbird_thirring_runs3_L12/Ls48.beta0.34.m0.01/fort.200 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.34.m0.01/fort.200
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.34.m0.01/fort.200 sunbird_thirring_runs3_L12 fort.200
 
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.55.m0.03/fort.200 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.55.m0.03/fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.55.m0.03/fort.200 sunbird_thirring_runs3_L12 fort.200
+
  ./peta4_RUNS2_L16/Ls48.beta0.44.m0.01/fort.200 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls48.beta0.44.m0.01/fort.200
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls48.beta0.44.m0.01/fort.200 peta4_RUNS2_L16 fort.200
 
@@ -9262,11 +10371,23 @@ all:  ./all_dirs/Ls32.beta0.30.m0.01/fort.11.total.1\
  ./peta4_RUNS2_L16/Ls48.beta0.52.m0.03/fort.100 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls48.beta0.52.m0.03/fort.100
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls48.beta0.52.m0.03/fort.100 peta4_RUNS2_L16 fort.100
 
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.32.m0.05/fort.11 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.32.m0.05/fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.32.m0.05/fort.11 sunbird_thirring_runs3_L12 fort.11
+
  ./peta4_RUNS2_L16/Ls48.beta0.52.m0.04/fort.100 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls48.beta0.52.m0.04/fort.100
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls48.beta0.52.m0.04/fort.100 peta4_RUNS2_L16 fort.100
 
  ./peta4_RUNS2_L16/Ls48.beta0.40.m0.03/fort.100 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls48.beta0.40.m0.03/fort.100
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls48.beta0.40.m0.03/fort.100 peta4_RUNS2_L16 fort.100
+
+ ./sunbird_thirring_runs3_L12/Ls48.beta0.42.m0.01/fort.200 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.42.m0.01/fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.42.m0.01/fort.200 sunbird_thirring_runs3_L12 fort.200
+
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.55.m0.04/fort.11 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.55.m0.04/fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.55.m0.04/fort.11 sunbird_thirring_runs3_L12 fort.11
+
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.34.m0.01/fort.11 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.34.m0.01/fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.34.m0.01/fort.11 sunbird_thirring_runs3_L12 fort.11
 
  ./peta4_RUNS2_L16/Ls32.beta0.36.m0.03/fort.11 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls32.beta0.36.m0.03/fort.11
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls32.beta0.36.m0.03/fort.11 peta4_RUNS2_L16 fort.11
@@ -9280,8 +10401,14 @@ all:  ./all_dirs/Ls32.beta0.30.m0.01/fort.11.total.1\
  ./sunbird_thirring_runs3_L12/Ls40.beta0.36.m0.03/fort.200 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls40.beta0.36.m0.03/fort.200
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls40.beta0.36.m0.03/fort.200 sunbird_thirring_runs3_L12 fort.200
 
+ ./sunbird_thirring_runs3_L12/Ls40.beta0.32.m0.03/fort.200 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls40.beta0.32.m0.03/fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls40.beta0.32.m0.03/fort.200 sunbird_thirring_runs3_L12 fort.200
+
  ./sunbird_thirring_runs3_L12/Ls40.beta0.55.m0.05/fort.11 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls40.beta0.55.m0.05/fort.11
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls40.beta0.55.m0.05/fort.11 sunbird_thirring_runs3_L12 fort.11
+
+ ./sunbird_thirring_runs3_L12/Ls40.beta0.32.m0.04/fort.200 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls40.beta0.32.m0.04/fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls40.beta0.32.m0.04/fort.200 sunbird_thirring_runs3_L12 fort.200
 
  ./sunbird_thirring_runs3_L12/Ls48.beta0.32.m0.02/fort.100 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.32.m0.02/fort.100
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.32.m0.02/fort.100 sunbird_thirring_runs3_L12 fort.100
@@ -9298,11 +10425,23 @@ all:  ./all_dirs/Ls32.beta0.30.m0.01/fort.11.total.1\
  ./peta4_RUNS2_L16/Ls48.beta0.38.m0.05/fort.200 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls48.beta0.38.m0.05/fort.200
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls48.beta0.38.m0.05/fort.200 peta4_RUNS2_L16 fort.200
 
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.38.m0.01/fort.200 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.38.m0.01/fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.38.m0.01/fort.200 sunbird_thirring_runs3_L12 fort.200
+
+ ./sunbird_thirring_runs3_L12/Ls40.beta0.32.m0.05/fort.100 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls40.beta0.32.m0.05/fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls40.beta0.32.m0.05/fort.100 sunbird_thirring_runs3_L12 fort.100
+
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.40.m0.04/fort.100 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.40.m0.04/fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.40.m0.04/fort.100 sunbird_thirring_runs3_L12 fort.100
+
  ./peta4_RUNS2_L16/Ls32.beta0.46.m0.02/fort.11 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls32.beta0.46.m0.02/fort.11
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls32.beta0.46.m0.02/fort.11 peta4_RUNS2_L16 fort.11
 
  ./peta4_RUNS2_L16/Ls40.beta0.40.m0.01/fort.200 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls40.beta0.40.m0.01/fort.200
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls40.beta0.40.m0.01/fort.200 peta4_RUNS2_L16 fort.200
+
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.55.m0.04/fort.200 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.55.m0.04/fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.55.m0.04/fort.200 sunbird_thirring_runs3_L12 fort.200
 
  ./peta4_RUNS2_L16/Ls32.beta0.30.m0.03/fort.200 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls32.beta0.30.m0.03/fort.200
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls32.beta0.30.m0.03/fort.200 peta4_RUNS2_L16 fort.200
@@ -9328,8 +10467,14 @@ all:  ./all_dirs/Ls32.beta0.30.m0.01/fort.11.total.1\
  ./peta4_RUNS2_L16/Ls48.beta0.32.m0.05/fort.200 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls48.beta0.32.m0.05/fort.200
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls48.beta0.32.m0.05/fort.200 peta4_RUNS2_L16 fort.200
 
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.36.m0.02/fort.100 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.36.m0.02/fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.36.m0.02/fort.100 sunbird_thirring_runs3_L12 fort.100
+
  ./sunbird_thirring_runs3_L12/Ls40.beta0.55.m0.03/fort.200 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls40.beta0.55.m0.03/fort.200
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls40.beta0.55.m0.03/fort.200 sunbird_thirring_runs3_L12 fort.200
+
+ ./sunbird_thirring_runs3_L12/Ls40.beta0.32.m0.05/fort.200 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls40.beta0.32.m0.05/fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls40.beta0.32.m0.05/fort.200 sunbird_thirring_runs3_L12 fort.200
 
  ./peta4_RUNS2_L16/Ls48.beta0.42.m0.04/fort.200 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls48.beta0.42.m0.04/fort.200
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls48.beta0.42.m0.04/fort.200 peta4_RUNS2_L16 fort.200
@@ -9337,8 +10482,14 @@ all:  ./all_dirs/Ls32.beta0.30.m0.01/fort.11.total.1\
  ./sunbird_thirring_runs3_L12/Ls40.beta0.42.m0.03/fort.11 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls40.beta0.42.m0.03/fort.11
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls40.beta0.42.m0.03/fort.11 sunbird_thirring_runs3_L12 fort.11
 
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.46.m0.05/fort.11 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.46.m0.05/fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.46.m0.05/fort.11 sunbird_thirring_runs3_L12 fort.11
+
  ./peta4_RUNS2_L16/Ls40.beta0.36.m0.05/fort.200 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls40.beta0.36.m0.05/fort.200
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls40.beta0.36.m0.05/fort.200 peta4_RUNS2_L16 fort.200
+
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.32.m0.05/fort.200 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.32.m0.05/fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.32.m0.05/fort.200 sunbird_thirring_runs3_L12 fort.200
 
  ./sunbird_thirring_runs3_L12/Ls48.beta0.44.m0.01/fort.200 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.44.m0.01/fort.200
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.44.m0.01/fort.200 sunbird_thirring_runs3_L12 fort.200
@@ -9369,6 +10520,12 @@ all:  ./all_dirs/Ls32.beta0.30.m0.01/fort.11.total.1\
 
  ./peta4_RUNS2_L16/Ls40.beta0.38.m0.04/fort.200 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls40.beta0.38.m0.04/fort.200
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls40.beta0.38.m0.04/fort.200 peta4_RUNS2_L16 fort.200
+
+ ./sunbird_thirring_runs3_L12/Ls48.beta0.40.m0.05/fort.200 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.40.m0.05/fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.40.m0.05/fort.200 sunbird_thirring_runs3_L12 fort.200
+
+ ./sunbird_thirring_runs3_L12/Ls48.beta0.38.m0.01/fort.200 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.38.m0.01/fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.38.m0.01/fort.200 sunbird_thirring_runs3_L12 fort.200
 
  ./peta4_RUNS2_L16/Ls32.beta0.42.m0.05/fort.200 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls32.beta0.42.m0.05/fort.200
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls32.beta0.42.m0.05/fort.200 peta4_RUNS2_L16 fort.200
@@ -9406,8 +10563,14 @@ all:  ./all_dirs/Ls32.beta0.30.m0.01/fort.11.total.1\
  ./peta4_RUNS2_L16/Ls48.beta0.30.m0.04/fort.11 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls48.beta0.30.m0.04/fort.11
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls48.beta0.30.m0.04/fort.11 peta4_RUNS2_L16 fort.11
 
+ ./sunbird_thirring_runs3_L12/Ls40.beta0.32.m0.04/fort.11 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls40.beta0.32.m0.04/fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls40.beta0.32.m0.04/fort.11 sunbird_thirring_runs3_L12 fort.11
+
  ./peta4_RUNS2_L16/Ls40.beta0.46.m0.04/fort.100 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls40.beta0.46.m0.04/fort.100
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls40.beta0.46.m0.04/fort.100 peta4_RUNS2_L16 fort.100
+
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.55.m0.04/fort.100 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.55.m0.04/fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.55.m0.04/fort.100 sunbird_thirring_runs3_L12 fort.100
 
  ./sunbird_thirring_runs3_L12/Ls40.beta0.44.m0.05/fort.11 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls40.beta0.44.m0.05/fort.11
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls40.beta0.44.m0.05/fort.11 sunbird_thirring_runs3_L12 fort.11
@@ -9439,6 +10602,9 @@ all:  ./all_dirs/Ls32.beta0.30.m0.01/fort.11.total.1\
  ./peta4_RUNS2_L16/Ls40.beta0.36.m0.05/fort.11 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls40.beta0.36.m0.05/fort.11
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls40.beta0.36.m0.05/fort.11 peta4_RUNS2_L16 fort.11
 
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.42.m0.01/fort.200 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.42.m0.01/fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.42.m0.01/fort.200 sunbird_thirring_runs3_L12 fort.200
+
  ./peta4_RUNS2_L16/Ls32.beta0.42.m0.03/fort.100 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls32.beta0.42.m0.03/fort.100
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls32.beta0.42.m0.03/fort.100 peta4_RUNS2_L16 fort.100
 
@@ -9466,8 +10632,23 @@ all:  ./all_dirs/Ls32.beta0.30.m0.01/fort.11.total.1\
  ./peta4_RUNS2_L16/Ls32.beta0.50.m0.04/fort.100 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls32.beta0.50.m0.04/fort.100
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls32.beta0.50.m0.04/fort.100 peta4_RUNS2_L16 fort.100
 
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.36.m0.05/fort.11 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.36.m0.05/fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.36.m0.05/fort.11 sunbird_thirring_runs3_L12 fort.11
+
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.34.m0.02/fort.11 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.34.m0.02/fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.34.m0.02/fort.11 sunbird_thirring_runs3_L12 fort.11
+
+ ./sunbird_thirring_runs3_L12/Ls40.beta0.34.m0.01/fort.11 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls40.beta0.34.m0.01/fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls40.beta0.34.m0.01/fort.11 sunbird_thirring_runs3_L12 fort.11
+
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.38.m0.04/fort.11 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.38.m0.04/fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.38.m0.04/fort.11 sunbird_thirring_runs3_L12 fort.11
+
  ./peta4_RUNS2_L16/Ls40.beta0.44.m0.04/fort.100 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls40.beta0.44.m0.04/fort.100
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls40.beta0.44.m0.04/fort.100 peta4_RUNS2_L16 fort.100
+
+ ./sunbird_thirring_runs3_L12/Ls48.beta0.40.m0.05/fort.100 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.40.m0.05/fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.40.m0.05/fort.100 sunbird_thirring_runs3_L12 fort.100
 
  ./peta4_RUNS2_L16/Ls48.beta0.40.m0.05/fort.11 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls48.beta0.40.m0.05/fort.11
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls48.beta0.40.m0.05/fort.11 peta4_RUNS2_L16 fort.11
@@ -9483,6 +10664,9 @@ all:  ./all_dirs/Ls32.beta0.30.m0.01/fort.11.total.1\
 
  ./peta4_RUNS2_L16/Ls32.beta0.40.m0.05/fort.11 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls32.beta0.40.m0.05/fort.11
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls32.beta0.40.m0.05/fort.11 peta4_RUNS2_L16 fort.11
+
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.46.m0.03/fort.100 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.46.m0.03/fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.46.m0.03/fort.100 sunbird_thirring_runs3_L12 fort.100
 
  ./sunbird_thirring_runs3_L12/Ls40.beta0.55.m0.04/fort.200 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls40.beta0.55.m0.04/fort.200
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls40.beta0.55.m0.04/fort.200 sunbird_thirring_runs3_L12 fort.200
@@ -9532,6 +10716,12 @@ all:  ./all_dirs/Ls32.beta0.30.m0.01/fort.11.total.1\
  ./sunbird_thirring_runs3_L12/Ls40.beta0.34.m0.04/fort.11 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls40.beta0.34.m0.04/fort.11
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls40.beta0.34.m0.04/fort.11 sunbird_thirring_runs3_L12 fort.11
 
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.34.m0.04/fort.11 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.34.m0.04/fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.34.m0.04/fort.11 sunbird_thirring_runs3_L12 fort.11
+
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.34.m0.01/fort.200 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.34.m0.01/fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.34.m0.01/fort.200 sunbird_thirring_runs3_L12 fort.200
+
  ./peta4_RUNS2_L16/Ls48.beta0.32.m0.01/fort.200 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls48.beta0.32.m0.01/fort.200
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls48.beta0.32.m0.01/fort.200 peta4_RUNS2_L16 fort.200
 
@@ -9550,8 +10740,17 @@ all:  ./all_dirs/Ls32.beta0.30.m0.01/fort.11.total.1\
  ./sunbird_thirring_runs3_L12/Ls48.beta0.44.m0.03/fort.200 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.44.m0.03/fort.200
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.44.m0.03/fort.200 sunbird_thirring_runs3_L12 fort.200
 
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.30.m0.03/fort.11 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.30.m0.03/fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.30.m0.03/fort.11 sunbird_thirring_runs3_L12 fort.11
+
  ./sunbird_thirring_runs3_L12/Ls48.beta0.32.m0.01/fort.11 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.32.m0.01/fort.11
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.32.m0.01/fort.11 sunbird_thirring_runs3_L12 fort.11
+
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.36.m0.02/fort.200 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.36.m0.02/fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.36.m0.02/fort.200 sunbird_thirring_runs3_L12 fort.200
+
+ ./sunbird_thirring_runs3_L12/Ls48.beta0.36.m0.05/fort.11 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.36.m0.05/fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.36.m0.05/fort.11 sunbird_thirring_runs3_L12 fort.11
 
  ./sunbird_thirring_runs3_L12/Ls48.beta0.55.m0.01/fort.200 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.55.m0.01/fort.200
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.55.m0.01/fort.200 sunbird_thirring_runs3_L12 fort.200
@@ -9564,6 +10763,12 @@ all:  ./all_dirs/Ls32.beta0.30.m0.01/fort.11.total.1\
 
  ./sunbird_thirring_runs3_L12/Ls48.beta0.55.m0.04/fort.100 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.55.m0.04/fort.100
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.55.m0.04/fort.100 sunbird_thirring_runs3_L12 fort.100
+
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.38.m0.03/fort.11 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.38.m0.03/fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.38.m0.03/fort.11 sunbird_thirring_runs3_L12 fort.11
+
+ ./sunbird_thirring_runs3_L12/Ls48.beta0.40.m0.02/fort.100 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.40.m0.02/fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.40.m0.02/fort.100 sunbird_thirring_runs3_L12 fort.100
 
  ./peta4_RUNS2_L16/Ls32.beta0.32.m0.01/fort.100 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls32.beta0.32.m0.01/fort.100
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls32.beta0.32.m0.01/fort.100 peta4_RUNS2_L16 fort.100
@@ -9589,11 +10794,17 @@ all:  ./all_dirs/Ls32.beta0.30.m0.01/fort.11.total.1\
  ./sunbird_thirring_runs3_L12/Ls48.beta0.34.m0.02/fort.11 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.34.m0.02/fort.11
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.34.m0.02/fort.11 sunbird_thirring_runs3_L12 fort.11
 
+ ./sunbird_thirring_runs3_L12/Ls40.beta0.32.m0.04/fort.100 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls40.beta0.32.m0.04/fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls40.beta0.32.m0.04/fort.100 sunbird_thirring_runs3_L12 fort.100
+
  ./peta4_RUNS2_L16/Ls32.beta0.50.m0.02/fort.100 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls32.beta0.50.m0.02/fort.100
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls32.beta0.50.m0.02/fort.100 peta4_RUNS2_L16 fort.100
 
  ./peta4_RUNS2_L16/Ls48.beta0.32.m0.01/fort.100 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls48.beta0.32.m0.01/fort.100
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls48.beta0.32.m0.01/fort.100 peta4_RUNS2_L16 fort.100
+
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.32.m0.03/fort.200 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.32.m0.03/fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.32.m0.03/fort.200 sunbird_thirring_runs3_L12 fort.200
 
  ./sunbird_thirring_runs3_L12/Ls40.beta0.36.m0.04/fort.11 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls40.beta0.36.m0.04/fort.11
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls40.beta0.36.m0.04/fort.11 sunbird_thirring_runs3_L12 fort.11
@@ -9631,11 +10842,17 @@ all:  ./all_dirs/Ls32.beta0.30.m0.01/fort.11.total.1\
  ./sunbird_thirring_runs3_L12/Ls40.beta0.46.m0.04/fort.100 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls40.beta0.46.m0.04/fort.100
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls40.beta0.46.m0.04/fort.100 sunbird_thirring_runs3_L12 fort.100
 
+ ./sunbird_thirring_runs3_L12/Ls48.beta0.42.m0.02/fort.100 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.42.m0.02/fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.42.m0.02/fort.100 sunbird_thirring_runs3_L12 fort.100
+
  ./peta4_RUNS2_L16/Ls40.beta0.48.m0.01/fort.11 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls40.beta0.48.m0.01/fort.11
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls40.beta0.48.m0.01/fort.11 peta4_RUNS2_L16 fort.11
 
  ./sunbird_thirring_runs3_L12/Ls48.beta0.32.m0.04/fort.100 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.32.m0.04/fort.100
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.32.m0.04/fort.100 sunbird_thirring_runs3_L12 fort.100
+
+ ./sunbird_thirring_runs3_L12/Ls48.beta0.38.m0.04/fort.11 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.38.m0.04/fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.38.m0.04/fort.11 sunbird_thirring_runs3_L12 fort.11
 
  ./peta4_RUNS2_L16/Ls48.beta0.42.m0.04/fort.100 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls48.beta0.42.m0.04/fort.100
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls48.beta0.42.m0.04/fort.100 peta4_RUNS2_L16 fort.100
@@ -9676,6 +10893,9 @@ all:  ./all_dirs/Ls32.beta0.30.m0.01/fort.11.total.1\
  ./peta4_RUNS2_L16/Ls40.beta0.48.m0.02/fort.11 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls40.beta0.48.m0.02/fort.11
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls40.beta0.48.m0.02/fort.11 peta4_RUNS2_L16 fort.11
 
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.42.m0.03/fort.200 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.42.m0.03/fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.42.m0.03/fort.200 sunbird_thirring_runs3_L12 fort.200
+
  ./peta4_RUNS2_L16/Ls48.beta0.34.m0.02/fort.11 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls48.beta0.34.m0.02/fort.11
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls48.beta0.34.m0.02/fort.11 peta4_RUNS2_L16 fort.11
 
@@ -9684,6 +10904,9 @@ all:  ./all_dirs/Ls32.beta0.30.m0.01/fort.11.total.1\
 
  ./peta4_RUNS2_L16/Ls48.beta0.50.m0.04/fort.200 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls48.beta0.50.m0.04/fort.200
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls48.beta0.50.m0.04/fort.200 peta4_RUNS2_L16 fort.200
+
+ ./sunbird_thirring_runs3_L12/Ls48.beta0.42.m0.01/fort.100 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.42.m0.01/fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.42.m0.01/fort.100 sunbird_thirring_runs3_L12 fort.100
 
  ./peta4_RUNS2_L16/Ls32.beta0.50.m0.04/fort.11 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls32.beta0.50.m0.04/fort.11
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls32.beta0.50.m0.04/fort.11 peta4_RUNS2_L16 fort.11
@@ -9697,20 +10920,35 @@ all:  ./all_dirs/Ls32.beta0.30.m0.01/fort.11.total.1\
  ./peta4_RUNS2_L16/Ls32.beta0.44.m0.02/fort.11 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls32.beta0.44.m0.02/fort.11
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls32.beta0.44.m0.02/fort.11 peta4_RUNS2_L16 fort.11
 
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.30.m0.05/fort.200 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.30.m0.05/fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.30.m0.05/fort.200 sunbird_thirring_runs3_L12 fort.200
+
  ./peta4_RUNS2_L16/Ls40.beta0.34.m0.05/fort.200 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls40.beta0.34.m0.05/fort.200
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls40.beta0.34.m0.05/fort.200 peta4_RUNS2_L16 fort.200
 
  ./peta4_RUNS2_L16/Ls32.beta0.36.m0.01/fort.100 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls32.beta0.36.m0.01/fort.100
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls32.beta0.36.m0.01/fort.100 peta4_RUNS2_L16 fort.100
 
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.46.m0.02/fort.11 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.46.m0.02/fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.46.m0.02/fort.11 sunbird_thirring_runs3_L12 fort.11
+
  ./peta4_RUNS2_L16/Ls32.beta0.32.m0.05/fort.11 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls32.beta0.32.m0.05/fort.11
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls32.beta0.32.m0.05/fort.11 peta4_RUNS2_L16 fort.11
+
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.30.m0.03/fort.100 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.30.m0.03/fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.30.m0.03/fort.100 sunbird_thirring_runs3_L12 fort.100
+
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.32.m0.05/fort.100 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.32.m0.05/fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.32.m0.05/fort.100 sunbird_thirring_runs3_L12 fort.100
 
  ./peta4_RUNS2_L16/Ls48.beta0.50.m0.03/fort.100 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls48.beta0.50.m0.03/fort.100
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls48.beta0.50.m0.03/fort.100 peta4_RUNS2_L16 fort.100
 
  ./peta4_RUNS2_L16/Ls48.beta0.44.m0.04/fort.11 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls48.beta0.44.m0.04/fort.11
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls48.beta0.44.m0.04/fort.11 peta4_RUNS2_L16 fort.11
+
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.40.m0.02/fort.100 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.40.m0.02/fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.40.m0.02/fort.100 sunbird_thirring_runs3_L12 fort.100
 
  ./peta4_RUNS2_L16/Ls40.beta0.32.m0.04/fort.11 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls40.beta0.32.m0.04/fort.11
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls40.beta0.32.m0.04/fort.11 peta4_RUNS2_L16 fort.11
@@ -9727,17 +10965,38 @@ all:  ./all_dirs/Ls32.beta0.30.m0.01/fort.11.total.1\
  ./peta4_RUNS2_L16/Ls48.beta0.44.m0.01/fort.100 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls48.beta0.44.m0.01/fort.100
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls48.beta0.44.m0.01/fort.100 peta4_RUNS2_L16 fort.100
 
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.38.m0.01/fort.100 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.38.m0.01/fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.38.m0.01/fort.100 sunbird_thirring_runs3_L12 fort.100
+
  ./peta4_RUNS2_L16/Ls32.beta0.46.m0.04/fort.200 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls32.beta0.46.m0.04/fort.200
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls32.beta0.46.m0.04/fort.200 peta4_RUNS2_L16 fort.200
+
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.44.m0.04/fort.100 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.44.m0.04/fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.44.m0.04/fort.100 sunbird_thirring_runs3_L12 fort.100
 
  ./sunbird_thirring_runs3_L12/Ls40.beta0.34.m0.04/fort.200 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls40.beta0.34.m0.04/fort.200
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls40.beta0.34.m0.04/fort.200 sunbird_thirring_runs3_L12 fort.200
 
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.44.m0.02/fort.100 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.44.m0.02/fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.44.m0.02/fort.100 sunbird_thirring_runs3_L12 fort.100
+
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.30.m0.05/fort.11 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.30.m0.05/fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.30.m0.05/fort.11 sunbird_thirring_runs3_L12 fort.11
+
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.42.m0.02/fort.200 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.42.m0.02/fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.42.m0.02/fort.200 sunbird_thirring_runs3_L12 fort.200
+
  ./peta4_RUNS2_L16/Ls40.beta0.52.m0.03/fort.200 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls40.beta0.52.m0.03/fort.200
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls40.beta0.52.m0.03/fort.200 peta4_RUNS2_L16 fort.200
 
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.40.m0.03/fort.11 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.40.m0.03/fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.40.m0.03/fort.11 sunbird_thirring_runs3_L12 fort.11
+
  ./peta4_RUNS2_L16/Ls48.beta0.52.m0.03/fort.200 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls48.beta0.52.m0.03/fort.200
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls48.beta0.52.m0.03/fort.200 peta4_RUNS2_L16 fort.200
+
+ ./sunbird_thirring_runs3_L12/Ls48.beta0.38.m0.04/fort.200 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.38.m0.04/fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.38.m0.04/fort.200 sunbird_thirring_runs3_L12 fort.200
 
  ./peta4_RUNS2_L16/Ls40.beta0.48.m0.01/fort.100 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls40.beta0.48.m0.01/fort.100
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls40.beta0.48.m0.01/fort.100 peta4_RUNS2_L16 fort.100
@@ -9766,8 +11025,14 @@ all:  ./all_dirs/Ls32.beta0.30.m0.01/fort.11.total.1\
  ./peta4_RUNS2_L16/Ls32.beta0.50.m0.01/fort.11 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls32.beta0.50.m0.01/fort.11
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls32.beta0.50.m0.01/fort.11 peta4_RUNS2_L16 fort.11
 
+ ./sunbird_thirring_runs3_L12/Ls48.beta0.40.m0.02/fort.200 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.40.m0.02/fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.40.m0.02/fort.200 sunbird_thirring_runs3_L12 fort.200
+
  ./peta4_RUNS2_L16/Ls40.beta0.40.m0.01/fort.100 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls40.beta0.40.m0.01/fort.100
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls40.beta0.40.m0.01/fort.100 peta4_RUNS2_L16 fort.100
+
+ ./sunbird_thirring_runs3_L12/Ls48.beta0.40.m0.04/fort.100 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.40.m0.04/fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.40.m0.04/fort.100 sunbird_thirring_runs3_L12 fort.100
 
  ./sunbird_thirring_runs3_L12/Ls40.beta0.42.m0.03/fort.200 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls40.beta0.42.m0.03/fort.200
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls40.beta0.42.m0.03/fort.200 sunbird_thirring_runs3_L12 fort.200
@@ -9795,6 +11060,9 @@ all:  ./all_dirs/Ls32.beta0.30.m0.01/fort.11.total.1\
 
  ./peta4_RUNS2_L16/Ls48.beta0.48.m0.04/fort.100 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls48.beta0.48.m0.04/fort.100
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls48.beta0.48.m0.04/fort.100 peta4_RUNS2_L16 fort.100
+
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.36.m0.03/fort.11 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.36.m0.03/fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.36.m0.03/fort.11 sunbird_thirring_runs3_L12 fort.11
 
  ./peta4_RUNS2_L16/Ls48.beta0.44.m0.01/fort.11 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls48.beta0.44.m0.01/fort.11
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls48.beta0.44.m0.01/fort.11 peta4_RUNS2_L16 fort.11
@@ -9847,6 +11115,12 @@ all:  ./all_dirs/Ls32.beta0.30.m0.01/fort.11.total.1\
  ./sunbird_thirring_runs3_L12/Ls40.beta0.42.m0.02/fort.11 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls40.beta0.42.m0.02/fort.11
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls40.beta0.42.m0.02/fort.11 sunbird_thirring_runs3_L12 fort.11
 
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.44.m0.03/fort.100 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.44.m0.03/fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.44.m0.03/fort.100 sunbird_thirring_runs3_L12 fort.100
+
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.46.m0.01/fort.11 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.46.m0.01/fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.46.m0.01/fort.11 sunbird_thirring_runs3_L12 fort.11
+
  ./peta4_RUNS2_L16/Ls32.beta0.34.m0.03/fort.200 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls32.beta0.34.m0.03/fort.200
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls32.beta0.34.m0.03/fort.200 peta4_RUNS2_L16 fort.200
 
@@ -9861,6 +11135,9 @@ all:  ./all_dirs/Ls32.beta0.30.m0.01/fort.11.total.1\
 
  ./peta4_RUNS2_L16/Ls48.beta0.50.m0.02/fort.11 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls48.beta0.50.m0.02/fort.11
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls48.beta0.50.m0.02/fort.11 peta4_RUNS2_L16 fort.11
+
+ ./sunbird_thirring_runs3_L12/Ls48.beta0.38.m0.03/fort.200 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.38.m0.03/fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.38.m0.03/fort.200 sunbird_thirring_runs3_L12 fort.200
 
  ./peta4_RUNS2_L16/Ls32.beta0.38.m0.03/fort.100 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls32.beta0.38.m0.03/fort.100
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls32.beta0.38.m0.03/fort.100 peta4_RUNS2_L16 fort.100
@@ -9880,6 +11157,12 @@ all:  ./all_dirs/Ls32.beta0.30.m0.01/fort.11.total.1\
  ./peta4_RUNS2_L16/Ls32.beta0.52.m0.04/fort.100 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls32.beta0.52.m0.04/fort.100
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls32.beta0.52.m0.04/fort.100 peta4_RUNS2_L16 fort.100
 
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.30.m0.03/fort.200 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.30.m0.03/fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.30.m0.03/fort.200 sunbird_thirring_runs3_L12 fort.200
+
+ ./sunbird_thirring_runs3_L12/Ls40.beta0.32.m0.01/fort.11 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls40.beta0.32.m0.01/fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls40.beta0.32.m0.01/fort.11 sunbird_thirring_runs3_L12 fort.11
+
  ./peta4_RUNS2_L16/Ls48.beta0.30.m0.02/fort.100 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls48.beta0.30.m0.02/fort.100
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls48.beta0.30.m0.02/fort.100 peta4_RUNS2_L16 fort.100
 
@@ -9897,6 +11180,9 @@ all:  ./all_dirs/Ls32.beta0.30.m0.01/fort.11.total.1\
 
  ./peta4_RUNS2_L16/Ls40.beta0.44.m0.01/fort.11 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls40.beta0.44.m0.01/fort.11
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls40.beta0.44.m0.01/fort.11 peta4_RUNS2_L16 fort.11
+
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.36.m0.03/fort.100 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.36.m0.03/fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.36.m0.03/fort.100 sunbird_thirring_runs3_L12 fort.100
 
  ./sunbird_thirring_runs3_L12/Ls40.beta0.46.m0.05/fort.11 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls40.beta0.46.m0.05/fort.11
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls40.beta0.46.m0.05/fort.11 sunbird_thirring_runs3_L12 fort.11
@@ -9925,6 +11211,9 @@ all:  ./all_dirs/Ls32.beta0.30.m0.01/fort.11.total.1\
  ./sunbird_thirring_runs3_L12/Ls40.beta0.44.m0.05/fort.200 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls40.beta0.44.m0.05/fort.200
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls40.beta0.44.m0.05/fort.200 sunbird_thirring_runs3_L12 fort.200
 
+ ./sunbird_thirring_runs3_L12/Ls48.beta0.36.m0.05/fort.100 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.36.m0.05/fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.36.m0.05/fort.100 sunbird_thirring_runs3_L12 fort.100
+
  ./peta4_RUNS2_L16/Ls32.beta0.46.m0.03/fort.200 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls32.beta0.46.m0.03/fort.200
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls32.beta0.46.m0.03/fort.200 peta4_RUNS2_L16 fort.200
 
@@ -9940,11 +11229,23 @@ all:  ./all_dirs/Ls32.beta0.30.m0.01/fort.11.total.1\
  ./sunbird_thirring_runs3_L12/Ls48.beta0.55.m0.05/fort.200 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.55.m0.05/fort.200
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.55.m0.05/fort.200 sunbird_thirring_runs3_L12 fort.200
 
+ ./sunbird_thirring_runs3_L12/Ls48.beta0.40.m0.01/fort.200 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.40.m0.01/fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.40.m0.01/fort.200 sunbird_thirring_runs3_L12 fort.200
+
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.32.m0.01/fort.11 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.32.m0.01/fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.32.m0.01/fort.11 sunbird_thirring_runs3_L12 fort.11
+
  ./peta4_RUNS2_L16/Ls40.beta0.52.m0.01/fort.11 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls40.beta0.52.m0.01/fort.11
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls40.beta0.52.m0.01/fort.11 peta4_RUNS2_L16 fort.11
 
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.34.m0.02/fort.100 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.34.m0.02/fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.34.m0.02/fort.100 sunbird_thirring_runs3_L12 fort.100
+
  ./peta4_RUNS2_L16/Ls40.beta0.44.m0.03/fort.11 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls40.beta0.44.m0.03/fort.11
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls40.beta0.44.m0.03/fort.11 peta4_RUNS2_L16 fort.11
+
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.40.m0.05/fort.200 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.40.m0.05/fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.40.m0.05/fort.200 sunbird_thirring_runs3_L12 fort.200
 
  ./sunbird_thirring_runs3_L12/Ls40.beta0.42.m0.05/fort.11 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls40.beta0.42.m0.05/fort.11
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls40.beta0.42.m0.05/fort.11 sunbird_thirring_runs3_L12 fort.11
@@ -9954,6 +11255,9 @@ all:  ./all_dirs/Ls32.beta0.30.m0.01/fort.11.total.1\
 
  ./peta4_RUNS2_L16/Ls32.beta0.30.m0.01/fort.200 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls32.beta0.30.m0.01/fort.200
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls32.beta0.30.m0.01/fort.200 peta4_RUNS2_L16 fort.200
+
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.30.m0.04/fort.11 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.30.m0.04/fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.30.m0.04/fort.11 sunbird_thirring_runs3_L12 fort.11
 
  ./peta4_RUNS2_L16/Ls40.beta0.32.m0.03/fort.11 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls40.beta0.32.m0.03/fort.11
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls40.beta0.32.m0.03/fort.11 peta4_RUNS2_L16 fort.11
@@ -9975,6 +11279,9 @@ all:  ./all_dirs/Ls32.beta0.30.m0.01/fort.11.total.1\
 
  ./sunbird_thirring_runs3_L12/Ls40.beta0.38.m0.02/fort.11 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls40.beta0.38.m0.02/fort.11
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls40.beta0.38.m0.02/fort.11 sunbird_thirring_runs3_L12 fort.11
+
+ ./sunbird_thirring_runs3_L12/Ls48.beta0.36.m0.02/fort.11 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.36.m0.02/fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.36.m0.02/fort.11 sunbird_thirring_runs3_L12 fort.11
 
  ./sunbird_thirring_runs3_L12/Ls40.beta0.34.m0.05/fort.100 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls40.beta0.34.m0.05/fort.100
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls40.beta0.34.m0.05/fort.100 sunbird_thirring_runs3_L12 fort.100
@@ -10003,8 +11310,17 @@ all:  ./all_dirs/Ls32.beta0.30.m0.01/fort.11.total.1\
  ./sunbird_thirring_runs3_L12/Ls48.beta0.32.m0.04/fort.11 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.32.m0.04/fort.11
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.32.m0.04/fort.11 sunbird_thirring_runs3_L12 fort.11
 
+ ./sunbird_thirring_runs3_L12/Ls48.beta0.38.m0.04/fort.100 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.38.m0.04/fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.38.m0.04/fort.100 sunbird_thirring_runs3_L12 fort.100
+
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.38.m0.05/fort.100 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.38.m0.05/fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.38.m0.05/fort.100 sunbird_thirring_runs3_L12 fort.100
+
  ./peta4_RUNS2_L16/Ls32.beta0.52.m0.01/fort.200 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls32.beta0.52.m0.01/fort.200
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls32.beta0.52.m0.01/fort.200 peta4_RUNS2_L16 fort.200
+
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.55.m0.05/fort.200 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.55.m0.05/fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.55.m0.05/fort.200 sunbird_thirring_runs3_L12 fort.200
 
  ./peta4_RUNS2_L16/Ls32.beta0.44.m0.01/fort.11 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls32.beta0.44.m0.01/fort.11
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls32.beta0.44.m0.01/fort.11 peta4_RUNS2_L16 fort.11
@@ -10018,6 +11334,9 @@ all:  ./all_dirs/Ls32.beta0.30.m0.01/fort.11.total.1\
  ./sunbird_thirring_runs3_L12/Ls40.beta0.55.m0.02/fort.200 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls40.beta0.55.m0.02/fort.200
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls40.beta0.55.m0.02/fort.200 sunbird_thirring_runs3_L12 fort.200
 
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.36.m0.04/fort.100 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.36.m0.04/fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.36.m0.04/fort.100 sunbird_thirring_runs3_L12 fort.100
+
  ./sunbird_thirring_runs3_L12/Ls40.beta0.42.m0.01/fort.100 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls40.beta0.42.m0.01/fort.100
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls40.beta0.42.m0.01/fort.100 sunbird_thirring_runs3_L12 fort.100
 
@@ -10030,14 +11349,23 @@ all:  ./all_dirs/Ls32.beta0.30.m0.01/fort.11.total.1\
  ./peta4_RUNS2_L16/Ls40.beta0.32.m0.03/fort.200 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls40.beta0.32.m0.03/fort.200
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls40.beta0.32.m0.03/fort.200 peta4_RUNS2_L16 fort.200
 
+ ./sunbird_thirring_runs3_L12/Ls48.beta0.42.m0.04/fort.11 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.42.m0.04/fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.42.m0.04/fort.11 sunbird_thirring_runs3_L12 fort.11
+
  ./peta4_RUNS2_L16/Ls48.beta0.44.m0.05/fort.200 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls48.beta0.44.m0.05/fort.200
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls48.beta0.44.m0.05/fort.200 peta4_RUNS2_L16 fort.200
 
  ./peta4_RUNS2_L16/Ls48.beta0.42.m0.01/fort.200 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls48.beta0.42.m0.01/fort.200
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls48.beta0.42.m0.01/fort.200 peta4_RUNS2_L16 fort.200
 
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.44.m0.01/fort.200 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.44.m0.01/fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.44.m0.01/fort.200 sunbird_thirring_runs3_L12 fort.200
+
  ./peta4_RUNS2_L16/Ls32.beta0.48.m0.02/fort.11 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls32.beta0.48.m0.02/fort.11
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls32.beta0.48.m0.02/fort.11 peta4_RUNS2_L16 fort.11
+
+ ./sunbird_thirring_runs3_L12/Ls48.beta0.38.m0.03/fort.11 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.38.m0.03/fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.38.m0.03/fort.11 sunbird_thirring_runs3_L12 fort.11
 
  ./peta4_RUNS2_L16/Ls32.beta0.48.m0.01/fort.11 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls32.beta0.48.m0.01/fort.11
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls32.beta0.48.m0.01/fort.11 peta4_RUNS2_L16 fort.11
@@ -10075,11 +11403,20 @@ all:  ./all_dirs/Ls32.beta0.30.m0.01/fort.11.total.1\
  ./sunbird_thirring_runs3_L12/Ls40.beta0.30.m0.01/fort.11 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls40.beta0.30.m0.01/fort.11
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls40.beta0.30.m0.01/fort.11 sunbird_thirring_runs3_L12 fort.11
 
+ ./sunbird_thirring_runs3_L12/Ls48.beta0.40.m0.01/fort.100 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.40.m0.01/fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.40.m0.01/fort.100 sunbird_thirring_runs3_L12 fort.100
+
  ./peta4_RUNS2_L16/Ls40.beta0.46.m0.05/fort.100 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls40.beta0.46.m0.05/fort.100
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls40.beta0.46.m0.05/fort.100 peta4_RUNS2_L16 fort.100
 
  ./peta4_RUNS2_L16/Ls32.beta0.40.m0.01/fort.200 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls32.beta0.40.m0.01/fort.200
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls32.beta0.40.m0.01/fort.200 peta4_RUNS2_L16 fort.200
+
+ ./sunbird_thirring_runs3_L12/Ls48.beta0.36.m0.02/fort.200 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.36.m0.02/fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.36.m0.02/fort.200 sunbird_thirring_runs3_L12 fort.200
+
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.38.m0.04/fort.100 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.38.m0.04/fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.38.m0.04/fort.100 sunbird_thirring_runs3_L12 fort.100
 
  ./peta4_RUNS2_L16/Ls40.beta0.34.m0.05/fort.11 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls40.beta0.34.m0.05/fort.11
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls40.beta0.34.m0.05/fort.11 peta4_RUNS2_L16 fort.11
@@ -10117,14 +11454,29 @@ all:  ./all_dirs/Ls32.beta0.30.m0.01/fort.11.total.1\
  ./peta4_RUNS2_L16/Ls32.beta0.46.m0.05/fort.200 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls32.beta0.46.m0.05/fort.200
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls32.beta0.46.m0.05/fort.200 peta4_RUNS2_L16 fort.200
 
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.38.m0.02/fort.100 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.38.m0.02/fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.38.m0.02/fort.100 sunbird_thirring_runs3_L12 fort.100
+
  ./peta4_RUNS2_L16/Ls40.beta0.36.m0.01/fort.11 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls40.beta0.36.m0.01/fort.11
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls40.beta0.36.m0.01/fort.11 peta4_RUNS2_L16 fort.11
+
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.42.m0.01/fort.11 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.42.m0.01/fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.42.m0.01/fort.11 sunbird_thirring_runs3_L12 fort.11
+
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.38.m0.02/fort.200 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.38.m0.02/fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.38.m0.02/fort.200 sunbird_thirring_runs3_L12 fort.200
 
  ./peta4_RUNS2_L16/Ls32.beta0.32.m0.02/fort.100 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls32.beta0.32.m0.02/fort.100
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls32.beta0.32.m0.02/fort.100 peta4_RUNS2_L16 fort.100
 
+ ./sunbird_thirring_runs3_L12/Ls48.beta0.38.m0.02/fort.11 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.38.m0.02/fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.38.m0.02/fort.11 sunbird_thirring_runs3_L12 fort.11
+
  ./peta4_RUNS2_L16/Ls40.beta0.46.m0.04/fort.200 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls40.beta0.46.m0.04/fort.200
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls40.beta0.46.m0.04/fort.200 peta4_RUNS2_L16 fort.200
+
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.46.m0.04/fort.200 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.46.m0.04/fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.46.m0.04/fort.200 sunbird_thirring_runs3_L12 fort.200
 
  ./peta4_RUNS2_L16/Ls48.beta0.44.m0.03/fort.100 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls48.beta0.44.m0.03/fort.100
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls48.beta0.44.m0.03/fort.100 peta4_RUNS2_L16 fort.100
@@ -10141,6 +11493,9 @@ all:  ./all_dirs/Ls32.beta0.30.m0.01/fort.11.total.1\
  ./peta4_RUNS2_L16/Ls40.beta0.44.m0.02/fort.11 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls40.beta0.44.m0.02/fort.11
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls40.beta0.44.m0.02/fort.11 peta4_RUNS2_L16 fort.11
 
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.40.m0.02/fort.11 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.40.m0.02/fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.40.m0.02/fort.11 sunbird_thirring_runs3_L12 fort.11
+
  ./peta4_RUNS2_L16/Ls40.beta0.50.m0.04/fort.200 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls40.beta0.50.m0.04/fort.200
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls40.beta0.50.m0.04/fort.200 peta4_RUNS2_L16 fort.200
 
@@ -10150,8 +11505,14 @@ all:  ./all_dirs/Ls32.beta0.30.m0.01/fort.11.total.1\
  ./peta4_RUNS2_L16/Ls32.beta0.32.m0.05/fort.100 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls32.beta0.32.m0.05/fort.100
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls32.beta0.32.m0.05/fort.100 peta4_RUNS2_L16 fort.100
 
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.42.m0.03/fort.100 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.42.m0.03/fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.42.m0.03/fort.100 sunbird_thirring_runs3_L12 fort.100
+
  ./sunbird_thirring_runs3_L12/Ls48.beta0.30.m0.01/fort.200 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.30.m0.01/fort.200
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.30.m0.01/fort.200 sunbird_thirring_runs3_L12 fort.200
+
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.55.m0.05/fort.11 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.55.m0.05/fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.55.m0.05/fort.11 sunbird_thirring_runs3_L12 fort.11
 
  ./sunbird_thirring_runs3_L12/Ls40.beta0.30.m0.05/fort.200 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls40.beta0.30.m0.05/fort.200
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls40.beta0.30.m0.05/fort.200 sunbird_thirring_runs3_L12 fort.200
@@ -10165,8 +11526,17 @@ all:  ./all_dirs/Ls32.beta0.30.m0.01/fort.11.total.1\
  ./peta4_RUNS2_L16/Ls48.beta0.30.m0.03/fort.11 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls48.beta0.30.m0.03/fort.11
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls48.beta0.30.m0.03/fort.11 peta4_RUNS2_L16 fort.11
 
+ ./sunbird_thirring_runs3_L12/Ls48.beta0.42.m0.03/fort.100 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.42.m0.03/fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.42.m0.03/fort.100 sunbird_thirring_runs3_L12 fort.100
+
  ./sunbird_thirring_runs3_L12/Ls48.beta0.36.m0.01/fort.200 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.36.m0.01/fort.200
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.36.m0.01/fort.200 sunbird_thirring_runs3_L12 fort.200
+
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.55.m0.03/fort.11 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.55.m0.03/fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.55.m0.03/fort.11 sunbird_thirring_runs3_L12 fort.11
+
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.42.m0.05/fort.11 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.42.m0.05/fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.42.m0.05/fort.11 sunbird_thirring_runs3_L12 fort.11
 
  ./peta4_RUNS2_L16/Ls40.beta0.52.m0.04/fort.200 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls40.beta0.52.m0.04/fort.200
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls40.beta0.52.m0.04/fort.200 peta4_RUNS2_L16 fort.200
@@ -10179,6 +11549,15 @@ all:  ./all_dirs/Ls32.beta0.30.m0.01/fort.11.total.1\
 
  ./peta4_RUNS2_L16/Ls48.beta0.50.m0.03/fort.11 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls48.beta0.50.m0.03/fort.11
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls48.beta0.50.m0.03/fort.11 peta4_RUNS2_L16 fort.11
+
+ ./sunbird_thirring_runs3_L12/Ls40.beta0.32.m0.01/fort.200 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls40.beta0.32.m0.01/fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls40.beta0.32.m0.01/fort.200 sunbird_thirring_runs3_L12 fort.200
+
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.40.m0.05/fort.100 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.40.m0.05/fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.40.m0.05/fort.100 sunbird_thirring_runs3_L12 fort.100
+
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.40.m0.03/fort.200 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.40.m0.03/fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.40.m0.03/fort.200 sunbird_thirring_runs3_L12 fort.200
 
  ./peta4_RUNS2_L16/Ls40.beta0.38.m0.03/fort.11 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls40.beta0.38.m0.03/fort.11
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls40.beta0.38.m0.03/fort.11 peta4_RUNS2_L16 fort.11
@@ -10207,11 +11586,20 @@ all:  ./all_dirs/Ls32.beta0.30.m0.01/fort.11.total.1\
  ./peta4_RUNS2_L16/Ls40.beta0.38.m0.02/fort.11 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls40.beta0.38.m0.02/fort.11
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls40.beta0.38.m0.02/fort.11 peta4_RUNS2_L16 fort.11
 
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.46.m0.03/fort.200 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.46.m0.03/fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.46.m0.03/fort.200 sunbird_thirring_runs3_L12 fort.200
+
  ./peta4_RUNS2_L16/Ls48.beta0.48.m0.03/fort.200 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls48.beta0.48.m0.03/fort.200
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls48.beta0.48.m0.03/fort.200 peta4_RUNS2_L16 fort.200
 
+ ./sunbird_thirring_runs3_L12/Ls40.beta0.34.m0.03/fort.11 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls40.beta0.34.m0.03/fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls40.beta0.34.m0.03/fort.11 sunbird_thirring_runs3_L12 fort.11
+
  ./peta4_RUNS2_L16/Ls32.beta0.30.m0.04/fort.11 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls32.beta0.30.m0.04/fort.11
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls32.beta0.30.m0.04/fort.11 peta4_RUNS2_L16 fort.11
+
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.44.m0.04/fort.11 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.44.m0.04/fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.44.m0.04/fort.11 sunbird_thirring_runs3_L12 fort.11
 
  ./sunbird_thirring_runs3_L12/Ls40.beta0.38.m0.01/fort.200 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls40.beta0.38.m0.01/fort.200
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls40.beta0.38.m0.01/fort.200 sunbird_thirring_runs3_L12 fort.200
@@ -10231,6 +11619,9 @@ all:  ./all_dirs/Ls32.beta0.30.m0.01/fort.11.total.1\
  ./peta4_RUNS2_L16/Ls40.beta0.30.m0.03/fort.100 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls40.beta0.30.m0.03/fort.100
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls40.beta0.30.m0.03/fort.100 peta4_RUNS2_L16 fort.100
 
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.32.m0.01/fort.100 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.32.m0.01/fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.32.m0.01/fort.100 sunbird_thirring_runs3_L12 fort.100
+
  ./sunbird_thirring_runs3_L12/Ls40.beta0.40.m0.01/fort.11 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls40.beta0.40.m0.01/fort.11
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls40.beta0.40.m0.01/fort.11 sunbird_thirring_runs3_L12 fort.11
 
@@ -10240,6 +11631,9 @@ all:  ./all_dirs/Ls32.beta0.30.m0.01/fort.11.total.1\
  ./peta4_RUNS2_L16/Ls40.beta0.36.m0.03/fort.100 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls40.beta0.36.m0.03/fort.100
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls40.beta0.36.m0.03/fort.100 peta4_RUNS2_L16 fort.100
 
+ ./sunbird_thirring_runs3_L12/Ls40.beta0.34.m0.03/fort.200 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls40.beta0.34.m0.03/fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls40.beta0.34.m0.03/fort.200 sunbird_thirring_runs3_L12 fort.200
+
  ./sunbird_thirring_runs3_L12/Ls48.beta0.44.m0.04/fort.100 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.44.m0.04/fort.100
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.44.m0.04/fort.100 sunbird_thirring_runs3_L12 fort.100
 
@@ -10248,6 +11642,9 @@ all:  ./all_dirs/Ls32.beta0.30.m0.01/fort.11.total.1\
 
  ./sunbird_thirring_runs3_L12/Ls40.beta0.46.m0.02/fort.200 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls40.beta0.46.m0.02/fort.200
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls40.beta0.46.m0.02/fort.200 sunbird_thirring_runs3_L12 fort.200
+
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.32.m0.04/fort.11 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.32.m0.04/fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.32.m0.04/fort.11 sunbird_thirring_runs3_L12 fort.11
 
  ./sunbird_thirring_runs3_L12/Ls48.beta0.34.m0.05/fort.200 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.34.m0.05/fort.200
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.34.m0.05/fort.200 sunbird_thirring_runs3_L12 fort.200
@@ -10266,6 +11663,9 @@ all:  ./all_dirs/Ls32.beta0.30.m0.01/fort.11.total.1\
 
  ./peta4_RUNS2_L16/Ls40.beta0.42.m0.05/fort.11 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls40.beta0.42.m0.05/fort.11
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls40.beta0.42.m0.05/fort.11 peta4_RUNS2_L16 fort.11
+
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.55.m0.03/fort.100 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.55.m0.03/fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.55.m0.03/fort.100 sunbird_thirring_runs3_L12 fort.100
 
  ./peta4_RUNS2_L16/Ls48.beta0.50.m0.02/fort.200 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls48.beta0.50.m0.02/fort.200
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls48.beta0.50.m0.02/fort.200 peta4_RUNS2_L16 fort.200
@@ -10288,6 +11688,9 @@ all:  ./all_dirs/Ls32.beta0.30.m0.01/fort.11.total.1\
  ./peta4_RUNS2_L16/Ls40.beta0.38.m0.05/fort.100 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls40.beta0.38.m0.05/fort.100
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls40.beta0.38.m0.05/fort.100 peta4_RUNS2_L16 fort.100
 
+ ./sunbird_thirring_runs3_L12/Ls40.beta0.34.m0.01/fort.100 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls40.beta0.34.m0.01/fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls40.beta0.34.m0.01/fort.100 sunbird_thirring_runs3_L12 fort.100
+
  ./peta4_RUNS2_L16/Ls32.beta0.50.m0.01/fort.100 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls32.beta0.50.m0.01/fort.100
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls32.beta0.50.m0.01/fort.100 peta4_RUNS2_L16 fort.100
 
@@ -10308,6 +11711,9 @@ all:  ./all_dirs/Ls32.beta0.30.m0.01/fort.11.total.1\
 
  ./peta4_RUNS2_L16/Ls40.beta0.42.m0.01/fort.11 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls40.beta0.42.m0.01/fort.11
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls40.beta0.42.m0.01/fort.11 peta4_RUNS2_L16 fort.11
+
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.36.m0.04/fort.200 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.36.m0.04/fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.36.m0.04/fort.200 sunbird_thirring_runs3_L12 fort.200
 
  ./peta4_RUNS2_L16/Ls32.beta0.50.m0.05/fort.100 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls32.beta0.50.m0.05/fort.100
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls32.beta0.50.m0.05/fort.100 peta4_RUNS2_L16 fort.100
@@ -10336,6 +11742,9 @@ all:  ./all_dirs/Ls32.beta0.30.m0.01/fort.11.total.1\
  ./peta4_RUNS2_L16/Ls32.beta0.32.m0.04/fort.100 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls32.beta0.32.m0.04/fort.100
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls32.beta0.32.m0.04/fort.100 peta4_RUNS2_L16 fort.100
 
+ ./sunbird_thirring_runs3_L12/Ls40.beta0.32.m0.03/fort.100 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls40.beta0.32.m0.03/fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls40.beta0.32.m0.03/fort.100 sunbird_thirring_runs3_L12 fort.100
+
  ./peta4_RUNS2_L16/Ls40.beta0.36.m0.04/fort.200 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls40.beta0.36.m0.04/fort.200
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls40.beta0.36.m0.04/fort.200 peta4_RUNS2_L16 fort.200
 
@@ -10345,14 +11754,29 @@ all:  ./all_dirs/Ls32.beta0.30.m0.01/fort.11.total.1\
  ./peta4_RUNS2_L16/Ls32.beta0.32.m0.01/fort.200 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls32.beta0.32.m0.01/fort.200
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls32.beta0.32.m0.01/fort.200 peta4_RUNS2_L16 fort.200
 
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.36.m0.01/fort.100 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.36.m0.01/fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.36.m0.01/fort.100 sunbird_thirring_runs3_L12 fort.100
+
  ./peta4_RUNS2_L16/Ls48.beta0.48.m0.01/fort.100 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls48.beta0.48.m0.01/fort.100
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls48.beta0.48.m0.01/fort.100 peta4_RUNS2_L16 fort.100
 
  ./sunbird_thirring_runs3_L12/Ls48.beta0.32.m0.02/fort.11 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.32.m0.02/fort.11
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.32.m0.02/fort.11 sunbird_thirring_runs3_L12 fort.11
 
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.36.m0.01/fort.200 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.36.m0.01/fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.36.m0.01/fort.200 sunbird_thirring_runs3_L12 fort.200
+
+ ./sunbird_thirring_runs3_L12/Ls48.beta0.40.m0.02/fort.11 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.40.m0.02/fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.40.m0.02/fort.11 sunbird_thirring_runs3_L12 fort.11
+
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.55.m0.01/fort.100 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.55.m0.01/fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.55.m0.01/fort.100 sunbird_thirring_runs3_L12 fort.100
+
  ./sunbird_thirring_runs3_L12/Ls40.beta0.44.m0.04/fort.200 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls40.beta0.44.m0.04/fort.200
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls40.beta0.44.m0.04/fort.200 sunbird_thirring_runs3_L12 fort.200
+
+ ./sunbird_thirring_runs3_L12/Ls48.beta0.40.m0.03/fort.11 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.40.m0.03/fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.40.m0.03/fort.11 sunbird_thirring_runs3_L12 fort.11
 
  ./peta4_RUNS2_L16/Ls48.beta0.52.m0.05/fort.200 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls48.beta0.52.m0.05/fort.200
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls48.beta0.52.m0.05/fort.200 peta4_RUNS2_L16 fort.200
@@ -10363,11 +11787,17 @@ all:  ./all_dirs/Ls32.beta0.30.m0.01/fort.11.total.1\
  ./sunbird_thirring_runs3_L12/Ls40.beta0.36.m0.05/fort.11 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls40.beta0.36.m0.05/fort.11
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls40.beta0.36.m0.05/fort.11 sunbird_thirring_runs3_L12 fort.11
 
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.55.m0.02/fort.100 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.55.m0.02/fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.55.m0.02/fort.100 sunbird_thirring_runs3_L12 fort.100
+
  ./peta4_RUNS2_L16/Ls32.beta0.30.m0.05/fort.11 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls32.beta0.30.m0.05/fort.11
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls32.beta0.30.m0.05/fort.11 peta4_RUNS2_L16 fort.11
 
  ./peta4_RUNS2_L16/Ls48.beta0.46.m0.03/fort.11 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls48.beta0.46.m0.03/fort.11
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls48.beta0.46.m0.03/fort.11 peta4_RUNS2_L16 fort.11
+
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.32.m0.03/fort.11 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.32.m0.03/fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.32.m0.03/fort.11 sunbird_thirring_runs3_L12 fort.11
 
  ./peta4_RUNS2_L16/Ls40.beta0.34.m0.04/fort.200 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls40.beta0.34.m0.04/fort.200
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls40.beta0.34.m0.04/fort.200 peta4_RUNS2_L16 fort.200
@@ -10384,11 +11814,17 @@ all:  ./all_dirs/Ls32.beta0.30.m0.01/fort.11.total.1\
  ./peta4_RUNS2_L16/Ls32.beta0.36.m0.04/fort.100 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls32.beta0.36.m0.04/fort.100
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls32.beta0.36.m0.04/fort.100 peta4_RUNS2_L16 fort.100
 
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.34.m0.03/fort.200 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.34.m0.03/fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.34.m0.03/fort.200 sunbird_thirring_runs3_L12 fort.200
+
  ./sunbird_thirring_runs3_L12/Ls40.beta0.42.m0.04/fort.100 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls40.beta0.42.m0.04/fort.100
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls40.beta0.42.m0.04/fort.100 sunbird_thirring_runs3_L12 fort.100
 
  ./peta4_RUNS2_L16/Ls32.beta0.48.m0.04/fort.200 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls32.beta0.48.m0.04/fort.200
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls32.beta0.48.m0.04/fort.200 peta4_RUNS2_L16 fort.200
+
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.38.m0.03/fort.100 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.38.m0.03/fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.38.m0.03/fort.100 sunbird_thirring_runs3_L12 fort.100
 
  ./peta4_RUNS2_L16/Ls48.beta0.42.m0.01/fort.100 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls48.beta0.42.m0.01/fort.100
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls48.beta0.42.m0.01/fort.100 peta4_RUNS2_L16 fort.100
@@ -10398,6 +11834,9 @@ all:  ./all_dirs/Ls32.beta0.30.m0.01/fort.11.total.1\
 
  ./peta4_RUNS2_L16/Ls40.beta0.40.m0.02/fort.200 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls40.beta0.40.m0.02/fort.200
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls40.beta0.40.m0.02/fort.200 peta4_RUNS2_L16 fort.200
+
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.46.m0.04/fort.11 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.46.m0.04/fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.46.m0.04/fort.11 sunbird_thirring_runs3_L12 fort.11
 
  ./peta4_RUNS2_L16/Ls40.beta0.46.m0.04/fort.11 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls40.beta0.46.m0.04/fort.11
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls40.beta0.46.m0.04/fort.11 peta4_RUNS2_L16 fort.11
@@ -10426,6 +11865,9 @@ all:  ./all_dirs/Ls32.beta0.30.m0.01/fort.11.total.1\
  ./peta4_RUNS2_L16/Ls48.beta0.52.m0.03/fort.11 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls48.beta0.52.m0.03/fort.11
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls48.beta0.52.m0.03/fort.11 peta4_RUNS2_L16 fort.11
 
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.38.m0.05/fort.11 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.38.m0.05/fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.38.m0.05/fort.11 sunbird_thirring_runs3_L12 fort.11
+
  ./peta4_RUNS2_L16/Ls32.beta0.40.m0.04/fort.100 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls32.beta0.40.m0.04/fort.100
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls32.beta0.40.m0.04/fort.100 peta4_RUNS2_L16 fort.100
 
@@ -10434,6 +11876,9 @@ all:  ./all_dirs/Ls32.beta0.30.m0.01/fort.11.total.1\
 
  ./peta4_RUNS2_L16/Ls32.beta0.46.m0.05/fort.11 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls32.beta0.46.m0.05/fort.11
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls32.beta0.46.m0.05/fort.11 peta4_RUNS2_L16 fort.11
+
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.36.m0.04/fort.11 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.36.m0.04/fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.36.m0.04/fort.11 sunbird_thirring_runs3_L12 fort.11
 
  ./peta4_RUNS2_L16/Ls32.beta0.44.m0.04/fort.200 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls32.beta0.44.m0.04/fort.200
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls32.beta0.44.m0.04/fort.200 peta4_RUNS2_L16 fort.200
@@ -10453,6 +11898,12 @@ all:  ./all_dirs/Ls32.beta0.30.m0.01/fort.11.total.1\
  ./peta4_RUNS2_L16/Ls40.beta0.50.m0.05/fort.11 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls40.beta0.50.m0.05/fort.11
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls40.beta0.50.m0.05/fort.11 peta4_RUNS2_L16 fort.11
 
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.40.m0.01/fort.100 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.40.m0.01/fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.40.m0.01/fort.100 sunbird_thirring_runs3_L12 fort.100
+
+ ./sunbird_thirring_runs3_L12/Ls48.beta0.36.m0.03/fort.200 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.36.m0.03/fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.36.m0.03/fort.200 sunbird_thirring_runs3_L12 fort.200
+
  ./peta4_RUNS2_L16/Ls40.beta0.34.m0.02/fort.11 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls40.beta0.34.m0.02/fort.11
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls40.beta0.34.m0.02/fort.11 peta4_RUNS2_L16 fort.11
 
@@ -10468,6 +11919,12 @@ all:  ./all_dirs/Ls32.beta0.30.m0.01/fort.11.total.1\
  ./peta4_RUNS2_L16/Ls48.beta0.42.m0.04/fort.11 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls48.beta0.42.m0.04/fort.11
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls48.beta0.42.m0.04/fort.11 peta4_RUNS2_L16 fort.11
 
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.36.m0.05/fort.200 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.36.m0.05/fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.36.m0.05/fort.200 sunbird_thirring_runs3_L12 fort.200
+
+ ./sunbird_thirring_runs3_L12/Ls48.beta0.42.m0.05/fort.100 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.42.m0.05/fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.42.m0.05/fort.100 sunbird_thirring_runs3_L12 fort.100
+
  ./peta4_RUNS2_L16/Ls40.beta0.42.m0.01/fort.100 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls40.beta0.42.m0.01/fort.100
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls40.beta0.42.m0.01/fort.100 peta4_RUNS2_L16 fort.100
 
@@ -10477,11 +11934,17 @@ all:  ./all_dirs/Ls32.beta0.30.m0.01/fort.11.total.1\
  ./peta4_RUNS2_L16/Ls40.beta0.40.m0.03/fort.11 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls40.beta0.40.m0.03/fort.11
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls40.beta0.40.m0.03/fort.11 peta4_RUNS2_L16 fort.11
 
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.46.m0.02/fort.100 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.46.m0.02/fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.46.m0.02/fort.100 sunbird_thirring_runs3_L12 fort.100
+
  ./peta4_RUNS2_L16/Ls40.beta0.50.m0.02/fort.200 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls40.beta0.50.m0.02/fort.200
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls40.beta0.50.m0.02/fort.200 peta4_RUNS2_L16 fort.200
 
  ./peta4_RUNS2_L16/Ls48.beta0.46.m0.04/fort.100 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls48.beta0.46.m0.04/fort.100
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls48.beta0.46.m0.04/fort.100 peta4_RUNS2_L16 fort.100
+
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.46.m0.05/fort.200 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.46.m0.05/fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.46.m0.05/fort.200 sunbird_thirring_runs3_L12 fort.200
 
  ./peta4_RUNS2_L16/Ls40.beta0.50.m0.04/fort.11 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls40.beta0.50.m0.04/fort.11
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls40.beta0.50.m0.04/fort.11 peta4_RUNS2_L16 fort.11
@@ -10500,6 +11963,9 @@ all:  ./all_dirs/Ls32.beta0.30.m0.01/fort.11.total.1\
 
  ./peta4_RUNS2_L16/Ls40.beta0.46.m0.01/fort.100 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls40.beta0.46.m0.01/fort.100
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls40.beta0.46.m0.01/fort.100 peta4_RUNS2_L16 fort.100
+
+ ./sunbird_thirring_runs3_L12/Ls40.beta0.34.m0.02/fort.11 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls40.beta0.34.m0.02/fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls40.beta0.34.m0.02/fort.11 sunbird_thirring_runs3_L12 fort.11
 
  ./peta4_RUNS2_L16/Ls48.beta0.48.m0.04/fort.11 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls48.beta0.48.m0.04/fort.11
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls48.beta0.48.m0.04/fort.11 peta4_RUNS2_L16 fort.11
@@ -10525,6 +11991,9 @@ all:  ./all_dirs/Ls32.beta0.30.m0.01/fort.11.total.1\
  ./peta4_RUNS2_L16/Ls48.beta0.50.m0.05/fort.200 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls48.beta0.50.m0.05/fort.200
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls48.beta0.50.m0.05/fort.200 peta4_RUNS2_L16 fort.200
 
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.34.m0.04/fort.100 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.34.m0.04/fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.34.m0.04/fort.100 sunbird_thirring_runs3_L12 fort.100
+
  ./peta4_RUNS2_L16/Ls40.beta0.44.m0.02/fort.100 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls40.beta0.44.m0.02/fort.100
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls40.beta0.44.m0.02/fort.100 peta4_RUNS2_L16 fort.100
 
@@ -10534,11 +12003,17 @@ all:  ./all_dirs/Ls32.beta0.30.m0.01/fort.11.total.1\
  ./peta4_RUNS2_L16/Ls32.beta0.46.m0.04/fort.100 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls32.beta0.46.m0.04/fort.100
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls32.beta0.46.m0.04/fort.100 peta4_RUNS2_L16 fort.100
 
+ ./sunbird_thirring_runs3_L12/Ls48.beta0.40.m0.03/fort.200 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.40.m0.03/fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.40.m0.03/fort.200 sunbird_thirring_runs3_L12 fort.200
+
  ./peta4_RUNS2_L16/Ls48.beta0.30.m0.05/fort.200 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls48.beta0.30.m0.05/fort.200
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls48.beta0.30.m0.05/fort.200 peta4_RUNS2_L16 fort.200
 
  ./peta4_RUNS2_L16/Ls48.beta0.44.m0.04/fort.100 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls48.beta0.44.m0.04/fort.100
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls48.beta0.44.m0.04/fort.100 peta4_RUNS2_L16 fort.100
+
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.46.m0.05/fort.100 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.46.m0.05/fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.46.m0.05/fort.100 sunbird_thirring_runs3_L12 fort.100
 
  ./peta4_RUNS2_L16/Ls48.beta0.40.m0.02/fort.100 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls48.beta0.40.m0.02/fort.100
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls48.beta0.40.m0.02/fort.100 peta4_RUNS2_L16 fort.100
@@ -10588,14 +12063,26 @@ all:  ./all_dirs/Ls32.beta0.30.m0.01/fort.11.total.1\
  ./sunbird_thirring_runs3_L12/Ls48.beta0.55.m0.03/fort.200 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.55.m0.03/fort.200
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.55.m0.03/fort.200 sunbird_thirring_runs3_L12 fort.200
 
+ ./sunbird_thirring_runs3_L12/Ls48.beta0.40.m0.04/fort.11 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.40.m0.04/fort.11
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.40.m0.04/fort.11 sunbird_thirring_runs3_L12 fort.11
+
  ./sunbird_thirring_runs3_L12/Ls40.beta0.44.m0.02/fort.200 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls40.beta0.44.m0.02/fort.200
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls40.beta0.44.m0.02/fort.200 sunbird_thirring_runs3_L12 fort.200
 
  ./sunbird_thirring_runs3_L12/Ls48.beta0.44.m0.01/fort.100 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.44.m0.01/fort.100
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.44.m0.01/fort.100 sunbird_thirring_runs3_L12 fort.100
 
+ ./sunbird_thirring_runs3_L12/Ls32.beta0.44.m0.04/fort.200 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.44.m0.04/fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls32.beta0.44.m0.04/fort.200 sunbird_thirring_runs3_L12 fort.200
+
+ ./sunbird_thirring_runs3_L12/Ls48.beta0.36.m0.04/fort.100 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.36.m0.04/fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.36.m0.04/fort.100 sunbird_thirring_runs3_L12 fort.100
+
  ./sunbird_thirring_runs3_L12/Ls40.beta0.44.m0.01/fort.100 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls40.beta0.44.m0.01/fort.100
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls40.beta0.44.m0.01/fort.100 sunbird_thirring_runs3_L12 fort.100
+
+ ./sunbird_thirring_runs3_L12/Ls48.beta0.38.m0.03/fort.100 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.38.m0.03/fort.100
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.38.m0.03/fort.100 sunbird_thirring_runs3_L12 fort.100
 
  ./peta4_RUNS2_L16/Ls32.beta0.36.m0.05/fort.200 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls32.beta0.36.m0.05/fort.200
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls32.beta0.36.m0.05/fort.200 peta4_RUNS2_L16 fort.200
@@ -10635,6 +12122,9 @@ all:  ./all_dirs/Ls32.beta0.30.m0.01/fort.11.total.1\
 
  ./sunbird_thirring_runs3_L12/Ls48.beta0.30.m0.05/fort.200 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.30.m0.05/fort.200
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.30.m0.05/fort.200 sunbird_thirring_runs3_L12 fort.200
+
+ ./sunbird_thirring_runs3_L12/Ls48.beta0.42.m0.03/fort.200 :  ./../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.42.m0.03/fort.200
+	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/sunbird_thirring_runs3_L12/all_dirs/Ls48.beta0.42.m0.03/fort.200 sunbird_thirring_runs3_L12 fort.200
 
  ./peta4_RUNS2_L16/Ls40.beta0.46.m0.02/fort.11 :  ./../Data/peta4_RUNS2_L16/all_dirs/Ls40.beta0.46.m0.02/fort.11
 	. ../Scripts/lib.sh&&cd .&&../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh ../Data/peta4_RUNS2_L16/all_dirs/Ls40.beta0.46.m0.02/fort.11 peta4_RUNS2_L16 fort.11

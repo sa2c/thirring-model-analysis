@@ -39,7 +39,7 @@ args = parser.parse_args()
 file_to_process = el.fit_output_filename_format(args.analysis_settings_filename,
         args.L,args.beta,args.mass)
 
-print("Reading {file_to_process}")
+print(f"Reading {file_to_process}")
 extrapolation_data = pd.read_table(file_to_process,sep='\s+')
 
 pbp_inf_data = extrapolation_data.loc[:,['constant','constant_e' ]]
