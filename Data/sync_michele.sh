@@ -1,6 +1,6 @@
 #!/bin/bash
 
-source ./login_data.sh
+source $1 
 
 echo "L=12, Sunbird, only thirring_runs3 "
 rsync -av  --include '*/' --include-from included171019.txt --exclude '*' --prune-empty-dirs $SUNBIRD_LOGIN:/scratch/s.michele.mesiti/thirring_runs3/all_dirs  ./sunbird_thirring_runs3_L12 
