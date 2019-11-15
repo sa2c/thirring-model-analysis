@@ -43,13 +43,10 @@ L="$(echo $L | tr -d \" | tr -d _ )"
 
 if [ -z "$L" ] 
 then
-    if [ "$machine" == "dirac" ]
-    then 
-        L=16
-    elif [ "$machine" == "sunbird" ] 
-    then
-        L=12
-    fi
+    L=$(../Scripts/get_l_simon.py $dir)
+else
+    checkL=$(../Scripts/get_l_simon.py $dir)
+    test "$L" == "$checkL" || exit 1
 fi
 
 # creating newdir name incrementally

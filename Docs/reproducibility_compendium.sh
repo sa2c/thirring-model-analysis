@@ -12,19 +12,19 @@
 # (directory names, file names) that are used with the rest of the analysis
 # an we log out action on each directory (identified by machine, beta, Ls, m)
 # THIS IS FOR THE 'simon' directory and PARTIALLY for the simon_oldstuff directory
-../Scripts/global_simon_script1.sh & #|| exit 1 # stream 1 
+../Scripts/global_simon_script1.sh || exit 1 # stream 1 
 # TODO: we need to take care of the parts of 'simon_olfstuff' directory
 #       which to not fit the known patterns.
 
 # we aggregate Michele's data - old
-../Scripts/stitch_everything.sh & #|| exit 1 # stream 2 
+../Scripts/stitch_everything.sh || exit 1 # stream 2 
 
 # we strap a header on new michele's data
-../Scripts/runs2.0.michele.sh & #|| exit 1 # stream 3
+../Scripts/runs2.0.michele.sh || exit 1 # stream 3
 
 # splitting the global analysis setting file 
 # the command calls a lot of smaller commands and logs them
-../Scripts/global_analysis_file_splitter.sh fort.200.analysis.set& #|| exit 1  # stream 4
+../Scripts/global_analysis_file_splitter.sh fort.200.analysis.set|| exit 1  # stream 4
 
 # each file in  analysis_setting_split is processed separately and 
 # the value of the condensate, with the error, is obtained.
@@ -47,7 +47,7 @@ do
         # that have been created by the splitting
         ../ProtocolUtils/log ../Scripts/eos_fit_v3.py fort.200.analysis.set $Ls $L $MINBETA $MAXBETA --savefig || exit 1 
     done 
-done )  & #|| exit 1
+done )  || exit 1
 
 #doing extrapolation to Ls-> inf
 # extrapolate everything separately, save values into file
@@ -72,14 +72,14 @@ done
  do 
     ../ProtocolUtils/log ../Scripts/extrapolate_to_linf_plot.py fort.200.analysis.set $m $L || exit 1
  done 
-done  )  & #|| exit 1 
+done  )  || exit 1 
 
 # plotting extrapolated values of psibarpsi together with their errors.
 BETAMAX=0.44 # extrapolated values do not converge for high beta
 ( for L in 12 16
 do
     ../ProtocolUtils/log ../Scripts/plot_psibarpsi_extrapolated.py fort.200.analysis.set $L $BETAMAX
-done)  & #|| exit 1
+done)  || exit 1
 
 # extracting pbp values from fit results
 ( ls psibarpsi_extrapolated/fort.200* | xargs -n 1 basename | tr '_' ' ' | while read file L beta m 
@@ -90,7 +90,7 @@ done
 
 # fit the extrapolated values (the reasonable ones) 
 ../ProtocolUtils/log ../Scripts/eos_fit_v3.py fort.200.analysis.set INF 12 0.3 0.44 --savefig
-) & # ||exit 1
+)  ||exit 1
 
 wait
 
