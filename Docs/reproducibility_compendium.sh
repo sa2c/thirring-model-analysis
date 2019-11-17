@@ -17,7 +17,7 @@
 #       which to not fit the known patterns.
 
 # we aggregate Michele's data - old
-../Scripts/stitch_everything.sh || exit 1 # stream 2 
+../Scripts/global_michele_script1.py || exit 1 # stream 2 
 
 # we strap a header on new michele's data
 ../Scripts/runs2.0.michele.sh || exit 1 # stream 3

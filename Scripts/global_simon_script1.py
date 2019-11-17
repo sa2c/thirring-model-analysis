@@ -8,7 +8,10 @@ import glob
 import logging
 import pandas as pd
 import get_l_simon
+import stitch_lib as sl
 
+
+### 
 simon_pattern = re.compile(
     r'b_?(?P<beta>[01]\.[0-9]+)(?P<copy>[a-zA-Z]*).*Ls_?(?P<Ls>[0-9]+).*m_?(?P<m>0\.[0-9]+)'
 )
@@ -44,17 +47,17 @@ def match_directory_name_simon(dirpath):
         return None
 
 
-def filenames_found_per_type_fun(dirpath):
+def filenames_found_per_type_fun_simon(dirpath):
     filelist = os.listdir(dirpath)
 
     return dict([(k, [
-        filename for filename in filelist if re.match(v, filename) is not None
+        os.path.join(dirpath,filename) for filename in filelist if re.match(v, filename) is not None
     ]) for (k, v) in zip(simon_filename_info.index,
                          simon_filename_info.compiled_regexp)])
 
 
 def contains_files_simon_old(dirpath):
-    filenames_found_per_type = filenames_found_per_type_fun(dirpath)
+    filenames_found_per_type = filenames_found_per_type_fun_simon(dirpath)
 
     if len(set([len(v)
                 for (k, v) in filenames_found_per_type.items()])) is not 1:
@@ -70,66 +73,18 @@ def simon_suspect(dirpath):
                 match_directory_name_simon(dirpath) is not None
                 and not contains_files_simon_old(dirpath))
 
-
-def join_consecutive_lines(text,nfields):
-    values = text.split()
-    return '\n'.join([ ' '.join(values[i*4:i*4+4]) for i in range(len(values)//4) ])
-    
-
 def simon_paste_all(dirpath):
-    for filetype in simon_filename_info.index:
-        print(f'Reading $(shell find {dirpath} -regex {simon_filename_info.regexp[filetype]} ')
+    return sl.paste_all(dirpath,simon_filename_info,filenames_found_per_type_fun_simon)
 
-    filenames_found_per_type = filenames_found_per_type_fun(dirpath)
-
-    res =  dict([(filetype, ''.join(
-        [ ' '.join(simon_filename_info.column_names[filetype])+'\n' if simon_filename_info.column_names[filetype] is not None else '' ] + 
-        [
-        open(os.path.join(dirpath, filename)).read() for filename in sorted(filelist)
-    ]).replace('\n\n','\n')) for (filetype, filelist) in filenames_found_per_type.items()])
-
-    # fixing fort.100 where lines are split
-    res['conds'] = join_consecutive_lines(res['conds'], len(simon_filename_info.column_names['conds']))
-
-    for k,v in res.items():
-        if simon_filename_info.column_names[k] is not None:
-            for line in v.split('\n'):
-                assert len(line) is 0 or len(line.split()) == len(simon_filename_info.column_names[k]) , f"{dirpath} : {k}: '{line}'"
-
-    return res
-
-def get_newdir_name(prefix, L, copy, Ls, beta, m):
-    return os.path.normpath(
-        os.path.join('simon', 
-                     prefix if len(prefix) is not 0 else '.',
-                     f'{L:02d}',
-                     copy if len(copy) is not 0 else '.',
-                     f'Ls{Ls:02d}.beta{beta}.m{m}'))
-
-
-  
+def simon_get_newdir_name(prefix, L, copy, Ls, beta, m):
+    return os.path.join('simon',
+            sl.get_newdir_name(prefix, L, copy, Ls, beta, m))
+ 
 def process_simon_directory(directory,prefix):
-    '''
-    Collects all files in directory, joins them and writes into
-    a new directory.
-    Prefix is prepended to the new directory name.
-    '''
+    sl.process_directory(directory,prefix,get_l_simon.find_L,match_directory_name_simon,
+            simon_get_newdir_name,simon_paste_all,simon_filename_info)
 
-    L =  int(get_l_simon.find_L(directory))
-    info = match_directory_name_simon(directory)
-
-    newdir = get_newdir_name(prefix, L, info['copy'], info['Ls'], info['beta'], info['m'])
-    
-    os.makedirs( newdir,exist_ok = True)
-
-    all_file_content = simon_paste_all(directory)
-
-    for k,v in all_file_content.items():
-        newfilename = os.path.join(newdir,simon_filename_info.fortran_name[k])
-        print(f"Writing {newfilename}")
-        with open(newfilename,'w') as f:
-            f.write(v)
-    
+   
 if __name__ == '__main__':
 
     for directory,_,_ in os.walk('../Data/simon/'):
