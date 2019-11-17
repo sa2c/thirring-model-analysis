@@ -92,6 +92,8 @@ done
 
 # fit the extrapolated values (the reasonable ones) 
 ../ProtocolUtils/log ../Scripts/eos_fit_v3.py fort.200.analysis.set INF 12 0.3 0.44 --savefig
+
+../ProtocolUtils/log ../Scripts/eos_fit_v3.py fort.200.analysis.set INF 16 0.3 0.44 --savefig
 )  ||exit 1
 
 wait
