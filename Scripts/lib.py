@@ -175,7 +175,7 @@ def cut_and_paste(analysis_settings):
             dfs_to_concatenate.append(df)
 
         df_dict[idx] = pd.concat(
-            dfs_to_concatenate, axis='index').reset_index()
+            dfs_to_concatenate, axis='index', sort = True).reset_index()
 
         print(f"Total nmeas: {len(df_dict[idx])}")
 

@@ -12,16 +12,26 @@ output_columns = [
 
 def fit_output_filename_format(analysis_settings_filename, L, beta, mass):
     filename = f'{analysis_settings_filename}_{L}_'
-    
+   
+    try:
+        beta = float(beta)
+    except:
+        pass
+
+    try:
+        mass = float(mass)
+    except:
+        pass
+
     if type(beta) == float:
         filename += f'{beta:1.6f}_'
     elif type(beta) == str :
         filename += f'{beta}_'
 
     if type(mass) == float:
-        filename += '{float(mass):1.6f}'
+        filename += f'{float(mass):1.6f}'
     elif type(mass) == str :
-        filename += '{mass}'
+        filename += f'{mass}'
 
     return os.path.join( pbp_inf_dir, filename )
 

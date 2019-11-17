@@ -1,1065 +1,1065 @@
 	filename	L	Ls	beta	mass	thermalization	blocksize	measevery
-0	all_dirs/Ls32.beta0.30.m0.03/fort.200.total.1	12	32	0.3	0.03	120	75	5
-1	all_dirs/Ls32.beta0.30.m0.03/fort.200.total.2	12	32	0.3	0.03	120	75	5
-2	all_dirs/Ls32.beta0.30.m0.04/fort.200.total.1	12	32	0.3	0.04	100	75	5
-3	all_dirs/Ls32.beta0.30.m0.04/fort.200.total.2	12	32	0.3	0.04	100	75	5
-4	all_dirs/Ls32.beta0.32.m0.01/fort.200.total.1	12	32	0.32	0.01	150	150	5
-5	all_dirs/Ls32.beta0.32.m0.01/fort.200.total.2	12	32	0.32	0.01	150	150	5
-6	all_dirs/Ls32.beta0.32.m0.02/fort.200.total.1	12	32	0.32	0.02	150	100	5
-7	all_dirs/Ls32.beta0.32.m0.02/fort.200.total.2	12	32	0.32	0.02	150	100	5
-8	all_dirs/Ls32.beta0.32.m0.03/fort.200.total.1	12	32	0.32	0.03	150	50	5
-9	all_dirs/Ls32.beta0.32.m0.03/fort.200.total.2	12	32	0.32	0.03	150	50	5
-10	all_dirs/Ls32.beta0.32.m0.04/fort.200.total.1	12	32	0.32	0.04	150	50	5
-11	all_dirs/Ls32.beta0.32.m0.04/fort.200.total.2	12	32	0.32	0.04	150	50	5
-12	all_dirs/Ls32.beta0.32.m0.05/fort.200.total.1	12	32	0.32	0.05	150	50	5
-13	all_dirs/Ls32.beta0.32.m0.05/fort.200.total.2	12	32	0.32	0.05	150	50	5
-14	all_dirs/Ls32.beta0.34.m0.01/fort.200.total.1	12	32	0.34	0.01	150	100	5
-15	all_dirs/Ls32.beta0.34.m0.01/fort.200.total.2	12	32	0.34	0.01	150	100	5
-16	all_dirs/Ls32.beta0.34.m0.02/fort.200.total.1	12	32	0.34	0.02	150	75	5
-17	all_dirs/Ls32.beta0.34.m0.02/fort.200.total.2	12	32	0.34	0.02	150	75	5
-18	all_dirs/Ls32.beta0.34.m0.03/fort.200.total.1	12	32	0.34	0.03	150	75	5
-19	all_dirs/Ls32.beta0.34.m0.03/fort.200.total.2	12	32	0.34	0.03	150	75	5
-20	all_dirs/Ls32.beta0.34.m0.04/fort.200.total.1	12	32	0.34	0.04	150	75	5
-21	all_dirs/Ls32.beta0.34.m0.04/fort.200.total.2	12	32	0.34	0.04	150	75	5
-22	all_dirs/Ls32.beta0.34.m0.05/fort.200.total.1	12	32	0.34	0.05	150	150	5
-23	all_dirs/Ls32.beta0.34.m0.05/fort.200.total.2	12	32	0.34	0.05	150	150	5
-24	all_dirs/Ls32.beta0.36.m0.01/fort.200.total.1	12	32	0.36	0.01	150	100	5
-25	all_dirs/Ls32.beta0.36.m0.01/fort.200.total.2	12	32	0.36	0.01	150	100	5
-26	all_dirs/Ls32.beta0.36.m0.02/fort.200.total.1	12	32	0.36	0.02	150	100	5
-27	all_dirs/Ls32.beta0.36.m0.02/fort.200.total.2	12	32	0.36	0.02	150	100	5
-28	all_dirs/Ls32.beta0.36.m0.03/fort.200.total.1	12	32	0.36	0.03	150	100	5
-29	all_dirs/Ls32.beta0.36.m0.03/fort.200.total.2	12	32	0.36	0.03	150	100	5
-30	all_dirs/Ls32.beta0.36.m0.04/fort.200.total.1	12	32	0.36	0.04	150	100	5
-31	all_dirs/Ls32.beta0.36.m0.04/fort.200.total.2	12	32	0.36	0.04	150	100	5
-32	all_dirs/Ls32.beta0.36.m0.05/fort.200.total.1	12	32	0.36	0.05	150	100	5
-33	all_dirs/Ls32.beta0.36.m0.05/fort.200.total.2	12	32	0.36	0.05	150	100	5
-34	all_dirs/Ls32.beta0.38.m0.01/fort.200.total.1	12	32	0.38	0.01	150	100	5
-35	all_dirs/Ls32.beta0.38.m0.01/fort.200.total.2	12	32	0.38	0.01	150	100	5
-36	all_dirs/Ls32.beta0.38.m0.02/fort.200.total.1	12	32	0.38	0.02	150	100	5
-37	all_dirs/Ls32.beta0.38.m0.02/fort.200.total.2	12	32	0.38	0.02	150	100	5
-38	all_dirs/Ls32.beta0.38.m0.03/fort.200.total.1	12	32	0.38	0.03	150	100	5
-39	all_dirs/Ls32.beta0.38.m0.03/fort.200.total.2	12	32	0.38	0.03	150	100	5
-40	all_dirs/Ls32.beta0.38.m0.04/fort.200.total.1	12	32	0.38	0.04	150	100	5
-41	all_dirs/Ls32.beta0.38.m0.04/fort.200.total.2	12	32	0.38	0.04	150	100	5
-42	all_dirs/Ls32.beta0.38.m0.05/fort.200.total.1	12	32	0.38	0.05	150	100	5
-43	all_dirs/Ls32.beta0.38.m0.05/fort.200.total.2	12	32	0.38	0.05	150	100	5
-44	all_dirs/Ls32.beta0.42.m0.01/fort.200.total.1	12	32	0.42	0.01	150	100	5
-45	all_dirs/Ls32.beta0.42.m0.01/fort.200.total.2	12	32	0.42	0.01	150	100	5
-46	all_dirs/Ls32.beta0.42.m0.02/fort.200.total.1	12	32	0.42	0.02	150	100	5
-47	all_dirs/Ls32.beta0.42.m0.02/fort.200.total.2	12	32	0.42	0.02	150	100	5
-48	all_dirs/Ls32.beta0.42.m0.03/fort.200.total.1	12	32	0.42	0.03	150	100	5
-49	all_dirs/Ls32.beta0.42.m0.03/fort.200.total.2	12	32	0.42	0.03	150	100	5
-50	all_dirs/Ls32.beta0.42.m0.04/fort.200.total.1	12	32	0.42	0.04	150	100	5
-51	all_dirs/Ls32.beta0.42.m0.04/fort.200.total.2	12	32	0.42	0.04	150	100	5
-52	all_dirs/Ls32.beta0.42.m0.05/fort.200.total.1	12	32	0.42	0.05	150	100	5
-53	all_dirs/Ls32.beta0.42.m0.05/fort.200.total.2	12	32	0.42	0.05	150	100	5
-54	all_dirs/Ls32.beta0.44.m0.01/fort.200.total.1	12	32	0.44	0.01	100	55	5
-55	all_dirs/Ls32.beta0.44.m0.01/fort.200.total.2	12	32	0.44	0.01	100	55	5
-56	all_dirs/Ls32.beta0.44.m0.02/fort.200.total.1	12	32	0.44	0.02	120	55	5
-57	all_dirs/Ls32.beta0.44.m0.02/fort.200.total.2	12	32	0.44	0.02	120	55	5
-58	all_dirs/Ls32.beta0.44.m0.03/fort.200.total.1	12	32	0.44	0.03	120	55	5
-59	all_dirs/Ls32.beta0.44.m0.03/fort.200.total.2	12	32	0.44	0.03	120	55	5
-60	all_dirs/Ls32.beta0.44.m0.04/fort.200.total.1	12	32	0.44	0.04	100	55	5
-61	all_dirs/Ls32.beta0.44.m0.04/fort.200.total.2	12	32	0.44	0.04	100	55	5
-62	all_dirs/Ls32.beta0.44.m0.05/fort.200.total.1	12	32	0.44	0.05	100	55	5
-63	all_dirs/Ls32.beta0.44.m0.05/fort.200.total.2	12	32	0.44	0.05	100	55	5
-64	all_dirs/Ls32.beta0.46.m0.01/fort.200.total.1	12	32	0.46	0.01	100	50	5
-65	all_dirs/Ls32.beta0.46.m0.01/fort.200.total.2	12	32	0.46	0.01	100	50	5
-66	all_dirs/Ls32.beta0.46.m0.02/fort.200.total.1	12	32	0.46	0.02	100	55	5
-67	all_dirs/Ls32.beta0.46.m0.02/fort.200.total.2	12	32	0.46	0.02	100	55	5
-68	all_dirs/Ls32.beta0.46.m0.03/fort.200.total.1	12	32	0.46	0.03	100	55	5
-69	all_dirs/Ls32.beta0.46.m0.03/fort.200.total.2	12	32	0.46	0.03	100	55	5
-70	all_dirs/Ls32.beta0.46.m0.04/fort.200.total.1	12	32	0.46	0.04	100	55	5
-71	all_dirs/Ls32.beta0.46.m0.04/fort.200.total.2	12	32	0.46	0.04	100	55	5
-72	all_dirs/Ls32.beta0.46.m0.05/fort.200.total.1	12	32	0.46	0.05	100	50	5
-73	all_dirs/Ls32.beta0.46.m0.05/fort.200.total.2	12	32	0.46	0.05	100	50	5
-74	all_dirs/Ls32.beta0.55.m0.01/fort.200.total.1	12	32	0.55	0.01	100	55	5
-75	all_dirs/Ls32.beta0.55.m0.01/fort.200.total.2	12	32	0.55	0.01	100	55	5
-76	all_dirs/Ls32.beta0.55.m0.02/fort.200.total.1	12	32	0.55	0.02	150	55	5
-77	all_dirs/Ls32.beta0.55.m0.02/fort.200.total.2	12	32	0.55	0.02	150	55	5
-78	all_dirs/Ls32.beta0.55.m0.03/fort.200.total.1	12	32	0.55	0.03	100	55	5
-79	all_dirs/Ls32.beta0.55.m0.03/fort.200.total.2	12	32	0.55	0.03	100	55	5
-80	all_dirs/Ls32.beta0.55.m0.04/fort.200.total.1	12	32	0.55	0.04	100	55	5
-81	all_dirs/Ls32.beta0.55.m0.04/fort.200.total.2	12	32	0.55	0.04	100	55	5
-82	all_dirs/Ls32.beta0.55.m0.05/fort.200.total.1	12	32	0.55	0.05	100	55	5
-83	all_dirs/Ls32.beta0.55.m0.05/fort.200.total.2	12	32	0.55	0.05	100	55	5
-84	all_dirs/Ls40.beta0.32.m0.01/fort.200.total.1	12	40	0.32	0.01	150	100	5
-85	all_dirs/Ls40.beta0.32.m0.01/fort.200.total.2	12	40	0.32	0.01	150	100	5
-86	all_dirs/Ls40.beta0.32.m0.02/fort.200.total.1	12	40	0.32	0.02	150	100	5
-87	all_dirs/Ls40.beta0.32.m0.02/fort.200.total.2	12	40	0.32	0.02	150	100	5
-88	all_dirs/Ls40.beta0.32.m0.03/fort.200.total.1	12	40	0.32	0.03	150	100	5
-89	all_dirs/Ls40.beta0.32.m0.03/fort.200.total.2	12	40	0.32	0.03	150	100	5
-90	all_dirs/Ls40.beta0.32.m0.04/fort.200.total.1	12	40	0.32	0.04	150	100	5
-91	all_dirs/Ls40.beta0.32.m0.04/fort.200.total.2	12	40	0.32	0.04	150	100	5
-92	all_dirs/Ls40.beta0.32.m0.05/fort.200.total.1	12	40	0.32	0.05	150	100	5
-93	all_dirs/Ls40.beta0.32.m0.05/fort.200.total.2	12	40	0.32	0.05	150	100	5
-94	all_dirs/Ls40.beta0.34.m0.01/fort.200.total.1	12	40	0.34	0.01	150	100	5
-95	all_dirs/Ls40.beta0.34.m0.01/fort.200.total.2	12	40	0.34	0.01	150	100	5
-96	all_dirs/Ls40.beta0.34.m0.02/fort.200.total.1	12	40	0.34	0.02	150	100	5
-97	all_dirs/Ls40.beta0.34.m0.02/fort.200.total.2	12	40	0.34	0.02	150	100	5
-98	all_dirs/Ls40.beta0.34.m0.03/fort.200.total.1	12	40	0.34	0.03	150	100	5
-99	all_dirs/Ls40.beta0.34.m0.03/fort.200.total.2	12	40	0.34	0.03	150	100	5
-100	all_dirs/Ls40.beta0.42.m0.02/fort.200.total.1	12	40	0.42	0.02	150	100	5
-101	all_dirs/Ls40.beta0.42.m0.02/fort.200.total.2	12	40	0.42	0.02	150	100	5
-102	all_dirs/Ls40.beta0.42.m0.03/fort.200.total.1	12	40	0.42	0.03	150	100	5
-103	all_dirs/Ls40.beta0.42.m0.03/fort.200.total.2	12	40	0.42	0.03	150	100	5
-104	all_dirs/Ls40.beta0.42.m0.04/fort.200.total.1	12	40	0.42	0.04	150	100	5
-105	all_dirs/Ls40.beta0.42.m0.04/fort.200.total.2	12	40	0.42	0.04	150	100	5
-106	all_dirs/Ls40.beta0.42.m0.05/fort.200.total.1	12	40	0.42	0.05	150	100	5
-107	all_dirs/Ls40.beta0.42.m0.05/fort.200.total.2	12	40	0.42	0.05	150	100	5
-108	all_dirs/Ls40.beta0.44.m0.02/fort.200.total.1	12	40	0.44	0.02	100	55	5
-109	all_dirs/Ls40.beta0.44.m0.02/fort.200.total.2	12	40	0.44	0.02	100	55	5
-110	all_dirs/Ls40.beta0.44.m0.03/fort.200.total.1	12	40	0.44	0.03	100	55	5
-111	all_dirs/Ls40.beta0.44.m0.03/fort.200.total.2	12	40	0.44	0.03	100	55	5
-112	all_dirs/Ls40.beta0.44.m0.04/fort.200.total.1	12	40	0.44	0.04	100	55	5
-113	all_dirs/Ls40.beta0.44.m0.04/fort.200.total.2	12	40	0.44	0.04	100	55	5
-114	all_dirs/Ls40.beta0.46.m0.01/fort.200.total.1	12	40	0.46	0.01	100	55	5
-115	all_dirs/Ls40.beta0.46.m0.01/fort.200.total.2	12	40	0.46	0.01	100	55	5
-116	all_dirs/Ls40.beta0.46.m0.02/fort.200.total.1	12	40	0.46	0.02	100	55	5
-117	all_dirs/Ls40.beta0.46.m0.02/fort.200.total.2	12	40	0.46	0.02	100	55	5
-118	all_dirs/Ls40.beta0.46.m0.03/fort.200.total.1	12	40	0.46	0.03	100	55	5
-119	all_dirs/Ls40.beta0.46.m0.03/fort.200.total.2	12	40	0.46	0.03	100	55	5
-120	all_dirs/Ls40.beta0.46.m0.04/fort.200.total.1	12	40	0.46	0.04	100	55	5
-121	all_dirs/Ls40.beta0.46.m0.04/fort.200.total.2	12	40	0.46	0.04	100	55	5
-122	all_dirs/Ls40.beta0.46.m0.05/fort.200.total.1	12	40	0.46	0.05	100	55	5
-123	all_dirs/Ls40.beta0.46.m0.05/fort.200.total.2	12	40	0.46	0.05	100	55	5
-124	all_dirs/Ls40.beta0.55.m0.01/fort.200.total.1	12	40	0.55	0.01	120	55	5
-125	all_dirs/Ls40.beta0.55.m0.01/fort.200.total.2	12	40	0.55	0.01	120	55	5
-126	all_dirs/Ls40.beta0.55.m0.02/fort.200.total.1	12	40	0.55	0.02	100	55	5
-127	all_dirs/Ls40.beta0.55.m0.02/fort.200.total.2	12	40	0.55	0.02	100	55	5
-128	all_dirs/Ls40.beta0.55.m0.03/fort.200.total.1	12	40	0.55	0.03	100	55	5
-129	all_dirs/Ls40.beta0.55.m0.03/fort.200.total.2	12	40	0.55	0.03	100	55	5
-130	all_dirs/Ls40.beta0.55.m0.04/fort.200.total.1	12	40	0.55	0.04	100	55	5
-131	all_dirs/Ls40.beta0.55.m0.04/fort.200.total.2	12	40	0.55	0.04	100	55	5
-132	all_dirs/Ls40.beta0.55.m0.05/fort.200.total.1	12	40	0.55	0.05	100	55	5
-133	all_dirs/Ls40.beta0.55.m0.05/fort.200.total.2	12	40	0.55	0.05	100	55	5
-134	all_dirs/Ls48.beta0.32.m0.01/fort.200.total.1	12	48	0.32	0.01	150	75	5
-135	all_dirs/Ls48.beta0.32.m0.01/fort.200.total.2	12	48	0.32	0.01	150	75	5
-136	all_dirs/Ls48.beta0.32.m0.02/fort.200.total.1	12	48	0.32	0.02	150	75	5
-137	all_dirs/Ls48.beta0.32.m0.02/fort.200.total.2	12	48	0.32	0.02	150	75	5
-138	all_dirs/Ls48.beta0.36.m0.02/fort.200.total.1	12	48	0.36	0.02	100	100	5
-139	all_dirs/Ls48.beta0.36.m0.02/fort.200.total.2	12	48	0.36	0.02	100	100	5
-140	all_dirs/Ls48.beta0.36.m0.03/fort.200.total.1	12	48	0.36	0.03	100	100	5
-141	all_dirs/Ls48.beta0.36.m0.03/fort.200.total.2	12	48	0.36	0.03	100	100	5
-142	all_dirs/Ls48.beta0.36.m0.04/fort.200.total.1	12	48	0.36	0.04	100	100	5
-143	all_dirs/Ls48.beta0.36.m0.04/fort.200.total.2	12	48	0.36	0.04	100	100	5
-144	all_dirs/Ls48.beta0.36.m0.05/fort.200.total.1	12	48	0.36	0.05	100	100	5
-145	all_dirs/Ls48.beta0.36.m0.05/fort.200.total.2	12	48	0.36	0.05	100	100	5
-146	all_dirs/Ls48.beta0.38.m0.01/fort.200.total.1	12	48	0.38	0.01	100	100	5
-147	all_dirs/Ls48.beta0.38.m0.01/fort.200.total.2	12	48	0.38	0.01	100	100	5
-148	all_dirs/Ls48.beta0.38.m0.02/fort.200.total.1	12	48	0.38	0.02	100	100	5
-149	all_dirs/Ls48.beta0.38.m0.02/fort.200.total.2	12	48	0.38	0.02	100	100	5
-150	all_dirs/Ls48.beta0.38.m0.03/fort.200.total.1	12	48	0.38	0.03	100	100	5
-151	all_dirs/Ls48.beta0.38.m0.03/fort.200.total.2	12	48	0.38	0.03	100	100	5
-152	all_dirs/Ls48.beta0.38.m0.04/fort.200.total.1	12	48	0.38	0.04	100	100	5
-153	all_dirs/Ls48.beta0.38.m0.04/fort.200.total.2	12	48	0.38	0.04	100	100	5
-154	all_dirs/Ls48.beta0.38.m0.05/fort.200.total.1	12	48	0.38	0.05	100	100	5
-155	all_dirs/Ls48.beta0.38.m0.05/fort.200.total.2	12	48	0.38	0.05	100	100	5
-156	all_dirs/Ls48.beta0.40.m0.01/fort.200.total.1	12	48	0.4	0.01	100	100	5
-157	all_dirs/Ls48.beta0.40.m0.01/fort.200.total.2	12	48	0.4	0.01	100	100	5
-158	all_dirs/Ls48.beta0.40.m0.02/fort.200.total.1	12	48	0.4	0.02	100	100	5
-159	all_dirs/Ls48.beta0.40.m0.02/fort.200.total.2	12	48	0.4	0.02	100	100	5
-160	all_dirs/Ls48.beta0.40.m0.03/fort.200.total.1	12	48	0.4	0.03	100	100	5
-161	all_dirs/Ls48.beta0.40.m0.03/fort.200.total.2	12	48	0.4	0.03	100	100	5
-162	all_dirs/Ls48.beta0.40.m0.04/fort.200.total.1	12	48	0.4	0.04	100	100	5
-163	all_dirs/Ls48.beta0.40.m0.04/fort.200.total.2	12	48	0.4	0.04	100	100	5
-164	all_dirs/Ls48.beta0.40.m0.05/fort.200.total.1	12	48	0.4	0.05	100	100	5
-165	all_dirs/Ls48.beta0.40.m0.05/fort.200.total.2	12	48	0.4	0.05	100	100	5
-166	all_dirs/Ls48.beta0.42.m0.01/fort.200.total.1	12	48	0.42	0.01	100	100	5
-167	all_dirs/Ls48.beta0.42.m0.01/fort.200.total.2	12	48	0.42	0.01	100	100	5
-168	all_dirs/Ls48.beta0.42.m0.02/fort.200.total.1	12	48	0.42	0.02	100	100	5
-169	all_dirs/Ls48.beta0.42.m0.02/fort.200.total.2	12	48	0.42	0.02	100	100	5
-170	all_dirs/Ls48.beta0.42.m0.03/fort.200.total.1	12	48	0.42	0.03	100	100	5
-171	all_dirs/Ls48.beta0.42.m0.03/fort.200.total.2	12	48	0.42	0.03	100	100	5
-172	all_dirs/Ls48.beta0.42.m0.04/fort.200.total.1	12	48	0.42	0.04	100	100	5
-173	all_dirs/Ls48.beta0.42.m0.04/fort.200.total.2	12	48	0.42	0.04	100	100	5
-174	all_dirs/Ls48.beta0.42.m0.05/fort.200.total.1	12	48	0.42	0.05	100	100	5
-175	all_dirs/Ls48.beta0.42.m0.05/fort.200.total.2	12	48	0.42	0.05	100	100	5
-176	all_dirs/Ls48.beta0.44.m0.01/fort.200.total.1	12	48	0.44	0.01	100	75	5
-177	all_dirs/Ls48.beta0.44.m0.01/fort.200.total.2	12	48	0.44	0.01	100	75	5
-178	all_dirs/Ls48.beta0.44.m0.02/fort.200.total.1	12	48	0.44	0.02	100	75	5
-179	all_dirs/Ls48.beta0.44.m0.02/fort.200.total.2	12	48	0.44	0.02	100	75	5
-180	all_dirs/Ls48.beta0.44.m0.03/fort.200.total.1	12	48	0.44	0.03	100	75	5
-181	all_dirs/Ls48.beta0.44.m0.03/fort.200.total.2	12	48	0.44	0.03	100	75	5
-182	all_dirs/Ls48.beta0.44.m0.04/fort.200.total.1	12	48	0.44	0.04	100	75	5
-183	all_dirs/Ls48.beta0.44.m0.04/fort.200.total.2	12	48	0.44	0.04	100	75	5
-184	all_dirs/Ls48.beta0.44.m0.05/fort.200.total.1	12	48	0.44	0.05	100	75	5
-185	all_dirs/Ls48.beta0.44.m0.05/fort.200.total.2	12	48	0.44	0.05	100	75	5
-186	all_dirs/Ls48.beta0.46.m0.01/fort.200.total.1	12	48	0.46	0.01	100	75	5
-187	all_dirs/Ls48.beta0.46.m0.01/fort.200.total.2	12	48	0.46	0.01	100	75	5
-188	all_dirs/Ls48.beta0.46.m0.02/fort.200.total.1	12	48	0.46	0.02	100	75	5
-189	all_dirs/Ls48.beta0.46.m0.02/fort.200.total.2	12	48	0.46	0.02	100	75	5
-190	all_dirs/Ls48.beta0.46.m0.03/fort.200.total.1	12	48	0.46	0.03	100	75	5
-191	all_dirs/Ls48.beta0.46.m0.03/fort.200.total.2	12	48	0.46	0.03	100	75	5
-192	all_dirs/Ls48.beta0.46.m0.04/fort.200.total.1	12	48	0.46	0.04	100	75	5
-193	all_dirs/Ls48.beta0.46.m0.04/fort.200.total.2	12	48	0.46	0.04	100	75	5
-194	all_dirs/Ls48.beta0.46.m0.05/fort.200.total.1	12	48	0.46	0.05	100	75	5
-195	all_dirs/Ls48.beta0.46.m0.05/fort.200.total.2	12	48	0.46	0.05	100	75	5
-196	all_dirs/Ls48.beta0.55.m0.01/fort.200.total.1	12	48	0.55	0.01	100	75	5
-197	all_dirs/Ls48.beta0.55.m0.01/fort.200.total.2	12	48	0.55	0.01	100	75	5
-198	all_dirs/Ls48.beta0.55.m0.02/fort.200.total.1	12	48	0.55	0.02	100	75	5
-199	all_dirs/Ls48.beta0.55.m0.02/fort.200.total.2	12	48	0.55	0.02	100	75	5
-200	all_dirs/Ls48.beta0.55.m0.03/fort.200.total.1	12	48	0.55	0.03	100	75	5
-201	all_dirs/Ls48.beta0.55.m0.03/fort.200.total.2	12	48	0.55	0.03	100	75	5
-202	all_dirs/Ls48.beta0.55.m0.04/fort.200.total.1	12	48	0.55	0.04	100	75	5
-203	all_dirs/Ls48.beta0.55.m0.04/fort.200.total.2	12	48	0.55	0.04	100	75	5
-204	all_dirs/Ls48.beta0.55.m0.05/fort.200.total.1	12	48	0.55	0.05	100	75	5
-205	all_dirs/Ls48.beta0.55.m0.05/fort.200.total.2	12	48	0.55	0.05	100	75	5
-206	simon/16/Ls24.beta0.3.m0.03/fort.200	16	24	0.3	0.03	100	75	5
-207	simon/16/Ls24.beta0.46.m0.01/fort.200	16	24	0.46	0.01	100	50	5
-208	simon/16/Ls24.beta0.46.m0.02/fort.200	16	24	0.46	0.02	100	50	5
-209	simon/16/Ls24.beta0.48.m0.01/fort.200	16	24	0.48	0.01	100	50	5
-210	simon/16/Ls24.beta0.48.m0.02/fort.200	16	24	0.48	0.02	100	50	5
-211	simon/16/Ls24.beta0.52.m0.01/fort.200	16	24	0.52	0.01	100	50	5
-212	simon/16/Ls24.beta0.52.m0.02/fort.200	16	24	0.52	0.02	100	50	5
-213	simon/16/Ls24.beta0.52.m0.03/fort.200	16	24	0.52	0.03	100	50	5
-214	simon/old/12/Ls08.beta0.225.m0.01/fort.200	12	8	0.225	0.01	100	75	5
-215	simon/old/12/Ls08.beta0.3.m0.01/fort.200	12	8	0.3	0.01	100	75	5
-216	simon/old/12/Ls08.beta0.3.m0.02/fort.200	12	8	0.3	0.02	100	75	5
-217	simon/old/12/Ls08.beta0.3.m0.03/fort.200	12	8	0.3	0.03	100	75	5
-218	simon/old/12/Ls08.beta0.3.m0.04/fort.200	12	8	0.3	0.04	100	75	5
-219	simon/old/12/Ls08.beta0.3.m0.05/fort.200	12	8	0.3	0.05	100	75	5
-220	simon/old/12/Ls08.beta0.31.m0.01/fort.200	12	8	0.31	0.01	100	75	5
-221	simon/old/12/Ls08.beta0.31.m0.02/fort.200	12	8	0.31	0.02	100	75	5
-222	simon/old/12/Ls08.beta0.31.m0.03/fort.200	12	8	0.31	0.03	100	75	5
-223	simon/old/12/Ls08.beta0.31.m0.04/fort.200	12	8	0.31	0.04	100	75	5
-224	simon/old/12/Ls08.beta0.31.m0.05/fort.200	12	8	0.31	0.05	100	75	5
-225	simon/old/12/Ls08.beta0.32.m0.01/fort.200	12	8	0.32	0.01	100	75	5
-226	simon/old/12/Ls08.beta0.32.m0.02/fort.200	12	8	0.32	0.02	100	75	5
-227	simon/old/12/Ls08.beta0.32.m0.03/fort.200	12	8	0.32	0.03	100	75	5
-228	simon/old/12/Ls08.beta0.32.m0.04/fort.200	12	8	0.32	0.04	100	75	5
-229	simon/old/12/Ls08.beta0.32.m0.05/fort.200	12	8	0.32	0.05	100	75	5
-230	simon/old/12/Ls08.beta0.33.m0.01/fort.200	12	8	0.33	0.01	100	75	5
-231	simon/old/12/Ls08.beta0.33.m0.02/fort.200	12	8	0.33	0.02	100	75	5
-232	simon/old/12/Ls08.beta0.33.m0.03/fort.200	12	8	0.33	0.03	100	75	5
-233	simon/old/12/Ls08.beta0.33.m0.04/fort.200	12	8	0.33	0.04	100	75	5
-234	simon/old/12/Ls08.beta0.33.m0.05/fort.200	12	8	0.33	0.05	100	75	5
-235	simon/old/12/Ls08.beta0.34.m0.01/fort.200	12	8	0.34	0.01	100	75	5
-236	simon/old/12/Ls08.beta0.34.m0.02/fort.200	12	8	0.34	0.02	100	75	5
-237	simon/old/12/Ls08.beta0.34.m0.03/fort.200	12	8	0.34	0.03	100	75	5
-238	simon/old/12/Ls08.beta0.34.m0.04/fort.200	12	8	0.34	0.04	100	75	5
-239	simon/old/12/Ls08.beta0.34.m0.05/fort.200	12	8	0.34	0.05	100	75	5
-240	simon/old/12/Ls08.beta0.35.m0.01/fort.200	12	8	0.35	0.01	100	75	5
-241	simon/old/12/Ls08.beta0.35.m0.02/fort.200	12	8	0.35	0.02	100	75	5
-242	simon/old/12/Ls08.beta0.35.m0.03/fort.200	12	8	0.35	0.03	100	75	5
-243	simon/old/12/Ls08.beta0.35.m0.04/fort.200	12	8	0.35	0.04	100	75	5
-244	simon/old/12/Ls08.beta0.35.m0.05/fort.200	12	8	0.35	0.05	100	75	5
-245	simon/old/12/Ls08.beta0.36.m0.01/fort.200	12	8	0.36	0.01	100	75	5
-246	simon/old/12/Ls08.beta0.36.m0.02/fort.200	12	8	0.36	0.02	100	75	5
-247	simon/old/12/Ls08.beta0.36.m0.03/fort.200	12	8	0.36	0.03	100	75	5
-248	simon/old/12/Ls08.beta0.36.m0.04/fort.200	12	8	0.36	0.04	100	75	5
-249	simon/old/12/Ls08.beta0.36.m0.05/fort.200	12	8	0.36	0.05	100	75	5
-250	simon/old/12/Ls08.beta0.37.m0.01/fort.200	12	8	0.37	0.01	100	75	5
-251	simon/old/12/Ls08.beta0.37.m0.02/fort.200	12	8	0.37	0.02	100	75	5
-252	simon/old/12/Ls08.beta0.37.m0.03/fort.200	12	8	0.37	0.03	100	75	5
-253	simon/old/12/Ls08.beta0.37.m0.04/fort.200	12	8	0.37	0.04	100	75	5
-254	simon/old/12/Ls08.beta0.37.m0.05/fort.200	12	8	0.37	0.05	100	75	5
-255	simon/old/12/Ls08.beta0.375.m0.01/fort.200	12	8	0.375	0.01	100	75	5
-256	simon/old/12/Ls08.beta0.38.m0.01/fort.200	12	8	0.38	0.01	100	75	5
-257	simon/old/12/Ls08.beta0.38.m0.02/fort.200	12	8	0.38	0.02	100	75	5
-258	simon/old/12/Ls08.beta0.38.m0.03/fort.200	12	8	0.38	0.03	100	75	5
-259	simon/old/12/Ls08.beta0.38.m0.04/fort.200	12	8	0.38	0.04	100	75	5
-260	simon/old/12/Ls08.beta0.38.m0.05/fort.200	12	8	0.38	0.05	100	75	5
-261	simon/old/12/Ls08.beta0.39.m0.01/fort.200	12	8	0.39	0.01	100	75	5
-262	simon/old/12/Ls08.beta0.39.m0.02/fort.200	12	8	0.39	0.02	100	75	5
-263	simon/old/12/Ls08.beta0.39.m0.03/fort.200	12	8	0.39	0.03	100	75	5
-264	simon/old/12/Ls08.beta0.39.m0.04/fort.200	12	8	0.39	0.04	100	75	5
-265	simon/old/12/Ls08.beta0.39.m0.05/fort.200	12	8	0.39	0.05	100	75	5
-266	simon/old/12/Ls08.beta0.4.m0.01/fort.200	12	8	0.4	0.01	100	75	5
-267	simon/old/12/Ls08.beta0.4.m0.02/fort.200	12	8	0.4	0.02	100	75	5
-268	simon/old/12/Ls08.beta0.4.m0.03/fort.200	12	8	0.4	0.03	100	75	5
-269	simon/old/12/Ls08.beta0.4.m0.04/fort.200	12	8	0.4	0.04	100	75	5
-270	simon/old/12/Ls08.beta0.4.m0.05/fort.200	12	8	0.4	0.05	100	75	5
-271	simon/old/12/Ls08.beta0.41.m0.01/fort.200	12	8	0.41	0.01	100	75	5
-272	simon/old/12/Ls08.beta0.41.m0.02/fort.200	12	8	0.41	0.02	100	75	5
-273	simon/old/12/Ls08.beta0.41.m0.03/fort.200	12	8	0.41	0.03	100	75	5
-274	simon/old/12/Ls08.beta0.41.m0.04/fort.200	12	8	0.41	0.04	100	75	5
-275	simon/old/12/Ls08.beta0.41.m0.05/fort.200	12	8	0.41	0.05	100	75	5
-276	simon/old/12/Ls08.beta0.42.m0.01/fort.200	12	8	0.42	0.01	100	75	5
-277	simon/old/12/Ls08.beta0.42.m0.02/fort.200	12	8	0.42	0.02	100	75	5
-278	simon/old/12/Ls08.beta0.42.m0.03/fort.200	12	8	0.42	0.03	100	75	5
-279	simon/old/12/Ls08.beta0.42.m0.04/fort.200	12	8	0.42	0.04	100	75	5
-280	simon/old/12/Ls08.beta0.42.m0.05/fort.200	12	8	0.42	0.05	100	75	5
-281	simon/old/12/Ls08.beta0.425.m0.01/fort.200	12	8	0.425	0.01	100	75	5
-282	simon/old/12/Ls08.beta0.43.m0.01/fort.200	12	8	0.43	0.01	100	75	5
-283	simon/old/12/Ls08.beta0.43.m0.02/fort.200	12	8	0.43	0.02	100	75	5
-284	simon/old/12/Ls08.beta0.43.m0.03/fort.200	12	8	0.43	0.03	100	75	5
-285	simon/old/12/Ls08.beta0.43.m0.04/fort.200	12	8	0.43	0.04	100	75	5
-286	simon/old/12/Ls08.beta0.43.m0.05/fort.200	12	8	0.43	0.05	100	75	5
-287	simon/old/12/Ls08.beta0.44.m0.01/fort.200	12	8	0.44	0.01	100	75	5
-288	simon/old/12/Ls08.beta0.44.m0.02/fort.200	12	8	0.44	0.02	100	75	5
-289	simon/old/12/Ls08.beta0.44.m0.03/fort.200	12	8	0.44	0.03	100	75	5
-290	simon/old/12/Ls08.beta0.44.m0.04/fort.200	12	8	0.44	0.04	100	75	5
-291	simon/old/12/Ls08.beta0.44.m0.05/fort.200	12	8	0.44	0.05	100	75	5
-292	simon/old/12/Ls08.beta0.45.m0.01/fort.200	12	8	0.45	0.01	100	75	5
-293	simon/old/12/Ls08.beta0.45.m0.02/fort.200	12	8	0.45	0.02	100	75	5
-294	simon/old/12/Ls08.beta0.45.m0.03/fort.200	12	8	0.45	0.03	100	75	5
-295	simon/old/12/Ls08.beta0.45.m0.04/fort.200	12	8	0.45	0.04	100	75	5
-296	simon/old/12/Ls08.beta0.45.m0.05/fort.200	12	8	0.45	0.05	100	75	5
-297	simon/old/12/Ls08.beta0.475.m0.01/fort.200	12	8	0.475	0.01	100	75	5
-298	simon/old/12/Ls16.beta0.3.m0.01/fort.200	12	16	0.3	0.01	100	75	5
-299	simon/old/12/Ls16.beta0.3.m0.02/fort.200	12	16	0.3	0.02	100	75	5
-300	simon/old/12/Ls16.beta0.3.m0.03/fort.200	12	16	0.3	0.03	100	75	5
-301	simon/old/12/Ls16.beta0.3.m0.04/fort.200	12	16	0.3	0.04	100	75	5
-302	simon/old/12/Ls16.beta0.3.m0.05/fort.200	12	16	0.3	0.05	100	75	5
-303	simon/old/12/Ls16.beta0.31.m0.01/fort.200	12	16	0.31	0.01	100	75	5
-304	simon/old/12/Ls16.beta0.31.m0.02/fort.200	12	16	0.31	0.02	100	75	5
-305	simon/old/12/Ls16.beta0.31.m0.03/fort.200	12	16	0.31	0.03	100	75	5
-306	simon/old/12/Ls16.beta0.31.m0.04/fort.200	12	16	0.31	0.04	100	75	5
-307	simon/old/12/Ls16.beta0.31.m0.05/fort.200	12	16	0.31	0.05	100	75	5
-308	simon/old/12/Ls16.beta0.32.m0.01/fort.200	12	16	0.32	0.01	100	75	5
-309	simon/old/12/Ls16.beta0.32.m0.02/fort.200	12	16	0.32	0.02	100	75	5
-310	simon/old/12/Ls16.beta0.32.m0.03/fort.200	12	16	0.32	0.03	100	75	5
-311	simon/old/12/Ls16.beta0.32.m0.04/fort.200	12	16	0.32	0.04	100	75	5
-312	simon/old/12/Ls16.beta0.32.m0.05/fort.200	12	16	0.32	0.05	100	75	5
-313	simon/old/12/Ls16.beta0.33.m0.01/fort.200	12	16	0.33	0.01	100	75	5
-314	simon/old/12/Ls16.beta0.33.m0.02/fort.200	12	16	0.33	0.02	100	75	5
-315	simon/old/12/Ls16.beta0.33.m0.03/fort.200	12	16	0.33	0.03	100	75	5
-316	simon/old/12/Ls16.beta0.33.m0.04/fort.200	12	16	0.33	0.04	100	75	5
-317	simon/old/12/Ls16.beta0.33.m0.05/fort.200	12	16	0.33	0.05	100	75	5
-318	simon/old/12/Ls16.beta0.34.m0.01/fort.200	12	16	0.34	0.01	100	75	5
-319	simon/old/12/Ls16.beta0.34.m0.02/fort.200	12	16	0.34	0.02	100	75	5
-320	simon/old/12/Ls16.beta0.34.m0.03/fort.200	12	16	0.34	0.03	100	75	5
-321	simon/old/12/Ls16.beta0.34.m0.04/fort.200	12	16	0.34	0.04	100	75	5
-322	simon/old/12/Ls16.beta0.34.m0.05/fort.200	12	16	0.34	0.05	100	75	5
-323	simon/old/12/Ls16.beta0.35.m0.01/fort.200	12	16	0.35	0.01	100	75	5
-324	simon/old/12/Ls16.beta0.35.m0.02/fort.200	12	16	0.35	0.02	100	75	5
-325	simon/old/12/Ls16.beta0.35.m0.03/fort.200	12	16	0.35	0.03	100	75	5
-326	simon/old/12/Ls16.beta0.35.m0.04/fort.200	12	16	0.35	0.04	100	75	5
-327	simon/old/12/Ls16.beta0.35.m0.05/fort.200	12	16	0.35	0.05	100	75	5
-328	simon/old/12/Ls16.beta0.36.m0.01/fort.200	12	16	0.36	0.01	100	75	5
-329	simon/old/12/Ls16.beta0.36.m0.02/fort.200	12	16	0.36	0.02	100	75	5
-330	simon/old/12/Ls16.beta0.36.m0.03/fort.200	12	16	0.36	0.03	100	75	5
-331	simon/old/12/Ls16.beta0.36.m0.04/fort.200	12	16	0.36	0.04	100	75	5
-332	simon/old/12/Ls16.beta0.36.m0.05/fort.200	12	16	0.36	0.05	100	75	5
-333	simon/old/12/Ls16.beta0.37.m0.01/fort.200	12	16	0.37	0.01	100	75	5
-334	simon/old/12/Ls16.beta0.37.m0.02/fort.200	12	16	0.37	0.02	100	75	5
-335	simon/old/12/Ls16.beta0.37.m0.03/fort.200	12	16	0.37	0.03	100	75	5
-336	simon/old/12/Ls16.beta0.37.m0.04/fort.200	12	16	0.37	0.04	100	75	5
-337	simon/old/12/Ls16.beta0.37.m0.05/fort.200	12	16	0.37	0.05	100	75	5
-338	simon/old/12/Ls16.beta0.38.m0.01/fort.200	12	16	0.38	0.01	100	75	5
-339	simon/old/12/Ls16.beta0.38.m0.02/fort.200	12	16	0.38	0.02	100	75	5
-340	simon/old/12/Ls16.beta0.38.m0.03/fort.200	12	16	0.38	0.03	100	75	5
-341	simon/old/12/Ls16.beta0.38.m0.04/fort.200	12	16	0.38	0.04	100	75	5
-342	simon/old/12/Ls16.beta0.38.m0.05/fort.200	12	16	0.38	0.05	100	75	5
-343	simon/old/12/Ls16.beta0.39.m0.01/fort.200	12	16	0.39	0.01	100	75	5
-344	simon/old/12/Ls16.beta0.39.m0.02/fort.200	12	16	0.39	0.02	100	75	5
-345	simon/old/12/Ls16.beta0.39.m0.03/fort.200	12	16	0.39	0.03	100	75	5
-346	simon/old/12/Ls16.beta0.39.m0.04/fort.200	12	16	0.39	0.04	100	75	5
-347	simon/old/12/Ls16.beta0.39.m0.05/fort.200	12	16	0.39	0.05	100	75	5
-348	simon/old/12/Ls16.beta0.4.m0.01/fort.200	12	16	0.4	0.01	100	75	5
-349	simon/old/12/Ls16.beta0.4.m0.02/fort.200	12	16	0.4	0.02	100	75	5
-350	simon/old/12/Ls16.beta0.4.m0.03/fort.200	12	16	0.4	0.03	100	75	5
-351	simon/old/12/Ls16.beta0.4.m0.04/fort.200	12	16	0.4	0.04	100	75	5
-352	simon/old/12/Ls16.beta0.4.m0.05/fort.200	12	16	0.4	0.05	100	75	5
-353	simon/old/12/Ls16.beta0.41.m0.01/fort.200	12	16	0.41	0.01	100	75	5
-354	simon/old/12/Ls16.beta0.41.m0.02/fort.200	12	16	0.41	0.02	100	75	5
-355	simon/old/12/Ls16.beta0.41.m0.03/fort.200	12	16	0.41	0.03	100	75	5
-356	simon/old/12/Ls16.beta0.41.m0.04/fort.200	12	16	0.41	0.04	100	75	5
-357	simon/old/12/Ls16.beta0.41.m0.05/fort.200	12	16	0.41	0.05	100	75	5
-358	simon/old/12/Ls16.beta0.42.m0.01/fort.200	12	16	0.42	0.01	100	75	5
-359	simon/old/12/Ls16.beta0.42.m0.02/fort.200	12	16	0.42	0.02	100	75	5
-360	simon/old/12/Ls16.beta0.42.m0.03/fort.200	12	16	0.42	0.03	100	75	5
-361	simon/old/12/Ls16.beta0.42.m0.04/fort.200	12	16	0.42	0.04	100	75	5
-362	simon/old/12/Ls16.beta0.42.m0.05/fort.200	12	16	0.42	0.05	100	75	5
-363	simon/old/12/Ls16.beta0.43.m0.01/fort.200	12	16	0.43	0.01	100	75	5
-364	simon/old/12/Ls16.beta0.43.m0.02/fort.200	12	16	0.43	0.02	100	75	5
-365	simon/old/12/Ls16.beta0.43.m0.03/fort.200	12	16	0.43	0.03	100	75	5
-366	simon/old/12/Ls16.beta0.43.m0.04/fort.200	12	16	0.43	0.04	100	75	5
-367	simon/old/12/Ls16.beta0.43.m0.05/fort.200	12	16	0.43	0.05	100	75	5
-368	simon/old/12/Ls16.beta0.44.m0.01/fort.200	12	16	0.44	0.01	100	75	5
-369	simon/old/12/Ls16.beta0.44.m0.02/fort.200	12	16	0.44	0.02	100	75	5
-370	simon/old/12/Ls16.beta0.44.m0.03/fort.200	12	16	0.44	0.03	100	75	5
-371	simon/old/12/Ls16.beta0.44.m0.04/fort.200	12	16	0.44	0.04	100	75	5
-372	simon/old/12/Ls16.beta0.44.m0.05/fort.200	12	16	0.44	0.05	100	75	5
-373	simon/old/12/Ls16.beta0.45.m0.01/fort.200	12	16	0.45	0.01	100	75	5
-374	simon/old/12/Ls16.beta0.45.m0.02/fort.200	12	16	0.45	0.02	100	75	5
-375	simon/old/12/Ls16.beta0.45.m0.03/fort.200	12	16	0.45	0.03	100	75	5
-376	simon/old/12/Ls16.beta0.45.m0.04/fort.200	12	16	0.45	0.04	100	75	5
-377	simon/old/12/Ls16.beta0.45.m0.05/fort.200	12	16	0.45	0.05	100	75	5
-378	simon/old/12/Ls16.beta0.5.m0.01/fort.200	12	16	0.5	0.01	100	75	5
-379	simon/old/12/Ls16.beta0.5.m0.02/fort.200	12	16	0.5	0.02	100	75	5
-380	simon/old/12/Ls16.beta0.5.m0.03/fort.200	12	16	0.5	0.03	100	75	5
-381	simon/old/12/Ls16.beta0.5.m0.04/fort.200	12	16	0.5	0.04	100	75	5
-382	simon/old/12/Ls16.beta0.5.m0.05/fort.200	12	16	0.5	0.05	100	75	5
-383	simon/old/12/Ls16.beta0.6.m0.01/fort.200	12	16	0.6	0.01	100	75	5
-384	simon/old/12/Ls16.beta0.6.m0.02/fort.200	12	16	0.6	0.02	100	75	5
-385	simon/old/12/Ls16.beta0.6.m0.03/fort.200	12	16	0.6	0.03	100	75	5
-386	simon/old/12/Ls16.beta0.6.m0.04/fort.200	12	16	0.6	0.04	100	75	5
-387	simon/old/12/Ls16.beta0.6.m0.05/fort.200	12	16	0.6	0.05	100	75	5
-388	simon/old/12/Ls24.beta0.3.m0.03/fort.200	12	24	0.3	0.03	100	75	5
-389	simon/old/12/Ls24.beta0.31.m0.01/fort.200	12	24	0.31	0.01	100	75	5
-390	simon/old/12/Ls24.beta0.31.m0.02/fort.200	12	24	0.31	0.02	100	75	5
-391	simon/old/12/Ls24.beta0.31.m0.03/fort.200	12	24	0.31	0.03	100	75	5
-392	simon/old/12/Ls24.beta0.31.m0.04/fort.200	12	24	0.31	0.04	100	75	5
-393	simon/old/12/Ls24.beta0.31.m0.05/fort.200	12	24	0.31	0.05	100	75	5
-394	simon/old/12/Ls24.beta0.32.m0.05/fort.200	12	24	0.32	0.05	100	75	5
-395	simon/old/12/Ls24.beta0.33.m0.01/fort.200	12	24	0.33	0.01	100	75	5
-396	simon/old/12/Ls24.beta0.33.m0.02/fort.200	12	24	0.33	0.02	100	75	5
-397	simon/old/12/Ls24.beta0.33.m0.03/fort.200	12	24	0.33	0.03	100	75	5
-398	simon/old/12/Ls24.beta0.33.m0.04/fort.200	12	24	0.33	0.04	100	75	5
-399	simon/old/12/Ls24.beta0.33.m0.05/fort.200	12	24	0.33	0.05	100	75	5
-400	simon/old/12/Ls24.beta0.35.m0.01/fort.200	12	24	0.35	0.01	100	75	5
-401	simon/old/12/Ls24.beta0.35.m0.02/fort.200	12	24	0.35	0.02	100	75	5
-402	simon/old/12/Ls24.beta0.35.m0.03/fort.200	12	24	0.35	0.03	100	75	5
-403	simon/old/12/Ls24.beta0.35.m0.04/fort.200	12	24	0.35	0.04	100	75	5
-404	simon/old/12/Ls24.beta0.35.m0.05/fort.200	12	24	0.35	0.05	100	75	5
-405	simon/old/12/Ls24.beta0.37.m0.01/fort.200	12	24	0.37	0.01	100	75	5
-406	simon/old/12/Ls24.beta0.37.m0.02/fort.200	12	24	0.37	0.02	100	75	5
-407	simon/old/12/Ls24.beta0.37.m0.03/fort.200	12	24	0.37	0.03	100	75	5
-408	simon/old/12/Ls24.beta0.37.m0.04/fort.200	12	24	0.37	0.04	100	75	5
-409	simon/old/12/Ls24.beta0.37.m0.05/fort.200	12	24	0.37	0.05	100	75	5
-410	simon/old/12/Ls24.beta0.39.m0.01/fort.200	12	24	0.39	0.01	100	75	5
-411	simon/old/12/Ls24.beta0.39.m0.02/fort.200	12	24	0.39	0.02	100	75	5
-412	simon/old/12/Ls24.beta0.39.m0.03/fort.200	12	24	0.39	0.03	100	75	5
-413	simon/old/12/Ls24.beta0.39.m0.04/fort.200	12	24	0.39	0.04	100	75	5
-414	simon/old/12/Ls24.beta0.39.m0.05/fort.200	12	24	0.39	0.05	100	75	5
-415	simon/old/12/Ls24.beta0.4.m0.03/fort.200	12	24	0.4	0.03	100	75	5
-416	simon/old/12/Ls24.beta0.4.m0.04/fort.200	12	24	0.4	0.04	100	75	5
-417	simon/old/12/Ls24.beta0.41.m0.04/fort.200	12	24	0.41	0.04	100	75	5
-418	simon/old/12/Ls24.beta0.41.m0.05/fort.200	12	24	0.41	0.05	100	75	5
-419	simon/old/12/Ls24.beta0.42.m0.04/fort.200	12	24	0.42	0.04	100	75	5
-420	simon/old/12/Ls24.beta0.42.m0.05/fort.200	12	24	0.42	0.05	100	75	5
-421	simon/old/12/Ls24.beta0.43.m0.04/fort.200	12	24	0.43	0.04	100	75	5
-422	simon/old/12/Ls24.beta0.43.m0.05/fort.200	12	24	0.43	0.05	100	75	5
-423	simon/old/12/Ls24.beta0.44.m0.04/fort.200	12	24	0.44	0.04	100	75	5
-424	simon/old/12/Ls24.beta0.44.m0.05/fort.200	12	24	0.44	0.05	100	75	5
-425	simon/old/12/Ls24.beta0.45.m0.04/fort.200	12	24	0.45	0.04	100	75	5
-426	simon/old/12/Ls24.beta0.45.m0.05/fort.200	12	24	0.45	0.05	100	75	5
-427	simon/old/12/Ls24.beta0.5.m0.03/fort.200	12	24	0.5	0.03	100	75	5
-428	simon/old/12/Ls24.beta0.5.m0.04/fort.200	12	24	0.5	0.04	100	75	5
-429	simon/old/12/Ls24.beta0.5.m0.05/fort.200	12	24	0.5	0.05	100	75	5
-430	simon/old/12/Ls24.beta0.6.m0.01/fort.200	12	24	0.6	0.01	100	75	5
-431	simon/old/12/Ls24.beta0.6.m0.02/fort.200	12	24	0.6	0.02	100	75	5
-432	simon/old/12/Ls24.beta0.6.m0.03/fort.200	12	24	0.6	0.03	100	75	5
-433	simon/old/12/Ls24.beta0.6.m0.04/fort.200	12	24	0.6	0.04	100	75	5
-434	simon/old/12/Ls24.beta0.6.m0.05/fort.200	12	24	0.6	0.05	100	75	5
-435	simon/old/12/Ls32.beta0.3.m0.03/fort.200	12	32	0.3	0.03	100	75	5
-436	simon/old/12/Ls32.beta0.3.m0.04/fort.200	12	32	0.3	0.04	100	75	5
-437	simon/old/12/Ls32.beta0.5.m0.01/fort.200	12	32	0.5	0.01	100	75	5
-438	simon/old/12/Ls32.beta0.5.m0.02/fort.200	12	32	0.5	0.02	100	75	5
-439	simon/old/12/Ls32.beta0.5.m0.03/fort.200	12	32	0.5	0.03	100	75	5
-440	simon/old/12/Ls32.beta0.5.m0.04/fort.200	12	32	0.5	0.04	100	75	5
-441	simon/old/12/Ls32.beta0.5.m0.05/fort.200	12	32	0.5	0.05	100	75	5
-442	simon/old/12/Ls32.beta0.6.m0.01/fort.200	12	32	0.6	0.01	100	75	5
-443	simon/old/12/Ls32.beta0.6.m0.02/fort.200	12	32	0.6	0.02	100	75	5
-444	simon/old/12/Ls32.beta0.6.m0.03/fort.200	12	32	0.6	0.03	100	75	5
-445	simon/old/12/Ls32.beta0.6.m0.04/fort.200	12	32	0.6	0.04	100	75	5
-446	simon/old/12/Ls32.beta0.6.m0.05/fort.200	12	32	0.6	0.05	100	75	5
-447	simon/old/12/Ls40.beta0.5.m0.01/fort.200	12	40	0.5	0.01	100	75	5
-448	simon/old/12/Ls40.beta0.5.m0.02/fort.200	12	40	0.5	0.02	100	75	5
-449	simon/old/12/Ls40.beta0.5.m0.03/fort.200	12	40	0.5	0.03	100	75	5
-450	simon/old/12/Ls40.beta0.5.m0.04/fort.200	12	40	0.5	0.04	100	75	5
-451	simon/old/12/Ls40.beta0.5.m0.05/fort.200	12	40	0.5	0.05	100	75	5
-452	simon/old/12/Ls40.beta0.6.m0.01/fort.200	12	40	0.6	0.01	100	75	5
-453	simon/old/12/Ls40.beta0.6.m0.02/fort.200	12	40	0.6	0.02	100	75	5
-454	simon/old/12/Ls40.beta0.6.m0.03/fort.200	12	40	0.6	0.03	100	75	5
-455	simon/old/12/Ls40.beta0.6.m0.04/fort.200	12	40	0.6	0.04	100	75	5
-456	simon/old/12/Ls40.beta0.6.m0.05/fort.200	12	40	0.6	0.05	100	75	5
-457	simon/old/12/Ls8.beta0.275.m0.01/fort.200	12	8	0.275	0.01	100	75	5
-458	simon/old/12/Ls8.beta0.275.m0.02/fort.200	12	8	0.275	0.02	100	75	5
-459	simon/old/12/Ls8.beta0.275.m0.03/fort.200	12	8	0.275	0.03	100	75	5
-460	simon/old/12/Ls8.beta0.275.m0.04/fort.200	12	8	0.275	0.04	100	75	5
-461	simon/old/12/Ls8.beta0.275.m0.05/fort.200	12	8	0.275	0.05	100	75	5
-462	simon/old/12/Ls8.beta0.325.m0.01/fort.200	12	8	0.325	0.01	100	75	5
-463	simon/old/12/Ls8.beta0.325.m0.02/fort.200	12	8	0.325	0.02	100	75	5
-464	simon/old/12/Ls8.beta0.325.m0.03/fort.200	12	8	0.325	0.03	100	75	5
-465	simon/old/12/Ls8.beta0.325.m0.04/fort.200	12	8	0.325	0.04	100	75	5
-466	simon/old/12/Ls8.beta0.325.m0.05/fort.200	12	8	0.325	0.05	100	75	5
-467	simon/old/12/Ls8.beta0.5.m0.01/fort.200	12	8	0.5	0.01	100	75	5
-468	simon/old/12/Ls8.beta0.5.m0.02/fort.200	12	8	0.5	0.02	100	75	5
-469	simon/old/12/Ls8.beta0.5.m0.03/fort.200	12	8	0.5	0.03	100	75	5
-470	simon/old/12/Ls8.beta0.5.m0.04/fort.200	12	8	0.5	0.04	100	75	5
-471	simon/old/12/Ls8.beta0.5.m0.05/fort.200	12	8	0.5	0.05	100	75	5
-472	simon/old/12/Ls8.beta0.6.m0.01/fort.200	12	8	0.6	0.01	100	75	5
-473	simon/old/12/Ls8.beta0.6.m0.02/fort.200	12	8	0.6	0.02	100	75	5
-474	simon/old/12/Ls8.beta0.6.m0.03/fort.200	12	8	0.6	0.03	100	75	5
-475	simon/old/12/Ls8.beta0.6.m0.04/fort.200	12	8	0.6	0.04	100	75	5
-476	simon/old/12/Ls8.beta0.6.m0.05/fort.200	12	8	0.6	0.05	100	75	5
-477	simon/old/12/a/Ls24.beta0.41.m0.01/fort.200	12	24	0.41	0.01	100	75	5
-478	simon/old/12/a/Ls24.beta0.41.m0.02/fort.200	12	24	0.41	0.02	100	75	5
-479	simon/old/12/a/Ls24.beta0.41.m0.03/fort.200	12	24	0.41	0.03	100	75	5
-480	simon/old/12/a/Ls24.beta0.42.m0.03/fort.200	12	24	0.42	0.03	100	75	5
-481	simon/old/12/a/Ls24.beta0.43.m0.01/fort.200	12	24	0.43	0.01	100	75	5
-482	simon/old/12/a/Ls24.beta0.43.m0.02/fort.200	12	24	0.43	0.02	100	75	5
-483	simon/old/12/a/Ls24.beta0.43.m0.03/fort.200	12	24	0.43	0.03	100	75	5
-484	simon/old/12/a/Ls24.beta0.44.m0.03/fort.200	12	24	0.44	0.03	100	75	5
-485	simon/old/12/a/Ls24.beta0.45.m0.01/fort.200	12	24	0.45	0.01	100	75	5
-486	simon/old/12/a/Ls24.beta0.45.m0.02/fort.200	12	24	0.45	0.02	100	75	5
-487	simon/old/12/a/Ls24.beta0.45.m0.03/fort.200	12	24	0.45	0.03	100	75	5
-488	sunbird_thirring_runs3_L12/Ls48.beta0.32.m0.01/fort.200	12	48	0.32	0.01	100	75	5
-489	sunbird_thirring_runs3_L12/Ls48.beta0.32.m0.02/fort.200	12	48	0.32	0.02	100	75	5
-490	sunbird_thirring_runs3_L12/Ls48.beta0.44.m0.01/fort.200	12	48	0.44	0.01	100	75	5
-491	sunbird_thirring_runs3_L12/Ls48.beta0.44.m0.02/fort.200	12	48	0.44	0.02	100	75	5
-492	sunbird_thirring_runs3_L12/Ls48.beta0.44.m0.03/fort.200	12	48	0.44	0.03	100	75	5
-493	sunbird_thirring_runs3_L12/Ls48.beta0.44.m0.04/fort.200	12	48	0.44	0.04	100	75	5
-494	sunbird_thirring_runs3_L12/Ls48.beta0.44.m0.05/fort.200	12	48	0.44	0.05	100	75	5
-495	sunbird_thirring_runs3_L12/Ls48.beta0.46.m0.01/fort.200	12	48	0.46	0.01	100	75	5
-496	sunbird_thirring_runs3_L12/Ls48.beta0.46.m0.02/fort.200	12	48	0.46	0.02	100	75	5
-497	sunbird_thirring_runs3_L12/Ls48.beta0.46.m0.03/fort.200	12	48	0.46	0.03	100	75	5
-498	sunbird_thirring_runs3_L12/Ls48.beta0.46.m0.04/fort.200	12	48	0.46	0.04	100	75	5
-499	sunbird_thirring_runs3_L12/Ls48.beta0.46.m0.05/fort.200	12	48	0.46	0.05	100	75	5
-500	sunbird_thirring_runs3_L12/Ls48.beta0.55.m0.01/fort.200	12	48	0.55	0.01	100	75	5
-501	sunbird_thirring_runs3_L12/Ls48.beta0.55.m0.02/fort.200	12	48	0.55	0.02	100	75	5
-502	sunbird_thirring_runs3_L12/Ls48.beta0.55.m0.03/fort.200	12	48	0.55	0.03	100	75	5
-503	sunbird_thirring_runs3_L12/Ls48.beta0.55.m0.04/fort.200	12	48	0.55	0.04	100	75	5
-504	sunbird_thirring_runs3_L12/Ls48.beta0.55.m0.05/fort.200	12	48	0.55	0.05	100	75	5
-505	all_dirs/Ls32.beta0.30.m0.01/fort.200.total.1	12	32	0.3	0.01	100	75	5
-506	all_dirs/Ls32.beta0.30.m0.01/fort.200.total.2	12	32	0.3	0.01	100	75	5
-507	all_dirs/Ls32.beta0.30.m0.02/fort.200.total.1	12	32	0.3	0.02	100	75	5
-508	all_dirs/Ls32.beta0.30.m0.02/fort.200.total.2	12	32	0.3	0.02	100	75	5
-509	all_dirs/Ls32.beta0.30.m0.05/fort.200.total.1	12	32	0.3	0.05	100	75	5
-510	all_dirs/Ls32.beta0.30.m0.05/fort.200.total.2	12	32	0.3	0.05	100	75	5
-511	all_dirs/Ls32.beta0.40.m0.01/fort.200.total.1	12	32	0.4	0.01	150	100	5
-512	all_dirs/Ls32.beta0.40.m0.01/fort.200.total.2	12	32	0.4	0.01	150	100	5
-513	all_dirs/Ls32.beta0.40.m0.02/fort.200.total.1	12	32	0.4	0.02	150	100	5
-514	all_dirs/Ls32.beta0.40.m0.02/fort.200.total.2	12	32	0.4	0.02	150	100	5
-515	all_dirs/Ls32.beta0.40.m0.03/fort.200.total.1	12	32	0.4	0.03	150	100	5
-516	all_dirs/Ls32.beta0.40.m0.03/fort.200.total.2	12	32	0.4	0.03	150	100	5
-517	all_dirs/Ls32.beta0.40.m0.04/fort.200.total.1	12	32	0.4	0.04	150	100	5
-518	all_dirs/Ls32.beta0.40.m0.04/fort.200.total.2	12	32	0.4	0.04	150	100	5
-519	all_dirs/Ls32.beta0.40.m0.05/fort.200.total.1	12	32	0.4	0.05	150	100	5
-520	all_dirs/Ls32.beta0.40.m0.05/fort.200.total.2	12	32	0.4	0.05	150	100	5
-521	all_dirs/Ls40.beta0.30.m0.01/fort.200.total.1	12	40	0.3	0.01	100	75	5
-522	all_dirs/Ls40.beta0.30.m0.01/fort.200.total.2	12	40	0.3	0.01	100	75	5
-523	all_dirs/Ls40.beta0.30.m0.02/fort.200.total.1	12	40	0.3	0.02	100	75	5
-524	all_dirs/Ls40.beta0.30.m0.02/fort.200.total.2	12	40	0.3	0.02	100	75	5
-525	all_dirs/Ls40.beta0.30.m0.03/fort.200.total.1	12	40	0.3	0.03	100	75	5
-526	all_dirs/Ls40.beta0.30.m0.03/fort.200.total.2	12	40	0.3	0.03	100	75	5
-527	all_dirs/Ls40.beta0.30.m0.04/fort.200.total.1	12	40	0.3	0.04	100	75	5
-528	all_dirs/Ls40.beta0.30.m0.04/fort.200.total.2	12	40	0.3	0.04	100	75	5
-529	all_dirs/Ls40.beta0.30.m0.05/fort.200.total.1	12	40	0.3	0.05	100	75	5
-530	all_dirs/Ls40.beta0.30.m0.05/fort.200.total.2	12	40	0.3	0.05	100	75	5
-531	all_dirs/Ls40.beta0.34.m0.04/fort.200.total.1	12	40	0.34	0.04	150	100	5
-532	all_dirs/Ls40.beta0.34.m0.04/fort.200.total.2	12	40	0.34	0.04	150	100	5
-533	all_dirs/Ls40.beta0.34.m0.05/fort.200.total.1	12	40	0.34	0.05	150	100	5
-534	all_dirs/Ls40.beta0.34.m0.05/fort.200.total.2	12	40	0.34	0.05	150	100	5
-535	all_dirs/Ls40.beta0.36.m0.01/fort.200.total.1	12	40	0.36	0.01	150	100	5
-536	all_dirs/Ls40.beta0.36.m0.01/fort.200.total.2	12	40	0.36	0.01	150	100	5
-537	all_dirs/Ls40.beta0.36.m0.02/fort.200.total.1	12	40	0.36	0.02	150	100	5
-538	all_dirs/Ls40.beta0.36.m0.02/fort.200.total.2	12	40	0.36	0.02	150	100	5
-539	all_dirs/Ls40.beta0.36.m0.03/fort.200.total.1	12	40	0.36	0.03	150	100	5
-540	all_dirs/Ls40.beta0.36.m0.03/fort.200.total.2	12	40	0.36	0.03	150	100	5
-541	all_dirs/Ls40.beta0.36.m0.04/fort.200.total.1	12	40	0.36	0.04	150	100	5
-542	all_dirs/Ls40.beta0.36.m0.04/fort.200.total.2	12	40	0.36	0.04	150	100	5
-543	all_dirs/Ls40.beta0.36.m0.05/fort.200.total.1	12	40	0.36	0.05	150	75	5
-544	all_dirs/Ls40.beta0.36.m0.05/fort.200.total.2	12	40	0.36	0.05	150	75	5
-545	all_dirs/Ls40.beta0.38.m0.01/fort.200.total.1	12	40	0.38	0.01	150	75	5
-546	all_dirs/Ls40.beta0.38.m0.01/fort.200.total.2	12	40	0.38	0.01	150	75	5
-547	all_dirs/Ls40.beta0.38.m0.02/fort.200.total.1	12	40	0.38	0.02	150	75	5
-548	all_dirs/Ls40.beta0.38.m0.02/fort.200.total.2	12	40	0.38	0.02	150	75	5
-549	all_dirs/Ls40.beta0.38.m0.03/fort.200.total.1	12	40	0.38	0.03	150	75	5
-550	all_dirs/Ls40.beta0.38.m0.03/fort.200.total.2	12	40	0.38	0.03	150	75	5
-551	all_dirs/Ls40.beta0.38.m0.04/fort.200.total.1	12	40	0.38	0.04	150	100	5
-552	all_dirs/Ls40.beta0.38.m0.04/fort.200.total.2	12	40	0.38	0.04	150	100	5
-553	all_dirs/Ls40.beta0.38.m0.05/fort.200.total.1	12	40	0.38	0.05	150	100	5
-554	all_dirs/Ls40.beta0.38.m0.05/fort.200.total.2	12	40	0.38	0.05	150	100	5
-555	all_dirs/Ls40.beta0.40.m0.01/fort.200.total.1	12	40	0.4	0.01	150	75	5
-556	all_dirs/Ls40.beta0.40.m0.01/fort.200.total.2	12	40	0.4	0.01	150	75	5
-557	all_dirs/Ls40.beta0.40.m0.02/fort.200.total.1	12	40	0.4	0.02	150	75	5
-558	all_dirs/Ls40.beta0.40.m0.02/fort.200.total.2	12	40	0.4	0.02	150	75	5
-559	all_dirs/Ls40.beta0.40.m0.03/fort.200.total.1	12	40	0.4	0.03	150	150	5
-560	all_dirs/Ls40.beta0.40.m0.03/fort.200.total.2	12	40	0.4	0.03	150	150	5
-561	all_dirs/Ls40.beta0.40.m0.04/fort.200.total.1	12	40	0.4	0.04	150	150	5
-562	all_dirs/Ls40.beta0.40.m0.04/fort.200.total.2	12	40	0.4	0.04	150	150	5
-563	all_dirs/Ls40.beta0.40.m0.05/fort.200.total.1	12	40	0.4	0.05	150	100	5
-564	all_dirs/Ls40.beta0.40.m0.05/fort.200.total.2	12	40	0.4	0.05	150	100	5
-565	all_dirs/Ls40.beta0.42.m0.01/fort.200.total.1	12	40	0.42	0.01	150	100	5
-566	all_dirs/Ls40.beta0.42.m0.01/fort.200.total.2	12	40	0.42	0.01	150	100	5
-567	all_dirs/Ls40.beta0.44.m0.01/fort.200.total.1	12	40	0.44	0.01	100	75	5
-568	all_dirs/Ls40.beta0.44.m0.01/fort.200.total.2	12	40	0.44	0.01	100	75	5
-569	all_dirs/Ls40.beta0.44.m0.05/fort.200.total.1	12	40	0.44	0.05	100	75	5
-570	all_dirs/Ls40.beta0.44.m0.05/fort.200.total.2	12	40	0.44	0.05	100	75	5
-571	all_dirs/Ls48.beta0.30.m0.01/fort.200.total.1	12	48	0.3	0.01	100	200	5
-572	all_dirs/Ls48.beta0.30.m0.01/fort.200.total.2	12	48	0.3	0.01	100	200	5
-573	all_dirs/Ls48.beta0.30.m0.02/fort.200.total.1	12	48	0.3	0.02	100	75	5
-574	all_dirs/Ls48.beta0.30.m0.02/fort.200.total.2	12	48	0.3	0.02	100	75	5
-575	all_dirs/Ls48.beta0.30.m0.03/fort.200.total.1	12	48	0.3	0.03	100	75	5
-576	all_dirs/Ls48.beta0.30.m0.03/fort.200.total.2	12	48	0.3	0.03	100	75	5
-577	all_dirs/Ls48.beta0.30.m0.04/fort.200.total.1	12	48	0.3	0.04	100	75	5
-578	all_dirs/Ls48.beta0.30.m0.04/fort.200.total.2	12	48	0.3	0.04	100	75	5
-579	all_dirs/Ls48.beta0.30.m0.05/fort.200.total.1	12	48	0.3	0.05	100	75	5
-580	all_dirs/Ls48.beta0.30.m0.05/fort.200.total.2	12	48	0.3	0.05	100	75	5
-581	all_dirs/Ls48.beta0.32.m0.03/fort.200.total.1	12	48	0.32	0.03	150	75	5
-582	all_dirs/Ls48.beta0.32.m0.03/fort.200.total.2	12	48	0.32	0.03	150	75	5
-583	all_dirs/Ls48.beta0.32.m0.04/fort.200.total.1	12	48	0.32	0.04	150	75	5
-584	all_dirs/Ls48.beta0.32.m0.04/fort.200.total.2	12	48	0.32	0.04	150	75	5
-585	all_dirs/Ls48.beta0.32.m0.05/fort.200.total.1	12	48	0.32	0.05	150	75	5
-586	all_dirs/Ls48.beta0.32.m0.05/fort.200.total.2	12	48	0.32	0.05	150	75	5
-587	all_dirs/Ls48.beta0.34.m0.01/fort.200.total.1	12	48	0.34	0.01	100	100	5
-588	all_dirs/Ls48.beta0.34.m0.01/fort.200.total.2	12	48	0.34	0.01	100	100	5
-589	all_dirs/Ls48.beta0.34.m0.02/fort.200.total.1	12	48	0.34	0.02	100	100	5
-590	all_dirs/Ls48.beta0.34.m0.02/fort.200.total.2	12	48	0.34	0.02	100	100	5
-591	all_dirs/Ls48.beta0.34.m0.03/fort.200.total.1	12	48	0.34	0.03	100	100	5
-592	all_dirs/Ls48.beta0.34.m0.03/fort.200.total.2	12	48	0.34	0.03	100	100	5
-593	all_dirs/Ls48.beta0.34.m0.04/fort.200.total.1	12	48	0.34	0.04	100	100	5
-594	all_dirs/Ls48.beta0.34.m0.04/fort.200.total.2	12	48	0.34	0.04	100	100	5
-595	all_dirs/Ls48.beta0.34.m0.05/fort.200.total.1	12	48	0.34	0.05	100	100	5
-596	all_dirs/Ls48.beta0.34.m0.05/fort.200.total.2	12	48	0.34	0.05	100	100	5
-597	all_dirs/Ls48.beta0.36.m0.01/fort.200.total.1	12	48	0.36	0.01	100	100	5
-598	all_dirs/Ls48.beta0.36.m0.01/fort.200.total.2	12	48	0.36	0.01	100	100	5
-599	simon/16/Ls24.beta0.3.m0.01/fort.200	16	24	0.3	0.01	100	75	5
-600	simon/16/Ls24.beta0.3.m0.02/fort.200	16	24	0.3	0.02	100	75	5
-601	simon/16/Ls24.beta0.3.m0.04/fort.200	16	24	0.3	0.04	100	75	5
-602	simon/16/Ls24.beta0.3.m0.05/fort.200	16	24	0.3	0.05	100	75	5
-603	simon/16/Ls24.beta0.32.m0.01/fort.200	16	24	0.32	0.01	100	75	5
-604	simon/16/Ls24.beta0.32.m0.02/fort.200	16	24	0.32	0.02	100	75	5
-605	simon/16/Ls24.beta0.32.m0.03/fort.200	16	24	0.32	0.03	100	75	5
-606	simon/16/Ls24.beta0.32.m0.04/fort.200	16	24	0.32	0.04	100	75	5
-607	simon/16/Ls24.beta0.34.m0.01/fort.200	16	24	0.34	0.01	100	75	5
-608	simon/16/Ls24.beta0.34.m0.02/fort.200	16	24	0.34	0.02	100	75	5
-609	simon/16/Ls24.beta0.34.m0.03/fort.200	16	24	0.34	0.03	100	75	5
-610	simon/16/Ls24.beta0.34.m0.04/fort.200	16	24	0.34	0.04	100	75	5
-611	simon/16/Ls24.beta0.34.m0.05/fort.200	16	24	0.34	0.05	100	75	5
-612	simon/16/Ls24.beta0.36.m0.01/fort.200	16	24	0.36	0.01	100	75	5
-613	simon/16/Ls24.beta0.36.m0.02/fort.200	16	24	0.36	0.02	100	75	5
-614	simon/16/Ls24.beta0.36.m0.03/fort.200	16	24	0.36	0.03	100	75	5
-615	simon/16/Ls24.beta0.36.m0.04/fort.200	16	24	0.36	0.04	100	75	5
-616	simon/16/Ls24.beta0.36.m0.05/fort.200	16	24	0.36	0.05	100	75	5
-617	simon/16/Ls24.beta0.38.m0.01/fort.200	16	24	0.38	0.01	100	75	5
-618	simon/16/Ls24.beta0.38.m0.02/fort.200	16	24	0.38	0.02	100	75	5
-619	simon/16/Ls24.beta0.38.m0.03/fort.200	16	24	0.38	0.03	100	75	5
-620	simon/16/Ls24.beta0.38.m0.04/fort.200	16	24	0.38	0.04	100	75	5
-621	simon/16/Ls24.beta0.38.m0.05/fort.200	16	24	0.38	0.05	100	75	5
-622	simon/16/Ls24.beta0.4.m0.01/fort.200	16	24	0.4	0.01	100	75	5
-623	simon/16/Ls24.beta0.4.m0.02/fort.200	16	24	0.4	0.02	100	75	5
-624	simon/12/Ls24.beta0.4.m0.05/fort.200	12	24	0.4	0.05	100	75	5
-625	simon/16/Ls24.beta0.42.m0.01/fort.200	16	24	0.42	0.01	100	75	5
-626	simon/16/Ls24.beta0.42.m0.02/fort.200	16	24	0.42	0.02	100	75	5
-627	simon/16/Ls24.beta0.44.m0.01/fort.200	16	24	0.44	0.01	100	75	5
-628	simon/16/Ls24.beta0.44.m0.02/fort.200	16	24	0.44	0.02	100	75	5
-629	simon/16/Ls24.beta0.5.m0.01/fort.200	16	24	0.5	0.01	100	75	5
-630	simon/16/Ls24.beta0.5.m0.02/fort.200	16	24	0.5	0.02	100	75	5
-631	simon/old/12/Ls24.beta0.3.m0.01/fort.200	12	24	0.3	0.01	100	75	5
-632	simon/old/12/Ls24.beta0.3.m0.02/fort.200	12	24	0.3	0.02	100	75	5
-633	simon/old/12/Ls24.beta0.3.m0.04/fort.200	12	24	0.3	0.04	100	75	5
-634	simon/old/12/Ls24.beta0.3.m0.05/fort.200	12	24	0.3	0.05	100	75	5
-635	simon/old/12/Ls24.beta0.32.m0.01/fort.200	12	24	0.32	0.01	100	75	5
-636	simon/old/12/Ls24.beta0.32.m0.02/fort.200	12	24	0.32	0.02	100	75	5
-637	simon/old/12/Ls24.beta0.32.m0.03/fort.200	12	24	0.32	0.03	100	75	5
-638	simon/old/12/Ls24.beta0.32.m0.04/fort.200	12	24	0.32	0.04	100	75	5
-639	simon/old/12/Ls24.beta0.34.m0.01/fort.200	12	24	0.34	0.01	100	75	5
-640	simon/old/12/Ls24.beta0.34.m0.02/fort.200	12	24	0.34	0.02	100	75	5
-641	simon/old/12/Ls24.beta0.34.m0.03/fort.200	12	24	0.34	0.03	100	75	5
-642	simon/old/12/Ls24.beta0.34.m0.04/fort.200	12	24	0.34	0.04	100	75	5
-643	simon/old/12/Ls24.beta0.34.m0.05/fort.200	12	24	0.34	0.05	100	75	5
-644	simon/old/12/Ls24.beta0.36.m0.01/fort.200	12	24	0.36	0.01	100	75	5
-645	simon/old/12/Ls24.beta0.36.m0.02/fort.200	12	24	0.36	0.02	100	75	5
-646	simon/old/12/Ls24.beta0.36.m0.03/fort.200	12	24	0.36	0.03	100	75	5
-647	simon/old/12/Ls24.beta0.36.m0.04/fort.200	12	24	0.36	0.04	100	75	5
-648	simon/old/12/Ls24.beta0.36.m0.05/fort.200	12	24	0.36	0.05	100	75	5
-649	simon/old/12/Ls24.beta0.38.m0.01/fort.200	12	24	0.38	0.01	100	75	5
-650	simon/old/12/Ls24.beta0.38.m0.02/fort.200	12	24	0.38	0.02	100	75	5
-651	simon/old/12/Ls24.beta0.38.m0.03/fort.200	12	24	0.38	0.03	100	75	5
-652	simon/old/12/Ls24.beta0.38.m0.04/fort.200	12	24	0.38	0.04	100	75	5
-653	simon/old/12/Ls24.beta0.38.m0.05/fort.200	12	24	0.38	0.05	100	75	5
-654	simon/old/12/Ls24.beta0.4.m0.01/fort.200	12	24	0.4	0.01	100	75	5
-655	simon/old/12/Ls24.beta0.4.m0.02/fort.200	12	24	0.4	0.02	100	75	5
-656	simon/old/12/Ls24.beta0.4.m0.05/fort.200	12	24	0.4	0.05	100	75	5
-657	simon/old/12/Ls24.beta0.5.m0.01/fort.200	12	24	0.5	0.01	100	75	5
-658	simon/old/12/Ls24.beta0.5.m0.02/fort.200	12	24	0.5	0.02	100	75	5
-659	simon/old/12/Ls32.beta0.3.m0.01/fort.200	12	32	0.3	0.01	100	75	5
-660	simon/old/12/Ls32.beta0.3.m0.02/fort.200	12	32	0.3	0.02	100	75	5
-661	simon/old/12/Ls32.beta0.3.m0.05/fort.200	12	32	0.3	0.05	100	75	5
-662	simon/old/12/Ls32.beta0.4.m0.01/fort.200	12	32	0.4	0.01	100	100	5
-663	simon/old/12/Ls32.beta0.4.m0.02/fort.200	12	32	0.4	0.02	100	100	5
-664	simon/old/12/Ls32.beta0.4.m0.03/fort.200	12	32	0.4	0.03	100	100	5
-665	simon/old/12/Ls32.beta0.4.m0.04/fort.200	12	32	0.4	0.04	100	100	5
-666	simon/old/12/Ls32.beta0.4.m0.05/fort.200	12	32	0.4	0.05	100	100	5
-667	simon/old/12/Ls40.beta0.3.m0.01/fort.200	12	40	0.3	0.01	100	75	5
-668	simon/old/12/Ls40.beta0.3.m0.05/fort.200	12	40	0.3	0.05	100	75	5
-669	simon/old/12/Ls40.beta0.4.m0.01/fort.200	12	40	0.4	0.01	100	75	5
-670	simon/old/12/Ls40.beta0.4.m0.02/fort.200	12	40	0.4	0.02	100	75	5
-671	simon/old/12/Ls40.beta0.4.m0.03/fort.200	12	40	0.4	0.03	100	150	5
-672	simon/old/12/Ls40.beta0.4.m0.04/fort.200	12	40	0.4	0.04	100	150	5
-673	simon/old/12/Ls40.beta0.4.m0.05/fort.200	12	40	0.4	0.05	100	100	5
-674	simon/old/12/Ls48.beta0.3.m0.01/fort.200	12	48	0.3	0.01	100	200	5
-675	simon/old/12/a/Ls24.beta0.42.m0.01/fort.200	12	24	0.42	0.01	100	75	5
-676	simon/old/12/a/Ls24.beta0.42.m0.02/fort.200	12	24	0.42	0.02	100	75	5
-677	simon/old/12/a/Ls24.beta0.44.m0.01/fort.200	12	24	0.44	0.01	100	75	5
-678	simon/old/12/a/Ls24.beta0.44.m0.02/fort.200	12	24	0.44	0.02	100	75	5
-679	simon/old/12/a/Ls40.beta0.3.m0.02/fort.200	12	40	0.3	0.02	100	75	5
-680	simon/old/12/a/Ls48.beta0.3.m0.02/fort.200	12	48	0.3	0.02	100	75	5
-681	simon/old/12/b/Ls40.beta0.3.m0.01/fort.200	12	40	0.3	0.01	100	75	5
-682	simon/old/12/b/Ls40.beta0.3.m0.03/fort.200	12	40	0.3	0.03	100	75	5
-683	simon/old/12/c/Ls40.beta0.3.m0.02/fort.200	12	40	0.3	0.02	100	75	5
-684	simon/old/12/c/Ls40.beta0.3.m0.04/fort.200	12	40	0.3	0.04	100	75	5
-685	simon/old/12/d/Ls48.beta0.3.m0.03/fort.200	12	48	0.3	0.03	100	75	5
-686	simon/old/12/e/Ls40.beta0.3.m0.03/fort.200	12	40	0.3	0.03	100	75	5
-687	simon/old/16/b/Ls32.beta0.3.m0.01/fort.200	16	32	0.3	0.01	100	75	5
-688	sunbird_thirring_runs3_L12/Ls32.beta0.30.m0.01/fort.200	12	32	0.3	0.01	100	75	5
-689	sunbird_thirring_runs3_L12/Ls32.beta0.30.m0.02/fort.200	12	32	0.3	0.02	100	75	5
-690	sunbird_thirring_runs3_L12/Ls40.beta0.30.m0.01/fort.200	12	40	0.3	0.01	100	75	5
-691	sunbird_thirring_runs3_L12/Ls40.beta0.30.m0.02/fort.200	12	40	0.3	0.02	100	75	5
-692	sunbird_thirring_runs3_L12/Ls40.beta0.30.m0.03/fort.200	12	40	0.3	0.03	100	75	5
-693	sunbird_thirring_runs3_L12/Ls40.beta0.30.m0.04/fort.200	12	40	0.3	0.04	100	75	5
-694	sunbird_thirring_runs3_L12/Ls40.beta0.30.m0.05/fort.200	12	40	0.3	0.05	100	75	5
-695	sunbird_thirring_runs3_L12/Ls40.beta0.34.m0.04/fort.200	12	40	0.34	0.04	100	100	5
-696	sunbird_thirring_runs3_L12/Ls40.beta0.34.m0.05/fort.200	12	40	0.34	0.05	100	100	5
-697	sunbird_thirring_runs3_L12/Ls40.beta0.36.m0.01/fort.200	12	40	0.36	0.01	100	100	5
-698	sunbird_thirring_runs3_L12/Ls40.beta0.36.m0.02/fort.200	12	40	0.36	0.02	100	100	5
-699	sunbird_thirring_runs3_L12/Ls40.beta0.36.m0.03/fort.200	12	40	0.36	0.03	100	100	5
-700	sunbird_thirring_runs3_L12/Ls40.beta0.36.m0.04/fort.200	12	40	0.36	0.04	100	100	5
-701	sunbird_thirring_runs3_L12/Ls40.beta0.36.m0.05/fort.200	12	40	0.36	0.05	100	75	5
-702	sunbird_thirring_runs3_L12/Ls40.beta0.38.m0.01/fort.200	12	40	0.38	0.01	100	75	5
-703	sunbird_thirring_runs3_L12/Ls40.beta0.38.m0.02/fort.200	12	40	0.38	0.02	100	75	5
-704	sunbird_thirring_runs3_L12/Ls40.beta0.38.m0.03/fort.200	12	40	0.38	0.03	100	75	5
-705	sunbird_thirring_runs3_L12/Ls40.beta0.38.m0.04/fort.200	12	40	0.38	0.04	100	100	5
-706	sunbird_thirring_runs3_L12/Ls40.beta0.38.m0.05/fort.200	12	40	0.38	0.05	100	100	5
-707	sunbird_thirring_runs3_L12/Ls40.beta0.40.m0.01/fort.200	12	40	0.4	0.01	100	75	5
-708	sunbird_thirring_runs3_L12/Ls40.beta0.40.m0.02/fort.200	12	40	0.4	0.02	100	75	5
-709	sunbird_thirring_runs3_L12/Ls40.beta0.40.m0.03/fort.200	12	40	0.4	0.03	100	150	5
-710	sunbird_thirring_runs3_L12/Ls40.beta0.40.m0.04/fort.200	12	40	0.4	0.04	100	150	5
-711	sunbird_thirring_runs3_L12/Ls40.beta0.40.m0.05/fort.200	12	40	0.4	0.05	100	100	5
-712	sunbird_thirring_runs3_L12/Ls40.beta0.42.m0.01/fort.200	12	40	0.42	0.01	100	100	5
-713	sunbird_thirring_runs3_L12/Ls40.beta0.44.m0.01/fort.200	12	40	0.44	0.01	100	75	5
-714	sunbird_thirring_runs3_L12/Ls40.beta0.44.m0.05/fort.200	12	40	0.44	0.05	100	75	5
-715	sunbird_thirring_runs3_L12/Ls48.beta0.30.m0.01/fort.200	12	48	0.3	0.01	100	200	5
-716	sunbird_thirring_runs3_L12/Ls48.beta0.30.m0.02/fort.200	12	48	0.3	0.02	200	75	5
-717	sunbird_thirring_runs3_L12/Ls48.beta0.30.m0.03/fort.200	12	48	0.3	0.03	100	75	5
-718	sunbird_thirring_runs3_L12/Ls48.beta0.30.m0.04/fort.200	12	48	0.3	0.04	100	75	5
-719	sunbird_thirring_runs3_L12/Ls48.beta0.30.m0.05/fort.200	12	48	0.3	0.05	100	75	5
-720	sunbird_thirring_runs3_L12/Ls48.beta0.32.m0.03/fort.200	12	48	0.32	0.03	100	75	5
-721	sunbird_thirring_runs3_L12/Ls48.beta0.32.m0.04/fort.200	12	48	0.32	0.04	100	75	5
-722	sunbird_thirring_runs3_L12/Ls48.beta0.32.m0.05/fort.200	12	48	0.32	0.05	100	75	5
-723	sunbird_thirring_runs3_L12/Ls48.beta0.34.m0.01/fort.200	12	48	0.34	0.01	100	100	5
-724	sunbird_thirring_runs3_L12/Ls48.beta0.34.m0.02/fort.200	12	48	0.34	0.02	100	100	5
-725	sunbird_thirring_runs3_L12/Ls48.beta0.34.m0.03/fort.200	12	48	0.34	0.03	100	100	5
-726	sunbird_thirring_runs3_L12/Ls48.beta0.34.m0.04/fort.200	12	48	0.34	0.04	100	100	5
-727	sunbird_thirring_runs3_L12/Ls48.beta0.34.m0.05/fort.200	12	48	0.34	0.05	100	100	5
-728	sunbird_thirring_runs3_L12/Ls48.beta0.36.m0.01/fort.200	12	48	0.36	0.01	100	100	5
-729	peta4_RUNS2_L16/Ls40.beta0.40.m0.05/fort.200	16	40	0.4	0.05	100	75	5
-730	peta4_RUNS2_L16/Ls40.beta0.42.m0.05/fort.200	16	40	0.42	0.05	100	75	5
-731	peta4_RUNS2_L16/Ls48.beta0.40.m0.01/fort.200	16	48	0.4	0.01	100	75	5
-732	peta4_RUNS2_L16/Ls48.beta0.40.m0.02/fort.200	16	48	0.4	0.02	100	75	5
-733	peta4_RUNS2_L16/Ls48.beta0.40.m0.03/fort.200	16	48	0.4	0.03	100	75	5
-734	peta4_RUNS2_L16/Ls48.beta0.40.m0.04/fort.200	16	48	0.4	0.04	100	75	5
-735	peta4_RUNS2_L16/Ls48.beta0.40.m0.05/fort.200	16	48	0.4	0.05	100	75	5
-736	peta4_RUNS2_L16/Ls48.beta0.42.m0.01/fort.200	16	48	0.42	0.01	100	75	5
-737	peta4_RUNS2_L16/Ls48.beta0.42.m0.02/fort.200	16	48	0.42	0.02	100	75	5
-738	peta4_RUNS2_L16/Ls48.beta0.42.m0.03/fort.200	16	48	0.42	0.03	100	75	5
-739	peta4_RUNS2_L16/Ls48.beta0.42.m0.04/fort.200	16	48	0.42	0.04	100	75	5
-740	peta4_RUNS2_L16/Ls48.beta0.42.m0.05/fort.200	16	48	0.42	0.05	100	75	5
-741	peta4_RUNS2_L16/Ls48.beta0.44.m0.01/fort.200	16	48	0.44	0.01	100	75	5
-742	peta4_RUNS2_L16/Ls48.beta0.44.m0.02/fort.200	16	48	0.44	0.02	100	75	5
-743	peta4_RUNS2_L16/Ls48.beta0.44.m0.03/fort.200	16	48	0.44	0.03	100	75	5
-744	peta4_RUNS2_L16/Ls48.beta0.44.m0.04/fort.200	16	48	0.44	0.04	100	75	5
-745	peta4_RUNS2_L16/Ls48.beta0.44.m0.05/fort.200	16	48	0.44	0.05	100	75	5
-746	peta4_RUNS2_L16/Ls48.beta0.46.m0.01/fort.200	16	48	0.46	0.01	100	75	5
-747	peta4_RUNS2_L16/Ls48.beta0.46.m0.02/fort.200	16	48	0.46	0.02	100	75	5
-748	peta4_RUNS2_L16/Ls48.beta0.46.m0.03/fort.200	16	48	0.46	0.03	100	75	5
-749	peta4_RUNS2_L16/Ls48.beta0.46.m0.04/fort.200	16	48	0.46	0.04	100	75	5
-750	peta4_RUNS2_L16/Ls48.beta0.46.m0.05/fort.200	16	48	0.46	0.05	100	75	5
-751	peta4_RUNS2_L16/Ls48.beta0.48.m0.01/fort.200	16	48	0.48	0.01	100	75	5
-752	peta4_RUNS2_L16/Ls48.beta0.48.m0.02/fort.200	16	48	0.48	0.02	100	75	5
-753	peta4_RUNS2_L16/Ls48.beta0.48.m0.03/fort.200	16	48	0.48	0.03	100	75	5
-754	peta4_RUNS2_L16/Ls48.beta0.48.m0.04/fort.200	16	48	0.48	0.04	100	75	5
-755	peta4_RUNS2_L16/Ls48.beta0.48.m0.05/fort.200	16	48	0.48	0.05	100	75	5
-756	peta4_RUNS2_L16/Ls48.beta0.50.m0.01/fort.200	16	48	0.5	0.01	100	75	5
-757	peta4_RUNS2_L16/Ls48.beta0.50.m0.02/fort.200	16	48	0.5	0.02	100	75	5
-758	peta4_RUNS2_L16/Ls48.beta0.50.m0.03/fort.200	16	48	0.5	0.03	100	75	5
-759	peta4_RUNS2_L16/Ls48.beta0.50.m0.04/fort.200	16	48	0.5	0.04	100	75	5
-760	peta4_RUNS2_L16/Ls48.beta0.52.m0.01/fort.200	16	48	0.52	0.01	100	75	5
-761	peta4_RUNS2_L16/Ls48.beta0.52.m0.02/fort.200	16	48	0.52	0.02	100	75	5
-762	peta4_RUNS2_L16/Ls48.beta0.52.m0.03/fort.200	16	48	0.52	0.03	100	75	5
-763	peta4_RUNS2_L16/Ls48.beta0.52.m0.04/fort.200	16	48	0.52	0.04	100	75	5
-764	simon/old/16/Ls08.beta0.3.m0.01/fort.200	16	8	0.3	0.01	100	75	5
-765	simon/old/16/Ls08.beta0.6.m0.01/fort.200	16	8	0.6	0.01	100	75	5
-766	simon/old/16/Ls16.beta0.6.m0.01/fort.200	16	16	0.6	0.01	100	75	5
-767	simon/old/16/Ls24.beta0.3.m0.01/fort.200	16	24	0.3	0.01	100	75	5
-768	simon/old/16/Ls24.beta0.6.m0.01/fort.200	16	24	0.6	0.01	100	75	5
-769	simon/old/16/Ls32.beta0.6.m0.01/fort.200	16	32	0.6	0.01	100	75	5
-770	simon/old/16/Ls40.beta0.6.m0.01/fort.200	16	40	0.6	0.01	100	75	5
-771	simon/old/16/a/Ls16.beta0.3.m0.01/fort.200	16	16	0.3	0.01	100	75	5
-772	simon/old/16/a/Ls24.beta0.3.m0.01/fort.200	16	24	0.3	0.01	100	75	5
-773	all_dirs16/Ls32.beta0.30.m0.01/fort.200.total.1	16	32	0.3	0.01	100	100	5
-774	all_dirs16/Ls32.beta0.30.m0.02/fort.200.total.1	16	32	0.3	0.02	100	100	5
-775	all_dirs16/Ls32.beta0.30.m0.03/fort.200.total.1	16	32	0.3	0.03	100	100	5
-776	all_dirs16/Ls32.beta0.30.m0.04/fort.200.total.1	16	32	0.3	0.04	100	100	5
-777	all_dirs16/Ls32.beta0.30.m0.05/fort.200.total.1	16	32	0.3	0.05	100	100	5
-778	all_dirs16/Ls32.beta0.32.m0.01/fort.200.total.1	16	32	0.32	0.01	100	100	5
-779	all_dirs16/Ls32.beta0.32.m0.02/fort.200.total.1	16	32	0.32	0.02	100	100	5
-780	all_dirs16/Ls32.beta0.32.m0.03/fort.200.total.1	16	32	0.32	0.03	100	100	5
-781	all_dirs16/Ls32.beta0.32.m0.04/fort.200.total.1	16	32	0.32	0.04	100	100	5
-782	all_dirs16/Ls32.beta0.32.m0.05/fort.200.total.1	16	32	0.32	0.05	100	100	5
-783	all_dirs16/Ls32.beta0.34.m0.01/fort.200.total.1	16	32	0.34	0.01	100	100	5
-784	all_dirs16/Ls32.beta0.34.m0.02/fort.200.total.1	16	32	0.34	0.02	100	100	5
-785	all_dirs16/Ls32.beta0.34.m0.03/fort.200.total.1	16	32	0.34	0.03	100	100	5
-786	all_dirs16/Ls32.beta0.34.m0.04/fort.200.total.1	16	32	0.34	0.04	100	100	5
-787	all_dirs16/Ls32.beta0.34.m0.05/fort.200.total.1	16	32	0.34	0.05	100	100	5
-788	all_dirs16/Ls32.beta0.36.m0.01/fort.200.total.1	16	32	0.36	0.01	100	100	5
-789	all_dirs16/Ls32.beta0.36.m0.02/fort.200.total.1	16	32	0.36	0.02	100	100	5
-790	all_dirs16/Ls32.beta0.36.m0.03/fort.200.total.1	16	32	0.36	0.03	100	100	5
-791	all_dirs16/Ls32.beta0.36.m0.04/fort.200.total.1	16	32	0.36	0.04	100	100	5
-792	all_dirs16/Ls32.beta0.36.m0.05/fort.200.total.1	16	32	0.36	0.05	100	100	5
-793	all_dirs16/Ls32.beta0.38.m0.01/fort.200.total.1	16	32	0.38	0.01	100	100	5
-794	all_dirs16/Ls32.beta0.38.m0.02/fort.200.total.1	16	32	0.38	0.02	100	100	5
-795	all_dirs16/Ls32.beta0.38.m0.03/fort.200.total.1	16	32	0.38	0.03	100	100	5
-796	all_dirs16/Ls32.beta0.38.m0.04/fort.200.total.1	16	32	0.38	0.04	100	100	5
-797	all_dirs16/Ls32.beta0.38.m0.05/fort.200.total.1	16	32	0.38	0.05	100	100	5
-798	all_dirs16/Ls40.beta0.30.m0.01/fort.200.total.1	16	40	0.3	0.01	100	100	5
-799	all_dirs16/Ls40.beta0.30.m0.02/fort.200.total.1	16	40	0.3	0.02	100	100	5
-800	all_dirs16/Ls40.beta0.30.m0.03/fort.200.total.1	16	40	0.3	0.03	100	100	5
-801	all_dirs16/Ls40.beta0.30.m0.04/fort.200.total.1	16	40	0.3	0.04	100	100	5
-802	all_dirs16/Ls40.beta0.30.m0.05/fort.200.total.1	16	40	0.3	0.05	100	100	5
-803	all_dirs16/Ls40.beta0.32.m0.01/fort.200.total.1	16	40	0.32	0.01	100	100	5
-804	all_dirs16/Ls40.beta0.32.m0.02/fort.200.total.1	16	40	0.32	0.02	100	100	5
-805	all_dirs16/Ls40.beta0.32.m0.03/fort.200.total.1	16	40	0.32	0.03	100	100	5
-806	all_dirs16/Ls40.beta0.32.m0.04/fort.200.total.1	16	40	0.32	0.04	100	100	5
-807	all_dirs16/Ls40.beta0.32.m0.05/fort.200.total.1	16	40	0.32	0.05	100	100	5
-808	all_dirs16/Ls40.beta0.34.m0.01/fort.200.total.1	16	40	0.34	0.01	100	100	5
-809	all_dirs16/Ls40.beta0.34.m0.02/fort.200.total.1	16	40	0.34	0.02	100	100	5
-810	all_dirs16/Ls40.beta0.34.m0.03/fort.200.total.1	16	40	0.34	0.03	100	100	5
-811	all_dirs16/Ls40.beta0.34.m0.04/fort.200.total.1	16	40	0.34	0.04	100	100	5
-812	all_dirs16/Ls40.beta0.34.m0.05/fort.200.total.1	16	40	0.34	0.05	100	100	5
-813	all_dirs16/Ls40.beta0.36.m0.01/fort.200.total.1	16	40	0.36	0.01	100	100	5
-814	all_dirs16/Ls40.beta0.36.m0.02/fort.200.total.1	16	40	0.36	0.02	100	100	5
-815	all_dirs16/Ls40.beta0.36.m0.03/fort.200.total.1	16	40	0.36	0.03	100	100	5
-816	all_dirs16/Ls40.beta0.36.m0.04/fort.200.total.1	16	40	0.36	0.04	100	100	5
-817	all_dirs16/Ls40.beta0.36.m0.05/fort.200.total.1	16	40	0.36	0.05	100	100	5
-818	all_dirs16/Ls40.beta0.38.m0.01/fort.200.total.1	16	40	0.38	0.01	100	100	5
-819	all_dirs16/Ls40.beta0.38.m0.02/fort.200.total.1	16	40	0.38	0.02	100	100	5
-820	all_dirs16/Ls40.beta0.38.m0.03/fort.200.total.1	16	40	0.38	0.03	100	100	5
-821	all_dirs16/Ls40.beta0.38.m0.04/fort.200.total.1	16	40	0.38	0.04	100	100	5
-822	all_dirs16/Ls40.beta0.38.m0.05/fort.200.total.1	16	40	0.38	0.05	100	100	5
-823	all_dirs16/Ls48.beta0.30.m0.01/fort.200.total.1	16	48	0.3	0.01	100	100	5
-824	all_dirs16/Ls48.beta0.30.m0.02/fort.200.total.1	16	48	0.3	0.02	100	100	5
-825	all_dirs16/Ls48.beta0.30.m0.03/fort.200.total.1	16	48	0.3	0.03	100	100	5
-826	all_dirs16/Ls48.beta0.30.m0.04/fort.200.total.1	16	48	0.3	0.04	100	100	5
-827	all_dirs16/Ls48.beta0.30.m0.05/fort.200.total.1	16	48	0.3	0.05	100	100	5
-828	all_dirs16/Ls48.beta0.32.m0.01/fort.200.total.1	16	48	0.32	0.01	100	100	5
-829	all_dirs16/Ls48.beta0.32.m0.02/fort.200.total.1	16	48	0.32	0.02	100	100	5
-830	all_dirs16/Ls48.beta0.32.m0.03/fort.200.total.1	16	48	0.32	0.03	100	100	5
-831	all_dirs16/Ls48.beta0.32.m0.04/fort.200.total.1	16	48	0.32	0.04	100	100	5
-832	all_dirs16/Ls48.beta0.32.m0.05/fort.200.total.1	16	48	0.32	0.05	100	100	5
-833	all_dirs16/Ls48.beta0.34.m0.01/fort.200.total.1	16	48	0.34	0.01	100	100	5
-834	all_dirs16/Ls48.beta0.34.m0.02/fort.200.total.1	16	48	0.34	0.02	100	100	5
-835	all_dirs16/Ls48.beta0.34.m0.03/fort.200.total.1	16	48	0.34	0.03	100	100	5
-836	all_dirs16/Ls48.beta0.34.m0.04/fort.200.total.1	16	48	0.34	0.04	100	100	5
-837	all_dirs16/Ls48.beta0.34.m0.05/fort.200.total.1	16	48	0.34	0.05	100	100	5
-838	all_dirs16/Ls48.beta0.36.m0.01/fort.200.total.1	16	48	0.36	0.01	100	100	5
-839	all_dirs16/Ls48.beta0.36.m0.02/fort.200.total.1	16	48	0.36	0.02	100	100	5
-840	all_dirs16/Ls48.beta0.36.m0.03/fort.200.total.1	16	48	0.36	0.03	100	100	5
-841	all_dirs16/Ls48.beta0.36.m0.04/fort.200.total.1	16	48	0.36	0.04	100	100	5
-842	all_dirs16/Ls48.beta0.36.m0.05/fort.200.total.1	16	48	0.36	0.05	100	100	5
-843	all_dirs16/Ls48.beta0.38.m0.01/fort.200.total.1	16	48	0.38	0.01	100	100	5
-844	all_dirs16/Ls48.beta0.38.m0.02/fort.200.total.1	16	48	0.38	0.02	100	100	5
-845	all_dirs16/Ls48.beta0.38.m0.03/fort.200.total.1	16	48	0.38	0.03	100	100	5
-846	all_dirs16/Ls48.beta0.38.m0.04/fort.200.total.1	16	48	0.38	0.04	100	100	5
-847	all_dirs16/Ls48.beta0.38.m0.05/fort.200.total.1	16	48	0.38	0.05	100	100	5
-848	peta4_RUNS2_L16/Ls32.beta0.30.m0.01/fort.200	16	32	0.3	0.01	100	100	5
-849	peta4_RUNS2_L16/Ls32.beta0.30.m0.02/fort.200	16	32	0.3	0.02	100	100	5
-850	peta4_RUNS2_L16/Ls32.beta0.30.m0.03/fort.200	16	32	0.3	0.03	100	100	5
-851	peta4_RUNS2_L16/Ls32.beta0.30.m0.04/fort.200	16	32	0.3	0.04	100	100	5
-852	peta4_RUNS2_L16/Ls32.beta0.30.m0.05/fort.200	16	32	0.3	0.05	100	100	5
-853	peta4_RUNS2_L16/Ls32.beta0.32.m0.01/fort.200	16	32	0.32	0.01	100	100	5
-854	peta4_RUNS2_L16/Ls32.beta0.32.m0.02/fort.200	16	32	0.32	0.02	100	100	5
-855	peta4_RUNS2_L16/Ls32.beta0.32.m0.03/fort.200	16	32	0.32	0.03	100	100	5
-856	peta4_RUNS2_L16/Ls32.beta0.32.m0.04/fort.200	16	32	0.32	0.04	100	100	5
-857	peta4_RUNS2_L16/Ls32.beta0.32.m0.05/fort.200	16	32	0.32	0.05	100	100	5
-858	peta4_RUNS2_L16/Ls32.beta0.34.m0.01/fort.200	16	32	0.34	0.01	100	100	5
-859	peta4_RUNS2_L16/Ls32.beta0.34.m0.02/fort.200	16	32	0.34	0.02	100	100	5
-860	peta4_RUNS2_L16/Ls32.beta0.34.m0.03/fort.200	16	32	0.34	0.03	100	100	5
-861	peta4_RUNS2_L16/Ls32.beta0.34.m0.04/fort.200	16	32	0.34	0.04	100	100	5
-862	peta4_RUNS2_L16/Ls32.beta0.34.m0.05/fort.200	16	32	0.34	0.05	100	100	5
-863	peta4_RUNS2_L16/Ls32.beta0.36.m0.01/fort.200	16	32	0.36	0.01	100	100	5
-864	peta4_RUNS2_L16/Ls32.beta0.36.m0.02/fort.200	16	32	0.36	0.02	100	100	5
-865	peta4_RUNS2_L16/Ls32.beta0.36.m0.03/fort.200	16	32	0.36	0.03	100	100	5
-866	peta4_RUNS2_L16/Ls32.beta0.36.m0.04/fort.200	16	32	0.36	0.04	100	100	5
-867	peta4_RUNS2_L16/Ls32.beta0.36.m0.05/fort.200	16	32	0.36	0.05	100	100	5
-868	peta4_RUNS2_L16/Ls32.beta0.38.m0.01/fort.200	16	32	0.38	0.01	100	100	5
-869	peta4_RUNS2_L16/Ls32.beta0.38.m0.02/fort.200	16	32	0.38	0.02	100	100	5
-870	peta4_RUNS2_L16/Ls32.beta0.38.m0.03/fort.200	16	32	0.38	0.03	100	100	5
-871	peta4_RUNS2_L16/Ls32.beta0.38.m0.04/fort.200	16	32	0.38	0.04	100	100	5
-872	peta4_RUNS2_L16/Ls32.beta0.38.m0.05/fort.200	16	32	0.38	0.05	100	100	5
-873	peta4_RUNS2_L16/Ls32.beta0.40.m0.01/fort.200	16	32	0.4	0.01	100	80	5
-874	peta4_RUNS2_L16/Ls32.beta0.40.m0.02/fort.200	16	32	0.4	0.02	100	80	5
-875	peta4_RUNS2_L16/Ls32.beta0.40.m0.03/fort.200	16	32	0.4	0.03	100	80	5
-876	peta4_RUNS2_L16/Ls32.beta0.40.m0.04/fort.200	16	32	0.4	0.04	100	80	5
-877	peta4_RUNS2_L16/Ls32.beta0.40.m0.05/fort.200	16	32	0.4	0.05	100	80	5
-878	peta4_RUNS2_L16/Ls32.beta0.42.m0.01/fort.200	16	32	0.42	0.01	100	80	5
-879	peta4_RUNS2_L16/Ls32.beta0.42.m0.02/fort.200	16	32	0.42	0.02	100	80	5
-880	peta4_RUNS2_L16/Ls32.beta0.42.m0.03/fort.200	16	32	0.42	0.03	100	80	5
-881	peta4_RUNS2_L16/Ls32.beta0.42.m0.04/fort.200	16	32	0.42	0.04	100	80	5
-882	peta4_RUNS2_L16/Ls32.beta0.42.m0.05/fort.200	16	32	0.42	0.05	100	80	5
-883	peta4_RUNS2_L16/Ls32.beta0.44.m0.01/fort.200	16	32	0.44	0.01	100	80	5
-884	peta4_RUNS2_L16/Ls32.beta0.44.m0.02/fort.200	16	32	0.44	0.02	100	80	5
-885	peta4_RUNS2_L16/Ls32.beta0.44.m0.03/fort.200	16	32	0.44	0.03	100	80	5
-886	peta4_RUNS2_L16/Ls32.beta0.44.m0.04/fort.200	16	32	0.44	0.04	100	80	5
-887	peta4_RUNS2_L16/Ls32.beta0.44.m0.05/fort.200	16	32	0.44	0.05	100	80	5
-888	peta4_RUNS2_L16/Ls32.beta0.46.m0.01/fort.200	16	32	0.46	0.01	100	80	5
-889	peta4_RUNS2_L16/Ls32.beta0.46.m0.02/fort.200	16	32	0.46	0.02	100	80	5
-890	peta4_RUNS2_L16/Ls32.beta0.46.m0.03/fort.200	16	32	0.46	0.03	100	80	5
-891	peta4_RUNS2_L16/Ls32.beta0.46.m0.04/fort.200	16	32	0.46	0.04	100	80	5
-892	peta4_RUNS2_L16/Ls32.beta0.46.m0.05/fort.200	16	32	0.46	0.05	100	80	5
-893	peta4_RUNS2_L16/Ls32.beta0.48.m0.01/fort.200	16	32	0.48	0.01	100	80	5
-894	peta4_RUNS2_L16/Ls32.beta0.48.m0.02/fort.200	16	32	0.48	0.02	100	80	5
-895	peta4_RUNS2_L16/Ls32.beta0.48.m0.03/fort.200	16	32	0.48	0.03	100	80	5
-896	peta4_RUNS2_L16/Ls32.beta0.48.m0.04/fort.200	16	32	0.48	0.04	100	80	5
-897	peta4_RUNS2_L16/Ls32.beta0.48.m0.05/fort.200	16	32	0.48	0.05	100	80	5
-898	peta4_RUNS2_L16/Ls32.beta0.50.m0.01/fort.200	16	32	0.5	0.01	100	80	5
-899	peta4_RUNS2_L16/Ls32.beta0.50.m0.02/fort.200	16	32	0.5	0.02	100	80	5
-900	peta4_RUNS2_L16/Ls32.beta0.50.m0.03/fort.200	16	32	0.5	0.03	100	80	5
-901	peta4_RUNS2_L16/Ls32.beta0.50.m0.04/fort.200	16	32	0.5	0.04	100	80	5
-902	peta4_RUNS2_L16/Ls32.beta0.50.m0.05/fort.200	16	32	0.5	0.05	100	80	5
-903	peta4_RUNS2_L16/Ls32.beta0.52.m0.01/fort.200	16	32	0.52	0.01	100	80	5
-904	peta4_RUNS2_L16/Ls32.beta0.52.m0.02/fort.200	16	32	0.52	0.02	100	80	5
-905	peta4_RUNS2_L16/Ls32.beta0.52.m0.03/fort.200	16	32	0.52	0.03	100	80	5
-906	peta4_RUNS2_L16/Ls32.beta0.52.m0.04/fort.200	16	32	0.52	0.04	100	80	5
-907	peta4_RUNS2_L16/Ls32.beta0.52.m0.05/fort.200	16	32	0.52	0.05	100	80	5
-908	peta4_RUNS2_L16/Ls40.beta0.30.m0.01/fort.200	16	40	0.3	0.01	100	100	5
-909	peta4_RUNS2_L16/Ls40.beta0.30.m0.02/fort.200	16	40	0.3	0.02	100	100	5
-910	peta4_RUNS2_L16/Ls40.beta0.30.m0.03/fort.200	16	40	0.3	0.03	100	100	5
-911	peta4_RUNS2_L16/Ls40.beta0.30.m0.04/fort.200	16	40	0.3	0.04	100	100	5
-912	peta4_RUNS2_L16/Ls40.beta0.30.m0.05/fort.200	16	40	0.3	0.05	100	100	5
-913	peta4_RUNS2_L16/Ls40.beta0.32.m0.01/fort.200	16	40	0.32	0.01	100	100	5
-914	peta4_RUNS2_L16/Ls40.beta0.32.m0.02/fort.200	16	40	0.32	0.02	100	100	5
-915	peta4_RUNS2_L16/Ls40.beta0.32.m0.03/fort.200	16	40	0.32	0.03	100	100	5
-916	peta4_RUNS2_L16/Ls40.beta0.32.m0.04/fort.200	16	40	0.32	0.04	100	100	5
-917	peta4_RUNS2_L16/Ls40.beta0.32.m0.05/fort.200	16	40	0.32	0.05	100	100	5
-918	peta4_RUNS2_L16/Ls40.beta0.34.m0.01/fort.200	16	40	0.34	0.01	100	100	5
-919	peta4_RUNS2_L16/Ls40.beta0.34.m0.02/fort.200	16	40	0.34	0.02	100	100	5
-920	peta4_RUNS2_L16/Ls40.beta0.34.m0.03/fort.200	16	40	0.34	0.03	100	100	5
-921	peta4_RUNS2_L16/Ls40.beta0.34.m0.04/fort.200	16	40	0.34	0.04	100	100	5
-922	peta4_RUNS2_L16/Ls40.beta0.34.m0.05/fort.200	16	40	0.34	0.05	100	100	5
-923	peta4_RUNS2_L16/Ls40.beta0.36.m0.01/fort.200	16	40	0.36	0.01	100	100	5
-924	peta4_RUNS2_L16/Ls40.beta0.36.m0.02/fort.200	16	40	0.36	0.02	100	100	5
-925	peta4_RUNS2_L16/Ls40.beta0.36.m0.03/fort.200	16	40	0.36	0.03	100	100	5
-926	peta4_RUNS2_L16/Ls40.beta0.36.m0.04/fort.200	16	40	0.36	0.04	100	100	5
-927	peta4_RUNS2_L16/Ls40.beta0.36.m0.05/fort.200	16	40	0.36	0.05	100	100	5
-928	peta4_RUNS2_L16/Ls40.beta0.38.m0.01/fort.200	16	40	0.38	0.01	100	100	5
-929	peta4_RUNS2_L16/Ls40.beta0.38.m0.02/fort.200	16	40	0.38	0.02	100	100	5
-930	peta4_RUNS2_L16/Ls40.beta0.38.m0.03/fort.200	16	40	0.38	0.03	100	100	5
-931	peta4_RUNS2_L16/Ls40.beta0.38.m0.04/fort.200	16	40	0.38	0.04	100	100	5
-932	peta4_RUNS2_L16/Ls40.beta0.38.m0.05/fort.200	16	40	0.38	0.05	100	100	5
-933	peta4_RUNS2_L16/Ls40.beta0.40.m0.01/fort.200	16	40	0.4	0.01	100	80	5
-934	peta4_RUNS2_L16/Ls40.beta0.40.m0.02/fort.200	16	40	0.4	0.02	100	80	5
-935	peta4_RUNS2_L16/Ls40.beta0.40.m0.03/fort.200	16	40	0.4	0.03	100	80	5
-936	peta4_RUNS2_L16/Ls40.beta0.40.m0.04/fort.200	16	40	0.4	0.04	100	80	5
-937	peta4_RUNS2_L16/Ls40.beta0.42.m0.01/fort.200	16	40	0.42	0.01	100	80	5
-938	peta4_RUNS2_L16/Ls40.beta0.42.m0.02/fort.200	16	40	0.42	0.02	100	80	5
-939	peta4_RUNS2_L16/Ls40.beta0.42.m0.03/fort.200	16	40	0.42	0.03	100	80	5
-940	peta4_RUNS2_L16/Ls40.beta0.42.m0.04/fort.200	16	40	0.42	0.04	100	80	5
-941	peta4_RUNS2_L16/Ls40.beta0.44.m0.01/fort.200	16	40	0.44	0.01	100	80	5
-942	peta4_RUNS2_L16/Ls40.beta0.44.m0.02/fort.200	16	40	0.44	0.02	100	80	5
-943	peta4_RUNS2_L16/Ls40.beta0.44.m0.03/fort.200	16	40	0.44	0.03	100	80	5
-944	peta4_RUNS2_L16/Ls40.beta0.44.m0.04/fort.200	16	40	0.44	0.04	100	80	5
-945	peta4_RUNS2_L16/Ls40.beta0.44.m0.05/fort.200	16	40	0.44	0.05	100	75	5
-946	peta4_RUNS2_L16/Ls40.beta0.46.m0.01/fort.200	16	40	0.46	0.01	100	80	5
-947	peta4_RUNS2_L16/Ls40.beta0.46.m0.02/fort.200	16	40	0.46	0.02	100	80	5
-948	peta4_RUNS2_L16/Ls40.beta0.46.m0.03/fort.200	16	40	0.46	0.03	100	80	5
-949	peta4_RUNS2_L16/Ls40.beta0.46.m0.04/fort.200	16	40	0.46	0.04	100	80	5
-950	peta4_RUNS2_L16/Ls40.beta0.46.m0.05/fort.200	16	40	0.46	0.05	100	80	5
-951	peta4_RUNS2_L16/Ls40.beta0.48.m0.01/fort.200	16	40	0.48	0.01	100	80	5
-952	peta4_RUNS2_L16/Ls40.beta0.48.m0.02/fort.200	16	40	0.48	0.02	100	80	5
-953	peta4_RUNS2_L16/Ls40.beta0.48.m0.03/fort.200	16	40	0.48	0.03	100	80	5
-954	peta4_RUNS2_L16/Ls40.beta0.48.m0.04/fort.200	16	40	0.48	0.04	100	80	5
-955	peta4_RUNS2_L16/Ls40.beta0.48.m0.05/fort.200	16	40	0.48	0.05	100	80	5
-956	peta4_RUNS2_L16/Ls40.beta0.50.m0.01/fort.200	16	40	0.5	0.01	100	80	5
-957	peta4_RUNS2_L16/Ls40.beta0.50.m0.02/fort.200	16	40	0.5	0.02	100	80	5
-958	peta4_RUNS2_L16/Ls40.beta0.50.m0.03/fort.200	16	40	0.5	0.03	100	80	5
-959	peta4_RUNS2_L16/Ls40.beta0.50.m0.04/fort.200	16	40	0.5	0.04	100	80	5
-960	peta4_RUNS2_L16/Ls40.beta0.50.m0.05/fort.200	16	40	0.5	0.05	100	80	5
-961	peta4_RUNS2_L16/Ls40.beta0.52.m0.01/fort.200	16	40	0.52	0.01	100	80	5
-962	peta4_RUNS2_L16/Ls40.beta0.52.m0.02/fort.200	16	40	0.52	0.02	100	80	5
-963	peta4_RUNS2_L16/Ls40.beta0.52.m0.03/fort.200	16	40	0.52	0.03	100	80	5
-964	peta4_RUNS2_L16/Ls40.beta0.52.m0.04/fort.200	16	40	0.52	0.04	100	80	5
-965	peta4_RUNS2_L16/Ls40.beta0.52.m0.05/fort.200	16	40	0.52	0.05	100	80	5
-966	peta4_RUNS2_L16/Ls48.beta0.30.m0.01/fort.200	16	48	0.3	0.01	100	100	5
-967	peta4_RUNS2_L16/Ls48.beta0.30.m0.02/fort.200	16	48	0.3	0.02	100	100	5
-968	peta4_RUNS2_L16/Ls48.beta0.30.m0.03/fort.200	16	48	0.3	0.03	100	100	5
-969	peta4_RUNS2_L16/Ls48.beta0.30.m0.04/fort.200	16	48	0.3	0.04	100	100	5
-970	peta4_RUNS2_L16/Ls48.beta0.30.m0.05/fort.200	16	48	0.3	0.05	100	100	5
-971	peta4_RUNS2_L16/Ls48.beta0.32.m0.01/fort.200	16	48	0.32	0.01	100	100	5
-972	peta4_RUNS2_L16/Ls48.beta0.32.m0.02/fort.200	16	48	0.32	0.02	100	100	5
-973	peta4_RUNS2_L16/Ls48.beta0.32.m0.03/fort.200	16	48	0.32	0.03	100	100	5
-974	peta4_RUNS2_L16/Ls48.beta0.32.m0.04/fort.200	16	48	0.32	0.04	100	100	5
-975	peta4_RUNS2_L16/Ls48.beta0.32.m0.05/fort.200	16	48	0.32	0.05	100	100	5
-976	peta4_RUNS2_L16/Ls48.beta0.34.m0.01/fort.200	16	48	0.34	0.01	100	100	5
-977	peta4_RUNS2_L16/Ls48.beta0.34.m0.02/fort.200	16	48	0.34	0.02	100	100	5
-978	peta4_RUNS2_L16/Ls48.beta0.34.m0.03/fort.200	16	48	0.34	0.03	100	100	5
-979	peta4_RUNS2_L16/Ls48.beta0.34.m0.04/fort.200	16	48	0.34	0.04	100	100	5
-980	peta4_RUNS2_L16/Ls48.beta0.34.m0.05/fort.200	16	48	0.34	0.05	100	100	5
-981	peta4_RUNS2_L16/Ls48.beta0.36.m0.01/fort.200	16	48	0.36	0.01	100	100	5
-982	peta4_RUNS2_L16/Ls48.beta0.36.m0.02/fort.200	16	48	0.36	0.02	100	100	5
-983	peta4_RUNS2_L16/Ls48.beta0.36.m0.03/fort.200	16	48	0.36	0.03	100	100	5
-984	peta4_RUNS2_L16/Ls48.beta0.36.m0.04/fort.200	16	48	0.36	0.04	100	100	5
-985	peta4_RUNS2_L16/Ls48.beta0.36.m0.05/fort.200	16	48	0.36	0.05	100	100	5
-986	peta4_RUNS2_L16/Ls48.beta0.38.m0.01/fort.200	16	48	0.38	0.01	100	100	5
-987	peta4_RUNS2_L16/Ls48.beta0.38.m0.02/fort.200	16	48	0.38	0.02	100	100	5
-988	peta4_RUNS2_L16/Ls48.beta0.38.m0.03/fort.200	16	48	0.38	0.03	100	100	5
-989	peta4_RUNS2_L16/Ls48.beta0.38.m0.04/fort.200	16	48	0.38	0.04	100	100	5
-990	peta4_RUNS2_L16/Ls48.beta0.38.m0.05/fort.200	16	48	0.38	0.05	100	100	5
-991	peta4_RUNS2_L16/Ls48.beta0.50.m0.05/fort.200	16	48	0.5	0.05	100	75	5
-992	peta4_RUNS2_L16/Ls48.beta0.52.m0.05/fort.200	16	48	0.52	0.05	100	75	5
-993	simon/16/Ls32.beta0.4.m0.01/fort.200	16	32	0.4	0.01	100	80	5
-994	simon/16/Ls32.beta0.4.m0.02/fort.200	16	32	0.4	0.02	100	80	5
-995	simon/16/Ls32.beta0.4.m0.03/fort.200	16	32	0.4	0.03	100	80	5
-996	simon/16/Ls32.beta0.4.m0.04/fort.200	16	32	0.4	0.04	100	80	5
-997	simon/16/Ls32.beta0.4.m0.05/fort.200	16	32	0.4	0.05	100	80	5
-998	simon/16/Ls32.beta0.42.m0.01/fort.200	16	32	0.42	0.01	100	80	5
-999	simon/16/Ls32.beta0.42.m0.02/fort.200	16	32	0.42	0.02	100	80	5
-1000	simon/16/Ls32.beta0.42.m0.03/fort.200	16	32	0.42	0.03	100	80	5
-1001	simon/16/Ls32.beta0.42.m0.04/fort.200	16	32	0.42	0.04	100	80	5
-1002	simon/16/Ls32.beta0.42.m0.05/fort.200	16	32	0.42	0.05	100	80	5
-1003	simon/16/Ls32.beta0.44.m0.01/fort.200	16	32	0.44	0.01	100	80	5
-1004	simon/16/Ls32.beta0.44.m0.02/fort.200	16	32	0.44	0.02	100	80	5
-1005	simon/16/Ls32.beta0.44.m0.03/fort.200	16	32	0.44	0.03	100	80	5
-1006	simon/16/Ls32.beta0.44.m0.04/fort.200	16	32	0.44	0.04	100	80	5
-1007	simon/16/Ls32.beta0.44.m0.05/fort.200	16	32	0.44	0.05	100	80	5
-1008	simon/16/Ls32.beta0.46.m0.01/fort.200	16	32	0.46	0.01	100	80	5
-1009	simon/16/Ls32.beta0.46.m0.02/fort.200	16	32	0.46	0.02	100	80	5
-1010	simon/16/Ls32.beta0.46.m0.03/fort.200	16	32	0.46	0.03	100	80	5
-1011	simon/16/Ls32.beta0.46.m0.04/fort.200	16	32	0.46	0.04	100	80	5
-1012	simon/16/Ls32.beta0.46.m0.05/fort.200	16	32	0.46	0.05	100	80	5
-1013	simon/16/Ls32.beta0.48.m0.01/fort.200	16	32	0.48	0.01	100	80	5
-1014	simon/16/Ls32.beta0.48.m0.02/fort.200	16	32	0.48	0.02	100	80	5
-1015	simon/16/Ls32.beta0.48.m0.03/fort.200	16	32	0.48	0.03	100	80	5
-1016	simon/16/Ls32.beta0.48.m0.04/fort.200	16	32	0.48	0.04	100	80	5
-1017	simon/16/Ls32.beta0.48.m0.05/fort.200	16	32	0.48	0.05	100	80	5
-1018	simon/16/Ls32.beta0.5.m0.01/fort.200	16	32	0.5	0.01	100	80	5
-1019	simon/16/Ls32.beta0.5.m0.02/fort.200	16	32	0.5	0.02	100	80	5
-1020	simon/16/Ls32.beta0.5.m0.03/fort.200	16	32	0.5	0.03	100	80	5
-1021	simon/16/Ls32.beta0.5.m0.04/fort.200	16	32	0.5	0.04	100	80	5
-1022	simon/16/Ls32.beta0.5.m0.05/fort.200	16	32	0.5	0.05	100	80	5
-1023	simon/16/Ls32.beta0.52.m0.01/fort.200	16	32	0.52	0.01	100	80	5
-1024	simon/16/Ls32.beta0.52.m0.02/fort.200	16	32	0.52	0.02	100	80	5
-1025	simon/16/Ls32.beta0.52.m0.03/fort.200	16	32	0.52	0.03	100	80	5
-1026	simon/16/Ls32.beta0.52.m0.04/fort.200	16	32	0.52	0.04	100	80	5
-1027	simon/16/Ls32.beta0.52.m0.05/fort.200	16	32	0.52	0.05	100	80	5
-1028	simon/16/Ls40.beta0.4.m0.01/fort.200	16	40	0.4	0.01	100	80	5
-1029	simon/16/Ls40.beta0.4.m0.02/fort.200	16	40	0.4	0.02	100	80	5
-1030	simon/16/Ls40.beta0.4.m0.03/fort.200	16	40	0.4	0.03	100	80	5
-1031	simon/16/Ls40.beta0.4.m0.04/fort.200	16	40	0.4	0.04	100	80	5
-1032	simon/16/Ls40.beta0.42.m0.01/fort.200	16	40	0.42	0.01	100	80	5
-1033	simon/16/Ls40.beta0.42.m0.02/fort.200	16	40	0.42	0.02	100	80	5
-1034	simon/16/Ls40.beta0.42.m0.03/fort.200	16	40	0.42	0.03	100	80	5
-1035	simon/16/Ls40.beta0.42.m0.04/fort.200	16	40	0.42	0.04	100	80	5
-1036	simon/16/Ls40.beta0.44.m0.01/fort.200	16	40	0.44	0.01	100	80	5
-1037	simon/16/Ls40.beta0.44.m0.02/fort.200	16	40	0.44	0.02	100	80	5
-1038	simon/16/Ls40.beta0.44.m0.03/fort.200	16	40	0.44	0.03	100	80	5
-1039	simon/16/Ls40.beta0.44.m0.04/fort.200	16	40	0.44	0.04	100	80	5
-1040	simon/16/Ls40.beta0.44.m0.05/fort.200	16	40	0.44	0.05	100	75	5
-1041	simon/16/Ls40.beta0.46.m0.01/fort.200	16	40	0.46	0.01	100	80	5
-1042	simon/16/Ls40.beta0.46.m0.02/fort.200	16	40	0.46	0.02	100	80	5
-1043	simon/16/Ls40.beta0.46.m0.03/fort.200	16	40	0.46	0.03	100	80	5
-1044	simon/16/Ls40.beta0.46.m0.04/fort.200	16	40	0.46	0.04	100	80	5
-1045	simon/16/Ls40.beta0.46.m0.05/fort.200	16	40	0.46	0.05	100	80	5
-1046	simon/16/Ls40.beta0.48.m0.01/fort.200	16	40	0.48	0.01	100	80	5
-1047	simon/16/Ls40.beta0.48.m0.02/fort.200	16	40	0.48	0.02	100	80	5
-1048	simon/16/Ls40.beta0.48.m0.03/fort.200	16	40	0.48	0.03	100	80	5
-1049	simon/16/Ls40.beta0.48.m0.04/fort.200	16	40	0.48	0.04	100	80	5
-1050	simon/16/Ls40.beta0.48.m0.05/fort.200	16	40	0.48	0.05	100	80	5
-1051	simon/16/Ls40.beta0.5.m0.01/fort.200	16	40	0.5	0.01	100	80	5
-1052	simon/16/Ls40.beta0.5.m0.02/fort.200	16	40	0.5	0.02	100	80	5
-1053	simon/16/Ls40.beta0.5.m0.03/fort.200	16	40	0.5	0.03	100	80	5
-1054	simon/16/Ls40.beta0.5.m0.04/fort.200	16	40	0.5	0.04	100	80	5
-1055	simon/16/Ls40.beta0.5.m0.05/fort.200	16	40	0.5	0.05	100	80	5
-1056	simon/16/Ls40.beta0.52.m0.01/fort.200	16	40	0.52	0.01	100	80	5
-1057	simon/16/Ls40.beta0.52.m0.02/fort.200	16	40	0.52	0.02	100	80	5
-1058	simon/16/Ls40.beta0.52.m0.03/fort.200	16	40	0.52	0.03	100	80	5
-1059	simon/16/Ls40.beta0.52.m0.04/fort.200	16	40	0.52	0.04	100	80	5
-1060	simon/16/Ls40.beta0.52.m0.05/fort.200	16	40	0.52	0.05	100	80	5
-1061	simon/16/Ls48.beta0.5.m0.05/fort.200	16	48	0.5	0.05	100	75	5
-1062	simon/16/Ls48.beta0.52.m0.05/fort.200	16	48	0.52	0.05	100	75	5
-1063	simon/old/16/Ls40.beta0.3.m0.01/fort.200	16	40	0.3	0.01	100	100	5
+all_dirs/Ls32.beta0.30.m0.03/fort.200.total.1	12	32	0.3	0.03	120	75	5
+all_dirs/Ls32.beta0.30.m0.03/fort.200.total.2	12	32	0.3	0.03	120	75	5
+all_dirs/Ls32.beta0.30.m0.04/fort.200.total.1	12	32	0.3	0.04	100	75	5
+all_dirs/Ls32.beta0.30.m0.04/fort.200.total.2	12	32	0.3	0.04	100	75	5
+all_dirs/Ls32.beta0.32.m0.01/fort.200.total.1	12	32	0.32	0.01	150	150	5
+all_dirs/Ls32.beta0.32.m0.01/fort.200.total.2	12	32	0.32	0.01	150	150	5
+all_dirs/Ls32.beta0.32.m0.02/fort.200.total.1	12	32	0.32	0.02	150	100	5
+all_dirs/Ls32.beta0.32.m0.02/fort.200.total.2	12	32	0.32	0.02	150	100	5
+all_dirs/Ls32.beta0.32.m0.03/fort.200.total.1	12	32	0.32	0.03	150	50	5
+all_dirs/Ls32.beta0.32.m0.03/fort.200.total.2	12	32	0.32	0.03	150	50	5
+all_dirs/Ls32.beta0.32.m0.04/fort.200.total.1	12	32	0.32	0.04	150	50	5
+all_dirs/Ls32.beta0.32.m0.04/fort.200.total.2	12	32	0.32	0.04	150	50	5
+all_dirs/Ls32.beta0.32.m0.05/fort.200.total.1	12	32	0.32	0.05	150	50	5
+all_dirs/Ls32.beta0.32.m0.05/fort.200.total.2	12	32	0.32	0.05	150	50	5
+all_dirs/Ls32.beta0.34.m0.01/fort.200.total.1	12	32	0.34	0.01	150	100	5
+all_dirs/Ls32.beta0.34.m0.01/fort.200.total.2	12	32	0.34	0.01	150	100	5
+all_dirs/Ls32.beta0.34.m0.02/fort.200.total.1	12	32	0.34	0.02	150	75	5
+all_dirs/Ls32.beta0.34.m0.02/fort.200.total.2	12	32	0.34	0.02	150	75	5
+all_dirs/Ls32.beta0.34.m0.03/fort.200.total.1	12	32	0.34	0.03	150	75	5
+all_dirs/Ls32.beta0.34.m0.03/fort.200.total.2	12	32	0.34	0.03	150	75	5
+all_dirs/Ls32.beta0.34.m0.04/fort.200.total.1	12	32	0.34	0.04	150	75	5
+all_dirs/Ls32.beta0.34.m0.04/fort.200.total.2	12	32	0.34	0.04	150	75	5
+all_dirs/Ls32.beta0.34.m0.05/fort.200.total.1	12	32	0.34	0.05	150	150	5
+all_dirs/Ls32.beta0.34.m0.05/fort.200.total.2	12	32	0.34	0.05	150	150	5
+all_dirs/Ls32.beta0.36.m0.01/fort.200.total.1	12	32	0.36	0.01	150	100	5
+all_dirs/Ls32.beta0.36.m0.01/fort.200.total.2	12	32	0.36	0.01	150	100	5
+all_dirs/Ls32.beta0.36.m0.02/fort.200.total.1	12	32	0.36	0.02	150	100	5
+all_dirs/Ls32.beta0.36.m0.02/fort.200.total.2	12	32	0.36	0.02	150	100	5
+all_dirs/Ls32.beta0.36.m0.03/fort.200.total.1	12	32	0.36	0.03	150	100	5
+all_dirs/Ls32.beta0.36.m0.03/fort.200.total.2	12	32	0.36	0.03	150	100	5
+all_dirs/Ls32.beta0.36.m0.04/fort.200.total.1	12	32	0.36	0.04	150	100	5
+all_dirs/Ls32.beta0.36.m0.04/fort.200.total.2	12	32	0.36	0.04	150	100	5
+all_dirs/Ls32.beta0.36.m0.05/fort.200.total.1	12	32	0.36	0.05	150	100	5
+all_dirs/Ls32.beta0.36.m0.05/fort.200.total.2	12	32	0.36	0.05	150	100	5
+all_dirs/Ls32.beta0.38.m0.01/fort.200.total.1	12	32	0.38	0.01	150	100	5
+all_dirs/Ls32.beta0.38.m0.01/fort.200.total.2	12	32	0.38	0.01	150	100	5
+all_dirs/Ls32.beta0.38.m0.02/fort.200.total.1	12	32	0.38	0.02	150	100	5
+all_dirs/Ls32.beta0.38.m0.02/fort.200.total.2	12	32	0.38	0.02	150	100	5
+all_dirs/Ls32.beta0.38.m0.03/fort.200.total.1	12	32	0.38	0.03	150	100	5
+all_dirs/Ls32.beta0.38.m0.03/fort.200.total.2	12	32	0.38	0.03	150	100	5
+all_dirs/Ls32.beta0.38.m0.04/fort.200.total.1	12	32	0.38	0.04	150	100	5
+all_dirs/Ls32.beta0.38.m0.04/fort.200.total.2	12	32	0.38	0.04	150	100	5
+all_dirs/Ls32.beta0.38.m0.05/fort.200.total.1	12	32	0.38	0.05	150	100	5
+all_dirs/Ls32.beta0.38.m0.05/fort.200.total.2	12	32	0.38	0.05	150	100	5
+all_dirs/Ls32.beta0.42.m0.01/fort.200.total.1	12	32	0.42	0.01	150	100	5
+all_dirs/Ls32.beta0.42.m0.01/fort.200.total.2	12	32	0.42	0.01	150	100	5
+all_dirs/Ls32.beta0.42.m0.02/fort.200.total.1	12	32	0.42	0.02	150	100	5
+all_dirs/Ls32.beta0.42.m0.02/fort.200.total.2	12	32	0.42	0.02	150	100	5
+all_dirs/Ls32.beta0.42.m0.03/fort.200.total.1	12	32	0.42	0.03	150	100	5
+all_dirs/Ls32.beta0.42.m0.03/fort.200.total.2	12	32	0.42	0.03	150	100	5
+all_dirs/Ls32.beta0.42.m0.04/fort.200.total.1	12	32	0.42	0.04	150	100	5
+all_dirs/Ls32.beta0.42.m0.04/fort.200.total.2	12	32	0.42	0.04	150	100	5
+all_dirs/Ls32.beta0.42.m0.05/fort.200.total.1	12	32	0.42	0.05	150	100	5
+all_dirs/Ls32.beta0.42.m0.05/fort.200.total.2	12	32	0.42	0.05	150	100	5
+all_dirs/Ls32.beta0.44.m0.01/fort.200.total.1	12	32	0.44	0.01	100	55	5
+all_dirs/Ls32.beta0.44.m0.01/fort.200.total.2	12	32	0.44	0.01	100	55	5
+all_dirs/Ls32.beta0.44.m0.02/fort.200.total.1	12	32	0.44	0.02	120	55	5
+all_dirs/Ls32.beta0.44.m0.02/fort.200.total.2	12	32	0.44	0.02	120	55	5
+all_dirs/Ls32.beta0.44.m0.03/fort.200.total.1	12	32	0.44	0.03	120	55	5
+all_dirs/Ls32.beta0.44.m0.03/fort.200.total.2	12	32	0.44	0.03	120	55	5
+all_dirs/Ls32.beta0.44.m0.04/fort.200.total.1	12	32	0.44	0.04	100	55	5
+all_dirs/Ls32.beta0.44.m0.04/fort.200.total.2	12	32	0.44	0.04	100	55	5
+all_dirs/Ls32.beta0.44.m0.05/fort.200.total.1	12	32	0.44	0.05	100	55	5
+all_dirs/Ls32.beta0.44.m0.05/fort.200.total.2	12	32	0.44	0.05	100	55	5
+all_dirs/Ls32.beta0.46.m0.01/fort.200.total.1	12	32	0.46	0.01	100	50	5
+all_dirs/Ls32.beta0.46.m0.01/fort.200.total.2	12	32	0.46	0.01	100	50	5
+all_dirs/Ls32.beta0.46.m0.02/fort.200.total.1	12	32	0.46	0.02	100	55	5
+all_dirs/Ls32.beta0.46.m0.02/fort.200.total.2	12	32	0.46	0.02	100	55	5
+all_dirs/Ls32.beta0.46.m0.03/fort.200.total.1	12	32	0.46	0.03	100	55	5
+all_dirs/Ls32.beta0.46.m0.03/fort.200.total.2	12	32	0.46	0.03	100	55	5
+all_dirs/Ls32.beta0.46.m0.04/fort.200.total.1	12	32	0.46	0.04	100	55	5
+all_dirs/Ls32.beta0.46.m0.04/fort.200.total.2	12	32	0.46	0.04	100	55	5
+all_dirs/Ls32.beta0.46.m0.05/fort.200.total.1	12	32	0.46	0.05	100	50	5
+all_dirs/Ls32.beta0.46.m0.05/fort.200.total.2	12	32	0.46	0.05	100	50	5
+all_dirs/Ls32.beta0.55.m0.01/fort.200.total.1	12	32	0.55	0.01	100	55	5
+all_dirs/Ls32.beta0.55.m0.01/fort.200.total.2	12	32	0.55	0.01	100	55	5
+all_dirs/Ls32.beta0.55.m0.02/fort.200.total.1	12	32	0.55	0.02	150	55	5
+all_dirs/Ls32.beta0.55.m0.02/fort.200.total.2	12	32	0.55	0.02	150	55	5
+all_dirs/Ls32.beta0.55.m0.03/fort.200.total.1	12	32	0.55	0.03	100	55	5
+all_dirs/Ls32.beta0.55.m0.03/fort.200.total.2	12	32	0.55	0.03	100	55	5
+all_dirs/Ls32.beta0.55.m0.04/fort.200.total.1	12	32	0.55	0.04	100	55	5
+all_dirs/Ls32.beta0.55.m0.04/fort.200.total.2	12	32	0.55	0.04	100	55	5
+all_dirs/Ls32.beta0.55.m0.05/fort.200.total.1	12	32	0.55	0.05	100	55	5
+all_dirs/Ls32.beta0.55.m0.05/fort.200.total.2	12	32	0.55	0.05	100	55	5
+all_dirs/Ls40.beta0.32.m0.01/fort.200.total.1	12	40	0.32	0.01	150	100	5
+all_dirs/Ls40.beta0.32.m0.01/fort.200.total.2	12	40	0.32	0.01	150	100	5
+all_dirs/Ls40.beta0.32.m0.02/fort.200.total.1	12	40	0.32	0.02	150	100	5
+all_dirs/Ls40.beta0.32.m0.02/fort.200.total.2	12	40	0.32	0.02	150	100	5
+all_dirs/Ls40.beta0.32.m0.03/fort.200.total.1	12	40	0.32	0.03	150	100	5
+all_dirs/Ls40.beta0.32.m0.03/fort.200.total.2	12	40	0.32	0.03	150	100	5
+all_dirs/Ls40.beta0.32.m0.04/fort.200.total.1	12	40	0.32	0.04	150	100	5
+all_dirs/Ls40.beta0.32.m0.04/fort.200.total.2	12	40	0.32	0.04	150	100	5
+all_dirs/Ls40.beta0.32.m0.05/fort.200.total.1	12	40	0.32	0.05	150	100	5
+all_dirs/Ls40.beta0.32.m0.05/fort.200.total.2	12	40	0.32	0.05	150	100	5
+all_dirs/Ls40.beta0.34.m0.01/fort.200.total.1	12	40	0.34	0.01	150	100	5
+all_dirs/Ls40.beta0.34.m0.01/fort.200.total.2	12	40	0.34	0.01	150	100	5
+all_dirs/Ls40.beta0.34.m0.02/fort.200.total.1	12	40	0.34	0.02	150	100	5
+all_dirs/Ls40.beta0.34.m0.02/fort.200.total.2	12	40	0.34	0.02	150	100	5
+all_dirs/Ls40.beta0.34.m0.03/fort.200.total.1	12	40	0.34	0.03	150	100	5
+all_dirs/Ls40.beta0.34.m0.03/fort.200.total.2	12	40	0.34	0.03	150	100	5
+all_dirs/Ls40.beta0.42.m0.02/fort.200.total.1	12	40	0.42	0.02	150	100	5
+all_dirs/Ls40.beta0.42.m0.02/fort.200.total.2	12	40	0.42	0.02	150	100	5
+all_dirs/Ls40.beta0.42.m0.03/fort.200.total.1	12	40	0.42	0.03	150	100	5
+all_dirs/Ls40.beta0.42.m0.03/fort.200.total.2	12	40	0.42	0.03	150	100	5
+all_dirs/Ls40.beta0.42.m0.04/fort.200.total.1	12	40	0.42	0.04	150	100	5
+all_dirs/Ls40.beta0.42.m0.04/fort.200.total.2	12	40	0.42	0.04	150	100	5
+all_dirs/Ls40.beta0.42.m0.05/fort.200.total.1	12	40	0.42	0.05	150	100	5
+all_dirs/Ls40.beta0.42.m0.05/fort.200.total.2	12	40	0.42	0.05	150	100	5
+all_dirs/Ls40.beta0.44.m0.02/fort.200.total.1	12	40	0.44	0.02	100	55	5
+all_dirs/Ls40.beta0.44.m0.02/fort.200.total.2	12	40	0.44	0.02	100	55	5
+all_dirs/Ls40.beta0.44.m0.03/fort.200.total.1	12	40	0.44	0.03	100	55	5
+all_dirs/Ls40.beta0.44.m0.03/fort.200.total.2	12	40	0.44	0.03	100	55	5
+all_dirs/Ls40.beta0.44.m0.04/fort.200.total.1	12	40	0.44	0.04	100	55	5
+all_dirs/Ls40.beta0.44.m0.04/fort.200.total.2	12	40	0.44	0.04	100	55	5
+all_dirs/Ls40.beta0.46.m0.01/fort.200.total.1	12	40	0.46	0.01	100	55	5
+all_dirs/Ls40.beta0.46.m0.01/fort.200.total.2	12	40	0.46	0.01	100	55	5
+all_dirs/Ls40.beta0.46.m0.02/fort.200.total.1	12	40	0.46	0.02	100	55	5
+all_dirs/Ls40.beta0.46.m0.02/fort.200.total.2	12	40	0.46	0.02	100	55	5
+all_dirs/Ls40.beta0.46.m0.03/fort.200.total.1	12	40	0.46	0.03	100	55	5
+all_dirs/Ls40.beta0.46.m0.03/fort.200.total.2	12	40	0.46	0.03	100	55	5
+all_dirs/Ls40.beta0.46.m0.04/fort.200.total.1	12	40	0.46	0.04	100	55	5
+all_dirs/Ls40.beta0.46.m0.04/fort.200.total.2	12	40	0.46	0.04	100	55	5
+all_dirs/Ls40.beta0.46.m0.05/fort.200.total.1	12	40	0.46	0.05	100	55	5
+all_dirs/Ls40.beta0.46.m0.05/fort.200.total.2	12	40	0.46	0.05	100	55	5
+all_dirs/Ls40.beta0.55.m0.01/fort.200.total.1	12	40	0.55	0.01	120	55	5
+all_dirs/Ls40.beta0.55.m0.01/fort.200.total.2	12	40	0.55	0.01	120	55	5
+all_dirs/Ls40.beta0.55.m0.02/fort.200.total.1	12	40	0.55	0.02	100	55	5
+all_dirs/Ls40.beta0.55.m0.02/fort.200.total.2	12	40	0.55	0.02	100	55	5
+all_dirs/Ls40.beta0.55.m0.03/fort.200.total.1	12	40	0.55	0.03	100	55	5
+all_dirs/Ls40.beta0.55.m0.03/fort.200.total.2	12	40	0.55	0.03	100	55	5
+all_dirs/Ls40.beta0.55.m0.04/fort.200.total.1	12	40	0.55	0.04	100	55	5
+all_dirs/Ls40.beta0.55.m0.04/fort.200.total.2	12	40	0.55	0.04	100	55	5
+all_dirs/Ls40.beta0.55.m0.05/fort.200.total.1	12	40	0.55	0.05	100	55	5
+all_dirs/Ls40.beta0.55.m0.05/fort.200.total.2	12	40	0.55	0.05	100	55	5
+all_dirs/Ls48.beta0.32.m0.01/fort.200.total.1	12	48	0.32	0.01	150	75	5
+all_dirs/Ls48.beta0.32.m0.01/fort.200.total.2	12	48	0.32	0.01	150	75	5
+all_dirs/Ls48.beta0.32.m0.02/fort.200.total.1	12	48	0.32	0.02	150	75	5
+all_dirs/Ls48.beta0.32.m0.02/fort.200.total.2	12	48	0.32	0.02	150	75	5
+all_dirs/Ls48.beta0.36.m0.02/fort.200.total.1	12	48	0.36	0.02	100	100	5
+all_dirs/Ls48.beta0.36.m0.02/fort.200.total.2	12	48	0.36	0.02	100	100	5
+all_dirs/Ls48.beta0.36.m0.03/fort.200.total.1	12	48	0.36	0.03	100	100	5
+all_dirs/Ls48.beta0.36.m0.03/fort.200.total.2	12	48	0.36	0.03	100	100	5
+all_dirs/Ls48.beta0.36.m0.04/fort.200.total.1	12	48	0.36	0.04	100	100	5
+all_dirs/Ls48.beta0.36.m0.04/fort.200.total.2	12	48	0.36	0.04	100	100	5
+all_dirs/Ls48.beta0.36.m0.05/fort.200.total.1	12	48	0.36	0.05	100	100	5
+all_dirs/Ls48.beta0.36.m0.05/fort.200.total.2	12	48	0.36	0.05	100	100	5
+all_dirs/Ls48.beta0.38.m0.01/fort.200.total.1	12	48	0.38	0.01	100	100	5
+all_dirs/Ls48.beta0.38.m0.01/fort.200.total.2	12	48	0.38	0.01	100	100	5
+all_dirs/Ls48.beta0.38.m0.02/fort.200.total.1	12	48	0.38	0.02	100	100	5
+all_dirs/Ls48.beta0.38.m0.02/fort.200.total.2	12	48	0.38	0.02	100	100	5
+all_dirs/Ls48.beta0.38.m0.03/fort.200.total.1	12	48	0.38	0.03	100	100	5
+all_dirs/Ls48.beta0.38.m0.03/fort.200.total.2	12	48	0.38	0.03	100	100	5
+all_dirs/Ls48.beta0.38.m0.04/fort.200.total.1	12	48	0.38	0.04	100	100	5
+all_dirs/Ls48.beta0.38.m0.04/fort.200.total.2	12	48	0.38	0.04	100	100	5
+all_dirs/Ls48.beta0.38.m0.05/fort.200.total.1	12	48	0.38	0.05	100	100	5
+all_dirs/Ls48.beta0.38.m0.05/fort.200.total.2	12	48	0.38	0.05	100	100	5
+all_dirs/Ls48.beta0.40.m0.01/fort.200.total.1	12	48	0.4	0.01	100	100	5
+all_dirs/Ls48.beta0.40.m0.01/fort.200.total.2	12	48	0.4	0.01	100	100	5
+all_dirs/Ls48.beta0.40.m0.02/fort.200.total.1	12	48	0.4	0.02	100	100	5
+all_dirs/Ls48.beta0.40.m0.02/fort.200.total.2	12	48	0.4	0.02	100	100	5
+all_dirs/Ls48.beta0.40.m0.03/fort.200.total.1	12	48	0.4	0.03	100	100	5
+all_dirs/Ls48.beta0.40.m0.03/fort.200.total.2	12	48	0.4	0.03	100	100	5
+all_dirs/Ls48.beta0.40.m0.04/fort.200.total.1	12	48	0.4	0.04	100	100	5
+all_dirs/Ls48.beta0.40.m0.04/fort.200.total.2	12	48	0.4	0.04	100	100	5
+all_dirs/Ls48.beta0.40.m0.05/fort.200.total.1	12	48	0.4	0.05	100	100	5
+all_dirs/Ls48.beta0.40.m0.05/fort.200.total.2	12	48	0.4	0.05	100	100	5
+all_dirs/Ls48.beta0.42.m0.01/fort.200.total.1	12	48	0.42	0.01	100	100	5
+all_dirs/Ls48.beta0.42.m0.01/fort.200.total.2	12	48	0.42	0.01	100	100	5
+all_dirs/Ls48.beta0.42.m0.02/fort.200.total.1	12	48	0.42	0.02	100	100	5
+all_dirs/Ls48.beta0.42.m0.02/fort.200.total.2	12	48	0.42	0.02	100	100	5
+all_dirs/Ls48.beta0.42.m0.03/fort.200.total.1	12	48	0.42	0.03	100	100	5
+all_dirs/Ls48.beta0.42.m0.03/fort.200.total.2	12	48	0.42	0.03	100	100	5
+all_dirs/Ls48.beta0.42.m0.04/fort.200.total.1	12	48	0.42	0.04	100	100	5
+all_dirs/Ls48.beta0.42.m0.04/fort.200.total.2	12	48	0.42	0.04	100	100	5
+all_dirs/Ls48.beta0.42.m0.05/fort.200.total.1	12	48	0.42	0.05	100	100	5
+all_dirs/Ls48.beta0.42.m0.05/fort.200.total.2	12	48	0.42	0.05	100	100	5
+all_dirs/Ls48.beta0.44.m0.01/fort.200.total.1	12	48	0.44	0.01	100	75	5
+all_dirs/Ls48.beta0.44.m0.01/fort.200.total.2	12	48	0.44	0.01	100	75	5
+all_dirs/Ls48.beta0.44.m0.02/fort.200.total.1	12	48	0.44	0.02	100	75	5
+all_dirs/Ls48.beta0.44.m0.02/fort.200.total.2	12	48	0.44	0.02	100	75	5
+all_dirs/Ls48.beta0.44.m0.03/fort.200.total.1	12	48	0.44	0.03	100	75	5
+all_dirs/Ls48.beta0.44.m0.03/fort.200.total.2	12	48	0.44	0.03	100	75	5
+all_dirs/Ls48.beta0.44.m0.04/fort.200.total.1	12	48	0.44	0.04	100	75	5
+all_dirs/Ls48.beta0.44.m0.04/fort.200.total.2	12	48	0.44	0.04	100	75	5
+all_dirs/Ls48.beta0.44.m0.05/fort.200.total.1	12	48	0.44	0.05	100	75	5
+all_dirs/Ls48.beta0.44.m0.05/fort.200.total.2	12	48	0.44	0.05	100	75	5
+all_dirs/Ls48.beta0.46.m0.01/fort.200.total.1	12	48	0.46	0.01	100	75	5
+all_dirs/Ls48.beta0.46.m0.01/fort.200.total.2	12	48	0.46	0.01	100	75	5
+all_dirs/Ls48.beta0.46.m0.02/fort.200.total.1	12	48	0.46	0.02	100	75	5
+all_dirs/Ls48.beta0.46.m0.02/fort.200.total.2	12	48	0.46	0.02	100	75	5
+all_dirs/Ls48.beta0.46.m0.03/fort.200.total.1	12	48	0.46	0.03	100	75	5
+all_dirs/Ls48.beta0.46.m0.03/fort.200.total.2	12	48	0.46	0.03	100	75	5
+all_dirs/Ls48.beta0.46.m0.04/fort.200.total.1	12	48	0.46	0.04	100	75	5
+all_dirs/Ls48.beta0.46.m0.04/fort.200.total.2	12	48	0.46	0.04	100	75	5
+all_dirs/Ls48.beta0.46.m0.05/fort.200.total.1	12	48	0.46	0.05	100	75	5
+all_dirs/Ls48.beta0.46.m0.05/fort.200.total.2	12	48	0.46	0.05	100	75	5
+all_dirs/Ls48.beta0.55.m0.01/fort.200.total.1	12	48	0.55	0.01	100	75	5
+all_dirs/Ls48.beta0.55.m0.01/fort.200.total.2	12	48	0.55	0.01	100	75	5
+all_dirs/Ls48.beta0.55.m0.02/fort.200.total.1	12	48	0.55	0.02	100	75	5
+all_dirs/Ls48.beta0.55.m0.02/fort.200.total.2	12	48	0.55	0.02	100	75	5
+all_dirs/Ls48.beta0.55.m0.03/fort.200.total.1	12	48	0.55	0.03	100	75	5
+all_dirs/Ls48.beta0.55.m0.03/fort.200.total.2	12	48	0.55	0.03	100	75	5
+all_dirs/Ls48.beta0.55.m0.04/fort.200.total.1	12	48	0.55	0.04	100	75	5
+all_dirs/Ls48.beta0.55.m0.04/fort.200.total.2	12	48	0.55	0.04	100	75	5
+all_dirs/Ls48.beta0.55.m0.05/fort.200.total.1	12	48	0.55	0.05	100	75	5
+all_dirs/Ls48.beta0.55.m0.05/fort.200.total.2	12	48	0.55	0.05	100	75	5
+simon/16/Ls24.beta0.3.m0.03/fort.200	16	24	0.3	0.03	100	75	5
+simon/16/Ls24.beta0.46.m0.01/fort.200	16	24	0.46	0.01	100	50	5
+simon/16/Ls24.beta0.46.m0.02/fort.200	16	24	0.46	0.02	100	50	5
+simon/16/Ls24.beta0.48.m0.01/fort.200	16	24	0.48	0.01	100	50	5
+simon/16/Ls24.beta0.48.m0.02/fort.200	16	24	0.48	0.02	100	50	5
+simon/16/Ls24.beta0.52.m0.01/fort.200	16	24	0.52	0.01	100	50	5
+simon/16/Ls24.beta0.52.m0.02/fort.200	16	24	0.52	0.02	100	50	5
+simon/16/Ls24.beta0.52.m0.03/fort.200	16	24	0.52	0.03	100	50	5
+simon/old/12/Ls08.beta0.225.m0.01/fort.200	12	8	0.225	0.01	100	75	5
+simon/old/12/Ls08.beta0.3.m0.01/fort.200	12	8	0.3	0.01	100	75	5
+simon/old/12/Ls08.beta0.3.m0.02/fort.200	12	8	0.3	0.02	100	75	5
+simon/old/12/Ls08.beta0.3.m0.03/fort.200	12	8	0.3	0.03	100	75	5
+simon/old/12/Ls08.beta0.3.m0.04/fort.200	12	8	0.3	0.04	100	75	5
+simon/old/12/Ls08.beta0.3.m0.05/fort.200	12	8	0.3	0.05	100	75	5
+simon/old/12/Ls08.beta0.31.m0.01/fort.200	12	8	0.31	0.01	100	75	5
+simon/old/12/Ls08.beta0.31.m0.02/fort.200	12	8	0.31	0.02	100	75	5
+simon/old/12/Ls08.beta0.31.m0.03/fort.200	12	8	0.31	0.03	100	75	5
+simon/old/12/Ls08.beta0.31.m0.04/fort.200	12	8	0.31	0.04	100	75	5
+simon/old/12/Ls08.beta0.31.m0.05/fort.200	12	8	0.31	0.05	100	75	5
+simon/old/12/Ls08.beta0.32.m0.01/fort.200	12	8	0.32	0.01	100	75	5
+simon/old/12/Ls08.beta0.32.m0.02/fort.200	12	8	0.32	0.02	100	75	5
+simon/old/12/Ls08.beta0.32.m0.03/fort.200	12	8	0.32	0.03	100	75	5
+simon/old/12/Ls08.beta0.32.m0.04/fort.200	12	8	0.32	0.04	100	75	5
+simon/old/12/Ls08.beta0.32.m0.05/fort.200	12	8	0.32	0.05	100	75	5
+simon/old/12/Ls08.beta0.33.m0.01/fort.200	12	8	0.33	0.01	100	75	5
+simon/old/12/Ls08.beta0.33.m0.02/fort.200	12	8	0.33	0.02	100	75	5
+simon/old/12/Ls08.beta0.33.m0.03/fort.200	12	8	0.33	0.03	100	75	5
+simon/old/12/Ls08.beta0.33.m0.04/fort.200	12	8	0.33	0.04	100	75	5
+simon/old/12/Ls08.beta0.33.m0.05/fort.200	12	8	0.33	0.05	100	75	5
+simon/old/12/Ls08.beta0.34.m0.01/fort.200	12	8	0.34	0.01	100	75	5
+simon/old/12/Ls08.beta0.34.m0.02/fort.200	12	8	0.34	0.02	100	75	5
+simon/old/12/Ls08.beta0.34.m0.03/fort.200	12	8	0.34	0.03	100	75	5
+simon/old/12/Ls08.beta0.34.m0.04/fort.200	12	8	0.34	0.04	100	75	5
+simon/old/12/Ls08.beta0.34.m0.05/fort.200	12	8	0.34	0.05	100	75	5
+simon/old/12/Ls08.beta0.35.m0.01/fort.200	12	8	0.35	0.01	100	75	5
+simon/old/12/Ls08.beta0.35.m0.02/fort.200	12	8	0.35	0.02	100	75	5
+simon/old/12/Ls08.beta0.35.m0.03/fort.200	12	8	0.35	0.03	100	75	5
+simon/old/12/Ls08.beta0.35.m0.04/fort.200	12	8	0.35	0.04	100	75	5
+simon/old/12/Ls08.beta0.35.m0.05/fort.200	12	8	0.35	0.05	100	75	5
+simon/old/12/Ls08.beta0.36.m0.01/fort.200	12	8	0.36	0.01	100	75	5
+simon/old/12/Ls08.beta0.36.m0.02/fort.200	12	8	0.36	0.02	100	75	5
+simon/old/12/Ls08.beta0.36.m0.03/fort.200	12	8	0.36	0.03	100	75	5
+simon/old/12/Ls08.beta0.36.m0.04/fort.200	12	8	0.36	0.04	100	75	5
+simon/old/12/Ls08.beta0.36.m0.05/fort.200	12	8	0.36	0.05	100	75	5
+simon/old/12/Ls08.beta0.37.m0.01/fort.200	12	8	0.37	0.01	100	75	5
+simon/old/12/Ls08.beta0.37.m0.02/fort.200	12	8	0.37	0.02	100	75	5
+simon/old/12/Ls08.beta0.37.m0.03/fort.200	12	8	0.37	0.03	100	75	5
+simon/old/12/Ls08.beta0.37.m0.04/fort.200	12	8	0.37	0.04	100	75	5
+simon/old/12/Ls08.beta0.37.m0.05/fort.200	12	8	0.37	0.05	100	75	5
+simon/old/12/Ls08.beta0.375.m0.01/fort.200	12	8	0.375	0.01	100	75	5
+simon/old/12/Ls08.beta0.38.m0.01/fort.200	12	8	0.38	0.01	100	75	5
+simon/old/12/Ls08.beta0.38.m0.02/fort.200	12	8	0.38	0.02	100	75	5
+simon/old/12/Ls08.beta0.38.m0.03/fort.200	12	8	0.38	0.03	100	75	5
+simon/old/12/Ls08.beta0.38.m0.04/fort.200	12	8	0.38	0.04	100	75	5
+simon/old/12/Ls08.beta0.38.m0.05/fort.200	12	8	0.38	0.05	100	75	5
+simon/old/12/Ls08.beta0.39.m0.01/fort.200	12	8	0.39	0.01	100	75	5
+simon/old/12/Ls08.beta0.39.m0.02/fort.200	12	8	0.39	0.02	100	75	5
+simon/old/12/Ls08.beta0.39.m0.03/fort.200	12	8	0.39	0.03	100	75	5
+simon/old/12/Ls08.beta0.39.m0.04/fort.200	12	8	0.39	0.04	100	75	5
+simon/old/12/Ls08.beta0.39.m0.05/fort.200	12	8	0.39	0.05	100	75	5
+simon/old/12/Ls08.beta0.4.m0.01/fort.200	12	8	0.4	0.01	100	75	5
+simon/old/12/Ls08.beta0.4.m0.02/fort.200	12	8	0.4	0.02	100	75	5
+simon/old/12/Ls08.beta0.4.m0.03/fort.200	12	8	0.4	0.03	100	75	5
+simon/old/12/Ls08.beta0.4.m0.04/fort.200	12	8	0.4	0.04	100	75	5
+simon/old/12/Ls08.beta0.4.m0.05/fort.200	12	8	0.4	0.05	100	75	5
+simon/old/12/Ls08.beta0.41.m0.01/fort.200	12	8	0.41	0.01	100	75	5
+simon/old/12/Ls08.beta0.41.m0.02/fort.200	12	8	0.41	0.02	100	75	5
+simon/old/12/Ls08.beta0.41.m0.03/fort.200	12	8	0.41	0.03	100	75	5
+simon/old/12/Ls08.beta0.41.m0.04/fort.200	12	8	0.41	0.04	100	75	5
+simon/old/12/Ls08.beta0.41.m0.05/fort.200	12	8	0.41	0.05	100	75	5
+simon/old/12/Ls08.beta0.42.m0.01/fort.200	12	8	0.42	0.01	100	75	5
+simon/old/12/Ls08.beta0.42.m0.02/fort.200	12	8	0.42	0.02	100	75	5
+simon/old/12/Ls08.beta0.42.m0.03/fort.200	12	8	0.42	0.03	100	75	5
+simon/old/12/Ls08.beta0.42.m0.04/fort.200	12	8	0.42	0.04	100	75	5
+simon/old/12/Ls08.beta0.42.m0.05/fort.200	12	8	0.42	0.05	100	75	5
+simon/old/12/Ls08.beta0.425.m0.01/fort.200	12	8	0.425	0.01	100	75	5
+simon/old/12/Ls08.beta0.43.m0.01/fort.200	12	8	0.43	0.01	100	75	5
+simon/old/12/Ls08.beta0.43.m0.02/fort.200	12	8	0.43	0.02	100	75	5
+simon/old/12/Ls08.beta0.43.m0.03/fort.200	12	8	0.43	0.03	100	75	5
+simon/old/12/Ls08.beta0.43.m0.04/fort.200	12	8	0.43	0.04	100	75	5
+simon/old/12/Ls08.beta0.43.m0.05/fort.200	12	8	0.43	0.05	100	75	5
+simon/old/12/Ls08.beta0.44.m0.01/fort.200	12	8	0.44	0.01	100	75	5
+simon/old/12/Ls08.beta0.44.m0.02/fort.200	12	8	0.44	0.02	100	75	5
+simon/old/12/Ls08.beta0.44.m0.03/fort.200	12	8	0.44	0.03	100	75	5
+simon/old/12/Ls08.beta0.44.m0.04/fort.200	12	8	0.44	0.04	100	75	5
+simon/old/12/Ls08.beta0.44.m0.05/fort.200	12	8	0.44	0.05	100	75	5
+simon/old/12/Ls08.beta0.45.m0.01/fort.200	12	8	0.45	0.01	100	75	5
+simon/old/12/Ls08.beta0.45.m0.02/fort.200	12	8	0.45	0.02	100	75	5
+simon/old/12/Ls08.beta0.45.m0.03/fort.200	12	8	0.45	0.03	100	75	5
+simon/old/12/Ls08.beta0.45.m0.04/fort.200	12	8	0.45	0.04	100	75	5
+simon/old/12/Ls08.beta0.45.m0.05/fort.200	12	8	0.45	0.05	100	75	5
+simon/old/12/Ls08.beta0.475.m0.01/fort.200	12	8	0.475	0.01	100	75	5
+simon/old/12/Ls16.beta0.3.m0.01/fort.200	12	16	0.3	0.01	100	75	5
+simon/old/12/Ls16.beta0.3.m0.02/fort.200	12	16	0.3	0.02	100	75	5
+simon/old/12/Ls16.beta0.3.m0.03/fort.200	12	16	0.3	0.03	100	75	5
+simon/old/12/Ls16.beta0.3.m0.04/fort.200	12	16	0.3	0.04	100	75	5
+simon/old/12/Ls16.beta0.3.m0.05/fort.200	12	16	0.3	0.05	100	75	5
+simon/old/12/Ls16.beta0.31.m0.01/fort.200	12	16	0.31	0.01	100	75	5
+simon/old/12/Ls16.beta0.31.m0.02/fort.200	12	16	0.31	0.02	100	75	5
+simon/old/12/Ls16.beta0.31.m0.03/fort.200	12	16	0.31	0.03	100	75	5
+simon/old/12/Ls16.beta0.31.m0.04/fort.200	12	16	0.31	0.04	100	75	5
+simon/old/12/Ls16.beta0.31.m0.05/fort.200	12	16	0.31	0.05	100	75	5
+simon/old/12/Ls16.beta0.32.m0.01/fort.200	12	16	0.32	0.01	100	75	5
+simon/old/12/Ls16.beta0.32.m0.02/fort.200	12	16	0.32	0.02	100	75	5
+simon/old/12/Ls16.beta0.32.m0.03/fort.200	12	16	0.32	0.03	100	75	5
+simon/old/12/Ls16.beta0.32.m0.04/fort.200	12	16	0.32	0.04	100	75	5
+simon/old/12/Ls16.beta0.32.m0.05/fort.200	12	16	0.32	0.05	100	75	5
+simon/old/12/Ls16.beta0.33.m0.01/fort.200	12	16	0.33	0.01	100	75	5
+simon/old/12/Ls16.beta0.33.m0.02/fort.200	12	16	0.33	0.02	100	75	5
+simon/old/12/Ls16.beta0.33.m0.03/fort.200	12	16	0.33	0.03	100	75	5
+simon/old/12/Ls16.beta0.33.m0.04/fort.200	12	16	0.33	0.04	100	75	5
+simon/old/12/Ls16.beta0.33.m0.05/fort.200	12	16	0.33	0.05	100	75	5
+simon/old/12/Ls16.beta0.34.m0.01/fort.200	12	16	0.34	0.01	100	75	5
+simon/old/12/Ls16.beta0.34.m0.02/fort.200	12	16	0.34	0.02	100	75	5
+simon/old/12/Ls16.beta0.34.m0.03/fort.200	12	16	0.34	0.03	100	75	5
+simon/old/12/Ls16.beta0.34.m0.04/fort.200	12	16	0.34	0.04	100	75	5
+simon/old/12/Ls16.beta0.34.m0.05/fort.200	12	16	0.34	0.05	100	75	5
+simon/old/12/Ls16.beta0.35.m0.01/fort.200	12	16	0.35	0.01	100	75	5
+simon/old/12/Ls16.beta0.35.m0.02/fort.200	12	16	0.35	0.02	100	75	5
+simon/old/12/Ls16.beta0.35.m0.03/fort.200	12	16	0.35	0.03	100	75	5
+simon/old/12/Ls16.beta0.35.m0.04/fort.200	12	16	0.35	0.04	100	75	5
+simon/old/12/Ls16.beta0.35.m0.05/fort.200	12	16	0.35	0.05	100	75	5
+simon/old/12/Ls16.beta0.36.m0.01/fort.200	12	16	0.36	0.01	100	75	5
+simon/old/12/Ls16.beta0.36.m0.02/fort.200	12	16	0.36	0.02	100	75	5
+simon/old/12/Ls16.beta0.36.m0.03/fort.200	12	16	0.36	0.03	100	75	5
+simon/old/12/Ls16.beta0.36.m0.04/fort.200	12	16	0.36	0.04	100	75	5
+simon/old/12/Ls16.beta0.36.m0.05/fort.200	12	16	0.36	0.05	100	75	5
+simon/old/12/Ls16.beta0.37.m0.01/fort.200	12	16	0.37	0.01	100	75	5
+simon/old/12/Ls16.beta0.37.m0.02/fort.200	12	16	0.37	0.02	100	75	5
+simon/old/12/Ls16.beta0.37.m0.03/fort.200	12	16	0.37	0.03	100	75	5
+simon/old/12/Ls16.beta0.37.m0.04/fort.200	12	16	0.37	0.04	100	75	5
+simon/old/12/Ls16.beta0.37.m0.05/fort.200	12	16	0.37	0.05	100	75	5
+simon/old/12/Ls16.beta0.38.m0.01/fort.200	12	16	0.38	0.01	100	75	5
+simon/old/12/Ls16.beta0.38.m0.02/fort.200	12	16	0.38	0.02	100	75	5
+simon/old/12/Ls16.beta0.38.m0.03/fort.200	12	16	0.38	0.03	100	75	5
+simon/old/12/Ls16.beta0.38.m0.04/fort.200	12	16	0.38	0.04	100	75	5
+simon/old/12/Ls16.beta0.38.m0.05/fort.200	12	16	0.38	0.05	100	75	5
+simon/old/12/Ls16.beta0.39.m0.01/fort.200	12	16	0.39	0.01	100	75	5
+simon/old/12/Ls16.beta0.39.m0.02/fort.200	12	16	0.39	0.02	100	75	5
+simon/old/12/Ls16.beta0.39.m0.03/fort.200	12	16	0.39	0.03	100	75	5
+simon/old/12/Ls16.beta0.39.m0.04/fort.200	12	16	0.39	0.04	100	75	5
+simon/old/12/Ls16.beta0.39.m0.05/fort.200	12	16	0.39	0.05	100	75	5
+simon/old/12/Ls16.beta0.4.m0.01/fort.200	12	16	0.4	0.01	100	75	5
+simon/old/12/Ls16.beta0.4.m0.02/fort.200	12	16	0.4	0.02	100	75	5
+simon/old/12/Ls16.beta0.4.m0.03/fort.200	12	16	0.4	0.03	100	75	5
+simon/old/12/Ls16.beta0.4.m0.04/fort.200	12	16	0.4	0.04	100	75	5
+simon/old/12/Ls16.beta0.4.m0.05/fort.200	12	16	0.4	0.05	100	75	5
+simon/old/12/Ls16.beta0.41.m0.01/fort.200	12	16	0.41	0.01	100	75	5
+simon/old/12/Ls16.beta0.41.m0.02/fort.200	12	16	0.41	0.02	100	75	5
+simon/old/12/Ls16.beta0.41.m0.03/fort.200	12	16	0.41	0.03	100	75	5
+simon/old/12/Ls16.beta0.41.m0.04/fort.200	12	16	0.41	0.04	100	75	5
+simon/old/12/Ls16.beta0.41.m0.05/fort.200	12	16	0.41	0.05	100	75	5
+simon/old/12/Ls16.beta0.42.m0.01/fort.200	12	16	0.42	0.01	100	75	5
+simon/old/12/Ls16.beta0.42.m0.02/fort.200	12	16	0.42	0.02	100	75	5
+simon/old/12/Ls16.beta0.42.m0.03/fort.200	12	16	0.42	0.03	100	75	5
+simon/old/12/Ls16.beta0.42.m0.04/fort.200	12	16	0.42	0.04	100	75	5
+simon/old/12/Ls16.beta0.42.m0.05/fort.200	12	16	0.42	0.05	100	75	5
+simon/old/12/Ls16.beta0.43.m0.01/fort.200	12	16	0.43	0.01	100	75	5
+simon/old/12/Ls16.beta0.43.m0.02/fort.200	12	16	0.43	0.02	100	75	5
+simon/old/12/Ls16.beta0.43.m0.03/fort.200	12	16	0.43	0.03	100	75	5
+simon/old/12/Ls16.beta0.43.m0.04/fort.200	12	16	0.43	0.04	100	75	5
+simon/old/12/Ls16.beta0.43.m0.05/fort.200	12	16	0.43	0.05	100	75	5
+simon/old/12/Ls16.beta0.44.m0.01/fort.200	12	16	0.44	0.01	100	75	5
+simon/old/12/Ls16.beta0.44.m0.02/fort.200	12	16	0.44	0.02	100	75	5
+simon/old/12/Ls16.beta0.44.m0.03/fort.200	12	16	0.44	0.03	100	75	5
+simon/old/12/Ls16.beta0.44.m0.04/fort.200	12	16	0.44	0.04	100	75	5
+simon/old/12/Ls16.beta0.44.m0.05/fort.200	12	16	0.44	0.05	100	75	5
+simon/old/12/Ls16.beta0.45.m0.01/fort.200	12	16	0.45	0.01	100	75	5
+simon/old/12/Ls16.beta0.45.m0.02/fort.200	12	16	0.45	0.02	100	75	5
+simon/old/12/Ls16.beta0.45.m0.03/fort.200	12	16	0.45	0.03	100	75	5
+simon/old/12/Ls16.beta0.45.m0.04/fort.200	12	16	0.45	0.04	100	75	5
+simon/old/12/Ls16.beta0.45.m0.05/fort.200	12	16	0.45	0.05	100	75	5
+simon/old/12/Ls16.beta0.5.m0.01/fort.200	12	16	0.5	0.01	100	75	5
+simon/old/12/Ls16.beta0.5.m0.02/fort.200	12	16	0.5	0.02	100	75	5
+simon/old/12/Ls16.beta0.5.m0.03/fort.200	12	16	0.5	0.03	100	75	5
+simon/old/12/Ls16.beta0.5.m0.04/fort.200	12	16	0.5	0.04	100	75	5
+simon/old/12/Ls16.beta0.5.m0.05/fort.200	12	16	0.5	0.05	100	75	5
+simon/old/12/Ls16.beta0.6.m0.01/fort.200	12	16	0.6	0.01	100	75	5
+simon/old/12/Ls16.beta0.6.m0.02/fort.200	12	16	0.6	0.02	100	75	5
+simon/old/12/Ls16.beta0.6.m0.03/fort.200	12	16	0.6	0.03	100	75	5
+simon/old/12/Ls16.beta0.6.m0.04/fort.200	12	16	0.6	0.04	100	75	5
+simon/old/12/Ls16.beta0.6.m0.05/fort.200	12	16	0.6	0.05	100	75	5
+simon/old/12/Ls24.beta0.3.m0.03/fort.200	12	24	0.3	0.03	100	75	5
+simon/old/12/Ls24.beta0.31.m0.01/fort.200	12	24	0.31	0.01	100	75	5
+simon/old/12/Ls24.beta0.31.m0.02/fort.200	12	24	0.31	0.02	100	75	5
+simon/old/12/Ls24.beta0.31.m0.03/fort.200	12	24	0.31	0.03	100	75	5
+simon/old/12/Ls24.beta0.31.m0.04/fort.200	12	24	0.31	0.04	100	75	5
+simon/old/12/Ls24.beta0.31.m0.05/fort.200	12	24	0.31	0.05	100	75	5
+simon/old/12/Ls24.beta0.32.m0.05/fort.200	12	24	0.32	0.05	100	75	5
+simon/old/12/Ls24.beta0.33.m0.01/fort.200	12	24	0.33	0.01	100	75	5
+simon/old/12/Ls24.beta0.33.m0.02/fort.200	12	24	0.33	0.02	100	75	5
+simon/old/12/Ls24.beta0.33.m0.03/fort.200	12	24	0.33	0.03	100	75	5
+simon/old/12/Ls24.beta0.33.m0.04/fort.200	12	24	0.33	0.04	100	75	5
+simon/old/12/Ls24.beta0.33.m0.05/fort.200	12	24	0.33	0.05	100	75	5
+simon/old/12/Ls24.beta0.35.m0.01/fort.200	12	24	0.35	0.01	100	75	5
+simon/old/12/Ls24.beta0.35.m0.02/fort.200	12	24	0.35	0.02	100	75	5
+simon/old/12/Ls24.beta0.35.m0.03/fort.200	12	24	0.35	0.03	100	75	5
+simon/old/12/Ls24.beta0.35.m0.04/fort.200	12	24	0.35	0.04	100	75	5
+simon/old/12/Ls24.beta0.35.m0.05/fort.200	12	24	0.35	0.05	100	75	5
+simon/old/12/Ls24.beta0.37.m0.01/fort.200	12	24	0.37	0.01	100	75	5
+simon/old/12/Ls24.beta0.37.m0.02/fort.200	12	24	0.37	0.02	100	75	5
+simon/old/12/Ls24.beta0.37.m0.03/fort.200	12	24	0.37	0.03	100	75	5
+simon/old/12/Ls24.beta0.37.m0.04/fort.200	12	24	0.37	0.04	100	75	5
+simon/old/12/Ls24.beta0.37.m0.05/fort.200	12	24	0.37	0.05	100	75	5
+simon/old/12/Ls24.beta0.39.m0.01/fort.200	12	24	0.39	0.01	100	75	5
+simon/old/12/Ls24.beta0.39.m0.02/fort.200	12	24	0.39	0.02	100	75	5
+simon/old/12/Ls24.beta0.39.m0.03/fort.200	12	24	0.39	0.03	100	75	5
+simon/old/12/Ls24.beta0.39.m0.04/fort.200	12	24	0.39	0.04	100	75	5
+simon/old/12/Ls24.beta0.39.m0.05/fort.200	12	24	0.39	0.05	100	75	5
+simon/old/12/Ls24.beta0.4.m0.03/fort.200	12	24	0.4	0.03	100	75	5
+simon/old/12/Ls24.beta0.4.m0.04/fort.200	12	24	0.4	0.04	100	75	5
+simon/old/12/Ls24.beta0.41.m0.04/fort.200	12	24	0.41	0.04	100	75	5
+simon/old/12/Ls24.beta0.41.m0.05/fort.200	12	24	0.41	0.05	100	75	5
+simon/old/12/Ls24.beta0.42.m0.04/fort.200	12	24	0.42	0.04	100	75	5
+simon/old/12/Ls24.beta0.42.m0.05/fort.200	12	24	0.42	0.05	100	75	5
+simon/old/12/Ls24.beta0.43.m0.04/fort.200	12	24	0.43	0.04	100	75	5
+simon/old/12/Ls24.beta0.43.m0.05/fort.200	12	24	0.43	0.05	100	75	5
+simon/old/12/Ls24.beta0.44.m0.04/fort.200	12	24	0.44	0.04	100	75	5
+simon/old/12/Ls24.beta0.44.m0.05/fort.200	12	24	0.44	0.05	100	75	5
+simon/old/12/Ls24.beta0.45.m0.04/fort.200	12	24	0.45	0.04	100	75	5
+simon/old/12/Ls24.beta0.45.m0.05/fort.200	12	24	0.45	0.05	100	75	5
+simon/old/12/Ls24.beta0.5.m0.03/fort.200	12	24	0.5	0.03	100	75	5
+simon/old/12/Ls24.beta0.5.m0.04/fort.200	12	24	0.5	0.04	100	75	5
+simon/old/12/Ls24.beta0.5.m0.05/fort.200	12	24	0.5	0.05	100	75	5
+simon/old/12/Ls24.beta0.6.m0.01/fort.200	12	24	0.6	0.01	100	75	5
+simon/old/12/Ls24.beta0.6.m0.02/fort.200	12	24	0.6	0.02	100	75	5
+simon/old/12/Ls24.beta0.6.m0.03/fort.200	12	24	0.6	0.03	100	75	5
+simon/old/12/Ls24.beta0.6.m0.04/fort.200	12	24	0.6	0.04	100	75	5
+simon/old/12/Ls24.beta0.6.m0.05/fort.200	12	24	0.6	0.05	100	75	5
+simon/old/12/Ls32.beta0.3.m0.03/fort.200	12	32	0.3	0.03	100	75	5
+simon/old/12/Ls32.beta0.3.m0.04/fort.200	12	32	0.3	0.04	100	75	5
+simon/old/12/Ls32.beta0.5.m0.01/fort.200	12	32	0.5	0.01	100	75	5
+simon/old/12/Ls32.beta0.5.m0.02/fort.200	12	32	0.5	0.02	100	75	5
+simon/old/12/Ls32.beta0.5.m0.03/fort.200	12	32	0.5	0.03	100	75	5
+simon/old/12/Ls32.beta0.5.m0.04/fort.200	12	32	0.5	0.04	100	75	5
+simon/old/12/Ls32.beta0.5.m0.05/fort.200	12	32	0.5	0.05	100	75	5
+simon/old/12/Ls32.beta0.6.m0.01/fort.200	12	32	0.6	0.01	100	75	5
+simon/old/12/Ls32.beta0.6.m0.02/fort.200	12	32	0.6	0.02	100	75	5
+simon/old/12/Ls32.beta0.6.m0.03/fort.200	12	32	0.6	0.03	100	75	5
+simon/old/12/Ls32.beta0.6.m0.04/fort.200	12	32	0.6	0.04	100	75	5
+simon/old/12/Ls32.beta0.6.m0.05/fort.200	12	32	0.6	0.05	100	75	5
+simon/old/12/Ls40.beta0.5.m0.01/fort.200	12	40	0.5	0.01	100	75	5
+simon/old/12/Ls40.beta0.5.m0.02/fort.200	12	40	0.5	0.02	100	75	5
+simon/old/12/Ls40.beta0.5.m0.03/fort.200	12	40	0.5	0.03	100	75	5
+simon/old/12/Ls40.beta0.5.m0.04/fort.200	12	40	0.5	0.04	100	75	5
+simon/old/12/Ls40.beta0.5.m0.05/fort.200	12	40	0.5	0.05	100	75	5
+simon/old/12/Ls40.beta0.6.m0.01/fort.200	12	40	0.6	0.01	100	75	5
+simon/old/12/Ls40.beta0.6.m0.02/fort.200	12	40	0.6	0.02	100	75	5
+simon/old/12/Ls40.beta0.6.m0.03/fort.200	12	40	0.6	0.03	100	75	5
+simon/old/12/Ls40.beta0.6.m0.04/fort.200	12	40	0.6	0.04	100	75	5
+simon/old/12/Ls40.beta0.6.m0.05/fort.200	12	40	0.6	0.05	100	75	5
+simon/old/12/Ls8.beta0.275.m0.01/fort.200	12	8	0.275	0.01	100	75	5
+simon/old/12/Ls8.beta0.275.m0.02/fort.200	12	8	0.275	0.02	100	75	5
+simon/old/12/Ls8.beta0.275.m0.03/fort.200	12	8	0.275	0.03	100	75	5
+simon/old/12/Ls8.beta0.275.m0.04/fort.200	12	8	0.275	0.04	100	75	5
+simon/old/12/Ls8.beta0.275.m0.05/fort.200	12	8	0.275	0.05	100	75	5
+simon/old/12/Ls8.beta0.325.m0.01/fort.200	12	8	0.325	0.01	100	75	5
+simon/old/12/Ls8.beta0.325.m0.02/fort.200	12	8	0.325	0.02	100	75	5
+simon/old/12/Ls8.beta0.325.m0.03/fort.200	12	8	0.325	0.03	100	75	5
+simon/old/12/Ls8.beta0.325.m0.04/fort.200	12	8	0.325	0.04	100	75	5
+simon/old/12/Ls8.beta0.325.m0.05/fort.200	12	8	0.325	0.05	100	75	5
+simon/old/12/Ls8.beta0.5.m0.01/fort.200	12	8	0.5	0.01	100	75	5
+simon/old/12/Ls8.beta0.5.m0.02/fort.200	12	8	0.5	0.02	100	75	5
+simon/old/12/Ls8.beta0.5.m0.03/fort.200	12	8	0.5	0.03	100	75	5
+simon/old/12/Ls8.beta0.5.m0.04/fort.200	12	8	0.5	0.04	100	75	5
+simon/old/12/Ls8.beta0.5.m0.05/fort.200	12	8	0.5	0.05	100	75	5
+simon/old/12/Ls8.beta0.6.m0.01/fort.200	12	8	0.6	0.01	100	75	5
+simon/old/12/Ls8.beta0.6.m0.02/fort.200	12	8	0.6	0.02	100	75	5
+simon/old/12/Ls8.beta0.6.m0.03/fort.200	12	8	0.6	0.03	100	75	5
+simon/old/12/Ls8.beta0.6.m0.04/fort.200	12	8	0.6	0.04	100	75	5
+simon/old/12/Ls8.beta0.6.m0.05/fort.200	12	8	0.6	0.05	100	75	5
+simon/old/12/a/Ls24.beta0.41.m0.01/fort.200	12	24	0.41	0.01	100	75	5
+simon/old/12/a/Ls24.beta0.41.m0.02/fort.200	12	24	0.41	0.02	100	75	5
+simon/old/12/a/Ls24.beta0.41.m0.03/fort.200	12	24	0.41	0.03	100	75	5
+simon/old/12/a/Ls24.beta0.42.m0.03/fort.200	12	24	0.42	0.03	100	75	5
+simon/old/12/a/Ls24.beta0.43.m0.01/fort.200	12	24	0.43	0.01	100	75	5
+simon/old/12/a/Ls24.beta0.43.m0.02/fort.200	12	24	0.43	0.02	100	75	5
+simon/old/12/a/Ls24.beta0.43.m0.03/fort.200	12	24	0.43	0.03	100	75	5
+simon/old/12/a/Ls24.beta0.44.m0.03/fort.200	12	24	0.44	0.03	100	75	5
+simon/old/12/a/Ls24.beta0.45.m0.01/fort.200	12	24	0.45	0.01	100	75	5
+simon/old/12/a/Ls24.beta0.45.m0.02/fort.200	12	24	0.45	0.02	100	75	5
+simon/old/12/a/Ls24.beta0.45.m0.03/fort.200	12	24	0.45	0.03	100	75	5
+sunbird_thirring_runs3_L12/Ls48.beta0.32.m0.01/fort.200	12	48	0.32	0.01	100	75	5
+sunbird_thirring_runs3_L12/Ls48.beta0.32.m0.02/fort.200	12	48	0.32	0.02	100	75	5
+sunbird_thirring_runs3_L12/Ls48.beta0.44.m0.01/fort.200	12	48	0.44	0.01	100	75	5
+sunbird_thirring_runs3_L12/Ls48.beta0.44.m0.02/fort.200	12	48	0.44	0.02	100	75	5
+sunbird_thirring_runs3_L12/Ls48.beta0.44.m0.03/fort.200	12	48	0.44	0.03	100	75	5
+sunbird_thirring_runs3_L12/Ls48.beta0.44.m0.04/fort.200	12	48	0.44	0.04	100	75	5
+sunbird_thirring_runs3_L12/Ls48.beta0.44.m0.05/fort.200	12	48	0.44	0.05	100	75	5
+sunbird_thirring_runs3_L12/Ls48.beta0.46.m0.01/fort.200	12	48	0.46	0.01	100	75	5
+sunbird_thirring_runs3_L12/Ls48.beta0.46.m0.02/fort.200	12	48	0.46	0.02	100	75	5
+sunbird_thirring_runs3_L12/Ls48.beta0.46.m0.03/fort.200	12	48	0.46	0.03	100	75	5
+sunbird_thirring_runs3_L12/Ls48.beta0.46.m0.04/fort.200	12	48	0.46	0.04	100	75	5
+sunbird_thirring_runs3_L12/Ls48.beta0.46.m0.05/fort.200	12	48	0.46	0.05	100	75	5
+sunbird_thirring_runs3_L12/Ls48.beta0.55.m0.01/fort.200	12	48	0.55	0.01	100	75	5
+sunbird_thirring_runs3_L12/Ls48.beta0.55.m0.02/fort.200	12	48	0.55	0.02	100	75	5
+sunbird_thirring_runs3_L12/Ls48.beta0.55.m0.03/fort.200	12	48	0.55	0.03	100	75	5
+sunbird_thirring_runs3_L12/Ls48.beta0.55.m0.04/fort.200	12	48	0.55	0.04	100	75	5
+sunbird_thirring_runs3_L12/Ls48.beta0.55.m0.05/fort.200	12	48	0.55	0.05	100	75	5
+all_dirs/Ls32.beta0.30.m0.01/fort.200.total.1	12	32	0.3	0.01	100	75	5
+all_dirs/Ls32.beta0.30.m0.01/fort.200.total.2	12	32	0.3	0.01	100	75	5
+all_dirs/Ls32.beta0.30.m0.02/fort.200.total.1	12	32	0.3	0.02	100	75	5
+all_dirs/Ls32.beta0.30.m0.02/fort.200.total.2	12	32	0.3	0.02	100	75	5
+all_dirs/Ls32.beta0.30.m0.05/fort.200.total.1	12	32	0.3	0.05	100	75	5
+all_dirs/Ls32.beta0.30.m0.05/fort.200.total.2	12	32	0.3	0.05	100	75	5
+all_dirs/Ls32.beta0.40.m0.01/fort.200.total.1	12	32	0.4	0.01	150	100	5
+all_dirs/Ls32.beta0.40.m0.01/fort.200.total.2	12	32	0.4	0.01	150	100	5
+all_dirs/Ls32.beta0.40.m0.02/fort.200.total.1	12	32	0.4	0.02	150	100	5
+all_dirs/Ls32.beta0.40.m0.02/fort.200.total.2	12	32	0.4	0.02	150	100	5
+all_dirs/Ls32.beta0.40.m0.03/fort.200.total.1	12	32	0.4	0.03	150	100	5
+all_dirs/Ls32.beta0.40.m0.03/fort.200.total.2	12	32	0.4	0.03	150	100	5
+all_dirs/Ls32.beta0.40.m0.04/fort.200.total.1	12	32	0.4	0.04	150	100	5
+all_dirs/Ls32.beta0.40.m0.04/fort.200.total.2	12	32	0.4	0.04	150	100	5
+all_dirs/Ls32.beta0.40.m0.05/fort.200.total.1	12	32	0.4	0.05	150	100	5
+all_dirs/Ls32.beta0.40.m0.05/fort.200.total.2	12	32	0.4	0.05	150	100	5
+all_dirs/Ls40.beta0.30.m0.01/fort.200.total.1	12	40	0.3	0.01	100	75	5
+all_dirs/Ls40.beta0.30.m0.01/fort.200.total.2	12	40	0.3	0.01	100	75	5
+all_dirs/Ls40.beta0.30.m0.02/fort.200.total.1	12	40	0.3	0.02	100	75	5
+all_dirs/Ls40.beta0.30.m0.02/fort.200.total.2	12	40	0.3	0.02	100	75	5
+all_dirs/Ls40.beta0.30.m0.03/fort.200.total.1	12	40	0.3	0.03	100	75	5
+all_dirs/Ls40.beta0.30.m0.03/fort.200.total.2	12	40	0.3	0.03	100	75	5
+all_dirs/Ls40.beta0.30.m0.04/fort.200.total.1	12	40	0.3	0.04	100	75	5
+all_dirs/Ls40.beta0.30.m0.04/fort.200.total.2	12	40	0.3	0.04	100	75	5
+all_dirs/Ls40.beta0.30.m0.05/fort.200.total.1	12	40	0.3	0.05	100	75	5
+all_dirs/Ls40.beta0.30.m0.05/fort.200.total.2	12	40	0.3	0.05	100	75	5
+all_dirs/Ls40.beta0.34.m0.04/fort.200.total.1	12	40	0.34	0.04	150	100	5
+all_dirs/Ls40.beta0.34.m0.04/fort.200.total.2	12	40	0.34	0.04	150	100	5
+all_dirs/Ls40.beta0.34.m0.05/fort.200.total.1	12	40	0.34	0.05	150	100	5
+all_dirs/Ls40.beta0.34.m0.05/fort.200.total.2	12	40	0.34	0.05	150	100	5
+all_dirs/Ls40.beta0.36.m0.01/fort.200.total.1	12	40	0.36	0.01	150	100	5
+all_dirs/Ls40.beta0.36.m0.01/fort.200.total.2	12	40	0.36	0.01	150	100	5
+all_dirs/Ls40.beta0.36.m0.02/fort.200.total.1	12	40	0.36	0.02	150	100	5
+all_dirs/Ls40.beta0.36.m0.02/fort.200.total.2	12	40	0.36	0.02	150	100	5
+all_dirs/Ls40.beta0.36.m0.03/fort.200.total.1	12	40	0.36	0.03	150	100	5
+all_dirs/Ls40.beta0.36.m0.03/fort.200.total.2	12	40	0.36	0.03	150	100	5
+all_dirs/Ls40.beta0.36.m0.04/fort.200.total.1	12	40	0.36	0.04	150	100	5
+all_dirs/Ls40.beta0.36.m0.04/fort.200.total.2	12	40	0.36	0.04	150	100	5
+all_dirs/Ls40.beta0.36.m0.05/fort.200.total.1	12	40	0.36	0.05	150	75	5
+all_dirs/Ls40.beta0.36.m0.05/fort.200.total.2	12	40	0.36	0.05	150	75	5
+all_dirs/Ls40.beta0.38.m0.01/fort.200.total.1	12	40	0.38	0.01	150	75	5
+all_dirs/Ls40.beta0.38.m0.01/fort.200.total.2	12	40	0.38	0.01	150	75	5
+all_dirs/Ls40.beta0.38.m0.02/fort.200.total.1	12	40	0.38	0.02	150	75	5
+all_dirs/Ls40.beta0.38.m0.02/fort.200.total.2	12	40	0.38	0.02	150	75	5
+all_dirs/Ls40.beta0.38.m0.03/fort.200.total.1	12	40	0.38	0.03	150	75	5
+all_dirs/Ls40.beta0.38.m0.03/fort.200.total.2	12	40	0.38	0.03	150	75	5
+all_dirs/Ls40.beta0.38.m0.04/fort.200.total.1	12	40	0.38	0.04	150	100	5
+all_dirs/Ls40.beta0.38.m0.04/fort.200.total.2	12	40	0.38	0.04	150	100	5
+all_dirs/Ls40.beta0.38.m0.05/fort.200.total.1	12	40	0.38	0.05	150	100	5
+all_dirs/Ls40.beta0.38.m0.05/fort.200.total.2	12	40	0.38	0.05	150	100	5
+all_dirs/Ls40.beta0.40.m0.01/fort.200.total.1	12	40	0.4	0.01	150	75	5
+all_dirs/Ls40.beta0.40.m0.01/fort.200.total.2	12	40	0.4	0.01	150	75	5
+all_dirs/Ls40.beta0.40.m0.02/fort.200.total.1	12	40	0.4	0.02	150	75	5
+all_dirs/Ls40.beta0.40.m0.02/fort.200.total.2	12	40	0.4	0.02	150	75	5
+all_dirs/Ls40.beta0.40.m0.03/fort.200.total.1	12	40	0.4	0.03	150	150	5
+all_dirs/Ls40.beta0.40.m0.03/fort.200.total.2	12	40	0.4	0.03	150	150	5
+all_dirs/Ls40.beta0.40.m0.04/fort.200.total.1	12	40	0.4	0.04	150	150	5
+all_dirs/Ls40.beta0.40.m0.04/fort.200.total.2	12	40	0.4	0.04	150	150	5
+all_dirs/Ls40.beta0.40.m0.05/fort.200.total.1	12	40	0.4	0.05	150	100	5
+all_dirs/Ls40.beta0.40.m0.05/fort.200.total.2	12	40	0.4	0.05	150	100	5
+all_dirs/Ls40.beta0.42.m0.01/fort.200.total.1	12	40	0.42	0.01	150	100	5
+all_dirs/Ls40.beta0.42.m0.01/fort.200.total.2	12	40	0.42	0.01	150	100	5
+all_dirs/Ls40.beta0.44.m0.01/fort.200.total.1	12	40	0.44	0.01	100	75	5
+all_dirs/Ls40.beta0.44.m0.01/fort.200.total.2	12	40	0.44	0.01	100	75	5
+all_dirs/Ls40.beta0.44.m0.05/fort.200.total.1	12	40	0.44	0.05	100	75	5
+all_dirs/Ls40.beta0.44.m0.05/fort.200.total.2	12	40	0.44	0.05	100	75	5
+all_dirs/Ls48.beta0.30.m0.01/fort.200.total.1	12	48	0.3	0.01	100	200	5
+all_dirs/Ls48.beta0.30.m0.01/fort.200.total.2	12	48	0.3	0.01	100	200	5
+all_dirs/Ls48.beta0.30.m0.02/fort.200.total.1	12	48	0.3	0.02	100	75	5
+all_dirs/Ls48.beta0.30.m0.02/fort.200.total.2	12	48	0.3	0.02	100	75	5
+all_dirs/Ls48.beta0.30.m0.03/fort.200.total.1	12	48	0.3	0.03	100	75	5
+all_dirs/Ls48.beta0.30.m0.03/fort.200.total.2	12	48	0.3	0.03	100	75	5
+all_dirs/Ls48.beta0.30.m0.04/fort.200.total.1	12	48	0.3	0.04	100	75	5
+all_dirs/Ls48.beta0.30.m0.04/fort.200.total.2	12	48	0.3	0.04	100	75	5
+all_dirs/Ls48.beta0.30.m0.05/fort.200.total.1	12	48	0.3	0.05	100	75	5
+all_dirs/Ls48.beta0.30.m0.05/fort.200.total.2	12	48	0.3	0.05	100	75	5
+all_dirs/Ls48.beta0.32.m0.03/fort.200.total.1	12	48	0.32	0.03	150	75	5
+all_dirs/Ls48.beta0.32.m0.03/fort.200.total.2	12	48	0.32	0.03	150	75	5
+all_dirs/Ls48.beta0.32.m0.04/fort.200.total.1	12	48	0.32	0.04	150	75	5
+all_dirs/Ls48.beta0.32.m0.04/fort.200.total.2	12	48	0.32	0.04	150	75	5
+all_dirs/Ls48.beta0.32.m0.05/fort.200.total.1	12	48	0.32	0.05	150	75	5
+all_dirs/Ls48.beta0.32.m0.05/fort.200.total.2	12	48	0.32	0.05	150	75	5
+all_dirs/Ls48.beta0.34.m0.01/fort.200.total.1	12	48	0.34	0.01	100	100	5
+all_dirs/Ls48.beta0.34.m0.01/fort.200.total.2	12	48	0.34	0.01	100	100	5
+all_dirs/Ls48.beta0.34.m0.02/fort.200.total.1	12	48	0.34	0.02	100	100	5
+all_dirs/Ls48.beta0.34.m0.02/fort.200.total.2	12	48	0.34	0.02	100	100	5
+all_dirs/Ls48.beta0.34.m0.03/fort.200.total.1	12	48	0.34	0.03	100	100	5
+all_dirs/Ls48.beta0.34.m0.03/fort.200.total.2	12	48	0.34	0.03	100	100	5
+all_dirs/Ls48.beta0.34.m0.04/fort.200.total.1	12	48	0.34	0.04	100	100	5
+all_dirs/Ls48.beta0.34.m0.04/fort.200.total.2	12	48	0.34	0.04	100	100	5
+all_dirs/Ls48.beta0.34.m0.05/fort.200.total.1	12	48	0.34	0.05	100	100	5
+all_dirs/Ls48.beta0.34.m0.05/fort.200.total.2	12	48	0.34	0.05	100	100	5
+all_dirs/Ls48.beta0.36.m0.01/fort.200.total.1	12	48	0.36	0.01	100	100	5
+all_dirs/Ls48.beta0.36.m0.01/fort.200.total.2	12	48	0.36	0.01	100	100	5
+simon/16/Ls24.beta0.3.m0.01/fort.200	16	24	0.3	0.01	100	75	5
+simon/16/Ls24.beta0.3.m0.02/fort.200	16	24	0.3	0.02	100	75	5
+simon/16/Ls24.beta0.3.m0.04/fort.200	16	24	0.3	0.04	100	75	5
+simon/16/Ls24.beta0.3.m0.05/fort.200	16	24	0.3	0.05	100	75	5
+simon/16/Ls24.beta0.32.m0.01/fort.200	16	24	0.32	0.01	100	75	5
+simon/16/Ls24.beta0.32.m0.02/fort.200	16	24	0.32	0.02	100	75	5
+simon/16/Ls24.beta0.32.m0.03/fort.200	16	24	0.32	0.03	100	75	5
+simon/16/Ls24.beta0.32.m0.04/fort.200	16	24	0.32	0.04	100	75	5
+simon/16/Ls24.beta0.34.m0.01/fort.200	16	24	0.34	0.01	100	75	5
+simon/16/Ls24.beta0.34.m0.02/fort.200	16	24	0.34	0.02	100	75	5
+simon/16/Ls24.beta0.34.m0.03/fort.200	16	24	0.34	0.03	100	75	5
+simon/16/Ls24.beta0.34.m0.04/fort.200	16	24	0.34	0.04	100	75	5
+simon/16/Ls24.beta0.34.m0.05/fort.200	16	24	0.34	0.05	100	75	5
+simon/16/Ls24.beta0.36.m0.01/fort.200	16	24	0.36	0.01	100	75	5
+simon/16/Ls24.beta0.36.m0.02/fort.200	16	24	0.36	0.02	100	75	5
+simon/16/Ls24.beta0.36.m0.03/fort.200	16	24	0.36	0.03	100	75	5
+simon/16/Ls24.beta0.36.m0.04/fort.200	16	24	0.36	0.04	100	75	5
+simon/16/Ls24.beta0.36.m0.05/fort.200	16	24	0.36	0.05	100	75	5
+simon/16/Ls24.beta0.38.m0.01/fort.200	16	24	0.38	0.01	100	75	5
+simon/16/Ls24.beta0.38.m0.02/fort.200	16	24	0.38	0.02	100	75	5
+simon/16/Ls24.beta0.38.m0.03/fort.200	16	24	0.38	0.03	100	75	5
+simon/16/Ls24.beta0.38.m0.04/fort.200	16	24	0.38	0.04	100	75	5
+simon/16/Ls24.beta0.38.m0.05/fort.200	16	24	0.38	0.05	100	75	5
+simon/16/Ls24.beta0.4.m0.01/fort.200	16	24	0.4	0.01	100	75	5
+simon/16/Ls24.beta0.4.m0.02/fort.200	16	24	0.4	0.02	100	75	5
+simon/12/Ls24.beta0.4.m0.05/fort.200	12	24	0.4	0.05	100	75	5
+simon/16/Ls24.beta0.42.m0.01/fort.200	16	24	0.42	0.01	100	75	5
+simon/16/Ls24.beta0.42.m0.02/fort.200	16	24	0.42	0.02	100	75	5
+simon/16/Ls24.beta0.44.m0.01/fort.200	16	24	0.44	0.01	100	75	5
+simon/16/Ls24.beta0.44.m0.02/fort.200	16	24	0.44	0.02	100	75	5
+simon/16/Ls24.beta0.5.m0.01/fort.200	16	24	0.5	0.01	100	75	5
+simon/16/Ls24.beta0.5.m0.02/fort.200	16	24	0.5	0.02	100	75	5
+simon/old/12/Ls24.beta0.3.m0.01/fort.200	12	24	0.3	0.01	100	75	5
+simon/old/12/Ls24.beta0.3.m0.02/fort.200	12	24	0.3	0.02	100	75	5
+simon/old/12/Ls24.beta0.3.m0.04/fort.200	12	24	0.3	0.04	100	75	5
+simon/old/12/Ls24.beta0.3.m0.05/fort.200	12	24	0.3	0.05	100	75	5
+simon/old/12/Ls24.beta0.32.m0.01/fort.200	12	24	0.32	0.01	100	75	5
+simon/old/12/Ls24.beta0.32.m0.02/fort.200	12	24	0.32	0.02	100	75	5
+simon/old/12/Ls24.beta0.32.m0.03/fort.200	12	24	0.32	0.03	100	75	5
+simon/old/12/Ls24.beta0.32.m0.04/fort.200	12	24	0.32	0.04	100	75	5
+simon/old/12/Ls24.beta0.34.m0.01/fort.200	12	24	0.34	0.01	100	75	5
+simon/old/12/Ls24.beta0.34.m0.02/fort.200	12	24	0.34	0.02	100	75	5
+simon/old/12/Ls24.beta0.34.m0.03/fort.200	12	24	0.34	0.03	100	75	5
+simon/old/12/Ls24.beta0.34.m0.04/fort.200	12	24	0.34	0.04	100	75	5
+simon/old/12/Ls24.beta0.34.m0.05/fort.200	12	24	0.34	0.05	100	75	5
+simon/old/12/Ls24.beta0.36.m0.01/fort.200	12	24	0.36	0.01	100	75	5
+simon/old/12/Ls24.beta0.36.m0.02/fort.200	12	24	0.36	0.02	100	75	5
+simon/old/12/Ls24.beta0.36.m0.03/fort.200	12	24	0.36	0.03	100	75	5
+simon/old/12/Ls24.beta0.36.m0.04/fort.200	12	24	0.36	0.04	100	75	5
+simon/old/12/Ls24.beta0.36.m0.05/fort.200	12	24	0.36	0.05	100	75	5
+simon/old/12/Ls24.beta0.38.m0.01/fort.200	12	24	0.38	0.01	100	75	5
+simon/old/12/Ls24.beta0.38.m0.02/fort.200	12	24	0.38	0.02	100	75	5
+simon/old/12/Ls24.beta0.38.m0.03/fort.200	12	24	0.38	0.03	100	75	5
+simon/old/12/Ls24.beta0.38.m0.04/fort.200	12	24	0.38	0.04	100	75	5
+simon/old/12/Ls24.beta0.38.m0.05/fort.200	12	24	0.38	0.05	100	75	5
+simon/old/12/Ls24.beta0.4.m0.01/fort.200	12	24	0.4	0.01	100	75	5
+simon/old/12/Ls24.beta0.4.m0.02/fort.200	12	24	0.4	0.02	100	75	5
+simon/old/12/Ls24.beta0.4.m0.05/fort.200	12	24	0.4	0.05	100	75	5
+simon/old/12/Ls24.beta0.5.m0.01/fort.200	12	24	0.5	0.01	100	75	5
+simon/old/12/Ls24.beta0.5.m0.02/fort.200	12	24	0.5	0.02	100	75	5
+simon/old/12/Ls32.beta0.3.m0.01/fort.200	12	32	0.3	0.01	100	75	5
+simon/old/12/Ls32.beta0.3.m0.02/fort.200	12	32	0.3	0.02	100	75	5
+simon/old/12/Ls32.beta0.3.m0.05/fort.200	12	32	0.3	0.05	100	75	5
+simon/old/12/Ls32.beta0.4.m0.01/fort.200	12	32	0.4	0.01	100	100	5
+simon/old/12/Ls32.beta0.4.m0.02/fort.200	12	32	0.4	0.02	100	100	5
+simon/old/12/Ls32.beta0.4.m0.03/fort.200	12	32	0.4	0.03	100	100	5
+simon/old/12/Ls32.beta0.4.m0.04/fort.200	12	32	0.4	0.04	100	100	5
+simon/old/12/Ls32.beta0.4.m0.05/fort.200	12	32	0.4	0.05	100	100	5
+simon/old/12/Ls40.beta0.3.m0.01/fort.200	12	40	0.3	0.01	100	75	5
+simon/old/12/Ls40.beta0.3.m0.05/fort.200	12	40	0.3	0.05	100	75	5
+simon/old/12/Ls40.beta0.4.m0.01/fort.200	12	40	0.4	0.01	100	75	5
+simon/old/12/Ls40.beta0.4.m0.02/fort.200	12	40	0.4	0.02	100	75	5
+simon/old/12/Ls40.beta0.4.m0.03/fort.200	12	40	0.4	0.03	100	150	5
+simon/old/12/Ls40.beta0.4.m0.04/fort.200	12	40	0.4	0.04	100	150	5
+simon/old/12/Ls40.beta0.4.m0.05/fort.200	12	40	0.4	0.05	100	100	5
+simon/old/12/Ls48.beta0.3.m0.01/fort.200	12	48	0.3	0.01	100	200	5
+simon/old/12/a/Ls24.beta0.42.m0.01/fort.200	12	24	0.42	0.01	100	75	5
+simon/old/12/a/Ls24.beta0.42.m0.02/fort.200	12	24	0.42	0.02	100	75	5
+simon/old/12/a/Ls24.beta0.44.m0.01/fort.200	12	24	0.44	0.01	100	75	5
+simon/old/12/a/Ls24.beta0.44.m0.02/fort.200	12	24	0.44	0.02	100	75	5
+simon/old/12/a/Ls40.beta0.3.m0.02/fort.200	12	40	0.3	0.02	100	75	5
+simon/old/12/a/Ls48.beta0.3.m0.02/fort.200	12	48	0.3	0.02	100	75	5
+simon/old/12/b/Ls40.beta0.3.m0.01/fort.200	12	40	0.3	0.01	100	75	5
+simon/old/12/b/Ls40.beta0.3.m0.03/fort.200	12	40	0.3	0.03	100	75	5
+simon/old/12/c/Ls40.beta0.3.m0.02/fort.200	12	40	0.3	0.02	100	75	5
+simon/old/12/c/Ls40.beta0.3.m0.04/fort.200	12	40	0.3	0.04	100	75	5
+simon/old/12/d/Ls48.beta0.3.m0.03/fort.200	12	48	0.3	0.03	100	75	5
+simon/old/12/e/Ls40.beta0.3.m0.03/fort.200	12	40	0.3	0.03	100	75	5
+simon/old/16/b/Ls32.beta0.3.m0.01/fort.200	16	32	0.3	0.01	100	75	5
+sunbird_thirring_runs3_L12/Ls32.beta0.30.m0.01/fort.200	12	32	0.3	0.01	100	75	5
+sunbird_thirring_runs3_L12/Ls32.beta0.30.m0.02/fort.200	12	32	0.3	0.02	100	75	5
+sunbird_thirring_runs3_L12/Ls40.beta0.30.m0.01/fort.200	12	40	0.3	0.01	100	75	5
+sunbird_thirring_runs3_L12/Ls40.beta0.30.m0.02/fort.200	12	40	0.3	0.02	100	75	5
+sunbird_thirring_runs3_L12/Ls40.beta0.30.m0.03/fort.200	12	40	0.3	0.03	100	75	5
+sunbird_thirring_runs3_L12/Ls40.beta0.30.m0.04/fort.200	12	40	0.3	0.04	100	75	5
+sunbird_thirring_runs3_L12/Ls40.beta0.30.m0.05/fort.200	12	40	0.3	0.05	100	75	5
+sunbird_thirring_runs3_L12/Ls40.beta0.34.m0.04/fort.200	12	40	0.34	0.04	100	100	5
+sunbird_thirring_runs3_L12/Ls40.beta0.34.m0.05/fort.200	12	40	0.34	0.05	100	100	5
+sunbird_thirring_runs3_L12/Ls40.beta0.36.m0.01/fort.200	12	40	0.36	0.01	100	100	5
+sunbird_thirring_runs3_L12/Ls40.beta0.36.m0.02/fort.200	12	40	0.36	0.02	100	100	5
+sunbird_thirring_runs3_L12/Ls40.beta0.36.m0.03/fort.200	12	40	0.36	0.03	100	100	5
+sunbird_thirring_runs3_L12/Ls40.beta0.36.m0.04/fort.200	12	40	0.36	0.04	100	100	5
+sunbird_thirring_runs3_L12/Ls40.beta0.36.m0.05/fort.200	12	40	0.36	0.05	100	75	5
+sunbird_thirring_runs3_L12/Ls40.beta0.38.m0.01/fort.200	12	40	0.38	0.01	100	75	5
+sunbird_thirring_runs3_L12/Ls40.beta0.38.m0.02/fort.200	12	40	0.38	0.02	100	75	5
+sunbird_thirring_runs3_L12/Ls40.beta0.38.m0.03/fort.200	12	40	0.38	0.03	100	75	5
+sunbird_thirring_runs3_L12/Ls40.beta0.38.m0.04/fort.200	12	40	0.38	0.04	100	100	5
+sunbird_thirring_runs3_L12/Ls40.beta0.38.m0.05/fort.200	12	40	0.38	0.05	100	100	5
+sunbird_thirring_runs3_L12/Ls40.beta0.40.m0.01/fort.200	12	40	0.4	0.01	100	75	5
+sunbird_thirring_runs3_L12/Ls40.beta0.40.m0.02/fort.200	12	40	0.4	0.02	100	75	5
+sunbird_thirring_runs3_L12/Ls40.beta0.40.m0.03/fort.200	12	40	0.4	0.03	100	150	5
+sunbird_thirring_runs3_L12/Ls40.beta0.40.m0.04/fort.200	12	40	0.4	0.04	100	150	5
+sunbird_thirring_runs3_L12/Ls40.beta0.40.m0.05/fort.200	12	40	0.4	0.05	100	100	5
+sunbird_thirring_runs3_L12/Ls40.beta0.42.m0.01/fort.200	12	40	0.42	0.01	100	100	5
+sunbird_thirring_runs3_L12/Ls40.beta0.44.m0.01/fort.200	12	40	0.44	0.01	100	75	5
+sunbird_thirring_runs3_L12/Ls40.beta0.44.m0.05/fort.200	12	40	0.44	0.05	100	75	5
+sunbird_thirring_runs3_L12/Ls48.beta0.30.m0.01/fort.200	12	48	0.3	0.01	100	200	5
+sunbird_thirring_runs3_L12/Ls48.beta0.30.m0.02/fort.200	12	48	0.3	0.02	200	75	5
+sunbird_thirring_runs3_L12/Ls48.beta0.30.m0.03/fort.200	12	48	0.3	0.03	100	75	5
+sunbird_thirring_runs3_L12/Ls48.beta0.30.m0.04/fort.200	12	48	0.3	0.04	100	75	5
+sunbird_thirring_runs3_L12/Ls48.beta0.30.m0.05/fort.200	12	48	0.3	0.05	100	75	5
+sunbird_thirring_runs3_L12/Ls48.beta0.32.m0.03/fort.200	12	48	0.32	0.03	100	75	5
+sunbird_thirring_runs3_L12/Ls48.beta0.32.m0.04/fort.200	12	48	0.32	0.04	100	75	5
+sunbird_thirring_runs3_L12/Ls48.beta0.32.m0.05/fort.200	12	48	0.32	0.05	100	75	5
+sunbird_thirring_runs3_L12/Ls48.beta0.34.m0.01/fort.200	12	48	0.34	0.01	100	100	5
+sunbird_thirring_runs3_L12/Ls48.beta0.34.m0.02/fort.200	12	48	0.34	0.02	100	100	5
+sunbird_thirring_runs3_L12/Ls48.beta0.34.m0.03/fort.200	12	48	0.34	0.03	100	100	5
+sunbird_thirring_runs3_L12/Ls48.beta0.34.m0.04/fort.200	12	48	0.34	0.04	100	100	5
+sunbird_thirring_runs3_L12/Ls48.beta0.34.m0.05/fort.200	12	48	0.34	0.05	100	100	5
+sunbird_thirring_runs3_L12/Ls48.beta0.36.m0.01/fort.200	12	48	0.36	0.01	100	100	5
+peta4_RUNS2_L16/Ls40.beta0.40.m0.05/fort.200	16	40	0.4	0.05	100	75	5
+peta4_RUNS2_L16/Ls40.beta0.42.m0.05/fort.200	16	40	0.42	0.05	100	75	5
+peta4_RUNS2_L16/Ls48.beta0.40.m0.01/fort.200	16	48	0.4	0.01	100	75	5
+peta4_RUNS2_L16/Ls48.beta0.40.m0.02/fort.200	16	48	0.4	0.02	100	75	5
+peta4_RUNS2_L16/Ls48.beta0.40.m0.03/fort.200	16	48	0.4	0.03	100	75	5
+peta4_RUNS2_L16/Ls48.beta0.40.m0.04/fort.200	16	48	0.4	0.04	100	75	5
+peta4_RUNS2_L16/Ls48.beta0.40.m0.05/fort.200	16	48	0.4	0.05	100	75	5
+peta4_RUNS2_L16/Ls48.beta0.42.m0.01/fort.200	16	48	0.42	0.01	100	75	5
+peta4_RUNS2_L16/Ls48.beta0.42.m0.02/fort.200	16	48	0.42	0.02	100	75	5
+peta4_RUNS2_L16/Ls48.beta0.42.m0.03/fort.200	16	48	0.42	0.03	100	75	5
+peta4_RUNS2_L16/Ls48.beta0.42.m0.04/fort.200	16	48	0.42	0.04	100	75	5
+peta4_RUNS2_L16/Ls48.beta0.42.m0.05/fort.200	16	48	0.42	0.05	100	75	5
+peta4_RUNS2_L16/Ls48.beta0.44.m0.01/fort.200	16	48	0.44	0.01	100	75	5
+peta4_RUNS2_L16/Ls48.beta0.44.m0.02/fort.200	16	48	0.44	0.02	100	75	5
+peta4_RUNS2_L16/Ls48.beta0.44.m0.03/fort.200	16	48	0.44	0.03	100	75	5
+peta4_RUNS2_L16/Ls48.beta0.44.m0.04/fort.200	16	48	0.44	0.04	100	75	5
+peta4_RUNS2_L16/Ls48.beta0.44.m0.05/fort.200	16	48	0.44	0.05	100	75	5
+peta4_RUNS2_L16/Ls48.beta0.46.m0.01/fort.200	16	48	0.46	0.01	100	75	5
+peta4_RUNS2_L16/Ls48.beta0.46.m0.02/fort.200	16	48	0.46	0.02	100	75	5
+peta4_RUNS2_L16/Ls48.beta0.46.m0.03/fort.200	16	48	0.46	0.03	100	75	5
+peta4_RUNS2_L16/Ls48.beta0.46.m0.04/fort.200	16	48	0.46	0.04	100	75	5
+peta4_RUNS2_L16/Ls48.beta0.46.m0.05/fort.200	16	48	0.46	0.05	100	75	5
+peta4_RUNS2_L16/Ls48.beta0.48.m0.01/fort.200	16	48	0.48	0.01	100	75	5
+peta4_RUNS2_L16/Ls48.beta0.48.m0.02/fort.200	16	48	0.48	0.02	100	75	5
+peta4_RUNS2_L16/Ls48.beta0.48.m0.03/fort.200	16	48	0.48	0.03	100	75	5
+peta4_RUNS2_L16/Ls48.beta0.48.m0.04/fort.200	16	48	0.48	0.04	100	75	5
+peta4_RUNS2_L16/Ls48.beta0.48.m0.05/fort.200	16	48	0.48	0.05	100	75	5
+peta4_RUNS2_L16/Ls48.beta0.50.m0.01/fort.200	16	48	0.5	0.01	100	75	5
+peta4_RUNS2_L16/Ls48.beta0.50.m0.02/fort.200	16	48	0.5	0.02	100	75	5
+peta4_RUNS2_L16/Ls48.beta0.50.m0.03/fort.200	16	48	0.5	0.03	100	75	5
+peta4_RUNS2_L16/Ls48.beta0.50.m0.04/fort.200	16	48	0.5	0.04	100	75	5
+peta4_RUNS2_L16/Ls48.beta0.52.m0.01/fort.200	16	48	0.52	0.01	100	75	5
+peta4_RUNS2_L16/Ls48.beta0.52.m0.02/fort.200	16	48	0.52	0.02	100	75	5
+peta4_RUNS2_L16/Ls48.beta0.52.m0.03/fort.200	16	48	0.52	0.03	100	75	5
+peta4_RUNS2_L16/Ls48.beta0.52.m0.04/fort.200	16	48	0.52	0.04	100	75	5
+simon/old/16/Ls08.beta0.3.m0.01/fort.200	16	8	0.3	0.01	100	75	5
+simon/old/16/Ls08.beta0.6.m0.01/fort.200	16	8	0.6	0.01	100	75	5
+simon/old/16/Ls16.beta0.6.m0.01/fort.200	16	16	0.6	0.01	100	75	5
+simon/old/16/Ls24.beta0.3.m0.01/fort.200	16	24	0.3	0.01	100	75	5
+simon/old/16/Ls24.beta0.6.m0.01/fort.200	16	24	0.6	0.01	100	75	5
+simon/old/16/Ls32.beta0.6.m0.01/fort.200	16	32	0.6	0.01	100	75	5
+simon/old/16/Ls40.beta0.6.m0.01/fort.200	16	40	0.6	0.01	100	75	5
+simon/old/16/a/Ls16.beta0.3.m0.01/fort.200	16	16	0.3	0.01	100	75	5
+simon/old/16/a/Ls24.beta0.3.m0.01/fort.200	16	24	0.3	0.01	100	75	5
+all_dirs16/Ls32.beta0.30.m0.01/fort.200.total.1	16	32	0.3	0.01	100	100	5
+all_dirs16/Ls32.beta0.30.m0.02/fort.200.total.1	16	32	0.3	0.02	100	100	5
+all_dirs16/Ls32.beta0.30.m0.03/fort.200.total.1	16	32	0.3	0.03	100	100	5
+all_dirs16/Ls32.beta0.30.m0.04/fort.200.total.1	16	32	0.3	0.04	100	100	5
+all_dirs16/Ls32.beta0.30.m0.05/fort.200.total.1	16	32	0.3	0.05	100	100	5
+all_dirs16/Ls32.beta0.32.m0.01/fort.200.total.1	16	32	0.32	0.01	100	100	5
+all_dirs16/Ls32.beta0.32.m0.02/fort.200.total.1	16	32	0.32	0.02	100	100	5
+all_dirs16/Ls32.beta0.32.m0.03/fort.200.total.1	16	32	0.32	0.03	100	100	5
+all_dirs16/Ls32.beta0.32.m0.04/fort.200.total.1	16	32	0.32	0.04	100	100	5
+all_dirs16/Ls32.beta0.32.m0.05/fort.200.total.1	16	32	0.32	0.05	100	100	5
+all_dirs16/Ls32.beta0.34.m0.01/fort.200.total.1	16	32	0.34	0.01	100	100	5
+all_dirs16/Ls32.beta0.34.m0.02/fort.200.total.1	16	32	0.34	0.02	100	100	5
+all_dirs16/Ls32.beta0.34.m0.03/fort.200.total.1	16	32	0.34	0.03	100	100	5
+all_dirs16/Ls32.beta0.34.m0.04/fort.200.total.1	16	32	0.34	0.04	100	100	5
+all_dirs16/Ls32.beta0.34.m0.05/fort.200.total.1	16	32	0.34	0.05	100	100	5
+all_dirs16/Ls32.beta0.36.m0.01/fort.200.total.1	16	32	0.36	0.01	100	100	5
+all_dirs16/Ls32.beta0.36.m0.02/fort.200.total.1	16	32	0.36	0.02	100	100	5
+all_dirs16/Ls32.beta0.36.m0.03/fort.200.total.1	16	32	0.36	0.03	100	100	5
+all_dirs16/Ls32.beta0.36.m0.04/fort.200.total.1	16	32	0.36	0.04	100	100	5
+all_dirs16/Ls32.beta0.36.m0.05/fort.200.total.1	16	32	0.36	0.05	100	100	5
+all_dirs16/Ls32.beta0.38.m0.01/fort.200.total.1	16	32	0.38	0.01	100	100	5
+all_dirs16/Ls32.beta0.38.m0.02/fort.200.total.1	16	32	0.38	0.02	100	100	5
+all_dirs16/Ls32.beta0.38.m0.03/fort.200.total.1	16	32	0.38	0.03	100	100	5
+all_dirs16/Ls32.beta0.38.m0.04/fort.200.total.1	16	32	0.38	0.04	100	100	5
+all_dirs16/Ls32.beta0.38.m0.05/fort.200.total.1	16	32	0.38	0.05	100	100	5
+all_dirs16/Ls40.beta0.30.m0.01/fort.200.total.1	16	40	0.3	0.01	100	100	5
+all_dirs16/Ls40.beta0.30.m0.02/fort.200.total.1	16	40	0.3	0.02	100	100	5
+all_dirs16/Ls40.beta0.30.m0.03/fort.200.total.1	16	40	0.3	0.03	100	100	5
+all_dirs16/Ls40.beta0.30.m0.04/fort.200.total.1	16	40	0.3	0.04	100	100	5
+all_dirs16/Ls40.beta0.30.m0.05/fort.200.total.1	16	40	0.3	0.05	100	100	5
+all_dirs16/Ls40.beta0.32.m0.01/fort.200.total.1	16	40	0.32	0.01	100	100	5
+all_dirs16/Ls40.beta0.32.m0.02/fort.200.total.1	16	40	0.32	0.02	100	100	5
+all_dirs16/Ls40.beta0.32.m0.03/fort.200.total.1	16	40	0.32	0.03	100	100	5
+all_dirs16/Ls40.beta0.32.m0.04/fort.200.total.1	16	40	0.32	0.04	100	100	5
+all_dirs16/Ls40.beta0.32.m0.05/fort.200.total.1	16	40	0.32	0.05	100	100	5
+all_dirs16/Ls40.beta0.34.m0.01/fort.200.total.1	16	40	0.34	0.01	100	100	5
+all_dirs16/Ls40.beta0.34.m0.02/fort.200.total.1	16	40	0.34	0.02	100	100	5
+all_dirs16/Ls40.beta0.34.m0.03/fort.200.total.1	16	40	0.34	0.03	100	100	5
+all_dirs16/Ls40.beta0.34.m0.04/fort.200.total.1	16	40	0.34	0.04	100	100	5
+all_dirs16/Ls40.beta0.34.m0.05/fort.200.total.1	16	40	0.34	0.05	100	100	5
+all_dirs16/Ls40.beta0.36.m0.01/fort.200.total.1	16	40	0.36	0.01	100	100	5
+all_dirs16/Ls40.beta0.36.m0.02/fort.200.total.1	16	40	0.36	0.02	100	100	5
+all_dirs16/Ls40.beta0.36.m0.03/fort.200.total.1	16	40	0.36	0.03	100	100	5
+all_dirs16/Ls40.beta0.36.m0.04/fort.200.total.1	16	40	0.36	0.04	100	100	5
+all_dirs16/Ls40.beta0.36.m0.05/fort.200.total.1	16	40	0.36	0.05	100	100	5
+all_dirs16/Ls40.beta0.38.m0.01/fort.200.total.1	16	40	0.38	0.01	100	100	5
+all_dirs16/Ls40.beta0.38.m0.02/fort.200.total.1	16	40	0.38	0.02	100	100	5
+all_dirs16/Ls40.beta0.38.m0.03/fort.200.total.1	16	40	0.38	0.03	100	100	5
+all_dirs16/Ls40.beta0.38.m0.04/fort.200.total.1	16	40	0.38	0.04	100	100	5
+all_dirs16/Ls40.beta0.38.m0.05/fort.200.total.1	16	40	0.38	0.05	100	100	5
+all_dirs16/Ls48.beta0.30.m0.01/fort.200.total.1	16	48	0.3	0.01	100	100	5
+all_dirs16/Ls48.beta0.30.m0.02/fort.200.total.1	16	48	0.3	0.02	100	100	5
+all_dirs16/Ls48.beta0.30.m0.03/fort.200.total.1	16	48	0.3	0.03	100	100	5
+all_dirs16/Ls48.beta0.30.m0.04/fort.200.total.1	16	48	0.3	0.04	100	100	5
+all_dirs16/Ls48.beta0.30.m0.05/fort.200.total.1	16	48	0.3	0.05	100	100	5
+all_dirs16/Ls48.beta0.32.m0.01/fort.200.total.1	16	48	0.32	0.01	100	100	5
+all_dirs16/Ls48.beta0.32.m0.02/fort.200.total.1	16	48	0.32	0.02	100	100	5
+all_dirs16/Ls48.beta0.32.m0.03/fort.200.total.1	16	48	0.32	0.03	100	100	5
+all_dirs16/Ls48.beta0.32.m0.04/fort.200.total.1	16	48	0.32	0.04	100	100	5
+all_dirs16/Ls48.beta0.32.m0.05/fort.200.total.1	16	48	0.32	0.05	100	100	5
+all_dirs16/Ls48.beta0.34.m0.01/fort.200.total.1	16	48	0.34	0.01	100	100	5
+all_dirs16/Ls48.beta0.34.m0.02/fort.200.total.1	16	48	0.34	0.02	100	100	5
+all_dirs16/Ls48.beta0.34.m0.03/fort.200.total.1	16	48	0.34	0.03	100	100	5
+all_dirs16/Ls48.beta0.34.m0.04/fort.200.total.1	16	48	0.34	0.04	100	100	5
+all_dirs16/Ls48.beta0.34.m0.05/fort.200.total.1	16	48	0.34	0.05	100	100	5
+all_dirs16/Ls48.beta0.36.m0.01/fort.200.total.1	16	48	0.36	0.01	100	100	5
+all_dirs16/Ls48.beta0.36.m0.02/fort.200.total.1	16	48	0.36	0.02	100	100	5
+all_dirs16/Ls48.beta0.36.m0.03/fort.200.total.1	16	48	0.36	0.03	100	100	5
+all_dirs16/Ls48.beta0.36.m0.04/fort.200.total.1	16	48	0.36	0.04	100	100	5
+all_dirs16/Ls48.beta0.36.m0.05/fort.200.total.1	16	48	0.36	0.05	100	100	5
+all_dirs16/Ls48.beta0.38.m0.01/fort.200.total.1	16	48	0.38	0.01	100	100	5
+all_dirs16/Ls48.beta0.38.m0.02/fort.200.total.1	16	48	0.38	0.02	100	100	5
+all_dirs16/Ls48.beta0.38.m0.03/fort.200.total.1	16	48	0.38	0.03	100	100	5
+all_dirs16/Ls48.beta0.38.m0.04/fort.200.total.1	16	48	0.38	0.04	100	100	5
+all_dirs16/Ls48.beta0.38.m0.05/fort.200.total.1	16	48	0.38	0.05	100	100	5
+peta4_RUNS2_L16/Ls32.beta0.30.m0.01/fort.200	16	32	0.3	0.01	100	100	5
+peta4_RUNS2_L16/Ls32.beta0.30.m0.02/fort.200	16	32	0.3	0.02	100	100	5
+peta4_RUNS2_L16/Ls32.beta0.30.m0.03/fort.200	16	32	0.3	0.03	100	100	5
+peta4_RUNS2_L16/Ls32.beta0.30.m0.04/fort.200	16	32	0.3	0.04	100	100	5
+peta4_RUNS2_L16/Ls32.beta0.30.m0.05/fort.200	16	32	0.3	0.05	100	100	5
+peta4_RUNS2_L16/Ls32.beta0.32.m0.01/fort.200	16	32	0.32	0.01	100	100	5
+peta4_RUNS2_L16/Ls32.beta0.32.m0.02/fort.200	16	32	0.32	0.02	100	100	5
+peta4_RUNS2_L16/Ls32.beta0.32.m0.03/fort.200	16	32	0.32	0.03	100	100	5
+peta4_RUNS2_L16/Ls32.beta0.32.m0.04/fort.200	16	32	0.32	0.04	100	100	5
+peta4_RUNS2_L16/Ls32.beta0.32.m0.05/fort.200	16	32	0.32	0.05	100	100	5
+peta4_RUNS2_L16/Ls32.beta0.34.m0.01/fort.200	16	32	0.34	0.01	100	100	5
+peta4_RUNS2_L16/Ls32.beta0.34.m0.02/fort.200	16	32	0.34	0.02	100	100	5
+peta4_RUNS2_L16/Ls32.beta0.34.m0.03/fort.200	16	32	0.34	0.03	100	100	5
+peta4_RUNS2_L16/Ls32.beta0.34.m0.04/fort.200	16	32	0.34	0.04	100	100	5
+peta4_RUNS2_L16/Ls32.beta0.34.m0.05/fort.200	16	32	0.34	0.05	100	100	5
+peta4_RUNS2_L16/Ls32.beta0.36.m0.01/fort.200	16	32	0.36	0.01	100	100	5
+peta4_RUNS2_L16/Ls32.beta0.36.m0.02/fort.200	16	32	0.36	0.02	100	100	5
+peta4_RUNS2_L16/Ls32.beta0.36.m0.03/fort.200	16	32	0.36	0.03	100	100	5
+peta4_RUNS2_L16/Ls32.beta0.36.m0.04/fort.200	16	32	0.36	0.04	100	100	5
+peta4_RUNS2_L16/Ls32.beta0.36.m0.05/fort.200	16	32	0.36	0.05	100	100	5
+peta4_RUNS2_L16/Ls32.beta0.38.m0.01/fort.200	16	32	0.38	0.01	100	100	5
+peta4_RUNS2_L16/Ls32.beta0.38.m0.02/fort.200	16	32	0.38	0.02	100	100	5
+peta4_RUNS2_L16/Ls32.beta0.38.m0.03/fort.200	16	32	0.38	0.03	100	100	5
+peta4_RUNS2_L16/Ls32.beta0.38.m0.04/fort.200	16	32	0.38	0.04	100	100	5
+peta4_RUNS2_L16/Ls32.beta0.38.m0.05/fort.200	16	32	0.38	0.05	100	100	5
+peta4_RUNS2_L16/Ls32.beta0.40.m0.01/fort.200	16	32	0.4	0.01	100	80	5
+peta4_RUNS2_L16/Ls32.beta0.40.m0.02/fort.200	16	32	0.4	0.02	100	80	5
+peta4_RUNS2_L16/Ls32.beta0.40.m0.03/fort.200	16	32	0.4	0.03	100	80	5
+peta4_RUNS2_L16/Ls32.beta0.40.m0.04/fort.200	16	32	0.4	0.04	100	80	5
+peta4_RUNS2_L16/Ls32.beta0.40.m0.05/fort.200	16	32	0.4	0.05	100	80	5
+peta4_RUNS2_L16/Ls32.beta0.42.m0.01/fort.200	16	32	0.42	0.01	100	80	5
+peta4_RUNS2_L16/Ls32.beta0.42.m0.02/fort.200	16	32	0.42	0.02	100	80	5
+peta4_RUNS2_L16/Ls32.beta0.42.m0.03/fort.200	16	32	0.42	0.03	100	80	5
+peta4_RUNS2_L16/Ls32.beta0.42.m0.04/fort.200	16	32	0.42	0.04	100	80	5
+peta4_RUNS2_L16/Ls32.beta0.42.m0.05/fort.200	16	32	0.42	0.05	100	80	5
+peta4_RUNS2_L16/Ls32.beta0.44.m0.01/fort.200	16	32	0.44	0.01	100	80	5
+peta4_RUNS2_L16/Ls32.beta0.44.m0.02/fort.200	16	32	0.44	0.02	100	80	5
+peta4_RUNS2_L16/Ls32.beta0.44.m0.03/fort.200	16	32	0.44	0.03	100	80	5
+peta4_RUNS2_L16/Ls32.beta0.44.m0.04/fort.200	16	32	0.44	0.04	100	80	5
+peta4_RUNS2_L16/Ls32.beta0.44.m0.05/fort.200	16	32	0.44	0.05	100	80	5
+peta4_RUNS2_L16/Ls32.beta0.46.m0.01/fort.200	16	32	0.46	0.01	100	80	5
+peta4_RUNS2_L16/Ls32.beta0.46.m0.02/fort.200	16	32	0.46	0.02	100	80	5
+peta4_RUNS2_L16/Ls32.beta0.46.m0.03/fort.200	16	32	0.46	0.03	100	80	5
+peta4_RUNS2_L16/Ls32.beta0.46.m0.04/fort.200	16	32	0.46	0.04	100	80	5
+peta4_RUNS2_L16/Ls32.beta0.46.m0.05/fort.200	16	32	0.46	0.05	100	80	5
+peta4_RUNS2_L16/Ls32.beta0.48.m0.01/fort.200	16	32	0.48	0.01	100	80	5
+peta4_RUNS2_L16/Ls32.beta0.48.m0.02/fort.200	16	32	0.48	0.02	100	80	5
+peta4_RUNS2_L16/Ls32.beta0.48.m0.03/fort.200	16	32	0.48	0.03	100	80	5
+peta4_RUNS2_L16/Ls32.beta0.48.m0.04/fort.200	16	32	0.48	0.04	100	80	5
+peta4_RUNS2_L16/Ls32.beta0.48.m0.05/fort.200	16	32	0.48	0.05	100	80	5
+peta4_RUNS2_L16/Ls32.beta0.50.m0.01/fort.200	16	32	0.5	0.01	100	80	5
+peta4_RUNS2_L16/Ls32.beta0.50.m0.02/fort.200	16	32	0.5	0.02	100	80	5
+peta4_RUNS2_L16/Ls32.beta0.50.m0.03/fort.200	16	32	0.5	0.03	100	80	5
+peta4_RUNS2_L16/Ls32.beta0.50.m0.04/fort.200	16	32	0.5	0.04	100	80	5
+peta4_RUNS2_L16/Ls32.beta0.50.m0.05/fort.200	16	32	0.5	0.05	100	80	5
+peta4_RUNS2_L16/Ls32.beta0.52.m0.01/fort.200	16	32	0.52	0.01	100	80	5
+peta4_RUNS2_L16/Ls32.beta0.52.m0.02/fort.200	16	32	0.52	0.02	100	80	5
+peta4_RUNS2_L16/Ls32.beta0.52.m0.03/fort.200	16	32	0.52	0.03	100	80	5
+peta4_RUNS2_L16/Ls32.beta0.52.m0.04/fort.200	16	32	0.52	0.04	100	80	5
+peta4_RUNS2_L16/Ls32.beta0.52.m0.05/fort.200	16	32	0.52	0.05	100	80	5
+peta4_RUNS2_L16/Ls40.beta0.30.m0.01/fort.200	16	40	0.3	0.01	100	100	5
+peta4_RUNS2_L16/Ls40.beta0.30.m0.02/fort.200	16	40	0.3	0.02	100	100	5
+peta4_RUNS2_L16/Ls40.beta0.30.m0.03/fort.200	16	40	0.3	0.03	100	100	5
+peta4_RUNS2_L16/Ls40.beta0.30.m0.04/fort.200	16	40	0.3	0.04	100	100	5
+peta4_RUNS2_L16/Ls40.beta0.30.m0.05/fort.200	16	40	0.3	0.05	100	100	5
+peta4_RUNS2_L16/Ls40.beta0.32.m0.01/fort.200	16	40	0.32	0.01	100	100	5
+peta4_RUNS2_L16/Ls40.beta0.32.m0.02/fort.200	16	40	0.32	0.02	100	100	5
+peta4_RUNS2_L16/Ls40.beta0.32.m0.03/fort.200	16	40	0.32	0.03	100	100	5
+peta4_RUNS2_L16/Ls40.beta0.32.m0.04/fort.200	16	40	0.32	0.04	100	100	5
+peta4_RUNS2_L16/Ls40.beta0.32.m0.05/fort.200	16	40	0.32	0.05	100	100	5
+peta4_RUNS2_L16/Ls40.beta0.34.m0.01/fort.200	16	40	0.34	0.01	100	100	5
+peta4_RUNS2_L16/Ls40.beta0.34.m0.02/fort.200	16	40	0.34	0.02	100	100	5
+peta4_RUNS2_L16/Ls40.beta0.34.m0.03/fort.200	16	40	0.34	0.03	100	100	5
+peta4_RUNS2_L16/Ls40.beta0.34.m0.04/fort.200	16	40	0.34	0.04	100	100	5
+peta4_RUNS2_L16/Ls40.beta0.34.m0.05/fort.200	16	40	0.34	0.05	100	100	5
+peta4_RUNS2_L16/Ls40.beta0.36.m0.01/fort.200	16	40	0.36	0.01	100	100	5
+peta4_RUNS2_L16/Ls40.beta0.36.m0.02/fort.200	16	40	0.36	0.02	100	100	5
+peta4_RUNS2_L16/Ls40.beta0.36.m0.03/fort.200	16	40	0.36	0.03	100	100	5
+peta4_RUNS2_L16/Ls40.beta0.36.m0.04/fort.200	16	40	0.36	0.04	100	100	5
+peta4_RUNS2_L16/Ls40.beta0.36.m0.05/fort.200	16	40	0.36	0.05	100	100	5
+peta4_RUNS2_L16/Ls40.beta0.38.m0.01/fort.200	16	40	0.38	0.01	100	100	5
+peta4_RUNS2_L16/Ls40.beta0.38.m0.02/fort.200	16	40	0.38	0.02	100	100	5
+peta4_RUNS2_L16/Ls40.beta0.38.m0.03/fort.200	16	40	0.38	0.03	100	100	5
+peta4_RUNS2_L16/Ls40.beta0.38.m0.04/fort.200	16	40	0.38	0.04	100	100	5
+peta4_RUNS2_L16/Ls40.beta0.38.m0.05/fort.200	16	40	0.38	0.05	100	100	5
+peta4_RUNS2_L16/Ls40.beta0.40.m0.01/fort.200	16	40	0.4	0.01	100	80	5
+peta4_RUNS2_L16/Ls40.beta0.40.m0.02/fort.200	16	40	0.4	0.02	100	80	5
+peta4_RUNS2_L16/Ls40.beta0.40.m0.03/fort.200	16	40	0.4	0.03	100	80	5
+peta4_RUNS2_L16/Ls40.beta0.40.m0.04/fort.200	16	40	0.4	0.04	100	80	5
+peta4_RUNS2_L16/Ls40.beta0.42.m0.01/fort.200	16	40	0.42	0.01	100	80	5
+peta4_RUNS2_L16/Ls40.beta0.42.m0.02/fort.200	16	40	0.42	0.02	100	80	5
+peta4_RUNS2_L16/Ls40.beta0.42.m0.03/fort.200	16	40	0.42	0.03	100	80	5
+peta4_RUNS2_L16/Ls40.beta0.42.m0.04/fort.200	16	40	0.42	0.04	100	80	5
+peta4_RUNS2_L16/Ls40.beta0.44.m0.01/fort.200	16	40	0.44	0.01	100	80	5
+peta4_RUNS2_L16/Ls40.beta0.44.m0.02/fort.200	16	40	0.44	0.02	100	80	5
+peta4_RUNS2_L16/Ls40.beta0.44.m0.03/fort.200	16	40	0.44	0.03	100	80	5
+peta4_RUNS2_L16/Ls40.beta0.44.m0.04/fort.200	16	40	0.44	0.04	100	80	5
+peta4_RUNS2_L16/Ls40.beta0.44.m0.05/fort.200	16	40	0.44	0.05	100	75	5
+peta4_RUNS2_L16/Ls40.beta0.46.m0.01/fort.200	16	40	0.46	0.01	100	80	5
+peta4_RUNS2_L16/Ls40.beta0.46.m0.02/fort.200	16	40	0.46	0.02	100	80	5
+peta4_RUNS2_L16/Ls40.beta0.46.m0.03/fort.200	16	40	0.46	0.03	100	80	5
+peta4_RUNS2_L16/Ls40.beta0.46.m0.04/fort.200	16	40	0.46	0.04	100	80	5
+peta4_RUNS2_L16/Ls40.beta0.46.m0.05/fort.200	16	40	0.46	0.05	100	80	5
+peta4_RUNS2_L16/Ls40.beta0.48.m0.01/fort.200	16	40	0.48	0.01	100	80	5
+peta4_RUNS2_L16/Ls40.beta0.48.m0.02/fort.200	16	40	0.48	0.02	100	80	5
+peta4_RUNS2_L16/Ls40.beta0.48.m0.03/fort.200	16	40	0.48	0.03	100	80	5
+peta4_RUNS2_L16/Ls40.beta0.48.m0.04/fort.200	16	40	0.48	0.04	100	80	5
+peta4_RUNS2_L16/Ls40.beta0.48.m0.05/fort.200	16	40	0.48	0.05	100	80	5
+peta4_RUNS2_L16/Ls40.beta0.50.m0.01/fort.200	16	40	0.5	0.01	100	80	5
+peta4_RUNS2_L16/Ls40.beta0.50.m0.02/fort.200	16	40	0.5	0.02	100	80	5
+peta4_RUNS2_L16/Ls40.beta0.50.m0.03/fort.200	16	40	0.5	0.03	100	80	5
+peta4_RUNS2_L16/Ls40.beta0.50.m0.04/fort.200	16	40	0.5	0.04	100	80	5
+peta4_RUNS2_L16/Ls40.beta0.50.m0.05/fort.200	16	40	0.5	0.05	100	80	5
+peta4_RUNS2_L16/Ls40.beta0.52.m0.01/fort.200	16	40	0.52	0.01	100	80	5
+peta4_RUNS2_L16/Ls40.beta0.52.m0.02/fort.200	16	40	0.52	0.02	100	80	5
+peta4_RUNS2_L16/Ls40.beta0.52.m0.03/fort.200	16	40	0.52	0.03	100	80	5
+peta4_RUNS2_L16/Ls40.beta0.52.m0.04/fort.200	16	40	0.52	0.04	100	80	5
+peta4_RUNS2_L16/Ls40.beta0.52.m0.05/fort.200	16	40	0.52	0.05	100	80	5
+peta4_RUNS2_L16/Ls48.beta0.30.m0.01/fort.200	16	48	0.3	0.01	100	100	5
+peta4_RUNS2_L16/Ls48.beta0.30.m0.02/fort.200	16	48	0.3	0.02	100	100	5
+peta4_RUNS2_L16/Ls48.beta0.30.m0.03/fort.200	16	48	0.3	0.03	100	100	5
+peta4_RUNS2_L16/Ls48.beta0.30.m0.04/fort.200	16	48	0.3	0.04	100	100	5
+peta4_RUNS2_L16/Ls48.beta0.30.m0.05/fort.200	16	48	0.3	0.05	100	100	5
+peta4_RUNS2_L16/Ls48.beta0.32.m0.01/fort.200	16	48	0.32	0.01	100	100	5
+peta4_RUNS2_L16/Ls48.beta0.32.m0.02/fort.200	16	48	0.32	0.02	100	100	5
+peta4_RUNS2_L16/Ls48.beta0.32.m0.03/fort.200	16	48	0.32	0.03	100	100	5
+peta4_RUNS2_L16/Ls48.beta0.32.m0.04/fort.200	16	48	0.32	0.04	100	100	5
+peta4_RUNS2_L16/Ls48.beta0.32.m0.05/fort.200	16	48	0.32	0.05	100	100	5
+peta4_RUNS2_L16/Ls48.beta0.34.m0.01/fort.200	16	48	0.34	0.01	100	100	5
+peta4_RUNS2_L16/Ls48.beta0.34.m0.02/fort.200	16	48	0.34	0.02	100	100	5
+peta4_RUNS2_L16/Ls48.beta0.34.m0.03/fort.200	16	48	0.34	0.03	100	100	5
+peta4_RUNS2_L16/Ls48.beta0.34.m0.04/fort.200	16	48	0.34	0.04	100	100	5
+peta4_RUNS2_L16/Ls48.beta0.34.m0.05/fort.200	16	48	0.34	0.05	100	100	5
+peta4_RUNS2_L16/Ls48.beta0.36.m0.01/fort.200	16	48	0.36	0.01	100	100	5
+peta4_RUNS2_L16/Ls48.beta0.36.m0.02/fort.200	16	48	0.36	0.02	100	100	5
+peta4_RUNS2_L16/Ls48.beta0.36.m0.03/fort.200	16	48	0.36	0.03	100	100	5
+peta4_RUNS2_L16/Ls48.beta0.36.m0.04/fort.200	16	48	0.36	0.04	100	100	5
+peta4_RUNS2_L16/Ls48.beta0.36.m0.05/fort.200	16	48	0.36	0.05	100	100	5
+peta4_RUNS2_L16/Ls48.beta0.38.m0.01/fort.200	16	48	0.38	0.01	100	100	5
+peta4_RUNS2_L16/Ls48.beta0.38.m0.02/fort.200	16	48	0.38	0.02	100	100	5
+peta4_RUNS2_L16/Ls48.beta0.38.m0.03/fort.200	16	48	0.38	0.03	100	100	5
+peta4_RUNS2_L16/Ls48.beta0.38.m0.04/fort.200	16	48	0.38	0.04	100	100	5
+peta4_RUNS2_L16/Ls48.beta0.38.m0.05/fort.200	16	48	0.38	0.05	100	100	5
+peta4_RUNS2_L16/Ls48.beta0.50.m0.05/fort.200	16	48	0.5	0.05	100	75	5
+peta4_RUNS2_L16/Ls48.beta0.52.m0.05/fort.200	16	48	0.52	0.05	100	75	5
+simon/16/Ls32.beta0.4.m0.01/fort.200	16	32	0.4	0.01	100	80	5
+simon/16/Ls32.beta0.4.m0.02/fort.200	16	32	0.4	0.02	100	80	5
+simon/16/Ls32.beta0.4.m0.03/fort.200	16	32	0.4	0.03	100	80	5
+simon/16/Ls32.beta0.4.m0.04/fort.200	16	32	0.4	0.04	100	80	5
+simon/16/Ls32.beta0.4.m0.05/fort.200	16	32	0.4	0.05	100	80	5
+simon/16/Ls32.beta0.42.m0.01/fort.200	16	32	0.42	0.01	100	80	5
+simon/16/Ls32.beta0.42.m0.02/fort.200	16	32	0.42	0.02	100	80	5
+simon/16/Ls32.beta0.42.m0.03/fort.200	16	32	0.42	0.03	100	80	5
+simon/16/Ls32.beta0.42.m0.04/fort.200	16	32	0.42	0.04	100	80	5
+simon/16/Ls32.beta0.42.m0.05/fort.200	16	32	0.42	0.05	100	80	5
+simon/16/Ls32.beta0.44.m0.01/fort.200	16	32	0.44	0.01	100	80	5
+simon/16/Ls32.beta0.44.m0.02/fort.200	16	32	0.44	0.02	100	80	5
+simon/16/Ls32.beta0.44.m0.03/fort.200	16	32	0.44	0.03	100	80	5
+simon/16/Ls32.beta0.44.m0.04/fort.200	16	32	0.44	0.04	100	80	5
+simon/16/Ls32.beta0.44.m0.05/fort.200	16	32	0.44	0.05	100	80	5
+simon/16/Ls32.beta0.46.m0.01/fort.200	16	32	0.46	0.01	100	80	5
+simon/16/Ls32.beta0.46.m0.02/fort.200	16	32	0.46	0.02	100	80	5
+simon/16/Ls32.beta0.46.m0.03/fort.200	16	32	0.46	0.03	100	80	5
+simon/16/Ls32.beta0.46.m0.04/fort.200	16	32	0.46	0.04	100	80	5
+simon/16/Ls32.beta0.46.m0.05/fort.200	16	32	0.46	0.05	100	80	5
+simon/16/Ls32.beta0.48.m0.01/fort.200	16	32	0.48	0.01	100	80	5
+simon/16/Ls32.beta0.48.m0.02/fort.200	16	32	0.48	0.02	100	80	5
+simon/16/Ls32.beta0.48.m0.03/fort.200	16	32	0.48	0.03	100	80	5
+simon/16/Ls32.beta0.48.m0.04/fort.200	16	32	0.48	0.04	100	80	5
+simon/16/Ls32.beta0.48.m0.05/fort.200	16	32	0.48	0.05	100	80	5
+simon/16/Ls32.beta0.5.m0.01/fort.200	16	32	0.5	0.01	100	80	5
+simon/16/Ls32.beta0.5.m0.02/fort.200	16	32	0.5	0.02	100	80	5
+simon/16/Ls32.beta0.5.m0.03/fort.200	16	32	0.5	0.03	100	80	5
+simon/16/Ls32.beta0.5.m0.04/fort.200	16	32	0.5	0.04	100	80	5
+simon/16/Ls32.beta0.5.m0.05/fort.200	16	32	0.5	0.05	100	80	5
+simon/16/Ls32.beta0.52.m0.01/fort.200	16	32	0.52	0.01	100	80	5
+simon/16/Ls32.beta0.52.m0.02/fort.200	16	32	0.52	0.02	100	80	5
+simon/16/Ls32.beta0.52.m0.03/fort.200	16	32	0.52	0.03	100	80	5
+simon/16/Ls32.beta0.52.m0.04/fort.200	16	32	0.52	0.04	100	80	5
+simon/16/Ls32.beta0.52.m0.05/fort.200	16	32	0.52	0.05	100	80	5
+simon/16/Ls40.beta0.4.m0.01/fort.200	16	40	0.4	0.01	100	80	5
+simon/16/Ls40.beta0.4.m0.02/fort.200	16	40	0.4	0.02	100	80	5
+simon/16/Ls40.beta0.4.m0.03/fort.200	16	40	0.4	0.03	100	80	5
+simon/16/Ls40.beta0.4.m0.04/fort.200	16	40	0.4	0.04	100	80	5
+simon/16/Ls40.beta0.42.m0.01/fort.200	16	40	0.42	0.01	100	80	5
+simon/16/Ls40.beta0.42.m0.02/fort.200	16	40	0.42	0.02	100	80	5
+simon/16/Ls40.beta0.42.m0.03/fort.200	16	40	0.42	0.03	100	80	5
+simon/16/Ls40.beta0.42.m0.04/fort.200	16	40	0.42	0.04	100	80	5
+simon/16/Ls40.beta0.44.m0.01/fort.200	16	40	0.44	0.01	100	80	5
+simon/16/Ls40.beta0.44.m0.02/fort.200	16	40	0.44	0.02	100	80	5
+simon/16/Ls40.beta0.44.m0.03/fort.200	16	40	0.44	0.03	100	80	5
+simon/16/Ls40.beta0.44.m0.04/fort.200	16	40	0.44	0.04	100	80	5
+simon/16/Ls40.beta0.44.m0.05/fort.200	16	40	0.44	0.05	100	75	5
+simon/16/Ls40.beta0.46.m0.01/fort.200	16	40	0.46	0.01	100	80	5
+simon/16/Ls40.beta0.46.m0.02/fort.200	16	40	0.46	0.02	100	80	5
+simon/16/Ls40.beta0.46.m0.03/fort.200	16	40	0.46	0.03	100	80	5
+simon/16/Ls40.beta0.46.m0.04/fort.200	16	40	0.46	0.04	100	80	5
+simon/16/Ls40.beta0.46.m0.05/fort.200	16	40	0.46	0.05	100	80	5
+simon/16/Ls40.beta0.48.m0.01/fort.200	16	40	0.48	0.01	100	80	5
+simon/16/Ls40.beta0.48.m0.02/fort.200	16	40	0.48	0.02	100	80	5
+simon/16/Ls40.beta0.48.m0.03/fort.200	16	40	0.48	0.03	100	80	5
+simon/16/Ls40.beta0.48.m0.04/fort.200	16	40	0.48	0.04	100	80	5
+simon/16/Ls40.beta0.48.m0.05/fort.200	16	40	0.48	0.05	100	80	5
+simon/16/Ls40.beta0.5.m0.01/fort.200	16	40	0.5	0.01	100	80	5
+simon/16/Ls40.beta0.5.m0.02/fort.200	16	40	0.5	0.02	100	80	5
+simon/16/Ls40.beta0.5.m0.03/fort.200	16	40	0.5	0.03	100	80	5
+simon/16/Ls40.beta0.5.m0.04/fort.200	16	40	0.5	0.04	100	80	5
+simon/16/Ls40.beta0.5.m0.05/fort.200	16	40	0.5	0.05	100	80	5
+simon/16/Ls40.beta0.52.m0.01/fort.200	16	40	0.52	0.01	100	80	5
+simon/16/Ls40.beta0.52.m0.02/fort.200	16	40	0.52	0.02	100	80	5
+simon/16/Ls40.beta0.52.m0.03/fort.200	16	40	0.52	0.03	100	80	5
+simon/16/Ls40.beta0.52.m0.04/fort.200	16	40	0.52	0.04	100	80	5
+simon/16/Ls40.beta0.52.m0.05/fort.200	16	40	0.52	0.05	100	80	5
+simon/16/Ls48.beta0.5.m0.05/fort.200	16	48	0.5	0.05	100	75	5
+simon/16/Ls48.beta0.52.m0.05/fort.200	16	48	0.52	0.05	100	75	5
+simon/old/16/Ls40.beta0.3.m0.01/fort.200	16	40	0.3	0.01	100	100	5

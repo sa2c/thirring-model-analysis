@@ -18,4 +18,6 @@ settings = settings.reset_index()
 for k,v in zip(wrong_filenames,[ filename.replace('/12/','/16/') for filename in wrong_filenames ]):
     settings.loc[settings.filename == k,'filename'] = v
 
-settings.to_csv('fort.200.analysis.set.corrected',sep='\t')
+# the index is, at this stage, only a list of integers with
+# no meaning, so we don't write it.
+settings.to_csv('fort.200.analysis.set.corrected',sep='\t',index=False)
