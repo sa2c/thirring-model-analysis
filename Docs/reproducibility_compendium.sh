@@ -22,6 +22,8 @@
 # we strap a header on new michele's data
 ../Scripts/runs2.0.michele.sh || exit 1 # stream 3
 
+../Scripts/create_fort.200_analysis_set.py && mv fort.200.analysis.set.synthetic fort.200.analysis.set || exit 1
+
 # splitting the global analysis setting file 
 # the command calls a lot of smaller commands and logs them
 ../Scripts/global_analysis_file_splitter.py fort.200.analysis.set|| exit 1  # stream 4
