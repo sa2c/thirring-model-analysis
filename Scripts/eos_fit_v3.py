@@ -133,6 +133,14 @@ if cov is not None:
     plt.title(
         f"$L_s={Ls}$,$L={L}$, $\chi^2/n_{{dof}} = {num:.2f}/{den}$, $b={betac_str}$,$d={delta_str}$,$B={B:.2f}$"
     )
+    # writing fit parameters
+    filename = os.path.join(lib.eos_fit_dir,f'fitLs{Ls}L{L}.dat')
+    columns = ["A", "A_err", "betac", "betac_err", "p", "p_err", "B", "B_err", "delta", "delta_err"]
+    data = [A, A_err, betac, betac_err, p, p_err, B, B_err, delta, delta_err]
+    df = pd.DataFrame(data = dict(zip(columns,data)), index = [0])
+    print(f"Writing {filename}")
+    df.to_csv(path_or_buf = filename, sep = '\t', index = False)
+
 else: 
     plt.title(f"$L_s={Ls}$, $\chi^2/n_{{dof}} = {num:1.2f}/{den}$, $b={betac}$,$d={delta}$,$B={B}$")
 
