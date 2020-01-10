@@ -7,3 +7,6 @@ rsync -av  --include '*/' --include-from included171019.txt --exclude '*' --prun
 
 echo "L=16, peta4(dirac), only RUNS2"
 rsync -av   --include '*/' --include-from included171019.txt --exclude '*' --prune-empty-dirs $PETA4_LOGIN:/home/dc-mesi1/RUNS2/all_dirs  ./peta4_RUNS2_L16
+
+echo "L=16, peta4(dirac), only RUNS3"
+rsync -av   --include '*/' --include-from included171019.txt --exclude '*' --prune-empty-dirs $PETA4_LOGIN:/home/dc-mesi1/RUNS3/all_dirs  ./peta4_RUNS3_L16
