@@ -46,7 +46,7 @@ def blockingDiscSuscErr(psibarpsi, susclsing, blockSize, volume):
 
     return susc, suscNm_err
 
-def get_susc_and_errors(df_dict, output_name, psibarpsi_name, susclsing_name, analysis_settings, volume):
+def get_susc_and_errors(df_dict, output_name, psibarpsi_name, susclsing_name, analysis_settings):
     observable = output_name
     values_and_errors = pd.DataFrame(
         index=analysis_settings.index.drop_duplicates())
@@ -61,10 +61,11 @@ def get_susc_and_errors(df_dict, output_name, psibarpsi_name, susclsing_name, an
 
     for k, v in df_dict.items():
         try:
+            L, Ls, beta, mass = k
             mean, err = blockingDiscSuscErr(psibarpsi=v[psibarpsi_name],
                     susclsing= v[susclsing_name],
                     blockSize= int(bmeas_sizes[0][k]),
-                    volume = volume)
+                    volume = L**3)
             values_and_errors.loc[k, observable] = mean
             values_and_errors.loc[k, observable + 'Err'] = err
         except TypeError:
