@@ -5,7 +5,6 @@ from os import path
 import numpy as np
 from matplotlib import pyplot as plt
 import re
-import threading
 
 numeric_types = [np.int, np.int64, np.float, np.float64]
 
@@ -13,26 +12,6 @@ pbp_values_and_error_filename = 'psibarpsi'
 pbp_values_and_error_pretty_filename = 'psibarpsi.pretty'
 pbpdir = 'psibarpsi'
 eos_fit_dir = 'eos_fit'
-
-
-def mean_square(series, blocksize):
-    '''
-    Takes a 1D array and a blocksize as input and returns an unbiased 
-    estimator of the square mean, removing the products of terms that might 
-    be correlated.
-    '''
-    return np.triu(np.outer(series, series)[:-blockSize, blocksize:]).sum() / (
-        (series.size - blocksize) * (series.size - blocksize + 1) / 2)
-
-
-def variance(series, blocksize):
-    '''
-    Takes a 1D array and a block size as input and returns an unbiased estimator
-    of the variance.
-    '''
-
-    return (series**2).mean() - mean_square(series, blocksize)
-
 
 # stupid blocking, for mean and error
 def blockingMeanErr(data0, blockSize):
@@ -66,7 +45,7 @@ def blockingMeanErr(data0, blockSize):
 
 
     standardError = np.sqrt(np.average((blockMeans - mean )**2, weights = blockedDataWeigths)\
-            / xblocks)
+            / (xblocks -1) ) # -1 for bias correction
 
     return mean, standardError
 
@@ -224,6 +203,7 @@ def get_n_meas(analysis_settings):
 
 def scan_for_blocking(df_dict, df_dict_cut, observable, analysis_settings):
 
+    import threading
     list_need_more_statistics = open('need_more_statistics.txt', 'w')
 
     with open('new_analysis_settings.set', 'w') as f:
