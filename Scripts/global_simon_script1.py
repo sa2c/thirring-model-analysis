@@ -9,6 +9,7 @@ import logging
 import pandas as pd
 import get_l_simon
 import stitch_lib as sl
+import fort_colnames as fc
 
 
 ### 
@@ -16,14 +17,9 @@ simon_pattern = re.compile(
     r'b_?(?P<beta>[01]\.[0-9]+)(?P<copy>[a-zA-Z]*).*Ls_?(?P<Ls>[0-9]+).*m_?(?P<m>0\.[0-9]+)'
 )
 
-fort100cols =['real_psibarpsi1','aimag_psibarpsi1','real_psibarpsi2','aimag_psibarpsi2']
-fort200cols =["psibarpsi","susclsing"]
-fort11cols =['isweep','gaction','paction']
-
-
-simon_filename_info = [('conds', r'conds_([0-9]+)', r'fort.100', fort100cols),
-                       ('condensate', r'condensate_([0-9]+)', r'fort.200', fort200cols),
-                       ('bose', r'bose_([0-9]+)', r'fort.11', fort11cols),
+simon_filename_info = [('conds', r'conds_([0-9]+)', r'fort.100', fc.fort100cols),
+                       ('condensate', r'condensate_([0-9]+)', r'fort.200', fc.fort200cols),
+                       ('bose', r'bose_([0-9]+)', r'fort.11', fc.fort11cols),
                        ('out', r'out_([0-9]+)', r'output',None)]
 simon_filename_info = pd.DataFrame(
     data=simon_filename_info, columns=['filetype', 'regexp',

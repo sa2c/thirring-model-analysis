@@ -4,21 +4,15 @@ import re
 import stitch_lib as sl
 import pandas as pd
 import logging
+import fort_colnames as fc
 
 michele_pattern = re.compile(
     r'Ls(?P<Ls>[0-9]+).*beta(?P<beta>0.[0-9]+).*m(?P<m>0.[0-9]+)$'
 )  # this is just for the stem
 
-fort100cols = [
-    'real_psibarpsi1', 'aimag_psibarpsi1', 'real_psibarpsi2',
-    'aimag_psibarpsi2'
-]
-fort200cols = ["psibarpsi", "susclsing"]
-fort11cols = ['isweep', 'gaction', 'paction']
-
-michele_filename_info = [('conds',  r'fort.100', fort100cols),
-                       ('condensate', r'fort.200', fort200cols),
-                       ('bose', r'fort.11', fort11cols),
+michele_filename_info = [('conds',  r'fort.100', fc.fort100cols),
+                       ('condensate', r'fort.200', fc.fort200cols),
+                       ('bose', r'fort.11', fc.fort11cols),
                        ('out', r'output',None)]
 michele_filename_info = pd.DataFrame(
     data=michele_filename_info, columns=['filetype',

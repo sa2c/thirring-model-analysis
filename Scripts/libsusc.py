@@ -46,8 +46,8 @@ def blockingDiscSuscErr(psibarpsi, susclsing, blockSize, volume):
 
     return susc, suscNm_err
 
-def get_susc_and_errors(df_dict, psibarpsi_name, susclsing_name, analysis_settings, volume):
-    observable = 'susc'
+def get_susc_and_errors(df_dict, output_name, psibarpsi_name, susclsing_name, analysis_settings, volume):
+    observable = output_name
     values_and_errors = pd.DataFrame(
         index=analysis_settings.index.drop_duplicates())
     values_and_errors[observable] = np.zeros_like(values_and_errors.index)
