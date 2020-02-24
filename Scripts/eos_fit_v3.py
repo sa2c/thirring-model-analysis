@@ -154,7 +154,7 @@ for mass, beta in psibarpsi.index:
         a=0.0,
         b=0.5)
 
-for mass in np.arange(0.01, 0.06, 0.01):
+for mass in psibarpsi.index.levels[0]:
     plt.plot(psibarpsi[mass], color='black', linestyle='--')
 
 if args.savefig:
