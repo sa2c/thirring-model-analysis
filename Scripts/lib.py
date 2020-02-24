@@ -372,15 +372,3 @@ def get_values_and_errors(df_dict, observable, analysis_settings):
     return values_and_errors.reset_index()
 
 
-def plot_observable(observable, values_and_error_selected):
-    for mass in np.arange(0.01, 0.06, 0.01):
-        condition = (values_and_error_selected.mass == mass)
-        plt.errorbar(
-            values_and_error_selected.beta[condition],
-            values_and_error_selected[observable][condition],
-            yerr=values_and_error_selected[observable + 'Err'][condition],
-            label=f'$m={mass}$',
-            linestyle='None',
-            marker=".")
-
-    plt.legend()
