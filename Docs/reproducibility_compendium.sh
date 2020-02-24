@@ -41,6 +41,10 @@ done
 # we use the last version of eos_fit. 
 MINBETA=0.3
 MAXBETA=1.0
+
+MINBETAPLOT=0.23
+MAXBETAPLOT=0.60
+
 (for L in 12 16 
 do 
     for Ls in 8 16 24 32 40 48 
@@ -48,7 +52,7 @@ do
         # notice: this does not actually read fort.200.analysis.set, but the files 
         # that have been created by the splitting
         echo L: $L Ls : $Ls
-        ../ProtocolUtils/log ../Scripts/eos_fit_v3.py fort.200.analysis.set $Ls $L $MINBETA $MAXBETA --savefig || exit 1 
+        ../ProtocolUtils/log ../Scripts/eos_fit_v3.py fort.200.analysis.set $Ls $L $MINBETA $MAXBETA $MINBETAPLOT $MAXBETAPLOT --savefig || exit 1 
     done 
 done )  || exit 1
 
@@ -93,9 +97,9 @@ do
 done
 
 # fit the extrapolated values (the reasonable ones) 
-../ProtocolUtils/log ../Scripts/eos_fit_v3.py fort.200.analysis.set INF 12 0.3 0.44 --savefig
+../ProtocolUtils/log ../Scripts/eos_fit_v3.py fort.200.analysis.set INF 12 0.3 0.44 0.23 0.6 --savefig
 
-../ProtocolUtils/log ../Scripts/eos_fit_v3.py fort.200.analysis.set INF 16 0.3 0.44 --savefig
+../ProtocolUtils/log ../Scripts/eos_fit_v3.py fort.200.analysis.set INF 16 0.3 0.44 0.23 0.6 --savefig
 )  ||exit 1
 
 wait

@@ -373,7 +373,7 @@ def get_values_and_errors(df_dict, observable, analysis_settings):
 
 
 def plot_observable(observable, values_and_error_selected):
-    for mass in np.arange(0.01, 0.06, 0.01):
+    for mass in values_and_error_selected.mass:
         condition = (values_and_error_selected.mass == mass)
         plt.errorbar(
             values_and_error_selected.beta[condition],

@@ -57,6 +57,10 @@ parser.add_argument('L', type=int, help='The chosen value of L')
 parser.add_argument('min_beta', type=float, help='The minimum value of beta for the fits.')
 parser.add_argument('max_beta', type=float, help='The maximum value of beta for the fits.')
 
+parser.add_argument('min_beta_plot', type=float, help='The minimum value of beta for the plots.')
+parser.add_argument('max_beta_plot', type=float, help='The maximum value of beta for the plots.')
+
+
 parser.add_argument('--savefig',
                     action='store_true',
                     help='flag to save figure instead of showing it')
@@ -68,6 +72,9 @@ Ls = args.Ls
 L = args.L
 min_beta = args.min_beta
 max_beta = args.max_beta
+min_beta_plot = args.min_beta_plot
+max_beta_plot = args.max_beta_plot
+
 
 values_and_errors = aggregate_psibarpsi_dataframes(
     L=L, Ls=Ls, analysis_settings_filename=args.analysis_settings_filename)
@@ -91,8 +98,9 @@ for mass in set(values_and_errors.mass):
 condition = (values_and_errors.beta >= min_beta) & (values_and_errors.beta <= max_beta) 
 
 
+lib.plot_observable('psibarpsi', values_and_errors)
+
 values_and_errors_selected = values_and_errors.loc[condition, :]
-lib.plot_observable('psibarpsi', values_and_errors_selected)
 
 import eos_fit_lib as efl
 
@@ -135,8 +143,8 @@ if cov is not None:
     )
     # writing fit parameters
     filename = os.path.join(lib.eos_fit_dir,f'fitLs{Ls}L{L}.dat')
-    columns = ["A", "A_err", "betac", "betac_err", "p", "p_err", "B", "B_err", "delta", "delta_err"]
-    data = [A, A_err, betac, betac_err, p, p_err, B, B_err, delta, delta_err]
+    columns = ["A", "A_err", "betac", "betac_err", "p", "p_err", "B", "B_err", "delta", "delta_err","min_beta","max_beta"]
+    data = [A, A_err, betac, betac_err, p, p_err, B, B_err, delta, delta_err,min_beta,max_beta]
     df = pd.DataFrame(data = dict(zip(columns,data)), index = [0])
     print(f"Writing {filename}")
     df.to_csv(path_or_buf = filename, sep = '\t', index = False)
@@ -156,6 +164,8 @@ for mass, beta in psibarpsi.index:
 
 for mass in psibarpsi.index.levels[0]:
     plt.plot(psibarpsi[mass], color='black', linestyle='--')
+
+plt.xlim([min_beta_plot,max_beta_plot])
 
 if args.savefig:
     filename = os.path.join(lib.eos_fit_dir,f'fitLs{Ls}L{L}.png')
