@@ -5,6 +5,7 @@ from os import path
 import numpy as np
 from matplotlib import pyplot as plt
 import re
+import fort_colnames as fc
 
 numeric_types = [np.int, np.int64, np.float, np.float64]
 
@@ -12,6 +13,9 @@ pbp_values_and_error_filename = 'psibarpsi'
 pbp_values_and_error_pretty_filename = 'psibarpsi.pretty'
 pbpdir = 'psibarpsi'
 eos_fit_dir = 'eos_fit'
+
+# name of the column in the output from pbp_data_processing.py 
+pbpcol = fc.fort200cols[0]
 
 # stupid blocking, for mean and error
 def blockingMeanErr(data0, blockSize):

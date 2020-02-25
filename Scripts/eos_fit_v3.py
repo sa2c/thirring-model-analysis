@@ -14,31 +14,7 @@ import argparse as ap
 from sys import stdout, exit
 from tabulate import tabulate
 import os
-import glob
-
-
-def aggregate_psibarpsi_dataframes(Ls, L, analysis_settings_filename):
-    """
-    See single_analysis_file_splitter, the $filename variable.
-    Collect all relevant analysis setting files, grouped by L and Ls.
-    """
-    glob_expression = os.path.join(
-        lib.pbpdir, lib.pbp_values_and_error_filename +
-        f"L{L}Ls{Ls}.beta0.*m0.0*.{analysis_settings_filename}")
-    filenames = glob.glob(glob_expression)
-
-    if len(filenames) is 0:
-        print("No filenames matching expression:")
-        print(glob_expression)
-        exit()
-
-    def read_table(filename):
-        print(f"Reading {filename}")
-        return pd.read_table(filename, sep=r'\s+', header=0)
-
-    dfs = [read_table(filename) for filename in filenames]
-    return pd.concat(dfs)
-
+from pbp_data_processing_v2 import aggregate_psibarpsi_dataframes
 
 parser = ap.ArgumentParser(
     description=
@@ -86,7 +62,7 @@ for mass in set(values_and_errors.mass.drop_duplicates()):
     filename = os.path.join(lib.eos_fit_dir,f'cond_m{mass:1.3f}_Ls{Ls}_L{L}')
     selection = (values_and_errors.mass == mass) 
     dftosave = values_and_errors.loc[selection,
-                                     ['beta', 'psibarpsi', 'psibarpsiErr']]
+                                     ['beta', lib.pbpcol, lib.pbpcol+'Err']]
     print(f"Writing {filename}")
     cols = list(dftosave.columns)
     cols[0] = '#beta'  # dirty trick
@@ -98,7 +74,7 @@ for mass in set(values_and_errors.mass.drop_duplicates()):
 condition = (values_and_errors.beta >= min_beta) & (values_and_errors.beta <= max_beta) 
 
 
-lib.plot_observable('psibarpsi', values_and_errors)
+lib.plot_observable(lib.pbpcol, values_and_errors)
 
 values_and_errors_selected = values_and_errors.loc[condition, :]
 

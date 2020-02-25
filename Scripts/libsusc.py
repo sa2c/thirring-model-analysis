@@ -1,5 +1,9 @@
 import numpy as np
 import pandas as pd
+# name of the column in the output from pbp_data_processing.py 
+susccol = 'susc_disc'
+suscdir = 'susc'
+
 
 def blockingDiscSuscErr(psibarpsi, susclsing, blockSize, volume):
     '''

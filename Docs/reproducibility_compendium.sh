@@ -54,6 +54,9 @@ do
         echo L: $L Ls : $Ls
         echo ../ProtocolUtils/log ../Scripts/eos_fit_v3.py fort.200.analysis.set $Ls $L $MINBETA $MAXBETA $MINBETAPLOT $MAXBETAPLOT --savefig 
         ../ProtocolUtils/log ../Scripts/eos_fit_v3.py fort.200.analysis.set $Ls $L $MINBETA $MAXBETA $MINBETAPLOT $MAXBETAPLOT --savefig || exit 1 
+        echo L: $L Ls : $Ls
+        echo ../ProtocolUtils/log ../Scripts/plot_susc.py fort.200.analysis.set $Ls $L --savefig 
+        ../ProtocolUtils/log ../Scripts/plot_susc.py fort.200.analysis.set $Ls $L --savefig || exit 1
     done 
 done )  || exit 1
 
