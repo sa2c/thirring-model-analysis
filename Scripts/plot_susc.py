@@ -40,11 +40,6 @@ args = parser.parse_args()
 # Parsing analysis settings, getting dataframe
 Ls = args.Ls
 L = args.L
-min_beta = args.min_beta # TO REMOVE
-max_beta = args.max_beta # TO REMOVE
-min_beta_plot = args.min_beta_plot # TO REMOVE
-max_beta_plot = args.max_beta_plot # TO REMOVE
-
 
 values_and_errors = aggregate_psibarpsi_dataframes(
     L=L, Ls=Ls, analysis_settings_filename=args.analysis_settings_filename)
@@ -66,7 +61,7 @@ for mass in set(values_and_errors.mass.drop_duplicates()):
 
 lib.plot_observable(libsusc.susccol, values_and_errors)
 
-plt.title(f"$L_s={Ls}$")
+plt.title(f"$L={L}, L_s={Ls}$")
 
 if args.savefig:
     filename = os.path.join(libsusc.suscdir,f'Ls{Ls}L{L}.png')
