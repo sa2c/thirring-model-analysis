@@ -19,7 +19,7 @@ def blockingDiscSuscErr(psibarpsi, susclsing, blockSize, volume):
     # susceltibility on the whole dataset
     suscN = susc_disc(psibarpsi,susclsing,volume)
 
-    sampleSize = data0.shape[0]
+    sampleSize = psibarpsi.shape[0]
     xblocks = sampleSize / blockSize
     leftovers = sampleSize % blockSize
     nblocks = int(np.ceil(xblocks))
