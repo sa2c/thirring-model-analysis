@@ -82,8 +82,8 @@ values_and_errors = aggregate_psibarpsi_dataframes(
 # Saving pbp and pbp_err in different files for each mass
 # for each Ls and L
 os.makedirs(lib.eos_fit_dir,exist_ok=True)
-for mass in set(values_and_errors.mass):
-    filename = os.path.join(lib.eos_fit_dir,f'cond_m0{int(mass/0.01)}_Ls{Ls}_L{L}')
+for mass in set(values_and_errors.mass.drop_duplicates()):
+    filename = os.path.join(lib.eos_fit_dir,f'cond_m{mass:1.3f}_Ls{Ls}_L{L}')
     selection = (values_and_errors.mass == mass) 
     dftosave = values_and_errors.loc[selection,
                                      ['beta', 'psibarpsi', 'psibarpsiErr']]
@@ -152,7 +152,7 @@ if cov is not None:
 else: 
     plt.title(f"$L_s={Ls}$, $\chi^2/n_{{dof}} = {num:1.2f}/{den}$, $b={betac}$,$d={delta}$,$B={B}$")
 
-iterables = [np.arange(0.01, 0.06, 0.01), np.arange(0.25, 0.6, 0.004)]
+iterables = [values_and_errors.mass.drop_duplicates(), np.arange(0.25, 0.6, 0.004)]
 index = pd.MultiIndex.from_product(iterables, names=['mass', 'beta'])
 
 psibarpsi = pd.Series(index=index)

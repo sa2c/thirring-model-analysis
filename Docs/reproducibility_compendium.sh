@@ -52,6 +52,7 @@ do
         # notice: this does not actually read fort.200.analysis.set, but the files 
         # that have been created by the splitting
         echo L: $L Ls : $Ls
+        echo ../ProtocolUtils/log ../Scripts/eos_fit_v3.py fort.200.analysis.set $Ls $L $MINBETA $MAXBETA $MINBETAPLOT $MAXBETAPLOT --savefig 
         ../ProtocolUtils/log ../Scripts/eos_fit_v3.py fort.200.analysis.set $Ls $L $MINBETA $MAXBETA $MINBETAPLOT $MAXBETAPLOT --savefig || exit 1 
     done 
 done )  || exit 1
