@@ -9,6 +9,7 @@ import stitch_lib as sl
 import shutil
 import os
 import fort_colnames as fc
+import mininglib
 
 if __name__ == '__main__':
     prefix = 'simon_dirac_newcode'
@@ -16,6 +17,13 @@ if __name__ == '__main__':
         if gss1.match_directory_name_simon(directory):
             L = int(find_L(directory))
             info = gss1.match_directory_name_simon(directory)
+
+        if info is None:
+            info = mininglib.get_run_parameter_from_dir_content(directory)
+            L = info['L']
+            info['copy'] = 'q' # random letter 
+
+        if info is not None:
             newdir = sl.get_newdir_name(prefix, L, info['copy'], info['Ls'],
                                         info['beta'], info['m'])
 
@@ -33,5 +41,4 @@ if __name__ == '__main__':
                         destination.write(header)
                         destination.write('\n')
                         destination.write(t)
-
 
