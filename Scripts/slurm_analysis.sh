@@ -28,7 +28,14 @@ unset __conda_setup
 
 date
 module load anaconda/2019.03
+if [ $# -lt 1 ]
+then
 cd /scratch/s.michele.mesiti/thirring_model_analysis/Analysis
+else
+cd $1
+fi
+
 mycondainit 
 conda activate ../conda
+module load texlive
 ../Docs/reproducibility_compendium.sh
