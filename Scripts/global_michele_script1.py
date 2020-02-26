@@ -55,10 +55,6 @@ def filenames_found_per_type_fun_michele(dirpath):
 
     return res
 
-def simon_get_newdir_name(prefix, L, copy, Ls, beta, m):
-    return os.path_join('simon',
-            sl.get_newdir_name(prefix, L, copy, Ls, beta, m))
-
 def michele_paste_all(dirpath):
     logging.info('michele_paste_all')
     return sl.paste_all(dirpath,michele_filename_info,filenames_found_per_type_fun_michele)

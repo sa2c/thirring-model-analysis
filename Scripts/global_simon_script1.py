@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 '''
-    This script finds the directories with data.
+    This script finds the directories with data for Simon runs,
+    in his old format, and stitches the data files from the
+    same chain together.
 '''
 import re
 import os

@@ -12,6 +12,7 @@
 # (directory names, file names) that are used with the rest of the analysis
 # an we log out action on each directory (identified by machine, beta, Ls, m)
 # THIS IS FOR THE 'simon' directory and PARTIALLY for the simon_oldstuff directory
+# Except Simon's run with the new code, that do no need stitching.
 ../Scripts/global_simon_script1.py || exit 1 # stream 1 
 # TODO: we need to take care of the parts of 'simon_olfstuff' directory
 #       which to not fit the known patterns.
@@ -19,9 +20,14 @@
 # we aggregate Michele's data - old
 ../Scripts/global_michele_script1.py || exit 1 # stream 2 
 
-# we strap a header on new michele's data
-../Scripts/runs2.0.michele.sh || exit 1 # stream 3
+# we now strap a header on new Simon's data
+../Scripts/global_simon_script2.py || exit 1 # stream 3
 
+# we strap a header on new michele's data
+../Scripts/runs2.0.michele.sh || exit 1 # stream 4
+
+
+# stream 1,2,3,4
 ../Scripts/create_fort.200_analysis_set.py && mv fort.200.analysis.set.synthetic fort.200.analysis.set || exit 1
 
 # splitting the global analysis setting file 
