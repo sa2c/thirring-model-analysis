@@ -147,6 +147,6 @@ if args.savefig:
     filename = os.path.join(lib.eos_fit_dir,f'fitLs{Ls}L{L}.png')
     print(f"Writing {filename}")
     plt.savefig(filename)
-
+    print(f"Wrote {filename}")
 else:
     plt.show()

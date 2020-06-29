@@ -1,3 +1,4 @@
 bose_*
 cond*
 out*
+midout

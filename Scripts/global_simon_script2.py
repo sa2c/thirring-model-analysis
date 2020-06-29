@@ -14,14 +14,14 @@ import mininglib
 if __name__ == '__main__':
     prefix = 'simon_dirac_newcode'
     for directory, _, _ in os.walk('../Data/simon/dirac_newcode'):
-        if gss1.match_directory_name_simon(directory):
+        info = gss1.match_directory_name_simon(directory)
+        if info:
             L = int(find_L(directory))
-            info = gss1.match_directory_name_simon(directory)
-
-        if info is None:
+        else:
             info = mininglib.get_run_parameter_from_dir_content(directory)
-            L = info['L']
-            info['copy'] = 'q' # random letter 
+            if info:
+                L = info['L']
+                info['copy'] = 'q' # random letter 
 
         if info is not None:
             newdir = sl.get_newdir_name(prefix, L, info['copy'], info['Ls'],
