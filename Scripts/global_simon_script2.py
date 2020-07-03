@@ -37,7 +37,7 @@ if __name__ == '__main__':
                         t = origin.read()
                     with open(destination_name,'w') as destination:
                         print(f"Writing {destination_name}")
-                        header = ' '.join(fc.cols[filename]) if filename in fc.cols else ''
+                        header = ' '.join(fc.cols_new[filename]) if filename in fc.cols else ''
                         destination.write(header)
                         destination.write('\n')
                         destination.write(t)
