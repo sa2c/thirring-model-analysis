@@ -3,6 +3,13 @@
 import lib 
 from sys import argv
 import pandas as pd
+import matplotlib
+matplotlib.use("AGG")
+from matplotlib import rc
+rc('font',**{'family':'sans-serif','sans-serif':['Helvetica']})
+## for Palatino and other serif fonts use:
+#rc('font',**{'family':'serif','serif':['Palatino']})
+rc('text', usetex=True)
 from matplotlib import pyplot as plt
 
 

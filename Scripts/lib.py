@@ -3,6 +3,13 @@ import numpy as np
 import pandas as pd
 from os import path
 import numpy as np
+import matplotlib
+matplotlib.use("AGG")
+from matplotlib import rc
+rc('font',**{'family':'sans-serif','sans-serif':['Helvetica']})
+## for Palatino and other serif fonts use:
+#rc('font',**{'family':'serif','serif':['Palatino']})
+rc('text', usetex=True)
 from matplotlib import pyplot as plt
 import re
 import fort_colnames as fc

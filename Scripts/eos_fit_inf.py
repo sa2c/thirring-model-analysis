@@ -3,6 +3,11 @@ import extrapolation_library as el
 from rounder import rounder
 import lib
 import pandas as pd
+import matplotlib 
+matplotlib.use("AGG")
+from matplotlib import rc                                                       
+rc('font',**{'family':'sans-serif','sans-serif':['Helvetica']})                 
+rc('text', usetex=True)           
 from matplotlib import pyplot as plt
 from scipy.optimize import leastsq, brentq
 import numpy as np

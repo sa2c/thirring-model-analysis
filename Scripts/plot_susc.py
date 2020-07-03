@@ -3,6 +3,8 @@ from rounder import rounder
 import lib
 import libsusc
 import pandas as pd
+import matplotlib
+matplotlib.use("AGG")
 from matplotlib import rc
 rc('font',**{'family':'sans-serif','sans-serif':['Helvetica']})
 ## for Palatino and other serif fonts use:

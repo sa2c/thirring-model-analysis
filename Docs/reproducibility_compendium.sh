@@ -9,6 +9,12 @@
 ###  REPRODUCIBILITY COMPENDIUM  ###
 ####################################
 
+# This is necessary on Sunbird
+module load texlive
+module load anaconda/2019.03
+source activate
+conda activate ../conda
+
 # there is a file named 'condensdate_1' instead of 'condensate_1',
 # fixing it, almost in place.
 
@@ -92,7 +98,7 @@ NBOOT=30 # This is small.
  do 
     ../ProtocolUtils/log ../Scripts/extrapolate_to_linf_v2.py fort.200.analysis.set $m $beta $L $NBOOT || exit 1
  done
-)
+) || exit 1
 
 # Plot the decay constants as a function of mass, grouped by beta
 echo STEP ../Scripts/plot_decay_constants.py 
@@ -115,7 +121,7 @@ echo STEP plot pbp extrapolated to "l->inf"
 ( for L in 12 16
 do
     ../ProtocolUtils/log ../Scripts/plot_psibarpsi_extrapolated.py fort.200.analysis.set $L $BETAMAX
-done)  || exit 1
+done || exit 1)  || exit 1
 
 # extracting pbp values from fit results
 echo STEP extract pbp extrapolated to "l->inf" and fit
@@ -123,13 +129,13 @@ echo STEP extract pbp extrapolated to "l->inf" and fit
 ls psibarpsi_extrapolated/fort.200* | xargs -n 1 basename | tr '_' ' ' | while read file L beta m 
 do 
     echo $file $L $beta $m
-    ../ProtocolUtils/log ../Scripts/extract_pbp_extrapolated.py $file $L $beta $m
+    ../ProtocolUtils/log ../Scripts/extract_pbp_extrapolated.py $file $L $beta $m || exit 1
 done
 
 # fit the extrapolated values (the reasonable ones) 
-../ProtocolUtils/log ../Scripts/eos_fit_v3.py fort.200.analysis.set INF 12 0.3 0.44 0.23 0.6 --savefig
+../ProtocolUtils/log ../Scripts/eos_fit_v3.py fort.200.analysis.set INF 12 0.3 0.44 0.23 0.6 --savefig || exit 1
 
-../ProtocolUtils/log ../Scripts/eos_fit_v3.py fort.200.analysis.set INF 16 0.3 0.44 0.23 0.6 --savefig
+../ProtocolUtils/log ../Scripts/eos_fit_v3.py fort.200.analysis.set INF 16 0.3 0.44 0.23 0.6 --savefig || exit 1
 )  ||exit 1
 
 wait

@@ -1,6 +1,11 @@
 #!/usr/bin/env python3
 import pandas as pd
 from glob import glob
+import matplotlib
+matplotlib.use("AGG")
+from matplotlib import rc
+rc('font',**{'family':'sans-serif','sans-serif':['Helvetica']})
+rc('text', usetex=True)   
 from matplotlib import pyplot as plt
 import extrapolation_library as el
 import os
@@ -13,6 +18,7 @@ for filename in filenames:
 
 data = pd.concat([ pd.read_csv(filename, sep='\s+') for filename in filenames ])
 
+print("Collated data")
 def process(data,L):
     plt.figure() 
     plt.title(f"Decay constants, {L}")

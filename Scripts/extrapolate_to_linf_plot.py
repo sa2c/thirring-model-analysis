@@ -6,15 +6,18 @@ from tabulate import tabulate
 import argparse as ap
 import os
 import extrapolation_library as el
+import matplotlib
+matplotlib.use("AGG")
+from matplotlib import rc
+rc('font',**{'family':'sans-serif','sans-serif':['Helvetica']})
+## for Palatino and other serif fonts use:
+#rc('font',**{'family':'serif','serif':['Palatino']})
+rc('text', usetex=True)
+from matplotlib import pyplot as plt
+
 
 
 def plot_fit_exp(df_psibarpsi_multi, df_fitres_multi):
-    from matplotlib import rc
-    rc('font',**{'family':'sans-serif','sans-serif':['Helvetica']})
-    ## for Palatino and other serif fonts use:
-    #rc('font',**{'family':'serif','serif':['Palatino']})
-    rc('text', usetex=True)
-    from matplotlib import pyplot as plt
     plt.figure(figsize=(7.0,6.0))
     xmin = min(df_psibarpsi_multi['Ls'])
     xmax = max(df_psibarpsi_multi['Ls'])

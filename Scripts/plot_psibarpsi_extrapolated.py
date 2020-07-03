@@ -3,6 +3,8 @@ import numpy as np
 import pandas as pd
 import extrapolation_library as el
 import argparse as ap
+import matplotlib
+matplotlib.use("AGG")
 from matplotlib import rc
 rc('font',**{'family':'sans-serif','sans-serif':['Helvetica']})
 ## for Palatino and other serif fonts use:
