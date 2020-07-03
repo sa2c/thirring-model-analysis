@@ -19,7 +19,6 @@ import threading
 from yaml import load,dump,Loader,Dumper
 from itertools import cycle
 
-
 def get_all_data(basename):
     '''
     Get all the data in all the files of a given type (e.g. fort.200), with 
