@@ -43,6 +43,10 @@ echo STEP ../Scripts/global_simon_script2.py
 echo STEP ../Scripts/runs2.0.michele.sh 
 ../Scripts/runs2.0.michele.sh || exit 1 # stream 4
 
+# we process all the fort.100 files, assuming constant thermalisation,
+# blocking and measevery.
+echo STEP ../Scripts/process_all_100s.py
+../Scripts/process_all_100s.py || exit 1
 
 # stream 1,2,3,4
 echo STEP ../Scripts/create_fort.200_analysis_set.py 
@@ -54,7 +58,8 @@ echo STEP ../Scripts/global_analysis_file_splitter.py fort.200.analysis.set
 ../Scripts/global_analysis_file_splitter.py fort.200.analysis.set|| exit 1  # stream 4
 
 # each file in  analysis_setting_split is processed separately and 
-# the value of the condensate, with the error, is obtained.
+# the values of the condensate and the susceptibility, with errors, are 
+# obtained.
 echo STEP pbp_data_processing
 wait
 for file in analysis_setting_split/L1*

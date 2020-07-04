@@ -6,6 +6,8 @@ has been strapped onto them.
 Notice that file 
 ./simon/old/12/Ls08.beta0.3.m0.03/fort.100
 may need to be corrected, as it has some garbage in it.
+It corresponds to the file
+Data/simon_oldstuff/b_0.3/Ls_08/m_0.03/conds_1
 '''
 import global_michele_script1 as gms
 import os
