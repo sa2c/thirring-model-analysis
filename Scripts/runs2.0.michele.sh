@@ -16,5 +16,6 @@ do
     deal_with_all_files peta4_RUNS2_L16  $FILETYPE || exit 1
     deal_with_all_files peta4_RUNS3_L16  $FILETYPE || exit 1
     deal_with_all_files peta4_RUNS4_L16  $FILETYPE || exit 1
+    deal_with_all_files peta4_RUNS64_L16  $FILETYPE || exit 1
     deal_with_all_files sunbird_thirring_runs3_L12 $FILETYPE || exit 1
 done 
