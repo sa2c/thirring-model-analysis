@@ -4,7 +4,7 @@ deal_with_all_files(){
     prefix=$1
     FILETYPE=$2
 
-    for file in $(find ../Data/$prefix -name $FILETYPE)
+    for file in $(find ../Data/$prefix -name $FILETYPE | grep -v failed)
     do 
         ../ProtocolUtils/log ../Scripts/runs2.0.michele.single.sh $file $prefix $FILETYPE
     done 
