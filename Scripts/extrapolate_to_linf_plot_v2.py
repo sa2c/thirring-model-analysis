@@ -56,6 +56,7 @@ def plot_fit_exp(df_psibarpsi_multi, df_fitres_multi):
         print(beta, A, alpha, constant)
 
         xplot = np.arange(min(x), max(x), (max(x) - min(x)) / 100)
+
         color = next(colors)
         linestyle = next(linestyles)
         marker = next(markers)
@@ -71,7 +72,8 @@ def plot_fit_exp(df_psibarpsi_multi, df_fitres_multi):
         plt.plot(x, y, linestyle='None',
                        color = color,
                        markeredgecolor = color,
-                       markerfacecolor = facecolorfun(color))
+                       markerfacecolor = facecolorfun(color),
+                       marker = marker)
 
         custom_lines.append(Line2D([0],[0],
                                    color = color,
