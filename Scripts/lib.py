@@ -388,7 +388,7 @@ def plot_observable(observable, values_and_error_selected,lateral_shift = False)
     nmasses = len(values_and_error_selected.mass.drop_duplicates())
     colors = cycle(['black','red','blue'])
     markers = cycle(['*','o','^','D','v',])
-    for i,mass in enumerate(values_and_error_selected.mass.drop_duplicates()):
+    for i,mass in enumerate(sorted(values_and_error_selected.mass.drop_duplicates())):
         condition = (values_and_error_selected.mass == mass)
         x = values_and_error_selected.beta[condition]
 
