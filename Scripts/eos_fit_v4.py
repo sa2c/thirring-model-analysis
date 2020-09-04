@@ -125,7 +125,8 @@ if cov is not None:
     print(f"Writing {filename}")
     df.to_csv(path_or_buf = filename, sep = '\t', index = False)
 
-else: 
+else:
+    pass
     #plt.title(f"$L_s={Ls}$, $\chi^2/n_{{dof}} = {num:1.2f}/{den}$, $b={betac}$,$d={delta}$,$B={B}$")
 
 iterables = [values_and_errors.mass.drop_duplicates(), np.arange(0.25, 0.6, 0.004)]
