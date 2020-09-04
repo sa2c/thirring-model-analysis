@@ -53,7 +53,7 @@ def process(data,L):
     plt.xlim([0,None])
     plt.ylim([0,None])
     plt.grid()
-    plt.legend()
+    plt.legend(loc = 'upper left')
     filename = os.path.join(el.pbp_inf_dir,f"decay_constants_{L}_v2.pdf")
     print(f"Writing {filename}")
     plt.savefig(filename)
