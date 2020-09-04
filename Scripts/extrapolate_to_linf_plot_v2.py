@@ -28,6 +28,8 @@ def plot_fit_exp(df_psibarpsi_multi, df_fitres_multi):
     L = df_psibarpsi_multi.L.drop_duplicates().values[0]
     m = df_psibarpsi_multi.mass.drop_duplicates().values[0]
 
+    custom_lines = []
+
     def plot_fit_exp_single(df_psibarpsi, df_fitres_multi):
 
         beta = df_psibarpsi.beta.drop_duplicates().values[0]
@@ -51,13 +53,21 @@ def plot_fit_exp(df_psibarpsi_multi, df_fitres_multi):
         print(beta, A, alpha, constant)
 
         xplot = np.arange(min(x), max(x), (max(x) - min(x)) / 100)
+        color = next(colors)
+        linestyle = next(linestyles)
+        marker = next(markers)
         p = plt.plot(xplot,
                      el.expexpression(A, alpha, constant, xplot),
-                     label=f'$\\beta:{beta:1.2f}$',
-                     color = next(colors),
-                     linestyle = next(linestyles))
-        plt.errorbar(x, y, yerr=ye, linestyle='None', color = p[0].get_color())
-        plt.plot(x, y, linestyle='None', marker=next(markers), color = p[0].get_color())
+                     color = color,
+                     linestyle =linestyle)
+        plt.errorbar(x, y, yerr=ye, linestyle='None', color = color)
+        plt.plot(x, y, linestyle='None', marker= marker, color = color)
+
+        custom_lines.append(Line2D([0],[0], 
+                                   color = color,
+                                   linestyle = linestyle,
+                                   marker = marker,
+                                   label=f'$\\beta:{beta:1.2f}$'))
 
     df_psibarpsi_multi.loc[df_psibarpsi_multi.beta.isin(
         df_fitres_multi.beta), :].groupby(by=['beta', 'mass', 'L']).apply(
