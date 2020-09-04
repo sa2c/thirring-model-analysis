@@ -1,7 +1,7 @@
 #!/bin/bash
 ###
 #SBATCH -A scw1379
-#SBATCH -t 60
+#SBATCH -t 180
 #SBATCH -n 1 
 #SBATCH --job-name ThirringModelAnalysis
 ###
@@ -98,7 +98,7 @@ done )  || exit 1
 # we neglect beta=1.0
 echo "STEP l->inf extrapolation"
 (
-NBOOT=30 # This is small.
+NBOOT=500
 ../Scripts/get_unique_Lbm.py fort.200.analysis.set | grep -v Reading | while read L beta m 
  do 
     ../ProtocolUtils/log ../Scripts/extrapolate_to_linf_v2.py fort.200.analysis.set $m $beta $L $NBOOT || exit 1
