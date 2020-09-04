@@ -391,9 +391,10 @@ def plot_observable(observable, values_and_error_selected,lateral_shift = False)
     for i,mass in enumerate(values_and_error_selected.mass.drop_duplicates()):
         condition = (values_and_error_selected.mass == mass)
         x = values_and_error_selected.beta[condition]
+
         xsorted = sorted(x.values)
         maxshift = (xsorted[1] - xsorted[0])/4
-        x_shifted = maxshift*(i/nmasses-0.5)
+        x_shifted = x + maxshift*(i/nmasses-0.5)
 
         y = values_and_error_selected[observable][condition]
         plt.errorbar(
@@ -402,7 +403,7 @@ def plot_observable(observable, values_and_error_selected,lateral_shift = False)
             yerr=values_and_error_selected[observable + 'Err'][condition],
             label=f'$m={mass}$',
             linestyle='None',
-            color = next(colors),
-            marker= next(markers))
+            color  = next(colors),
+            marker = next(markers))
 
     plt.legend()
