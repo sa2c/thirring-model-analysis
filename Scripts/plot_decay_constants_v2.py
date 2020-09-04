@@ -31,7 +31,7 @@ def process(data,L):
 
     markers = cycle(['*','o','^','D','v',])
     colors = cycle(['blue','red','black'])
-    facecolorfuns = cycle([lambda x:x , lambda x : None])
+    facecolorfuns = cycle([lambda x:x , lambda x : 'white'])
 
     for i,(beta,df) in enumerate(data.groupby('beta')):
         df = df.sort_values(by='mass')
