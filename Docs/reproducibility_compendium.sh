@@ -117,8 +117,12 @@ echo STEP plot extrapolation to "l->inf"
      for m in $(seq 0.01 0.01 0.05)
  do 
     ../ProtocolUtils/log ../Scripts/extrapolate_to_linf_plot.py fort.200.analysis.set $m $L || exit 1
+    ../ProtocolUtils/log ../Scripts/extrapolate_to_linf_plot_v2.py fort.200.analysis.set $m $L || exit 1
  done 
-done  )  || exit 1 
+done  && \
+../ProtocolUtils/log ../Scripts/extrapolate_to_linf_plot.py fort.200.analysis.set 0.005 16 || exit 1
+../ProtocolUtils/log ../Scripts/extrapolate_to_linf_plot_v2.py fort.200.analysis.set 0.005 16 || exit 1
+)  || exit 1 
 
 # plotting extrapolated values of psibarpsi together with their errors.
 BETAMAX=0.44 # extrapolated values do not converge for high beta
