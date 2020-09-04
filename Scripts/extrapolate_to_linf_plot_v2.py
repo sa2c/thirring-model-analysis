@@ -90,7 +90,6 @@ def plot_fit_exp(df_psibarpsi_multi, df_fitres_multi):
 
     plt.xlabel(r'$L_s$')
     plt.ylabel(r'$\bar{\psi}\psi$')
-    plt.title(r'Exponential Extrapolation: $\lim_{{L_s\rightarrow \infty }} \bar{{\psi}}\psi(L_s)$ , $L={L}$ , $m={m}$'.format(L=L,m=m))
 
     plt.legend(custom_lines,custom_lines_labels,loc='upper left')
 
