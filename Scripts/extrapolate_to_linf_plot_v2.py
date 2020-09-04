@@ -53,7 +53,7 @@ def plot_fit_exp(df_psibarpsi_multi, df_fitres_multi):
         xplot = np.arange(min(x), max(x), (max(x) - min(x)) / 100)
         p = plt.plot(xplot,
                      el.expexpression(A, alpha, constant, xplot),
-                     label=f'$\\beta:{beta:1.2f}',
+                     label=f'$\\beta:{beta:1.2f}$',
                      color = next(colors),
                      linestyle = next(linestyles))
         plt.errorbar(x, y, yerr=ye, linestyle='None', color = p[0].get_color())
