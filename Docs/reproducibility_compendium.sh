@@ -108,6 +108,7 @@ NBOOT=30 # This is small.
 # Plot the decay constants as a function of mass, grouped by beta
 echo STEP ../Scripts/plot_decay_constants.py 
 ../Scripts/plot_decay_constants.py || exit 1
+../Scripts/plot_decay_constants_v2.py || exit 1
 
 # read extrapolated parameters and make plots (grouping by (L,mass) which 
 #    means many betas per plot.
