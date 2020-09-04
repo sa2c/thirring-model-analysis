@@ -406,4 +406,4 @@ def plot_observable(observable, values_and_error_selected,lateral_shift = False)
             color  = next(colors),
             marker = next(markers))
 
-    plt.legend()
+    plt.legend(loc='best')
