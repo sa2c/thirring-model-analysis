@@ -30,6 +30,7 @@ def plot_fit_exp(df_psibarpsi_multi, df_fitres_multi):
     m = df_psibarpsi_multi.mass.drop_duplicates().values[0]
 
     custom_lines = []
+    custom_lines_labels = []
 
     def plot_fit_exp_single(df_psibarpsi, df_fitres_multi):
 
@@ -67,8 +68,8 @@ def plot_fit_exp(df_psibarpsi_multi, df_fitres_multi):
         custom_lines.append(Line2D([0],[0], 
                                    color = color,
                                    linestyle = linestyle,
-                                   marker = marker,
-                                   label=f'$\\beta:{beta:1.2f}$'))
+                                   marker = marker))
+        custom_lines_labels.append( label=f'$\\beta:{beta:1.2f}$')
 
     df_psibarpsi_multi.loc[df_psibarpsi_multi.beta.isin(
         df_fitres_multi.beta), :].groupby(by=['beta', 'mass', 'L']).apply(
@@ -78,7 +79,7 @@ def plot_fit_exp(df_psibarpsi_multi, df_fitres_multi):
     plt.ylabel(r'$\bar{\psi}\psi$')
     plt.title(r'Exponential Extrapolation: $\lim_{{L_s\rightarrow \infty }} \bar{{\psi}}\psi(L_s)$ , $L={L}$ , $m={m}$'.format(L=L,m=m))
 
-    plt.legend(custom_lines,loc='upper left')
+    plt.legend(custom_lines,custom_lines_labels,loc='upper left')
 
     output_filename = os.path.join(el.pbp_inf_dir, f'pbpextrL{L}_m{m}_v2.pdf')
     print(f'Writing {output_filename}')
