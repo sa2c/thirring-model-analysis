@@ -69,7 +69,8 @@ def plot_fit_exp(df_psibarpsi_multi, df_fitres_multi):
                                    color = color,
                                    linestyle = linestyle,
                                    marker = marker))
-        custom_lines_labels.append( label=f'$\\beta:{beta:1.2f}$')
+
+        custom_lines_labels.append( f'$\\beta:{beta:1.2f}$')
 
     df_psibarpsi_multi.loc[df_psibarpsi_multi.beta.isin(
         df_fitres_multi.beta), :].groupby(by=['beta', 'mass', 'L']).apply(
