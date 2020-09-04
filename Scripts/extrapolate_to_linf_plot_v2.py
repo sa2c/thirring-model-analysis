@@ -7,6 +7,7 @@ import argparse as ap
 import os
 import extrapolation_library as el
 import matplotlib
+from matplotlib.lines import Line2D
 from itertools import cycle
 matplotlib.use("AGG")
 from matplotlib import rc
