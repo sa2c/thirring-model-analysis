@@ -46,7 +46,7 @@ def process(data,L):
                  label = f"$\\beta:{beta:1.2f}$",
                  marker = marker,
                  linestyle = 'none',
-                 markeredgecolor = color )
+                 markeredgecolor = color,
                  markerfacecolor = facecolorfun(color) )
         plt.errorbar(x,value,yerr = error, linestyle = 'none',color = color) 
         
