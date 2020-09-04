@@ -391,7 +391,8 @@ def plot_observable(observable, values_and_error_selected,lateral_shift = False)
     for i,mass in enumerate(values_and_error_selected.mass.drop_duplicates()):
         condition = (values_and_error_selected.mass == mass)
         x = values_and_error_selected.beta[condition]
-        maxshift = (x[1] - x[0])/4
+        xsorted = sorted(x.values)
+        maxshift = (xsorted[1] - xsorted[0])/4
         x_shifted = maxshift*(i/nmasses-0.5)
 
         y = values_and_error_selected[observable][condition]
