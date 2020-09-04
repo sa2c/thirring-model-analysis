@@ -5,6 +5,7 @@ from os import path
 import numpy as np
 import matplotlib
 matplotlib.use("AGG")
+from itertools import cycle
 from matplotlib import rc
 rc('font',**{'family':'sans-serif','sans-serif':['Helvetica']})
 ## for Palatino and other serif fonts use:
@@ -383,15 +384,24 @@ def get_values_and_errors(df_dict, observable, analysis_settings):
     return values_and_errors.reset_index()
 
 
-def plot_observable(observable, values_and_error_selected):
-    for mass in values_and_error_selected.mass.drop_duplicates():
+def plot_observable(observable, values_and_error_selected,lateral_shift = False):
+    nmasses = len(values_and_error_selected.mass.drop_duplicates())
+    colors = cycle(['black','red','blue'])
+    markers = cycle(['*','o','^','D','v',])
+    for i,mass in enumerate(values_and_error_selected.mass.drop_duplicates()):
         condition = (values_and_error_selected.mass == mass)
+        x = values_and_error_selected.beta[condition]
+        maxshift = (x[1] - x[0])/4
+        x_shifted = maxshift*(i/nmasses-0.5)
+
+        y = values_and_error_selected[observable][condition]
         plt.errorbar(
-            values_and_error_selected.beta[condition],
-            values_and_error_selected[observable][condition],
+            x if not lateral_shift else x_shifted,
+            y,
             yerr=values_and_error_selected[observable + 'Err'][condition],
             label=f'$m={mass}$',
             linestyle='None',
-            marker=".")
+            color = next(colors),
+            marker= next(markers))
 
     plt.legend()
