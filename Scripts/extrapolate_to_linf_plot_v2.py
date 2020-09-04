@@ -28,6 +28,7 @@ def plot_fit_exp(df_psibarpsi_multi, df_fitres_multi):
 
     L = df_psibarpsi_multi.L.drop_duplicates().values[0]
     m = df_psibarpsi_multi.mass.drop_duplicates().values[0]
+    facecolorfuns = cycle([lambda x:x , lambda x : 'white'])
 
     custom_lines = []
     custom_lines_labels = []
@@ -60,7 +61,8 @@ def plot_fit_exp(df_psibarpsi_multi, df_fitres_multi):
         marker = next(markers)
         p = plt.plot(xplot,
                      el.expexpression(A, alpha, constant, xplot),
-                     color = color,
+                     markeredgecolor = color,
+                     markerfacecolor = facecolorfun(color),
                      linestyle =linestyle)
         plt.errorbar(x, y, yerr=ye, linestyle='None', color = color)
         plt.plot(x, y, linestyle='None', marker= marker, color = color)
