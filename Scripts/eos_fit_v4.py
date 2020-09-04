@@ -145,6 +145,8 @@ for mass in psibarpsi.index.levels[0]:
 
 plt.xlim([min_beta_plot,max_beta_plot])
 plt.ylim([0,None])
+plt.xlabel(f"$\\beta$")
+plt.ylabel(r"$<\bar\{\psi\}\psi>_{\infty}$")
 
 if args.savefig:
     filename = os.path.join(lib.eos_fit_dir,f'fitLs{Ls}L{L}.pdf')
