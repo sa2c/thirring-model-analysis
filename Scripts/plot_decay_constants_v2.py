@@ -31,6 +31,7 @@ def process(data,L):
 
     markers = cycle(['*','o','^','D','v',])
     colors = cycle(['blue','red','black'])
+    facecolorfuns = cycle([lambda x:x , lambda x : None])
 
     for i,(beta,df) in enumerate(data.groupby('beta')):
         df = df.sort_values(by='mass')
@@ -40,11 +41,13 @@ def process(data,L):
 
         marker = next(markers)
         color = next(colors)
+        facecolorfun = next(facecolorfuns)
         plt.plot(x,value,
                  label = f"$\\beta:{beta:1.2f}$",
                  marker = marker,
                  linestyle = 'none',
-                 color = color )
+                 markeredgecolor = color )
+                 markerfacecolor = facecolorfun(color) )
         plt.errorbar(x,value,yerr = error, linestyle = 'none',color = color) 
         
     plt.xlim([0,None])
