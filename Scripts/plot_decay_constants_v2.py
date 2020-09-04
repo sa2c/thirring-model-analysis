@@ -7,6 +7,7 @@ from matplotlib import rc
 rc('font',**{'family':'sans-serif','sans-serif':['Helvetica']})
 rc('text', usetex=True)   
 from matplotlib import pyplot as plt
+from itertools import cycle
 import extrapolation_library as el
 import os
 
@@ -21,22 +22,29 @@ data = pd.concat([ pd.read_csv(filename, sep='\s+') for filename in filenames ])
 print("Collated data")
 def process(data,L):
     plt.figure() 
-    plt.xlabel(b'$am$')
-    plt.ylabel(b'$\\\Delta$')
+    plt.xlabel(r'$am$')
+    plt.ylabel(r'$\\\Delta$')
     data = data.loc[(data.L == L )& (data.beta < 0.45),:]
     print(f"For L={L}, data points: {len(data)}")
     nbetas = len(data.beta.drop_duplicates())
     shift = 0.01 / 3 /  nbetas
-    
+
+    markers = cycle(['*','o','^','D','v',])
+    colors = cycle(['blue','red','black'])
+
     for i,(beta,df) in enumerate(data.groupby('beta')):
         df = df.sort_values(by='mass')
         error = df.alpha_e 
         value = df.alpha 
         x= df.mass + (i-nbetas/2)*shift
-        color = plt.plot(x,value, 
-                label = r"$\beta" + f"{beta}$",
-                marker = 'o',
-                linestyle = 'none')[0].get_color()
+
+        marker = next(markers)
+        color = next(colors)
+        plt.plot(x,value,
+                 label = r"$\beta" + f"{beta}$",
+                 marker = marker,
+                 linestyle = 'none',
+                 color = color )
         plt.errorbar(x,value,yerr = error, linestyle = 'none',color = color) 
         
     plt.xlim([0,None])
