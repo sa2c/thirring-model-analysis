@@ -89,7 +89,7 @@ def plot_fit_exp(df_psibarpsi_multi, df_fitres_multi):
             lambda x: plot_fit_exp_single(x, df_fitres_multi))
 
     plt.xlabel(r'$L_s$')
-    plt.ylabel(r'$\bar{\psi}\psi$')
+    plt.ylabel(r'$<\bar{\psi}\psi>$')
 
     plt.legend(custom_lines,custom_lines_labels,loc='upper left')
 
