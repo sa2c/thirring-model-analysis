@@ -78,7 +78,7 @@ def plot_fit_exp(df_psibarpsi_multi, df_fitres_multi):
     plt.ylabel(r'$\bar{\psi}\psi$')
     plt.title(r'Exponential Extrapolation: $\lim_{{L_s\rightarrow \infty }} \bar{{\psi}}\psi(L_s)$ , $L={L}$ , $m={m}$'.format(L=L,m=m))
 
-    plt.legend(loc='upper left')
+    plt.legend(custom_lines,loc='upper left')
 
     output_filename = os.path.join(el.pbp_inf_dir, f'pbpextrL{L}_m{m}_v2.pdf')
     print(f'Writing {output_filename}')
