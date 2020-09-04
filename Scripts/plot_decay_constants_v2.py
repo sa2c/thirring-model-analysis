@@ -41,7 +41,7 @@ def process(data,L):
         marker = next(markers)
         color = next(colors)
         plt.plot(x,value,
-                 label = f"$\beta:{beta:1.2f}$",
+                 label = f"$\\beta:{beta:1.2f}$",
                  marker = marker,
                  linestyle = 'none',
                  color = color )
